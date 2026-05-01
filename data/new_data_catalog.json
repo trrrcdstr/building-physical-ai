@@ -1,0 +1,79 @@
+{
+  "scan_time": "2026-04-10T15:44:00",
+  "data_sources": {
+    "家具材料": {
+      "path": "C:\\Users\\Administrator\\Desktop\\家具材料.pdf",
+      "type": "PDF",
+      "size_mb": 15.1,
+      "category": "材料库",
+      "physical_meaning": "家具材质、物理属性、摩擦系数",
+      "robot_relevance": "抓取力计算、材质识别、搬运策略"
+    },
+    "酒店场景": {
+      "path": "C:\\Users\\Administrator\\Desktop\\酒店场景",
+      "type": "目录",
+      "files": [
+        {"name": "95dfc565024909e3d6a4c71ee481e26b.jpg", "size_mb": 0.2, "type": "效果图"},
+        {"name": "e62af505568f0b79611c7728bf47c290.jpg", "size_mb": 0.3, "type": "效果图"},
+        {"name": "e8f21cbb20f885a076e4d7ad08f55a69.jpg", "size_mb": 0.3, "type": "效果图"},
+        {"name": "深中初步方案(1).pdf", "size_mb": 55.4, "type": "设计方案"},
+        {"name": "越秀大新银行6-8层酒店客房层效果图方案2025.5.07.pdf", "size_mb": 53.8, "type": "设计方案"}
+      ],
+      "total_size_mb": 110.0,
+      "category": "酒店空间",
+      "projects": [
+        {"name": "深中初步方案", "type": "酒店", "file": "深中初步方案(1).pdf", "size_mb": 55.4},
+        {"name": "越秀大新银行酒店客房层", "type": "酒店", "location": "6-8层", "file": "越秀大新银行6-8层酒店客房层效果图方案2025.5.07.pdf", "size_mb": 53.8}
+      ],
+      "physical_meaning": "客房布局、卫生间、走廊、电梯厅",
+      "robot_relevance": "送物服务、清洁作业、客房服务"
+    },
+    "电气CAD施工图": {
+      "path": "C:\\Users\\Administrator\\Desktop\\电气CAD施工图",
+      "type": "目录",
+      "buildings": {
+        "6#楼": {
+          "name": "运动员公寓B",
+          "files": {
+            "dwg": 6,
+            "pdf": 20
+          },
+          "dwg_files_mb": 12.5,
+          "pdf_files_mb": 25.5,
+          "content": ["强电施工说明", "配电系统图", "照明平面图", "插座平面图", "弱电系统"]
+        },
+        "7#楼": {
+          "name": "配套楼",
+          "files": {
+            "dwg": 5,
+            "pdf": 22
+          },
+          "dwg_files_mb": 23.5,
+          "pdf_files_mb": 13.5,
+          "content": ["强电施工说明", "配电系统图", "照明平面图", "插座平面图", "弱电系统"]
+        },
+        "9#楼": {
+          "name": "停车楼",
+          "files": {
+            "dwg": 5,
+            "pdf": 6
+          },
+          "dwg_files_mb": 4.9,
+          "pdf_files_mb": 6.6,
+          "content": ["强电施工说明", "配电系统图", "照明平面图"]
+        }
+      },
+      "total_files": 64,
+      "total_size_mb": 86.5,
+      "category": "机电施工图",
+      "physical_meaning": "电气管线、配电箱、照明灯具、插座位置",
+      "robot_relevance": "电气安装、管线检测、维护巡检"
+    }
+  },
+  "summary": {
+    "total_sources": 3,
+    "total_files": 71,
+    "total_size_mb": 211.6,
+    "categories": ["材料库", "酒店空间", "机电施工图"]
+  }
+}

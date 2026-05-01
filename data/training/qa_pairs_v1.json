@@ -1,0 +1,956 @@
+{
+  "metadata": {
+    "total": 77,
+    "categories": [
+      "path_distance",
+      "pipe_location",
+      "drill_parameter",
+      "path_time",
+      "object_location",
+      "drill_constraint",
+      "object_mobility",
+      "complex_task",
+      "wall_material",
+      "wall_dimension",
+      "wall_type",
+      "room_floor",
+      "room_area",
+      "object_weight",
+      "room_window"
+    ],
+    "sources": [
+      "vr",
+      "synthetic",
+      "rule",
+      "cad"
+    ]
+  },
+  "qa_pairs": [
+    {
+      "id": "qa_0001",
+      "category": "wall_type",
+      "question": "北墙是什么类型的墙？",
+      "answer": "北墙是承重墙，厚度24cm，材质为concrete。",
+      "metadata": {
+        "wall_id": "north",
+        "wall_data": {
+          "type": "load_bearing",
+          "thickness_cm": 24,
+          "material": "concrete",
+          "has_pipes": true,
+          "pipes": [
+            {
+              "type": "electrical",
+              "depth_cm": 15,
+              "from_floor_cm": 30
+            },
+            {
+              "type": "water",
+              "depth_cm": 10,
+              "from_floor_cm": 50
+            }
+          ]
+        }
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0002",
+      "category": "wall_dimension",
+      "question": "北墙有多厚？",
+      "answer": "北墙厚度为24cm。",
+      "metadata": {
+        "wall_id": "north"
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0003",
+      "category": "wall_material",
+      "question": "北墙是什么材质的？",
+      "answer": "北墙材质为concrete。",
+      "metadata": {
+        "wall_id": "north"
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0004",
+      "category": "wall_type",
+      "question": "南墙是什么类型的墙？",
+      "answer": "南墙是非承重墙，厚度12cm，材质为brick。",
+      "metadata": {
+        "wall_id": "south",
+        "wall_data": {
+          "type": "non_load_bearing",
+          "thickness_cm": 12,
+          "material": "brick",
+          "has_pipes": true,
+          "pipes": [
+            {
+              "type": "electrical",
+              "depth_cm": 15,
+              "from_floor_cm": 30
+            }
+          ]
+        }
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0005",
+      "category": "wall_dimension",
+      "question": "南墙有多厚？",
+      "answer": "南墙厚度为12cm。",
+      "metadata": {
+        "wall_id": "south"
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0006",
+      "category": "wall_material",
+      "question": "南墙是什么材质的？",
+      "answer": "南墙材质为brick。",
+      "metadata": {
+        "wall_id": "south"
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0007",
+      "category": "wall_type",
+      "question": "东墙是什么类型的墙？",
+      "answer": "东墙是隔墙，厚度10cm，材质为gypsum。",
+      "metadata": {
+        "wall_id": "east",
+        "wall_data": {
+          "type": "partition",
+          "thickness_cm": 10,
+          "material": "gypsum",
+          "has_pipes": false,
+          "pipes": []
+        }
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0008",
+      "category": "wall_dimension",
+      "question": "东墙有多厚？",
+      "answer": "东墙厚度为10cm。",
+      "metadata": {
+        "wall_id": "east"
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0009",
+      "category": "wall_material",
+      "question": "东墙是什么材质的？",
+      "answer": "东墙材质为gypsum。",
+      "metadata": {
+        "wall_id": "east"
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0010",
+      "category": "wall_type",
+      "question": "西墙是什么类型的墙？",
+      "answer": "西墙是非承重墙，厚度15cm，材质为aerated_concrete。",
+      "metadata": {
+        "wall_id": "west",
+        "wall_data": {
+          "type": "non_load_bearing",
+          "thickness_cm": 15,
+          "material": "aerated_concrete",
+          "has_pipes": true,
+          "pipes": [
+            {
+              "type": "electrical",
+              "depth_cm": 15,
+              "from_floor_cm": 30
+            },
+            {
+              "type": "gas",
+              "depth_cm": 30,
+              "from_floor_cm": 120
+            }
+          ]
+        }
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0011",
+      "category": "wall_dimension",
+      "question": "西墙有多厚？",
+      "answer": "西墙厚度为15cm。",
+      "metadata": {
+        "wall_id": "west"
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0012",
+      "category": "wall_material",
+      "question": "西墙是什么材质的？",
+      "answer": "西墙材质为aerated_concrete。",
+      "metadata": {
+        "wall_id": "west"
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0013",
+      "category": "drill_constraint",
+      "question": "能在北墙钻孔吗？",
+      "answer": "不能。北墙是承重墙，承重墙钻孔可能影响建筑结构安全。如确需钻孔，必须由专业结构工程师评估审批。",
+      "metadata": {
+        "wall_id": "north",
+        "allowed": false
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0014",
+      "category": "pipe_location",
+      "question": "北墙里有管线吗？",
+      "answer": "是的，北墙内有电线管、水管。钻孔前请先使用探测仪定位管线位置。",
+      "metadata": {
+        "wall_id": "north",
+        "pipes": [
+          {
+            "type": "electrical",
+            "depth_cm": 15,
+            "from_floor_cm": 30
+          },
+          {
+            "type": "water",
+            "depth_cm": 10,
+            "from_floor_cm": 50
+          }
+        ]
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0015",
+      "category": "drill_constraint",
+      "question": "能在南墙钻孔吗？",
+      "answer": "可以。南墙是非承重墙，最大钻孔直径10cm，深度8cm。注意：建议使用探测仪确认墙内无隐蔽管线。",
+      "metadata": {
+        "wall_id": "south",
+        "allowed": true
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0016",
+      "category": "drill_parameter",
+      "question": "南墙最大能钻多大的孔？",
+      "answer": "南墙最大钻孔直径10cm，深度8cm。",
+      "metadata": {
+        "wall_id": "south"
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0017",
+      "category": "pipe_location",
+      "question": "南墙里有管线吗？",
+      "answer": "是的，南墙内有电线管。钻孔前请先使用探测仪定位管线位置。",
+      "metadata": {
+        "wall_id": "south",
+        "pipes": [
+          {
+            "type": "electrical",
+            "depth_cm": 15,
+            "from_floor_cm": 30
+          }
+        ]
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0018",
+      "category": "drill_constraint",
+      "question": "能在东墙钻孔吗？",
+      "answer": "可以。东墙是隔墙，最大钻孔直径15cm，深度8cm。注意：隔墙较薄，注意钻孔深度。",
+      "metadata": {
+        "wall_id": "east",
+        "allowed": true
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0019",
+      "category": "drill_parameter",
+      "question": "东墙最大能钻多大的孔？",
+      "answer": "东墙最大钻孔直径15cm，深度8cm。",
+      "metadata": {
+        "wall_id": "east"
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0020",
+      "category": "drill_constraint",
+      "question": "能在西墙钻孔吗？",
+      "answer": "可以。西墙是非承重墙，最大钻孔直径10cm，深度8cm。注意：建议使用探测仪确认墙内无隐蔽管线。",
+      "metadata": {
+        "wall_id": "west",
+        "allowed": true
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0021",
+      "category": "drill_parameter",
+      "question": "西墙最大能钻多大的孔？",
+      "answer": "西墙最大钻孔直径10cm，深度8cm。",
+      "metadata": {
+        "wall_id": "west"
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0022",
+      "category": "pipe_location",
+      "question": "西墙里有管线吗？",
+      "answer": "是的，西墙内有电线管、燃气管。钻孔前请先使用探测仪定位管线位置。",
+      "metadata": {
+        "wall_id": "west",
+        "pipes": [
+          {
+            "type": "electrical",
+            "depth_cm": 15,
+            "from_floor_cm": 30
+          },
+          {
+            "type": "gas",
+            "depth_cm": 30,
+            "from_floor_cm": 120
+          }
+        ]
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0023",
+      "category": "object_location",
+      "question": "沙发在哪个房间？",
+      "answer": "沙发在客厅。",
+      "metadata": {
+        "object": "沙发",
+        "room": "客厅"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0024",
+      "category": "object_weight",
+      "question": "沙发有多重？",
+      "answer": "沙发重量约45kg。",
+      "metadata": {
+        "object": "沙发",
+        "weight": 45
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0025",
+      "category": "object_mobility",
+      "question": "沙发能移动吗？",
+      "answer": "可以移动沙发。",
+      "metadata": {
+        "object": "沙发",
+        "movable": true
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0026",
+      "category": "object_location",
+      "question": "茶几在哪个房间？",
+      "answer": "茶几在客厅。",
+      "metadata": {
+        "object": "茶几",
+        "room": "客厅"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0027",
+      "category": "object_weight",
+      "question": "茶几有多重？",
+      "answer": "茶几重量约15kg。",
+      "metadata": {
+        "object": "茶几",
+        "weight": 15
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0028",
+      "category": "object_mobility",
+      "question": "茶几能移动吗？",
+      "answer": "可以移动茶几。",
+      "metadata": {
+        "object": "茶几",
+        "movable": true
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0029",
+      "category": "object_location",
+      "question": "床在哪个房间？",
+      "answer": "床在主卧。",
+      "metadata": {
+        "object": "床",
+        "room": "主卧"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0030",
+      "category": "object_weight",
+      "question": "床有多重？",
+      "answer": "床重量约80kg。",
+      "metadata": {
+        "object": "床",
+        "weight": 80
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0031",
+      "category": "object_mobility",
+      "question": "床能移动吗？",
+      "answer": "不建议移动床。因为床较重（80kg）且体积大，建议使用专业搬运工具。",
+      "metadata": {
+        "object": "床",
+        "movable": false
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0032",
+      "category": "object_location",
+      "question": "书桌在哪个房间？",
+      "answer": "书桌在书房。",
+      "metadata": {
+        "object": "书桌",
+        "room": "书房"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0033",
+      "category": "object_weight",
+      "question": "书桌有多重？",
+      "answer": "书桌重量约25kg。",
+      "metadata": {
+        "object": "书桌",
+        "weight": 25
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0034",
+      "category": "object_mobility",
+      "question": "书桌能移动吗？",
+      "answer": "可以移动书桌。",
+      "metadata": {
+        "object": "书桌",
+        "movable": true
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0035",
+      "category": "object_location",
+      "question": "冰箱在哪个房间？",
+      "answer": "冰箱在厨房。",
+      "metadata": {
+        "object": "冰箱",
+        "room": "厨房"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0036",
+      "category": "object_weight",
+      "question": "冰箱有多重？",
+      "answer": "冰箱重量约60kg。",
+      "metadata": {
+        "object": "冰箱",
+        "weight": 60
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0037",
+      "category": "object_mobility",
+      "question": "冰箱能移动吗？",
+      "answer": "可以移动冰箱。",
+      "metadata": {
+        "object": "冰箱",
+        "movable": true
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0038",
+      "category": "object_location",
+      "question": "电视在哪个房间？",
+      "answer": "电视在客厅。",
+      "metadata": {
+        "object": "电视",
+        "room": "客厅"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0039",
+      "category": "object_weight",
+      "question": "电视有多重？",
+      "answer": "电视重量约15kg。",
+      "metadata": {
+        "object": "电视",
+        "weight": 15
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0040",
+      "category": "object_mobility",
+      "question": "电视能移动吗？",
+      "answer": "可以移动电视。",
+      "metadata": {
+        "object": "电视",
+        "movable": true
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0041",
+      "category": "object_location",
+      "question": "衣柜在哪个房间？",
+      "answer": "衣柜在主卧。",
+      "metadata": {
+        "object": "衣柜",
+        "room": "主卧"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0042",
+      "category": "object_weight",
+      "question": "衣柜有多重？",
+      "answer": "衣柜重量约100kg。",
+      "metadata": {
+        "object": "衣柜",
+        "weight": 100
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0043",
+      "category": "object_mobility",
+      "question": "衣柜能移动吗？",
+      "answer": "不建议移动衣柜。因为衣柜较重（100kg）且体积大，建议使用专业搬运工具。",
+      "metadata": {
+        "object": "衣柜",
+        "movable": false
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0044",
+      "category": "object_location",
+      "question": "餐桌在哪个房间？",
+      "answer": "餐桌在餐厅。",
+      "metadata": {
+        "object": "餐桌",
+        "room": "餐厅"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0045",
+      "category": "object_weight",
+      "question": "餐桌有多重？",
+      "answer": "餐桌重量约30kg。",
+      "metadata": {
+        "object": "餐桌",
+        "weight": 30
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0046",
+      "category": "object_mobility",
+      "question": "餐桌能移动吗？",
+      "answer": "可以移动餐桌。",
+      "metadata": {
+        "object": "餐桌",
+        "movable": true
+      },
+      "source": "rule"
+    },
+    {
+      "id": "qa_0047",
+      "category": "path_distance",
+      "question": "从客厅到主卧有多远？",
+      "answer": "从客厅到主卧的直线距离约8.5米。",
+      "metadata": {
+        "start": "客厅",
+        "end": "主卧",
+        "distance": 8.5
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0048",
+      "category": "path_time",
+      "question": "搬运物体从客厅到主卧需要多久？",
+      "answer": "从客厅到主卧约需17.0秒（假设移动速度0.5m/s）。",
+      "metadata": {
+        "start": "客厅",
+        "end": "主卧",
+        "time": 17.0
+      },
+      "source": "synthetic"
+    },
+    {
+      "id": "qa_0049",
+      "category": "path_distance",
+      "question": "从客厅到书房有多远？",
+      "answer": "从客厅到书房的直线距离约6.2米。",
+      "metadata": {
+        "start": "客厅",
+        "end": "书房",
+        "distance": 6.2
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0050",
+      "category": "path_time",
+      "question": "搬运物体从客厅到书房需要多久？",
+      "answer": "从客厅到书房约需12.4秒（假设移动速度0.5m/s）。",
+      "metadata": {
+        "start": "客厅",
+        "end": "书房",
+        "time": 12.4
+      },
+      "source": "synthetic"
+    },
+    {
+      "id": "qa_0051",
+      "category": "path_distance",
+      "question": "从客厅到厨房有多远？",
+      "answer": "从客厅到厨房的直线距离约4.0米。",
+      "metadata": {
+        "start": "客厅",
+        "end": "厨房",
+        "distance": 4.0
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0052",
+      "category": "path_time",
+      "question": "搬运物体从客厅到厨房需要多久？",
+      "answer": "从客厅到厨房约需8.0秒（假设移动速度0.5m/s）。",
+      "metadata": {
+        "start": "客厅",
+        "end": "厨房",
+        "time": 8.0
+      },
+      "source": "synthetic"
+    },
+    {
+      "id": "qa_0053",
+      "category": "path_distance",
+      "question": "从客厅到餐厅有多远？",
+      "answer": "从客厅到餐厅的直线距离约3.5米。",
+      "metadata": {
+        "start": "客厅",
+        "end": "餐厅",
+        "distance": 3.5
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0054",
+      "category": "path_time",
+      "question": "搬运物体从客厅到餐厅需要多久？",
+      "answer": "从客厅到餐厅约需7.0秒（假设移动速度0.5m/s）。",
+      "metadata": {
+        "start": "客厅",
+        "end": "餐厅",
+        "time": 7.0
+      },
+      "source": "synthetic"
+    },
+    {
+      "id": "qa_0055",
+      "category": "path_distance",
+      "question": "从客厅到卫生间有多远？",
+      "answer": "从客厅到卫生间的直线距离约5.8米。",
+      "metadata": {
+        "start": "客厅",
+        "end": "卫生间",
+        "distance": 5.8
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0056",
+      "category": "path_time",
+      "question": "搬运物体从客厅到卫生间需要多久？",
+      "answer": "从客厅到卫生间约需11.6秒（假设移动速度0.5m/s）。",
+      "metadata": {
+        "start": "客厅",
+        "end": "卫生间",
+        "time": 11.6
+      },
+      "source": "synthetic"
+    },
+    {
+      "id": "qa_0057",
+      "category": "room_area",
+      "question": "客厅有多大？",
+      "answer": "客厅面积约25平方米。",
+      "metadata": {
+        "room": "客厅",
+        "area": 25
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0058",
+      "category": "room_floor",
+      "question": "客厅是什么地板？",
+      "answer": "客厅地板材质为瓷砖。",
+      "metadata": {
+        "room": "客厅",
+        "floor": "瓷砖"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0059",
+      "category": "room_window",
+      "question": "客厅有窗户吗？",
+      "answer": "客厅有窗户。",
+      "metadata": {
+        "room": "客厅",
+        "has_window": true
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0060",
+      "category": "room_area",
+      "question": "主卧有多大？",
+      "answer": "主卧面积约18平方米。",
+      "metadata": {
+        "room": "主卧",
+        "area": 18
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0061",
+      "category": "room_floor",
+      "question": "主卧是什么地板？",
+      "answer": "主卧地板材质为木地板。",
+      "metadata": {
+        "room": "主卧",
+        "floor": "木地板"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0062",
+      "category": "room_window",
+      "question": "主卧有窗户吗？",
+      "answer": "主卧有窗户。",
+      "metadata": {
+        "room": "主卧",
+        "has_window": true
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0063",
+      "category": "room_area",
+      "question": "书房有多大？",
+      "answer": "书房面积约12平方米。",
+      "metadata": {
+        "room": "书房",
+        "area": 12
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0064",
+      "category": "room_floor",
+      "question": "书房是什么地板？",
+      "answer": "书房地板材质为木地板。",
+      "metadata": {
+        "room": "书房",
+        "floor": "木地板"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0065",
+      "category": "room_window",
+      "question": "书房有窗户吗？",
+      "answer": "书房有窗户。",
+      "metadata": {
+        "room": "书房",
+        "has_window": true
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0066",
+      "category": "room_area",
+      "question": "厨房有多大？",
+      "answer": "厨房面积约8平方米。",
+      "metadata": {
+        "room": "厨房",
+        "area": 8
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0067",
+      "category": "room_floor",
+      "question": "厨房是什么地板？",
+      "answer": "厨房地板材质为瓷砖。",
+      "metadata": {
+        "room": "厨房",
+        "floor": "瓷砖"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0068",
+      "category": "room_window",
+      "question": "厨房有窗户吗？",
+      "answer": "厨房没有窗户。",
+      "metadata": {
+        "room": "厨房",
+        "has_window": false
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0069",
+      "category": "room_area",
+      "question": "餐厅有多大？",
+      "answer": "餐厅面积约10平方米。",
+      "metadata": {
+        "room": "餐厅",
+        "area": 10
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0070",
+      "category": "room_floor",
+      "question": "餐厅是什么地板？",
+      "answer": "餐厅地板材质为瓷砖。",
+      "metadata": {
+        "room": "餐厅",
+        "floor": "瓷砖"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0071",
+      "category": "room_window",
+      "question": "餐厅有窗户吗？",
+      "answer": "餐厅有窗户。",
+      "metadata": {
+        "room": "餐厅",
+        "has_window": true
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0072",
+      "category": "room_area",
+      "question": "卫生间有多大？",
+      "answer": "卫生间面积约6平方米。",
+      "metadata": {
+        "room": "卫生间",
+        "area": 6
+      },
+      "source": "cad"
+    },
+    {
+      "id": "qa_0073",
+      "category": "room_floor",
+      "question": "卫生间是什么地板？",
+      "answer": "卫生间地板材质为瓷砖。",
+      "metadata": {
+        "room": "卫生间",
+        "floor": "瓷砖"
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0074",
+      "category": "room_window",
+      "question": "卫生间有窗户吗？",
+      "answer": "卫生间没有窗户。",
+      "metadata": {
+        "room": "卫生间",
+        "has_window": false
+      },
+      "source": "vr"
+    },
+    {
+      "id": "qa_0075",
+      "category": "complex_task",
+      "question": "把沙发搬到主卧，需要怎么做？",
+      "answer": "将沙发从客厅搬到主卧，步骤如下：\n1. 确认沙发重量约45kg，需要2人搬运\n2. 规划路径：客厅→走廊→主卧，距离约8.5米\n3. 搬运时间约17秒\n4. 注意事项：避免碰撞走廊墙壁，主卧地板为木地板需轻放",
+      "metadata": {
+        "task": "move_sofa",
+        "steps": 4
+      },
+      "source": "synthetic"
+    },
+    {
+      "id": "qa_0076",
+      "category": "complex_task",
+      "question": "在东墙钻一个8mm的孔，需要注意什么？",
+      "answer": "在东墙钻孔的步骤如下：\n1. 东墙是隔墙，厚度10cm，允许钻孔\n2. 最大钻孔直径15cm，深度8cm，8mm孔径符合要求\n3. 东墙内无管线，相对安全\n4. 建议钻孔深度控制在5cm以内（隔墙较薄）\n5. 准备工具：电钻、8mm钻头、护目镜",
+      "metadata": {
+        "task": "drill_east_wall",
+        "steps": 5
+      },
+      "source": "synthetic"
+    },
+    {
+      "id": "qa_0077",
+      "category": "complex_task",
+      "question": "我想在北墙打一个孔挂电视，可以吗？",
+      "answer": "不建议在北墙钻孔。原因如下：\n1. 北墙是承重墙，厚度24cm，材质为混凝土\n2. 承重墙钻孔可能影响建筑结构安全\n3. 北墙内有电线管和水管，钻孔有损坏风险\n建议：选择南墙或东墙挂电视，如必须在北墙操作，请联系专业结构工程师评估。",
+      "metadata": {
+        "task": "drill_north_wall",
+        "allowed": false
+      },
+      "source": "synthetic"
+    }
+  ]
+}

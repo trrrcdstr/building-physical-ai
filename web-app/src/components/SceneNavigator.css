@@ -1,0 +1,206 @@
+/* SceneNavigator.css — 皮·骨·肉场景卡片导航 */
+
+.scene-navigator {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  height: 72px;
+  background: var(--bg-panel, rgba(8, 10, 24, 0.92));
+  border-bottom: 1px solid var(--border, rgba(255, 255, 255, 0.08));
+  padding: 0 16px;
+  flex-shrink: 0;
+  z-index: 90;
+  overflow: hidden;
+}
+
+/* ── 横向滚动卡片区 ──────────────────────────────── */
+.sn-scroll-track {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  flex: 1;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE/Edge */
+  padding: 8px 0;
+}
+
+.sn-scroll-track::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* ── 场景卡片 ───────────────────────────────────── */
+.sn-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-width: 90px;
+  height: 56px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.sn-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(233, 69, 96, 0.12) 0%, rgba(129, 140, 248, 0.08) 100%);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  border-radius: 7px;
+}
+
+.sn-card:hover {
+  border-color: rgba(233, 69, 96, 0.4);
+  background: rgba(233, 69, 96, 0.08);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(233, 69, 96, 0.2);
+}
+
+.sn-card:hover::before {
+  opacity: 1;
+}
+
+.sn-card--active {
+  border-color: #e94560;
+  background: rgba(233, 69, 96, 0.15);
+  box-shadow: 0 0 0 1px rgba(233, 69, 96, 0.5), 0 4px 16px rgba(233, 69, 96, 0.25);
+}
+
+.sn-card--active::before {
+  opacity: 1;
+}
+
+/* 卡片图标 */
+.sn-card-icon {
+  font-size: 18px;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+}
+
+/* 卡片名称 */
+.sn-card-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #c0c0c0;
+  position: relative;
+  z-index: 1;
+  transition: color 0.2s;
+}
+
+.sn-card:hover .sn-card-name,
+.sn-card--active .sn-card-name {
+  color: #e94560;
+}
+
+/* 数据量 */
+.sn-card-count {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  position: relative;
+  z-index: 1;
+}
+
+.sn-card-num {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent-cyan, #22d3ee);
+  transition: color 0.2s;
+}
+
+.sn-card--active .sn-card-num {
+  color: #ff8a9e;
+}
+
+.sn-card-unit {
+  font-size: 9px;
+  color: var(--text-muted, #64748b);
+}
+
+/* ── 分隔线 ─────────────────────────────────────── */
+.sn-divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+  margin: 0 12px;
+}
+
+/* ── 特殊视图按钮 ───────────────────────────────── */
+.sn-special-views {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.sn-special-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(129, 140, 248, 0.3);
+  background: rgba(129, 140, 248, 0.06);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  height: 56px;
+}
+
+.sn-special-btn:hover {
+  background: rgba(129, 140, 248, 0.14);
+  border-color: rgba(129, 140, 248, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 12px rgba(129, 140, 248, 0.2);
+}
+
+.sn-special-btn--active {
+  border-color: #818cf8;
+  background: rgba(129, 140, 248, 0.18);
+  box-shadow: 0 0 0 1px rgba(129, 140, 248, 0.4), 0 3px 12px rgba(129, 140, 248, 0.2);
+}
+
+.sn-special-icon {
+  font-size: 18px;
+}
+
+.sn-special-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #a5b4fc;
+  transition: color 0.2s;
+}
+
+.sn-special-btn:hover .sn-special-label,
+.sn-special-btn--active .sn-special-label {
+  color: #818cf8;
+}
+
+/* ── 响应式：小屏横向滚动提示 ─────────────────── */
+@media (max-width: 800px) {
+  .scene-navigator {
+    padding: 0 10px;
+  }
+
+  .sn-card {
+    min-width: 80px;
+    padding: 5px 10px;
+    height: 52px;
+  }
+
+  .sn-special-btn {
+    padding: 6px 10px;
+    height: 52px;
+  }
+}

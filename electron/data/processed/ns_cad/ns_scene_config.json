@@ -1,0 +1,16 @@
+{
+  "project": "南沙星河东悦湾",
+  "type": "basement_parking",
+  "floor": "地块三地下室",
+  "area_sqm": "约20000",
+  "rooms": [],
+  "disciplines": [
+    "建筑",
+    "电气",
+    "给排水",
+    "暖通",
+    "结构",
+    "其他"
+  ],
+  "cad_layers": {}
+}

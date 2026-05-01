@@ -1,0 +1,310 @@
+.vr-viewer {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  width: 320px;
+  max-height: calc(100vh - 120px);
+  background: rgba(15, 15, 35, 0.95);
+  border-radius: 12px;
+  padding: 16px;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.vr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.vr-header h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #8b5cf6;
+}
+
+.vr-count {
+  font-size: 12px;
+  color: #888;
+}
+
+.vr-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.vr-filter button {
+  padding: 4px 10px;
+  border-radius: 16px;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: transparent;
+  color: #aaa;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.vr-filter button.active {
+  background: #8b5cf6;
+  color: #fff;
+  border-color: #8b5cf6;
+}
+
+.vr-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vr-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(30, 30, 50, 0.5);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+
+.vr-item:hover {
+  background: rgba(139, 92, 246, 0.2);
+  border-color: rgba(139, 92, 246, 0.4);
+}
+
+.vr-item.selected {
+  background: rgba(139, 92, 246, 0.3);
+  border-color: #8b5cf6;
+}
+
+.vr-icon {
+  font-size: 24px;
+}
+
+.vr-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.vr-title {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vr-meta {
+  display: flex;
+  gap: 8px;
+  font-size: 11px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.vr-platform {
+  background: rgba(59, 130, 246, 0.3);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.vr-room-type {
+  background: rgba(16, 185, 129, 0.3);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.vr-designer {
+  font-size: 10px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.vr-empty {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+}
+
+.vr-detail {
+  margin-top: 12px;
+  padding: 12px;
+  background: rgba(20, 20, 40, 0.8);
+  border-radius: 8px;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.vr-detail h4 {
+  margin: 0 0 8px;
+  color: #8b5cf6;
+}
+
+.vr-detail p {
+  margin: 4px 0;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.vr-placeholder {
+  margin-top: 12px;
+  padding: 30px;
+  background: rgba(139, 92, 246, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  color: #666;
+}
+
+.vr-placeholder small {
+  color: #444;
+}
+
+/* 新增样式 */
+.vr-search {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 6px;
+  background: rgba(30, 30, 60, 0.8);
+  color: #fff;
+  font-size: 13px;
+  outline: none;
+}
+
+.vr-search:focus {
+  border-color: #8b5cf6;
+}
+
+.vr-search::placeholder {
+  color: #666;
+}
+
+.vr-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: rgba(30, 30, 60, 0.6);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.vr-item:hover {
+  background: rgba(139, 92, 246, 0.2);
+  transform: translateX(4px);
+}
+
+.vr-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.vr-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.vr-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vr-meta {
+  display: flex;
+  gap: 8px;
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.vr-platform {
+  color: #8b5cf6;
+}
+
+.vr-views {
+  color: #666;
+}
+
+.vr-designer {
+  font-size: 11px;
+  color: #aaa;
+  margin-bottom: 4px;
+}
+
+.vr-rooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.vr-room-tag {
+  font-size: 10px;
+  padding: 2px 6px;
+  background: rgba(139, 92, 246, 0.2);
+  border-radius: 4px;
+  color: #c4b5fd;
+}
+
+.vr-open-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #666;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.vr-item:hover .vr-open-btn {
+  opacity: 1;
+}
+
+.vr-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.vr-pagination button {
+  padding: 4px 12px;
+  background: rgba(139, 92, 246, 0.2);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.vr-pagination button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.vr-pagination span {
+  font-size: 12px;
+  color: #888;
+}

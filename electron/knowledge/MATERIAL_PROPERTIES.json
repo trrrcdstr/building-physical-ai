@@ -1,0 +1,241 @@
+{
+  "version": "1.0",
+  "updated": "2026-04-21",
+  "materials": {
+    "C15混凝土": {
+      "category": "混凝土",
+      "density_kg_m3": 2300,
+      "elastic_modulus_gpa": 22,
+      "compressive_strength_mpa": 15,
+      "thermal_conductivity_w_mk": 1.28,
+      "poisson_ratio": 0.2,
+      "safety_factor": 1.5
+    },
+    "C20混凝土": {
+      "category": "混凝土",
+      "density_kg_m3": 2350,
+      "elastic_modulus_gpa": 25,
+      "compressive_strength_mpa": 20,
+      "thermal_conductivity_w_mk": 1.51,
+      "poisson_ratio": 0.2,
+      "safety_factor": 1.5
+    },
+    "C25混凝土": {
+      "category": "混凝土",
+      "density_kg_m3": 2380,
+      "elastic_modulus_gpa": 28,
+      "compressive_strength_mpa": 25,
+      "thermal_conductivity_w_mk": 1.51,
+      "poisson_ratio": 0.2,
+      "safety_factor": 1.5
+    },
+    "C30混凝土": {
+      "category": "混凝土",
+      "density_kg_m3": 2400,
+      "elastic_modulus_gpa": 30,
+      "compressive_strength_mpa": 30,
+      "thermal_conductivity_w_mk": 1.74,
+      "poisson_ratio": 0.2,
+      "safety_factor": 1.5,
+      "common_use": ["承重墙", "楼板", "梁柱"]
+    },
+    "C35混凝土": {
+      "category": "混凝土",
+      "density_kg_m3": 2420,
+      "elastic_modulus_gpa": 31.5,
+      "compressive_strength_mpa": 35,
+      "thermal_conductivity_w_mk": 1.74,
+      "poisson_ratio": 0.2,
+      "safety_factor": 1.5
+    },
+    "C40混凝土": {
+      "category": "混凝土",
+      "density_kg_m3": 2440,
+      "elastic_modulus_gpa": 32.5,
+      "compressive_strength_mpa": 40,
+      "thermal_conductivity_w_mk": 1.74,
+      "poisson_ratio": 0.2,
+      "safety_factor": 1.5
+    },
+    "C50混凝土": {
+      "category": "混凝土",
+      "density_kg_m3": 2460,
+      "elastic_modulus_gpa": 34.5,
+      "compressive_strength_mpa": 50,
+      "thermal_conductivity_w_mk": 1.74,
+      "poisson_ratio": 0.2,
+      "safety_factor": 1.4
+    },
+    "C60混凝土": {
+      "category": "混凝土",
+      "density_kg_m3": 2480,
+      "elastic_modulus_gpa": 36.0,
+      "compressive_strength_mpa": 60,
+      "thermal_conductivity_w_mk": 1.74,
+      "poisson_ratio": 0.2,
+      "safety_factor": 1.4,
+      "common_use": ["高层建筑", "预应力构件"]
+    },
+    "Q235钢材": {
+      "category": "钢材",
+      "density_kg_m3": 7850,
+      "elastic_modulus_gpa": 206,
+      "yield_strength_mpa": 235,
+      "tensile_strength_mpa": 375,
+      "thermal_conductivity_w_mk": 58,
+      "poisson_ratio": 0.3,
+      "safety_factor": 1.1,
+      "common_use": ["钢结构", "钢筋", "连接件"]
+    },
+    "Q345钢材": {
+      "category": "钢材",
+      "density_kg_m3": 7850,
+      "elastic_modulus_gpa": 206,
+      "yield_strength_mpa": 345,
+      "tensile_strength_mpa": 470,
+      "thermal_conductivity_w_mk": 58,
+      "poisson_ratio": 0.3,
+      "safety_factor": 1.1,
+      "common_use": ["高层钢结构", "桥梁"]
+    },
+    "Q390钢材": {
+      "category": "钢材",
+      "density_kg_m3": 7850,
+      "elastic_modulus_gpa": 206,
+      "yield_strength_mpa": 390,
+      "tensile_strength_mpa": 490,
+      "thermal_conductivity_w_mk": 58,
+      "poisson_ratio": 0.3,
+      "safety_factor": 1.1
+    },
+    "Q420钢材": {
+      "category": "钢材",
+      "density_kg_m3": 7850,
+      "elastic_modulus_gpa": 206,
+      "yield_strength_mpa": 420,
+      "tensile_strength_mpa": 520,
+      "thermal_conductivity_w_mk": 58,
+      "poisson_ratio": 0.3,
+      "safety_factor": 1.1
+    },
+    "烧结普通砖": {
+      "category": "砌体",
+      "density_kg_m3": 1800,
+      "elastic_modulus_gpa": 2.4,
+      "compressive_strength_mpa": 10,
+      "thermal_conductivity_w_mk": 0.81,
+      "poisson_ratio": 0.15,
+      "safety_factor": 2.0,
+      "common_use": ["承重墙", "填充墙"]
+    },
+    "混凝土空心砌块": {
+      "category": "砌体",
+      "density_kg_m3": 1400,
+      "elastic_modulus_gpa": 1.8,
+      "compressive_strength_mpa": 5,
+      "thermal_conductivity_w_mk": 0.68,
+      "poisson_ratio": 0.15,
+      "safety_factor": 2.0,
+      "common_use": ["填充墙", "隔墙"]
+    },
+    "加气混凝土砌块": {
+      "category": "砌体",
+      "density_kg_m3": 600,
+      "elastic_modulus_gpa": 1.5,
+      "compressive_strength_mpa": 3,
+      "thermal_conductivity_w_mk": 0.22,
+      "poisson_ratio": 0.15,
+      "safety_factor": 2.5,
+      "common_use": ["内隔墙", "保温墙"]
+    },
+    "红松木材": {
+      "category": "木材",
+      "density_kg_m3": 440,
+      "elastic_modulus_gpa": 9.0,
+      "compressive_strength_mpa": 33,
+      "tensile_strength_mpa": 98,
+      "thermal_conductivity_w_mk": 0.13,
+      "poisson_ratio": 0.4,
+      "safety_factor": 2.5,
+      "common_use": ["木结构", "装饰"]
+    },
+    "花岗岩": {
+      "category": "石材",
+      "density_kg_m3": 2800,
+      "elastic_modulus_gpa": 60,
+      "compressive_strength_mpa": 120,
+      "thermal_conductivity_w_mk": 2.91,
+      "poisson_ratio": 0.2,
+      "safety_factor": 3.0,
+      "common_use": ["地面", "幕墙"]
+    },
+    "普通玻璃": {
+      "category": "玻璃",
+      "density_kg_m3": 2500,
+      "elastic_modulus_gpa": 70,
+      "compressive_strength_mpa": 1000,
+      "thermal_conductivity_w_mk": 0.76,
+      "poisson_ratio": 0.22,
+      "safety_factor": 3.5,
+      "common_use": ["门窗", "幕墙"]
+    },
+    "岩棉板": {
+      "category": "保温材料",
+      "density_kg_m3": 120,
+      "elastic_modulus_gpa": 0.01,
+      "compressive_strength_mpa": 0.1,
+      "thermal_conductivity_w_mk": 0.04,
+      "poisson_ratio": 0.1,
+      "safety_factor": 1.0,
+      "common_use": ["外墙保温", "防火隔离"]
+    },
+    "聚苯乙烯泡沫": {
+      "category": "保温材料",
+      "density_kg_m3": 30,
+      "elastic_modulus_gpa": 0.003,
+      "compressive_strength_mpa": 0.2,
+      "thermal_conductivity_w_mk": 0.03,
+      "poisson_ratio": 0.1,
+      "safety_factor": 1.0,
+      "common_use": ["外墙保温", "屋面保温"]
+    },
+    "石膏板": {
+      "category": "板材",
+      "density_kg_m3": 800,
+      "elastic_modulus_gpa": 2.0,
+      "compressive_strength_mpa": 6,
+      "thermal_conductivity_w_mk": 0.2,
+      "poisson_ratio": 0.25,
+      "safety_factor": 2.0,
+      "common_use": ["吊顶", "隔墙"]
+    }
+  },
+  "wall_types": {
+    "load_bearing": {
+      "materials": ["C30混凝土", "C35混凝土", "C40混凝土", "烧结普通砖"],
+      "thickness_range_cm": [18, 30],
+      "allowable_drill": false,
+      "reason": "承重墙钻孔影响结构安全"
+    },
+    "non_load_bearing": {
+      "materials": ["加气混凝土砌块", "混凝土空心砌块", "烧结普通砖"],
+      "thickness_range_cm": [10, 20],
+      "allowable_drill": true,
+      "max_drill_diameter_cm": 10,
+      "max_drill_depth_cm": 8
+    },
+    "partition": {
+      "materials": ["石膏板", "加气混凝土砌块"],
+      "thickness_range_cm": [8, 15],
+      "allowable_drill": true,
+      "max_drill_diameter_cm": 15,
+      "max_drill_depth_cm": 8
+    }
+  },
+  "physics_simulation_defaults": {
+    "gravity": 9.8,
+    "air_resistance": 0.01,
+    "default_friction": 0.5,
+    "default_restitution": 0.3
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "total_files": 73,
+  "by_type": {
+    "pdf": 3,
+    "docx": 3,
+    "xls": 1,
+    "dwg": 45,
+    "image": 18,
+    "other": 3
+  },
+  "extractable": 25,
+  "needs_cad": 45,
+  "privacy_cleaned": true
+}

@@ -1,0 +1,109 @@
+{
+  "short_term": [
+    {
+      "id": "96c931dcfec4",
+      "content": "VR42 厨房 → 成功 (评分: 5)",
+      "type": "task",
+      "timestamp": "2026-04-10T22:01:31.258521",
+      "importance": 0.6,
+      "tags": [
+        "厨房",
+        "residence",
+        "success"
+      ],
+      "source": "feedback"
+    },
+    {
+      "id": "08064c79e9f7",
+      "content": "VR15 卫生间 → 成功 (评分: 4)",
+      "type": "task",
+      "timestamp": "2026-04-10T22:01:31.260528",
+      "importance": 0.6,
+      "tags": [
+        "卫生间",
+        "residence",
+        "success"
+      ],
+      "source": "feedback"
+    },
+    {
+      "id": "96c931dcfec4",
+      "content": "VR42 厨房 → 成功 (评分: 5)",
+      "type": "task",
+      "timestamp": "2026-04-15T14:06:43.020409",
+      "importance": 0.6,
+      "tags": [
+        "厨房",
+        "residence",
+        "success"
+      ],
+      "source": "feedback"
+    },
+    {
+      "id": "08064c79e9f7",
+      "content": "VR15 卫生间 → 成功 (评分: 4)",
+      "type": "task",
+      "timestamp": "2026-04-15T14:06:43.023073",
+      "importance": 0.6,
+      "tags": [
+        "卫生间",
+        "residence",
+        "success"
+      ],
+      "source": "feedback"
+    },
+    {
+      "id": "96c931dcfec4",
+      "content": "VR42 厨房 → 成功 (评分: 5)",
+      "type": "task",
+      "timestamp": "2026-04-15T14:07:24.760822",
+      "importance": 0.6,
+      "tags": [
+        "厨房",
+        "residence",
+        "success"
+      ],
+      "source": "feedback"
+    },
+    {
+      "id": "08064c79e9f7",
+      "content": "VR15 卫生间 → 成功 (评分: 4)",
+      "type": "task",
+      "timestamp": "2026-04-15T14:07:24.764357",
+      "importance": 0.6,
+      "tags": [
+        "卫生间",
+        "residence",
+        "success"
+      ],
+      "source": "feedback"
+    }
+  ],
+  "long_term": [
+    {
+      "id": "b575fe704dd4",
+      "content": "高评分(4): 卫生间场景表现优秀",
+      "type": "insight",
+      "timestamp": "2026-04-15T14:07:24.764357",
+      "importance": 0.8,
+      "tags": [
+        "卫生间",
+        "good_practice"
+      ],
+      "source": "feedback"
+    },
+    {
+      "id": "bbd06873075a",
+      "content": "高评分(5): 厨房场景表现优秀",
+      "type": "insight",
+      "timestamp": "2026-04-15T14:07:24.760822",
+      "importance": 0.8,
+      "tags": [
+        "厨房",
+        "good_practice"
+      ],
+      "source": "feedback"
+    }
+  ],
+  "updated_at": "2026-04-15T14:07:24.764357"
+}

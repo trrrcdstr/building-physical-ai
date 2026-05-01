@@ -1,0 +1,6948 @@
+[
+  {
+    "id": "door-0",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      0,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-1",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      2,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-2",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      4,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-3",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      6,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-4",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      8,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-5",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      10,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-6",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      12,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-7",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      14,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-8",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      16,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-9",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      18,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-10",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      20,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-11",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      22,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-12",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      24,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-13",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      26,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-14",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      28,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-15",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      30,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-16",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      32,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-17",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      34,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-18",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      36,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-19",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      38,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-20",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      40,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-21",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      42,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-22",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      44,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-23",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      46,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-24",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      48,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-25",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      50,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-26",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      52,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-27",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      54,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-28",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      56,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-29",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      58,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-30",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      60,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-31",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      62,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-32",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      64,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-33",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      66,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-34",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      68,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-35",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      70,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-36",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      72,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-37",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      74,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-38",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      76,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-39",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      78,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-40",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      80,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-41",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      82,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-42",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      84,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-43",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      86,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-44",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      88,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-45",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      90,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-46",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      92,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-47",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      94,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-48",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      96,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-49",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      98,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-50",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      100,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-51",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      102,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-52",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      104,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-53",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      106,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-54",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      108,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-55",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      110,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-56",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      112,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-57",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      114,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-58",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      116,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-59",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      118,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-60",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      120,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-61",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      122,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-62",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      124,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-63",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      126,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-64",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      128,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-65",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      130,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-66",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      132,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-67",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      134,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-68",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      136,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-69",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      138,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-70",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      140,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-71",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      142,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-72",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      144,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-73",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      146,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-74",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      148,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-75",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      150,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-76",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      152,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-77",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      154,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-78",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      156,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-79",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      158,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-80",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      160,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-81",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      162,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-82",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      164,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-83",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      166,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-84",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      168,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-85",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      170,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-86",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      172,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-87",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      174,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-88",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      176,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-89",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      178,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-90",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      180,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-91",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      182,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-92",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      184,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-93",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      186,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-94",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      188,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-95",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      190,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-96",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      192,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-97",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      194,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-98",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      196,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-99",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      198,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-100",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      200,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-101",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      202,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-102",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      204,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-103",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      206,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-104",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      208,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-105",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      210,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-106",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      212,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-107",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      214,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-108",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      216,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-109",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      218,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-110",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      220,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-111",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      222,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-112",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      224,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-113",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      226,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-114",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      228,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-115",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      230,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-116",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      232,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-117",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      234,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-118",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      236,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-119",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      238,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-120",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      240,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-121",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      242,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-122",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      244,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-123",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      246,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-124",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      248,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-125",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      250,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-126",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      252,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-127",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      254,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-128",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      256,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-129",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      258,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-130",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      260,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-131",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      262,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-132",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      264,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-133",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      266,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "door-134",
+    "name": "M20120920",
+    "type": "door",
+    "category": "structure",
+    "position": [
+      268,
+      1.05,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 2.1,
+      "depth": 0.05
+    },
+    "color": "#A0522D",
+    "physics": {
+      "mass": 25,
+      "material": "wood_solid",
+      "material_name": "实木复合门",
+      "friction": 0.4,
+      "friction_wet": 0.3,
+      "stiffness": 12000,
+      "density_kg_m3": 680,
+      "youngs_modulus_GPa": 11,
+      "surface": "wood_painted",
+      "color": "#A0522D",
+      "mass_per_area": 25,
+      "thermal_conductivity": 0.17
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-135",
+    "name": "C2",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      270,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-136",
+    "name": "C1",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      272,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-137",
+    "name": "C3",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      274,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-138",
+    "name": "C4",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      276,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-139",
+    "name": "C1",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      278,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-140",
+    "name": "C2",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      280,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-141",
+    "name": "C4",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      282,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-142",
+    "name": "C3",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      284,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-143",
+    "name": "C1",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      286,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-144",
+    "name": "C2",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      288,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-145",
+    "name": "C1",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      290,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-146",
+    "name": "C2",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      292,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-147",
+    "name": "C3",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      294,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-148",
+    "name": "C4",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      296,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-149",
+    "name": "C3",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      298,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  },
+  {
+    "id": "window-150",
+    "name": "C4",
+    "type": "window",
+    "category": "structure",
+    "position": [
+      300,
+      0.75,
+      -3
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "dimensions": {
+      "width": 1.5,
+      "height": 1.5,
+      "depth": 0.05
+    },
+    "color": "#87CEEB",
+    "physics": {
+      "mass": 15,
+      "material": "aluminum_glass",
+      "material_name": "铝合金中空玻璃窗",
+      "friction": 0.35,
+      "friction_wet": 0.25,
+      "stiffness": 70000,
+      "density_kg_m2": 35,
+      "youngs_modulus_GPa": 70,
+      "surface": "aluminum_powder_coated",
+      "glass_thickness_mm": 5,
+      "color": "#87CEEB",
+      "thermal_conductivity": 1.2
+    },
+    "robot_interaction": {
+      "graspable": false,
+      "openable": true,
+      "pushable": true,
+      "pullable": true,
+      "pathObstacle": true,
+      "detect_obstacle": true,
+      "clearance_mm": 5,
+      "safe_force_N": 50
+    }
+  }
+]

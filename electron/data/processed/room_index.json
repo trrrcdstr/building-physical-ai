@@ -1,0 +1,51 @@
+{
+  "room_00": {
+    "name": "区域1",
+    "type": "residential",
+    "area": 288.0,
+    "doors": 25,
+    "windows": 0
+  },
+  "room_01": {
+    "name": "区域2",
+    "type": "residential",
+    "area": 288.0,
+    "doors": 25,
+    "windows": 0
+  },
+  "room_02": {
+    "name": "区域3",
+    "type": "residential",
+    "area": 288.0,
+    "doors": 25,
+    "windows": 0
+  },
+  "room_03": {
+    "name": "区域4",
+    "type": "residential",
+    "area": 288.0,
+    "doors": 25,
+    "windows": 0
+  },
+  "room_04": {
+    "name": "区域5",
+    "type": "residential",
+    "area": 288.0,
+    "doors": 25,
+    "windows": 0
+  },
+  "room_05": {
+    "name": "区域6",
+    "type": "residential",
+    "area": 288.0,
+    "doors": 10,
+    "windows": 15
+  },
+  "room_06": {
+    "name": "区域7",
+    "type": "residential",
+    "area": 0.0,
+    "doors": 0,
+    "windows": 1
+  }
+}

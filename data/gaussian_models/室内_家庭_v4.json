@@ -1,0 +1,6 @@
+{
+  "scene": "室内_家庭",
+  "num_gaussians": 300,
+  "final_loss": 0.006173294968903065,
+  "training_time": 62.14245343208313
+}

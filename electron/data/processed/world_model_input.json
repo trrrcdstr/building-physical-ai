@@ -1,0 +1,1036 @@
+[
+  {
+    "vr_id": 2,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "书房",
+      "主卧",
+      "次卧",
+      "沙发床",
+      "客厅看阳台",
+      "餐边柜",
+      "鞋柜静帧"
+    ],
+    "room_count": 7,
+    "physics_tags": [
+      "其他",
+      "主卧",
+      "地面高差",
+      "玄关",
+      "狭窄通道",
+      "入户",
+      "次卧",
+      "客厅"
+    ],
+    "room_categories": [
+      "次卧",
+      "主卧",
+      "次卧",
+      "其他",
+      "客厅",
+      "其他",
+      "玄关"
+    ]
+  },
+  {
+    "vr_id": 3,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客厅",
+      "餐厅",
+      "主卧",
+      "次卧",
+      "棋牌区",
+      "主卫",
+      "次卫"
+    ],
+    "room_count": 7,
+    "physics_tags": [
+      "其他",
+      "餐厅",
+      "主卧",
+      "滑倒风险",
+      "潮湿",
+      "防水",
+      "卫生间",
+      "次卧",
+      "客厅",
+      "水渍"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅",
+      "主卧",
+      "次卧",
+      "其他",
+      "卫生间",
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 4,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": "桔子空间",
+    "rooms": [
+      "客厅",
+      "餐厅",
+      "主卫",
+      "负一茶室",
+      "负一休闲区"
+    ],
+    "room_count": 5,
+    "physics_tags": [
+      "滑倒风险",
+      "餐厅",
+      "其他",
+      "潮湿",
+      "防水",
+      "卫生间",
+      "客厅",
+      "水渍",
+      "书房"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅",
+      "卫生间",
+      "书房",
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 6,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 7,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 9,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "地下室客厅",
+      "地下室茶室",
+      "地下室乒乓球室",
+      "一楼餐厅",
+      "一楼岛台",
+      "二楼主卧",
+      "地下室棋牌室",
+      "地下室影音室",
+      "地下室瑜伽室",
+      "二楼次卧",
+      "厨房",
+      "次卧衣帽间",
+      "次卫",
+      "主卫"
+    ],
+    "room_count": 14,
+    "physics_tags": [
+      "水槽",
+      "其他",
+      "餐厅",
+      "主卧",
+      "滑倒风险",
+      "潮湿",
+      "高温",
+      "防水",
+      "燃气灶",
+      "卫生间",
+      "刀具",
+      "次卧",
+      "厨房",
+      "客厅",
+      "水渍",
+      "书房"
+    ],
+    "room_categories": [
+      "客厅",
+      "书房",
+      "其他",
+      "餐厅",
+      "餐厅",
+      "主卧",
+      "书房",
+      "其他",
+      "其他",
+      "次卧",
+      "厨房",
+      "次卧",
+      "其他",
+      "卫生间"
+    ]
+  },
+  {
+    "vr_id": 14,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": "鑫满天装饰",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 15,
+    "platform": "3d66",
+    "title": "乾潭张宅",
+    "designer": "杭州鑫满天装饰DESIGN by Sy",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 17,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": null,
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 19,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": "周周",
+    "rooms": [
+      "客厅360"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "客厅"
+    ],
+    "room_categories": [
+      "客厅"
+    ]
+  },
+  {
+    "vr_id": 20,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": null,
+    "rooms": [
+      "全景"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 21,
+    "platform": "3d66",
+    "title": "绿城春江明月15-",
+    "designer": "鑫满天装饰",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 22,
+    "platform": "Justeasy",
+    "title": null,
+    "designer": null,
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 24,
+    "platform": "3d66",
+    "title": "城市公馆",
+    "designer": null,
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 28,
+    "platform": "3d66",
+    "title": "绿城春江明月3-",
+    "designer": "鑫满天装饰",
+    "rooms": [
+      "玄关",
+      "客餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "餐厅",
+      "地面高差",
+      "玄关",
+      "狭窄通道",
+      "入户"
+    ],
+    "room_categories": [
+      "玄关",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 32,
+    "platform": "3d66",
+    "title": "洋溪大坞村160号",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 34,
+    "platform": "3d66",
+    "title": "三都新中式别墅",
+    "designer": "杭州鑫满天装饰：",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 35,
+    "platform": "3d66",
+    "title": "严州誉境8-",
+    "designer": "杭州鑫满天装饰：",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 36,
+    "platform": "3d66",
+    "title": "严州誉境6-",
+    "designer": "杭州鑫满天装饰：",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 37,
+    "platform": "3d66",
+    "title": "严州誉境8-",
+    "designer": null,
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 38,
+    "platform": "3d66",
+    "title": "碧桂园21-2-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 44,
+    "platform": "3d66",
+    "title": "严州誉境7-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 45,
+    "platform": "3d66",
+    "title": "新安悦府2-",
+    "designer": "杭州鑫满天装饰：",
+    "rooms": [
+      "沙发背景墙",
+      "电视背景墙"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他",
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 49,
+    "platform": "3d66",
+    "title": "洋溪家园3-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 50,
+    "platform": "3d66",
+    "title": "乾潭李府现代全景",
+    "designer": "杭州鑫满天装饰：",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 51,
+    "platform": "3d66",
+    "title": "徐氏新中式大宅",
+    "designer": "杭州鑫满天装饰：",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 54,
+    "platform": "3d66",
+    "title": "御江山叠排9-102法式轻奢风",
+    "designer": null,
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 55,
+    "platform": "3d66",
+    "title": "严州誉境6-",
+    "designer": "杭州鑫满天装饰：",
+    "rooms": [
+      "360全景(13个场景)"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 58,
+    "platform": "3d66",
+    "title": "新安悦府7-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 60,
+    "platform": "3d66",
+    "title": "和园52-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "360全景图"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 61,
+    "platform": "3d66",
+    "title": "碧桂园4-502现代",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 62,
+    "platform": "3d66",
+    "title": "和雅苑2-202新中式",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "家装全景"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 63,
+    "platform": "3d66",
+    "title": "江和城臻园7-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 64,
+    "platform": "3d66",
+    "title": "梅城紫薇苑7-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 65,
+    "platform": "3d66",
+    "title": "新安里3-704现代简约风",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 66,
+    "platform": "3d66",
+    "title": "观澜府4-1701雅居现代轻奢",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 68,
+    "platform": "3d66",
+    "title": "和雅苑3-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 69,
+    "platform": "3d66",
+    "title": "新安悦府4-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "现代0场景"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 71,
+    "platform": "3d66",
+    "title": "恒安名座2-2-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 72,
+    "platform": "3d66",
+    "title": "御江山20-602现代简约",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "御江山0"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 74,
+    "platform": "3d66",
+    "title": "洋安学府4-2-303雅居日式",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 75,
+    "platform": "3d66",
+    "title": "梅城佳和苑31-902雅居现代轻奢",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 76,
+    "platform": "3d66",
+    "title": "观澜府6-602雅居现代简约",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 77,
+    "platform": "3d66",
+    "title": "洋安学府3-1-702雅居现代",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "360"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 78,
+    "platform": "3d66",
+    "title": "梅城御品江南9-2-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 80,
+    "platform": "3d66",
+    "title": "碧桂园6-1-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 82,
+    "platform": "3d66",
+    "title": "寿昌桂花巷3号",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 83,
+    "platform": "3d66",
+    "title": "观澜府1-1-",
+    "designer": null,
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 88,
+    "platform": "3d66",
+    "title": "碧水澜天华庭3-2-1603雅居现代",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 89,
+    "platform": "3d66",
+    "title": "碧桂园22-2-",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 90,
+    "platform": "3d66",
+    "title": "龙大洋安学府104㎡户型轻奢风",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 91,
+    "platform": "3d66",
+    "title": "风尚泽园10-2-203雅居现代",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名含"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 92,
+    "platform": "3d66",
+    "title": "观澜府12-704雅居现代",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 93,
+    "platform": "3d66",
+    "title": "龙大洋安学府6-402现代简约风",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "场景名"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "其他"
+    ],
+    "room_categories": [
+      "其他"
+    ]
+  },
+  {
+    "vr_id": 94,
+    "platform": "3d66",
+    "title": "和园56-501雅居现代轻奢",
+    "designer": "杭州鑫满天",
+    "rooms": [
+      "客餐厅"
+    ],
+    "room_count": 1,
+    "physics_tags": [
+      "餐厅"
+    ],
+    "room_categories": [
+      "餐厅"
+    ]
+  },
+  {
+    "vr_id": 95,
+    "platform": "3d66",
+    "title": "建德一品3-502新中式",
+    "designer": "杭州鑫满天装饰",
+    "rooms": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_count": 2,
+    "physics_tags": [
+      "客厅",
+      "餐厅"
+    ],
+    "room_categories": [
+      "客厅",
+      "餐厅"
+    ]
+  }
+]

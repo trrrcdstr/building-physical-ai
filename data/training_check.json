@@ -1,0 +1,8 @@
+{
+  "gpu_available": true,
+  "total_images": 514,
+  "ready": false,
+  "issues": [
+    "安装OpenCV: pip install opencv-python"
+  ]
+}

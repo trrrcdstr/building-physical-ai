@@ -1,0 +1,741 @@
+[
+  {
+    "name": "从化别墅",
+    "type": "villa",
+    "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\从化别墅",
+    "cad_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\从化别墅\\从化别墅施工图.pdf",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\从化别墅\\别墅0913 .pdf"
+    ],
+    "render_images": [],
+    "structure_files": [],
+    "electrical_files": [],
+    "landscape_files": [],
+    "plumbing_files": [],
+    "hvac_files": [],
+    "parsed_data": [
+      {
+        "filename": "从化别墅施工图.pdf",
+        "pdf_type": "cad",
+        "pages": 64,
+        "walls": [
+          {
+            "thickness": 5,
+            "height": 3000,
+            "is_structural": false
+          },
+          {
+            "thickness": 2,
+            "height": 0,
+            "is_structural": false
+          },
+          {
+            "thickness": 2,
+            "height": 0,
+            "is_structural": false
+          },
+          {
+            "thickness": 3,
+            "height": 0,
+            "is_structural": false
+          },
+          {
+            "thickness": 2,
+            "height": 0,
+            "is_structural": false
+          },
+          {
+            "thickness": 2,
+            "height": 0,
+            "is_structural": false
+          },
+          {
+            "thickness": 3,
+            "height": 0,
+            "is_structural": false
+          },
+          {
+            "thickness": 2,
+            "height": 0,
+            "is_structural": false
+          },
+          {
+            "thickness": 1,
+            "height": 5,
+            "is_structural": false
+          },
+          {
+            "thickness": 2,
+            "height": 5,
+            "is_structural": false
+          },
+          {
+            "thickness": 4,
+            "height": 3000,
+            "is_structural": false
+          },
+          {
+            "thickness": 4,
+            "height": 3000,
+            "is_structural": false
+          },
+          {
+            "thickness": 4,
+            "height": 3000,
+            "is_structural": false
+          },
+          {
+            "thickness": 4,
+            "height": 3000,
+            "is_structural": false
+          }
+        ],
+        "doors_windows": [],
+        "rooms": [
+          {
+            "type": "客厅",
+            "found": true
+          },
+          {
+            "type": "厨房",
+            "found": true
+          },
+          {
+            "type": "卫生间",
+            "found": true
+          },
+          {
+            "type": "阳台",
+            "found": true
+          },
+          {
+            "type": "书房",
+            "found": true
+          },
+          {
+            "type": "餐厅",
+            "found": true
+          },
+          {
+            "type": "玄关",
+            "found": true
+          },
+          {
+            "type": "花园",
+            "found": true
+          },
+          {
+            "type": "庭院",
+            "found": true
+          }
+        ],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {
+          "values": [
+            716,
+            100,
+            1200,
+            600,
+            140,
+            300,
+            150,
+            100,
+            450,
+            450,
+            100,
+            50300,
+            2013,
+            50327,
+            2001,
+            50325,
+            2010,
+            2013,
+            50189,
+            2015
+          ],
+          "max": 50555,
+          "min": 0
+        },
+        "raw_text": "\n\n一、项目概况\n1.  项目名称：从化别墅装修施工工程\n2.  项目地点：从化\n3.  工程范围：别墅 716.3㎡\n二、总则\n1.\n轻钢龙骨石膏板隔墙采用表示100毫米厚轻钢龙骨厚1.0mm,双层双面封9.5mm石膏板，内填岩棉（1200*600*50,容重为60kg/m3）。隔墙龙骨、石膏板、岩棉均到楼板底，做法详\n见图集《轻钢龙骨内（隔）98SJ140》。\n2.\n所有与砖、砼墙、地面接触的木质龙骨或基层板，其接触面在满刷防火涂料三遍后再刷聚氨脂防腐涂料二遍。所有布艺硬包面均在完成后喷涂透明防火阻燃剂。\n3.\n附墙木龙骨采用40x30mm杉木方，双向间距为300mm；同种木方做木楔打入墙内，枪钉将木楔与龙骨连接，每一纵横交叉点设一根木楔；木龙骨、木楔四周满刷防火涂料三遍，打\n入墙内的木楔头和贴墙面的龙骨面还要再刷聚氨脂防腐涂料二遍。龙骨高度除特殊说明均超吊顶150mm。\n4.\n木工板、木夹板等做基层，不论与何种龙骨安装，背面均满刷防火涂料三遍。封板高度除特殊说明均超吊顶100mm。\n5.\n吊顶检修孔为暗装检修孔，为450x450mm，位置由其他需用专业确定。\n6.\n吊顶内所有裸露的木制品均需刷防火涂料三遍。\n7.\n表面乳胶漆的做法为贴自粘胶带条贴缝、满刮腻子三遍、打磨平整后刷ICI五合一环保乳胶漆底漆一遍，面漆二遍。其中原建筑墙面油乳胶漆部分底部全部满贴一层纤维布。\n8.\n所有不锈钢装饰线条往墙面安装，均需先安装一条略小于装饰条的白木线，在不锈钢内面打胶后粘贴于木线上。\n9.\n墙面饰面如：瓷砖、石材等等，实际施工高度均需超过吊顶100mm。\n10.\n本项目所用的混凝土均须采用商品混凝土；所用水泥砂浆均为预拌水泥砂浆。\n11.\n厨房、淋浴间升高地台的防水根据大样详图做法施工；未抬高地面须先做20厚水泥砂浆找平层，刷1.5mm厚聚氨酯防水涂膜，再做20mm厚水泥砂浆保护层，然后饰面；墙面均做\n2.2米高1.5mm聚氨酯防水涂膜防水层再贴饰面。\n12.\n地面地砖铺贴完毕至交付使用之前需用织物、夹板做覆盖保护；过厅、过道、施工交通要道等有交叉施工电焊的，要用玻璃纤维布和涮有防火涂料的9mm以上夹板覆盖保护；之\n上还要加盖木工板防止斗车碾压.\n13.\n浅色石材墙面、硬包墙面施工完毕至交付使用前要用无色透明塑料布罩盖保护防止污染；门安装完毕后门扇、门套均需用3mm以上夹板覆盖保护；已完成的木门、石材门（包括\n空门套）需用木工板做护角，防止斗车及长铁件撞击。\n14.\n图中所示之艺术品、挂画仅作示意，不在本项目范围。\n15.\n本设计说明如与图纸内做法有不符，以此说明为准。\n三、设计依据\n1.  室内设计主要依据：\n    《建筑工程施工质量验收统一标准》                 GB 50300-2013\n    《住宅装饰装修工程施工规范》                     GB 50327-2001\n    《民用建筑工程室内环境污染控制规范》             GB 50325-2010（2013版）\n    《公共建筑节能设计标准》                         GB 50189-2015\n    《建筑设计防火规范》                             GB 50016-2014（2018年版）\n    《建筑内部装修设计防火规范》                     GB 50222-2017\n    《室内装饰装修材料人造板及其制品中甲醛释放限量》 GB 18580-2017\n    《室内装饰装修材料溶剂木器涂料中有害物质限量》   GB 18581-2009\n    《室内装饰装修材料内墙涂料中有害物质限量》       GB 18582-2008\n    《室内装饰装修材料胶粘剂中有害物质限量》         GB 18583-2008\n    《室内装饰装修材料木家具中有害物质限量》         GB 18584-2001\n    《合成树脂乳液内墙涂料》                         GB/T 9756-2009\n    《合成树脂乳液砂壁状建筑涂料》                   JG/T24-2000\n    《金属与石材幕墙工程技术规范》                   JGJ 133-2001\n    《建筑玻璃应用技术规程》                         JGJ 113-2015\n    《金属与石材幕墙工程技术规范》                   JGJ 133-2001\n    《天然花岗石建筑板材》                           GB/T 18601-200"
+      },
+      {
+        "filename": "别墅0913 .pdf",
+        "pdf_type": "cad",
+        "pages": 64,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {},
+        "raw_text": "从\n化\n别\n墅\n\n平面图\n\n-1F 平面图\n1F 平面图\n\n2F 平面图\n3F 平面图\n4F 平面图\n\n外立面\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-1F\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1F\n\n\n\n\n\n\n\n\n\n2F\n\n\n\n\n\n\n3F\n\n\n\n\n\n\n4F\n\n\n\n\n其他区域\n\n\n\n"
+      }
+    ],
+    "object_count": 14
+  },
+  {
+    "name": "佛山恒大云东海",
+    "type": "residential",
+    "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\佛山恒大云东海",
+    "cad_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\佛山恒大云东海\\1_云涧花园总图-高清.pdf",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\佛山恒大云东海\\佛山恒大云东海项目云涧花园12-118座（对应工程编号122-216#）户型图.pdf"
+    ],
+    "render_images": [],
+    "structure_files": [],
+    "electrical_files": [],
+    "landscape_files": [],
+    "plumbing_files": [],
+    "hvac_files": [],
+    "parsed_data": [
+      {
+        "filename": "1_云涧花园总图-高清.pdf",
+        "pdf_type": "cad",
+        "pages": 1,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {},
+        "raw_text": ""
+      },
+      {
+        "filename": "佛山恒大云东海项目云涧花园12-118座（对应工程编号122-216#）户型图.pdf",
+        "pdf_type": "cad",
+        "pages": 5,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [
+          {
+            "type": "花园",
+            "found": true
+          }
+        ],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {
+          "values": [
+            224,
+            103,
+            103,
+            107,
+            111,
+            115,
+            225,
+            107,
+            101,
+            105,
+            109,
+            113,
+            117,
+            149,
+            100,
+            104,
+            108,
+            112,
+            116,
+            157
+          ],
+          "max": 37805,
+          "min": 100
+        },
+        "raw_text": "云涧花园别墅区B眽-眼⼾型\n224.65m²\n总建筑⾯积：\n建筑⾯积\n约103.18m²\n约66.79m²\n约54.68m²\n平⾯图\n⾸层\n⼆层\n三层\n本公告相关⽂字、图⽚及建筑设计效果是对项⽬所做的⽰意表现，仅供参考，最终标准详⻅政府相关部⻔批准⽂件、图则；经政府批准的详细规划以销售现场公⽰为准，敬请查看；本\n资料为要约邀请，买卖双⽅的权利以及义务以双⽅签订的《商品房买卖合同》为准；本公告对项⽬周边道路规划、环境、交通公共设施⽂字介绍，旨在提供相关信息，绝不构成任何表\n述、承诺或保证，最终以政府批准⽂件及双⽅合约为准；本公告相关⾯积段均为建筑/套内⾯积，最终计算⾯积以房管局测绘⾯积为准；此为内部资料，相关内容如有更新，请以最新资\n料内容为准。\n1层\n2层\n3层\n25-27座、29座、31座、33座、35座、37座、39座、41-42座、44座、46座\n48座、50-51座、70座、72座、74座、76、78座、80座、82座、84-85座\n87-89座、90座、92座、94座、96座、99座、103座、1０7座、１11座、115座\n\n云涧花园别墅区B眽-眽⼾型\n225.92m²\n总建筑⾯积：\n建筑⾯积\n约107.46m²\n约65.82m²\n约52.64m²\n平⾯图\n⾸层\n⼆层\n三层\n本公告相关⽂字、图⽚及建筑设计效果是对项⽬所做的⽰意表现，仅供参考，最终标准详⻅政府相关部⻔批准⽂件、图则；经政府批准的详细规划以销售现场公⽰为准，敬请查看；本\n资料为要约邀请，买卖双⽅的权利以及义务以双⽅签订的《商品房买卖合同》为准；本公告对项⽬周边道路规划、环境、交通公共设施⽂字介绍，旨在提供相关信息，绝不构成任何表\n述、承诺或保证，最终以政府批准⽂件及双⽅合约为准；本公告相关⾯积段均为建筑/套内⾯积，最终计算⾯积以房管局测绘⾯积为准；此为内部资料，相关内容如有更新，请以最新资\n料内容为准。\n2层\n3层\n12-24座、52-61座\n101座、105座、109座、113座、117座\n1层\n\n云涧花园别墅区C眼-眼⼾型\n149.89m²\n总建筑⾯积：\n本公告相关⽂字、图⽚及建筑设计效果是对项⽬所做的⽰意表现，仅供参考，最终标准详⻅政府相关部⻔批准⽂件、图则；经政府批准的详细规划以销售现场公⽰为准，敬请查看；本\n资料为要约邀请，买卖双⽅的权利以及义务以双⽅签订的《商品房买卖合同》为准；本公告对项⽬周边道路规划、环境、交通公共设施⽂字介绍，旨在提供相关信息，绝不构成任何表\n述、承诺或保证，最终以政府批准⽂件及双⽅合约为准；本公告相关⾯积段均为建筑/套内⾯积，最终计算⾯积以房管局测绘⾯积为准；此为内部资料，相关内容如有更新，请以最新资\n料内容为准。\n1层\n2层\n建筑⾯积\n约88.32m²\n约61.57m²\n平⾯图\n⾸层\n⼆层\n28座、30座、32座、34座、36座、38座、40座、43座、45座\n47座、49座、65座、100座、104座、108座、112座、116座\n\n云涧花园别墅区C眼-眽⼾型\n157.7m²\n总建筑⾯积：\n本公告相关⽂字、图⽚及建筑设计效果是对项⽬所做的⽰意表现，仅供参考，最终标准详⻅政府相关部⻔批准⽂件、图则；经政府批准的详细规划以销售现场公⽰为准，敬请查\n看；本资料为要约邀请，买卖双⽅的权利以及义务以双⽅签订的《商品房买卖合同》为准；本公告对项⽬周边道路规划、环境、交通公共设施⽂字介绍，旨在提供相关信息，绝不构\n成任何表述、承诺或保证，最终以政府批准⽂件及双⽅合约为准；本公告相关⾯积段均为建筑/套内⾯积，最终计算⾯积以房管局测绘⾯积为准；此为内部资料，相关内容如有更\n新，请以最新资料内容为准。\n1层\n2层\n62-64座、66-69座、71座、73座、75座、77座\n79座、81座、83座、86座、91座、93座、95座\n97-98座、102座、106座、110座、114座、118座\n建筑⾯积\n约90.82m²\n约66.88m²\n平⾯图\n⾸层\n⼆层\n\n⼴佛城▪艺墅家▪湖⼭⼤境\nN\n126\n121\n120\n119\n11\n98\n99\n100\n101\n102\n103\n104\n105\n106\n107\n108\n109\n110\n111\n112\n113\n114\n115\n116\n117\n118\n122\n123\n124\n125\n10\n9\n8\n7\n6\n5\n2\n综合楼\n商业街\n12\n13\n25\n26\n27\n28 30\n32\n29 31 33\n35\n37\n34\n36\n38\n40\n43\n39\n41 42\n44\n46\n45\n47\n49\n48\n50\n51\n52\n53\n61\n62\n63\n86\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n64\n60\n59\n58\n57\n56\n55\n54\n83\n81\n79\n77\n75\n73\n71\n69\n68\n6"
+      }
+    ],
+    "object_count": 0
+  },
+  {
+    "name": "山水庭院",
+    "type": "residential",
+    "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\山水庭院",
+    "cad_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\山水庭院\\山水庭院简洁版(3)-平面11.pdf"
+    ],
+    "render_images": [],
+    "structure_files": [],
+    "electrical_files": [],
+    "landscape_files": [],
+    "plumbing_files": [],
+    "hvac_files": [],
+    "parsed_data": [
+      {
+        "filename": "山水庭院简洁版(3)-平面11.pdf",
+        "pdf_type": "cad",
+        "pages": 1,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {
+          "values": [
+            2000,
+            2230,
+            630,
+            500,
+            1660,
+            700,
+            2000,
+            1440,
+            2260,
+            630,
+            1060,
+            710,
+            1800,
+            2000,
+            2100,
+            400,
+            1840,
+            890,
+            540,
+            850
+          ],
+          "max": 16660,
+          "min": 160
+        },
+        "raw_text": "2000\n2230\n630\n500\n1660\n700\n2000\n1440\n2260\n630\n1060\n710\n1800\n2000\n2100\n400\n1840\n890\n540\n850\n1150\n700\n2300\n720\n1550\n270\n1040\n1620\n1270\nս咒Ԛ\n880\n1300\n2745\n220\n2670\n6600\n1300\n1175\n1415\n600\n1060\n1600\n1200\n500\n2270\n500\n1380\n2380\n4100\n1380\n16660\n16660\n10760\n10760\n1100\n10760\n2770\n10760\n10760\n10760\n10760\n10760\n10760\n3550\n2770\n8640\n5060\n1620\n1100\n4100\n1100\n2610\n2770\n1740\n5310\n2850\n3550\n1930\n2770\n1700\n950\n600\n1650\n2210\nս咒Ԛ\n630\n1140\n630\n840\n160\n600\n2980\n1000\n1120\n550\n2400\n620\n1220\n1090\n940\n750\n70\n920\n760\n930\n250\n1200\n1380\n2000\n320\n900\n240\n3270\n1970\n\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003亯ⴤ㕌ਭ\n\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003ഴਭ\n∊\u0003\u0003ׁ\nᰛ\u0003\u0003ᵕ\nᇘ\u0003\u0003ᡭ\n䇴\u0003䇗\u0003ᐾ\n䇴\u0003䇗\u0003ᙱ\u0003ⴇ\nᇗ\u0003\u0003Ṯ\n\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003ഴ੃\n\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003亯ⴤ੃〦\ngᵢഴ㓮Ⲻ⸛䇼ӝᵹኔӄć䠇㷩㶸gᇬĈ⭫ᆆ୼ࣗᴿ䲆ޢਮ\n\u0003\u0003᯳ᐛ䜞䰞亱᤿⧦൰ᇔ䱻ተሮ䘑㺂᯳ᐛ\u001e\ngᡶᴿḽ⌞ተሮԛ⧦൰⎁䠅Ѱ߼\u000f\n\u0003\u0003Ա֋㓺㓽ૂѠӰуᗍ⁗Եᡌᢺ㻣χ\nā\n\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003⡾ᵢ\nਾ֒䇴䇗\n࣑ࣞ\nṗᐛ\n⭫≊\n⭫䇥\n㔏ᧈ≪\n᳌䙐\nᔰㆇ\n㔉ᶺ\n\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003ᔰ䇴ঋփ\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\n1\n2\n3\n4\n5\n6\n1\n2\n3\n4\n5\n6\n\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003㍘ᕋഴ\nㅢж⡾\nㅢӂ⡾\nㅢп⡾\nㅢ഑⡾\nㅢӊ⡾\nㅢޣ⡾\ngᵢ䇴䇗⴪᧛ሯ᮪։᭾᷒䍕䍙\u000f\n\u0003\u0003Ա֋жᯯ᭯ࣞ䴶䙐⸛䇴䇗ᐾθੂᝅ੄ᯯਥᇔ᯳χ\ngഴ㓮ҁ⪋⯫᯳ᐛ⨣㓺亱൞᯳ᐛࢃᇗഴᒬᨆ࠰θ\n\u0003\u0003ੜࡏ亱ᢵ᣻ᇂޞ䍙Ա\u001e\u0003\n\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003\u0003䇴䇗ঋփ\n䛞㕆˖\u0018\u0014\u0013\u0019\u0016\u0013\u0003\u0003\n⎧⨐४䎛สབྷ৖\u0015\u0014\u0013\u0014ᇔ\u0003\u0003\nHaizhuqu,Hejidasha2101shi,Guangzhou,China\n\u0015\u0017ቅᰬᇘᵃ✣㓵\u001d\u0017\u0013\u0013\u0010\u0013\u0016\u0013\u0019\u0010\u001b\u001b\u001b\n䠁㷣㶲ᇦ૱ᆵ˄ᒯᐎ˅㻵侠ᴹ䲀ޜਨ\n䇴\u0003䇗\u0003ࣟ\u0003⨼\nFS\n1:75\nᒩ䶘ᐹ㖤਀㍘ᕋഴ\nFS\nᇬޭተሮ਀㍘ᕋഴ\nSCALE   1:75\nN\n\u0018\u0016\u0011\u00160ϡ\nS\n38.9M\nL\n\u0015\u0011\u001c0ϡ\nS\n6.8M\nL\n\u0016\u0011\u00160ϡ\nS\n7.7M\nL\n\u0014\u0018\u0011\u00180ϡ\nS\n16.5M\nL\n\u0019\u0011\u001c0ϡ\nS\n10.5M\nL\n\u001b\u0011\u00140ϡ\nS\n11.9M\nL\n\u0015\u0015\u0011\u001b0ϡ\nS\n21.2M\nL\n\u001b0ϡ\nS\n12.4M\nL\n\u0014\u0016\u0011\u001b0ϡ\nS\n15.7M\nL\n"
+      }
+    ],
+    "object_count": 0
+  },
+  {
+    "name": "建筑结构项目",
+    "type": "structure",
+    "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\建筑结构项目",
+    "cad_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\建筑结构项目\\蓝图图纸.pdf"
+    ],
+    "render_images": [],
+    "structure_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\建筑结构项目\\自建房-施工结构图-KennyZ.pdf"
+    ],
+    "electrical_files": [],
+    "landscape_files": [],
+    "plumbing_files": [],
+    "hvac_files": [],
+    "parsed_data": [
+      {
+        "filename": "自建房-施工结构图-KennyZ.pdf",
+        "pdf_type": "structure",
+        "pages": 20,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {},
+        "raw_text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+      },
+      {
+        "filename": "蓝图图纸.pdf",
+        "pdf_type": "cad",
+        "pages": 10,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {},
+        "raw_text": "\n\n\n\n\n\n\n\n\n"
+      }
+    ],
+    "object_count": 0
+  },
+  {
+    "name": "李女士",
+    "type": "residential",
+    "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士",
+    "cad_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\20231016李女士施工图(1).pdf"
+    ],
+    "render_images": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\02ab366d263036615d6c3d66dff32cbf.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\081186f6d0d27a895cd73d2ce3939a0f.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\0e614d41e65615d0e9d1a18e1ee68331.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\144ef3562ee986b7f8a340bc379d4e2e.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\1535679583f892ae3f188098cfd4a93a.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\3b52f326f225c7532bff3206dfb9ef19.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\451efd40b423c4f93b4b2f2842ccd429.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\49cf5f39ab95b1e283233cf82ca50d29.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\79795cd2497c2408849a0dc6673613a0.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\c6c7d1446a4cd4c9a523ef10c5e5f1eb.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\d581536368e134ad44f20ba0648c937c.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\da7c28d01eac5a097baa8be1a8edf5e3.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\李女士\\e3fa7c532ff3f42ade0bdec595b1b55b.jpg"
+    ],
+    "structure_files": [],
+    "electrical_files": [],
+    "landscape_files": [],
+    "plumbing_files": [],
+    "hvac_files": [],
+    "parsed_data": [
+      {
+        "filename": "20231016李女士施工图(1).pdf",
+        "pdf_type": "cad",
+        "pages": 36,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [
+          {
+            "type": "厨房",
+            "found": true
+          },
+          {
+            "type": "卫生间",
+            "found": true
+          },
+          {
+            "type": "餐厅",
+            "found": true
+          },
+          {
+            "type": "玄关",
+            "found": true
+          },
+          {
+            "type": "花园",
+            "found": true
+          },
+          {
+            "type": "庭院",
+            "found": true
+          }
+        ],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {
+          "values": [
+            3320,
+            900,
+            140,
+            240,
+            240,
+            1200,
+            800,
+            600,
+            200,
+            2090,
+            130,
+            1210,
+            3730,
+            8440,
+            240,
+            240,
+            1660,
+            2070,
+            960,
+            240
+          ],
+          "max": 90000,
+          "min": 119
+        },
+        "raw_text": "3320\n900\n140\n240\n240\n1200\n800\n600\n200\n2090\n130 1210\n3730\n8440\n240\n240\n1660\n2070\n960\n240\n2230\n800\n8200\n240\n2550\n7250\n4900\n7140\n门h=2100\n窗台高2600\n窗户高900\n砌墙到顶\n240\n窗台高1200\n窗户高900\n              项目编号\nPROJECT No.\n           图号\nSHEET No.\n比  例\nSCALE  \n日  期\nDATE  \n客  户\nDRAWN\n设 计 师\nDESIGNER\n设 计 总 监\nDESIGN  DIRECTOR\n审  核\nVERIFEID\n                图名\nDRAWING TITLE    \n                项目名称\nPROJECT TITLE    \n·本图纸的知识产权属于广州市回归线设计有限公司\n  施工部门须按现场实际尺寸进行施工;\n·所有标注尺寸以现场测量为准,\n  任何组织和个人不得模仿或抄袭；\n·\n            版本\nREVISIONS  \n合作设计\nCOOPERATIVE DESIGN\n动力\n校工\n电气\n电讯\n给排水\n暖通\n建筑\n结构\n         建设单位\nCLIENT\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\n1\n2\n3\n4\n5\n6\n1\n2\n3\n4\n5\n6\n           索引图\nKEY  PLAN\n第一版\n第二版\n第三版\n第四版\n第五版\n第六版\n·本设计直接对整体效果负责,\n  任何一方改动需通知设计师，同意后方可实施；\n·图纸之瑕疵施工班组须在施工前审图并提出，\n  否则须承担完全责任; \n              设计单位\nDESIGN FIRM  \n䛞㕆˖522466\u0003\u0003\nই⋉४⧟⨳ѝᗳ4ḻ423ᇔ\u0003\u0003\nTEL:16620126239\nRoom 423, Building 4, Nansha Global Center\n联系电话:16620126239\n广州市回归线设计有限公司\n设 计 助 理\nDESIGNER  ASSISTANT\nN\n负一层新建墙体图\n22栋119\n榄核星海小镇别墅区\n广州市回归线设计有限公司\nOC\n ORIGINAL CIVIL FIGURE\n负一层新建墙体图\nSCALE:1/50\n新建墙体\n140\n3590\n140\n3590\n2250\n25200\n1420\n240\n960\n200\n1200\n2700\n34200\n2110\n1100\n120\n\n3320\n900\n140\n240\n240\n1200\n800\n600\n200\n2090\n130 1210\n3730\n8440\n240\n240\n1660\n2070\n960\n240\n2230\n800\n8200\n240\n2550\n7250\n4900\n7140\n窗台做防水\n240\n墙面做防水h=1.8m\n地面做防水\n              项目编号\nPROJECT No.\n           图号\nSHEET No.\n比  例\nSCALE  \n日  期\nDATE  \n客  户\nDRAWN\n设 计 师\nDESIGNER\n设 计 总 监\nDESIGN  DIRECTOR\n审  核\nVERIFEID\n                图名\nDRAWING TITLE    \n                项目名称\nPROJECT TITLE    \n·本图纸的知识产权属于广州市回归线设计有限公司\n  施工部门须按现场实际尺寸进行施工;\n·所有标注尺寸以现场测量为准,\n  任何组织和个人不得模仿或抄袭；\n·\n            版本\nREVISIONS  \n合作设计\nCOOPERATIVE DESIGN\n动力\n校工\n电气\n电讯\n给排水\n暖通\n建筑\n结构\n         建设单位\nCLIENT\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\n1\n2\n3\n4\n5\n6\n1\n2\n3\n4\n5\n6\n           索引图\nKEY  PLAN\n第一版\n第二版\n第三版\n第四版\n第五版\n第六版\n·本设计直接对整体效果负责,\n  任何一方改动需通知设计师，同意后方可实施；\n·图纸之瑕疵施工班组须在施工前审图并提出，\n  否则须承担完全责任; \n              设计单位\nDESIGN FIRM  \n䛞㕆˖522466\u0003\u0003\nই⋉४⧟⨳ѝᗳ4ḻ423ᇔ\u0003\u0003\nTEL:16620126239\nRoom 423, Building 4, Nansha Global Center\n联系电话:16620126239\n广州市回归线设计有限公司\n设 计 助 理\nDESIGNER  ASSISTANT\n"
+      }
+    ],
+    "object_count": 0
+  },
+  {
+    "name": "王总",
+    "type": "residential",
+    "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总",
+    "cad_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\云涧花园.王总.pdf"
+    ],
+    "render_images": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\2f3eab1e395aa53233c107e44d89c7f9.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\410b129bf4ed8fbed9b051f37ad39513.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\4c0a57b6d7c8b33d7ba5ca48b74bbcbb.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\4e469b53de6a61e07b7975f5fde06947.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\559fdf487b697312f6a38b46c441f429.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\752117523fed1f7a18966098ad5164b5.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\87d915d8826539771739d3bbbddcad3c.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\8872ec0e926d7282543d205b161f26db.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\d33e19173b53c2572f8478d4e58ce025.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\王总\\da1d47e0687fc2c4738406a73e128c21.jpg"
+    ],
+    "structure_files": [],
+    "electrical_files": [],
+    "landscape_files": [],
+    "plumbing_files": [],
+    "hvac_files": [],
+    "parsed_data": [
+      {
+        "filename": "云涧花园.王总.pdf",
+        "pdf_type": "cad",
+        "pages": 18,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [
+          {
+            "type": "客厅",
+            "found": true
+          },
+          {
+            "type": "厨房",
+            "found": true
+          },
+          {
+            "type": "阳台",
+            "found": true
+          },
+          {
+            "type": "书房",
+            "found": true
+          },
+          {
+            "type": "餐厅",
+            "found": true
+          },
+          {
+            "type": "玄关",
+            "found": true
+          },
+          {
+            "type": "花园",
+            "found": true
+          }
+        ],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {
+          "values": [
+            7130,
+            135,
+            300,
+            140,
+            1285,
+            200,
+            7130,
+            1800,
+            2290,
+            7130,
+            2760,
+            200,
+            230,
+            1740,
+            1800,
+            200,
+            2955,
+            200,
+            300,
+            4160
+          ],
+          "max": 52246,
+          "min": 100
+        },
+        "raw_text": "二层\n7130\n135\n300\n140\n1285\n200\n7130\n1800\n2290\n7130\n一层\n2760\n200\n230\n1740\n1800\n200\n2955\n200\n300\n4160\n100\n1990\n300\n2010\n300\n1275\n850\n14375\n300\n2900\n140\n3210\n4400\n300\n1285\n840\n13375\n300\n200\n4340\n300\n2955\n850\n135\n100\n4160\n1990\n2010\n300\n14375\n300\n1275\n2900\n300\n3210\n4400\n840\n2290\n13375\n200\n4340\n300\n200\n7130\n200\n2760\n230\n1740\n入户\n              项目编号\nPROJECT No.\n           图号\nSHEET No.\n比  例\nSCALE  \n日  期\nDATE  \n客  户\nDRAWN\n设 计 师\nDESIGNER\n设 计 总 监\nDESIGN  DIRECTOR\n审  核\nVERIFEID\n                图名\nDRAWING TITLE    \n                项目名称\nPROJECT TITLE    \n·本图纸的知识产权属于广州市回归线设计有限公司\n  施工部门须按现场实际尺寸进行施工;\n·所有标注尺寸以现场测量为准,\n  任何组织和个人不得模仿或抄袭；\n·\n            版本\nREVISIONS  \n合作设计\nCOOPERATIVE DESIGN\n动力\n校工\n电气\n电讯\n给排水\n暖通\n建筑\n结构\n         建设单位\nCLIENT\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\n1\n2\n3\n4\n5\n6\n1\n2\n3\n4\n5\n6\n           索引图\nKEY  PLAN\n第一版\n第二版\n第三版\n第四版\n第五版\n第六版\n·本设计直接对整体效果负责,\n  任何一方改动需通知设计师，同意后方可实施；\n·图纸之瑕疵施工班组须在施工前审图并提出，\n  否则须承担完全责任; \n              设计单位\nDESIGN FIRM  \n邮编：522466  \n南沙区环球中心4栋423室  \nTEL:16620126239\nRoom 423, Building 4, Nansha Global Center\n联系电话:16620126239\n广州市回归线设计有限公司\n设 计 助 理\nDESIGNER  ASSISTANT\nN\n原始平面图\n云涧花园95号\n佛山恒大云东海\n广州市回归线设计有限公司\nOC\n ORIGINAL CIVIL FIGURE\nSCALE:1/75\n比例: \n原始平面图\n1:75\nH:3160\nH:3230\n沉:-50\n沉:-330\n沉:-330\nH:3210\nH:4460\nL:4360\nH:3630\nL:4380\nH:4200\nL:3610\nL:3570\nH:4630\nH:3940\nL:3210\nL:3510\nL:3660\nH:4410\nL:2970\nL:3180\nH:3620\n\n二层\n7130\n135\n300\n140\n1285\n200\n7130\n1800\n2290\n7130\n一层\n2760\n200\n230\n1740\n1800\n200\n2955\n200\n300\n4160\n100\n1990\n300\n2010\n300\n1275\n850\n14375\n300\n2900\n140\n3210\n4400\n300\n1285\n840\n13375\n300\n200\n4340\n300\n2955\n850\n135\n100\n4160\n1990\n2010\n300\n14375\n300\n1275\n2900\n300\n3210\n4400\n840\n2290\n13375\n200\n4340\n300\n200\n7130\n200\n2760\n230\n1740\n入户\n              项目编号\nPROJECT No.\n           图号\nSHEET No.\n比  例\nSCALE  \n日  期\nDATE  \n客  户\nDRAWN\n设 计 师\nDESIGNER\n设 计 总 监\nDESIGN  DIRECTOR\n审  核\nVERIFEID\n                图名\nDRAWING TITLE    \n                项目名称\nPROJECT TITLE    \n·本图纸的知识产权属于广州市回归线设计有限公司\n  施工部门须按现场实际尺寸进行施工;\n·所有标注尺寸以现场测量为准,\n  任何组织和个人不得模仿或抄袭；\n·\n            版本\nREVISIONS  \n合作设计\nCOOPERATIVE DESIGN\n动力\n校工\n电气\n电"
+      }
+    ],
+    "object_count": 0
+  },
+  {
+    "name": "覃总",
+    "type": "residential",
+    "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总",
+    "cad_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\0311覃总施工图.pdf"
+    ],
+    "render_images": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\100848ff88249558243191c4cff7f00f.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\14040fac553515404df1238f9c5f76e2.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\194d566c574ee4096ae15d4107397a05.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\254fad07a25e4e51816ef3507758288e.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\4e01db367c9fe5a70a84e25420a72157.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\568fc1be3c19c9c859c52a9e7ba21d53.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\a5c58dac2cf6a2f0c54d860b72db1de4.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\af14420f331f99b6e783c6adde70c9ff.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\d65b9220d55b76c2a830a076c3ee0e61.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\dd9bee7ee2277006d61de7897f33fccc.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\覃总\\f77d9cbc2eab5af57994a40e2c7e4efc.jpg"
+    ],
+    "structure_files": [],
+    "electrical_files": [],
+    "landscape_files": [],
+    "plumbing_files": [],
+    "hvac_files": [],
+    "parsed_data": [
+      {
+        "filename": "0311覃总施工图.pdf",
+        "pdf_type": "cad",
+        "pages": 15,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [
+          {
+            "type": "客厅",
+            "found": true
+          },
+          {
+            "type": "厨房",
+            "found": true
+          },
+          {
+            "type": "卫生间",
+            "found": true
+          },
+          {
+            "type": "餐厅",
+            "found": true
+          }
+        ],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {
+          "values": [
+            580,
+            2875,
+            590,
+            6585,
+            45015,
+            1050,
+            765,
+            805,
+            13850,
+            3360,
+            4710,
+            1970,
+            10040,
+            4715,
+            860,
+            705,
+            4000,
+            10280,
+            570,
+            2495
+          ],
+          "max": 52246,
+          "min": 100
+        },
+        "raw_text": "580\n2875\n590\n6585\n450150 1050\n765\n805\n13850\n3360\n4710\n1970\n10040\n4715\n860\n705\n4000\n10280\n570\n2495\n575\n1890\n200\n2715\n200 1255\n605\n2365\n200\n13070\n原始结构图\n              项目编号\nPROJECT No.\n           图号\nSHEET No.\n比  例\nSCALE  \n日  期\nDATE  \n客  户\nDRAWN\n设 计 师\nDESIGNER\n设 计 总 监\nDESIGN  DIRECTOR\n审  核\nVERIFEID\n                图名\nDRAWING TITLE    \n                项目名称\nPROJECT TITLE    \n·本图纸的知识产权属于广州市回归线设计有限公司\n  施工部门须按现场实际尺寸进行施工;\n·所有标注尺寸以现场测量为准,\n  任何组织和个人不得模仿或抄袭；\n·\n            版本\nREVISIONS  \n合作设计\nCOOPERATIVE DESIGN\n动力\n校工\n电气\n电讯\n给排水\n暖通\n建筑\n结构\n         建设单位\nCLIENT\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\n1\n2\n3\n4\n5\n6\n1\n2\n3\n4\n5\n6\n           索引图\nKEY  PLAN\n第一版\n第二版\n第三版\n第四版\n第五版\n第六版\n·本设计直接对整体效果负责,\n  任何一方改动需通知设计师，同意后方可实施；\n·图纸之瑕疵施工班组须在施工前审图并提出，\n  否则须承担完全责任; \n              设计单位\nDESIGN FIRM  \n䛞㕆˖522466\u0003\u0003\nই⋉४⧟⨳ѝᗳ4ḻ423ᇔ\u0003\u0003\nTEL:16620126239\nRoom 423, Building 4, Nansha Global Center\n联系电话:16620126239\n广州市回归线设计有限公司\n设 计 助 理\nDESIGNER  ASSISTANT\nN\n原始结构图\n8栋1502\n玖龙湖\n广州市回归线设计有限公司\nOC\n ORIGINAL CIVIL FIGURE\n原始结构图\nSCALE:1/50\n比例: \n原始结构图\n1:50\n\n580\n2875\n590\n6585\n450150 1050\n765\n805\n13850\n3360\n4710\n1970\n10040\n4715\n860\n705\n4000\n10280\n570\n2495\n575\n1890\n200\n2715\n200 1255\n605\n2365\n200\n13070\n原始结构图\n2540\n1105\n600\n2400\n600\n200\n1800\n970\n135\n2815\n1000\n2500\n660\n350\n              项目编号\nPROJECT No.\n           图号\nSHEET No.\n比  例\nSCALE  \n日  期\nDATE  \n客  户\nDRAWN\n设 计 师\nDESIGNER\n设 计 总 监\nDESIGN  DIRECTOR\n审  核\nVERIFEID\n                图名\nDRAWING TITLE    \n                项目名称\nPROJECT TITLE    \n·本图纸的知识产权属于广州市回归线设计有限公司\n  施工部门须按现场实际尺寸进行施工;\n·所有标注尺寸以现场测量为准,\n  任何组织和个人不得模仿或抄袭；\n·\n            版本\nREVISIONS  \n合作设计\nCOOPERATIVE DESIGN\n动力\n校工\n电气\n电讯\n给排水\n暖通\n建筑\n结构\n         建设单位\nCLIENT\nA\nB\nC\nD\nE\nF\nG\nA\nB\nC\nD\nE\nF\nG\n1\n2\n3\n4\n5\n6\n1\n2\n3\n4\n5\n6\n           索引图\nKEY  PLAN\n第一版\n第二版\n第三版\n第四版\n第五版\n第六版\n·本设计直接对整体效果负责,\n  任何一方改动需通知设计师，同意后方可实施；\n·图纸之瑕疵施工班组须在施工前审图并提出，\n  否则须承担完全责任; \n              设计单位\nDESIGN FIRM  \n䛞㕆˖522466  \nই⋉४⧟⨳ѝᗳ4ḻ423ᇔ  \nTEL:16620126239\nRoom 423, Building 4, Nansha Global Center\n联系电话:16620126239\n广州市回归线设计有限公司\n设 计 助 理\nDESIGNER  ASSISTANT\nN\n拆除墙体图\n8栋1502\n玖龙湖\n广州市回归线设计有限公司\nOC\n ORIGI"
+      }
+    ],
+    "object_count": 0
+  },
+  {
+    "name": "黄总",
+    "type": "villa",
+    "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄总",
+    "cad_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄总\\2_黄哥别墅图2022-12-2.pdf",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄总\\黄哥别墅图地下室11.25-Model.pdf"
+    ],
+    "render_images": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄总\\4fee63d865ed7bb7e6b9c47739110864.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄总\\67d3f84d3ebed7952c73fc91dbd3be46.jpg",
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄总\\a9bb26297ac44c160b6fef9e06696e9d.jpg"
+    ],
+    "structure_files": [],
+    "electrical_files": [],
+    "landscape_files": [
+      "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄总\\观府壹号黄总方案.pdf"
+    ],
+    "plumbing_files": [],
+    "hvac_files": [],
+    "parsed_data": [
+      {
+        "filename": "2_黄哥别墅图2022-12-2.pdf",
+        "pdf_type": "cad",
+        "pages": 8,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {},
+        "raw_text": "\n\n\n\n\n\n\n"
+      },
+      {
+        "filename": "观府壹号黄总方案.pdf",
+        "pdf_type": "landscape",
+        "pages": 18,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [],
+        "structures": [],
+        "electrical": [],
+        "landscape": [
+          {
+            "type": "koi_pond",
+            "found": true
+          },
+          {
+            "type": "rockery",
+            "found": true
+          },
+          {
+            "type": "waterfall",
+            "found": true
+          },
+          {
+            "type": "bbq_area",
+            "found": true
+          },
+          {
+            "type": "feature_wall",
+            "found": true
+          }
+        ],
+        "dimensions": {
+          "values": [
+            2008,
+            350,
+            100,
+            2013,
+            2016,
+            2017,
+            2008,
+            350,
+            2013,
+            2016,
+            2017
+          ],
+          "max": 2017,
+          "min": 100
+        },
+        "raw_text": "观府壹号黄总别墅花园方案设计\n广州申美园林工程设计有限公司（贵阳分公司）\n\n认识我们 \n申美园林集团是具独立法人资格的专业园林景观建造公司，专门从事 园\n林景观规划设计、工程施工、绿化养护、苗木生产及园林配套产品经营 的\n企业，同时提供园林雕塑小品、运动设备水电安装及技术咨询服务。 \n自 2008 年公司成立以来，我们凭证”诚信”、”优质”、”高效”的 服\n务承诺，以专业、专注、服务至上的创业精神，在行业中赢得极佳的口 碑，\n也得到广大客户和各界人士的鼎力支持。我们拥有园林相关院校毕业 的设计\n团队及施工经验丰富的庞大工程综合队伍。公司现在已完成设计和 施工项目 \n350 个，工程面积 100 多万平方米。在此我们已建成具独立资质 的工程公\n司、一站式体验馆、园林产品销售、园艺管家服务等，以完善的配 套服务广\n大客户需求。 \n2013 年成立了海南申美园邦景观工程设计有限公司（海南分公司 ）、 海\n南水族馆 ，2016 年成立了佛山申美春意工程设计有限公司（佛山分公 司）\n、2017 年成立了广州申美园林工程设计有限公司（贵阳分公司）。 \n服务宗旨：用心为您服务，让每位客户享受最放心、贴心、安全、快 捷\n的服务，为客户打造一个完美的服务空间，您的十分满意是我们的追求 目\n标。 \n申美企训：”团结、互助、奋进、奉献”。 申美精\n神：企业是棵树，质量是肥沃的土壤。 \nabout us \nShen-mei landscape engineering design co, LTD is a furniture independent legaipersonality of  \nprofessionai landscape construction company , specializing in landscape planningand design ,  \nproject construction, virescence maintenance, nursery stock production and gardenproducts  \nbusiness, at the same time provide the botanical gatden sculpture, sports equipment,water and  \nelectricity installation and technical advisory services. \nSince the company was founded in 2008, we by “the good faith”,”high qualiy”,”efficient“  \nservice commitment , in a professional, fous ,service first entrepreneurial spirit, won the excellent  \nreputation in the indestry , also by cusomers and people from all walks of life support . We  have \nour own garden related well-known colleges and universities graduation design team and  rich \nconstruction exprerience of large project team , the company has completed the design  and con-\nstruction projects in more than 350 , more than engineering area of more than 60  square meters . \nHere we have bulit an independent qualified engineeting company , onestop  experience \nhall,garden products , garden butlre service , etc, to perfect services for customers  demand. \nTn 2013 founded the “beauty of hainan garden state landscape engineering design co , LTD.  ( \nhainan branch ) in hainan , hainan water slusters pavilion , was established in 2016 , foshan”  \nbeaut"
+      },
+      {
+        "filename": "黄哥别墅图地下室11.25-Model.pdf",
+        "pdf_type": "cad",
+        "pages": 1,
+        "walls": [],
+        "doors_windows": [],
+        "rooms": [],
+        "structures": [],
+        "electrical": [],
+        "landscape": [],
+        "dimensions": {},
+        "raw_text": "￿\u0003$XWRGHVN\u0003￿￿￿￿￿￿￿\n￿\u0003$XWRGHVN\u0003￿￿￿￿￿￿￿\n￿\u0003$XWRGHVN\u0003￿￿￿￿￿￿￿\n￿\u0003$XWRGHVN\u0003￿￿￿￿￿￿￿\n"
+      }
+    ],
+    "object_count": 5
+  },
+  {
+    "name": "产业园",
+    "type": "commercial",
+    "path": "C:\\Users\\Administrator\\.qclaw\\workspace\\projects\\building-physical-ai\\data\\raw\\产业园",
+    "cad_files": [],
+    "render_images": [],
+    "structure_files": [],
+    "electrical_files": [],
+    "landscape_files": [],
+    "plumbing_files": [],
+    "hvac_files": [],
+    "parsed_data": [],
+    "object_count": 0,
+    "notes": "产业园项目 - 含食堂PALACE室内设计、平面规划图CAD文件"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "cycle": 1,
+  "total_samples": 79,
+  "stats": {
+    "generated": 79,
+    "safe": 28,
+    "unsafe": 1
+  },
+  "model_path": "C:\\Users\\Administrator\\.qclaw\\workspace\\projects\\building-physical-ai\\src\\data\\flywheel\\vla_model.pt"
+}

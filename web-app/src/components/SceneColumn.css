@@ -1,0 +1,11 @@
+/* SceneColumn.css */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  padding: 3px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.info-label { color: var(--text-muted); }
+.info-value { color: var(--text-primary); font-weight: 500; }

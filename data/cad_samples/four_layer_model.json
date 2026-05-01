@@ -1,0 +1,298 @@
+{
+  "blocks": [
+    {
+      "id": "block_001",
+      "polygon_coords": [
+        [
+          5000.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          240.0
+        ],
+        [
+          5000.0,
+          240.0
+        ],
+        [
+          5000.0,
+          0.0
+        ]
+      ],
+      "area_m2": 1.2,
+      "centroid": [
+        2500.0,
+        120.0
+      ],
+      "wall_ids": [],
+      "adjacent_blocks": [
+        "block_002",
+        "block_003",
+        "block_004"
+      ]
+    },
+    {
+      "id": "block_002",
+      "polygon_coords": [
+        [
+          0.0,
+          240.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -100.0,
+          0.0
+        ],
+        [
+          -100.0,
+          6000.0
+        ],
+        [
+          0.0,
+          6000.0
+        ],
+        [
+          0.0,
+          5760.0
+        ],
+        [
+          0.0,
+          240.0
+        ]
+      ],
+      "area_m2": 0.6,
+      "centroid": [
+        -50.0,
+        3000.0
+      ],
+      "wall_ids": [],
+      "adjacent_blocks": [
+        "block_001",
+        "block_003",
+        "block_005"
+      ]
+    },
+    {
+      "id": "block_003",
+      "polygon_coords": [
+        [
+          5000.0,
+          240.0
+        ],
+        [
+          0.0,
+          240.0
+        ],
+        [
+          0.0,
+          5760.0
+        ],
+        [
+          5000.0,
+          5760.0
+        ],
+        [
+          5000.0,
+          240.0
+        ]
+      ],
+      "area_m2": 27.6,
+      "centroid": [
+        2500.0,
+        3000.0
+      ],
+      "wall_ids": [],
+      "adjacent_blocks": [
+        "block_001",
+        "block_002",
+        "block_004",
+        "block_005"
+      ]
+    },
+    {
+      "id": "block_004",
+      "polygon_coords": [
+        [
+          5000.0,
+          0.0
+        ],
+        [
+          5000.0,
+          240.0
+        ],
+        [
+          5000.0,
+          5760.0
+        ],
+        [
+          5000.0,
+          6000.0
+        ],
+        [
+          5150.0,
+          6000.0
+        ],
+        [
+          5150.0,
+          0.0
+        ],
+        [
+          5000.0,
+          0.0
+        ]
+      ],
+      "area_m2": 0.9,
+      "centroid": [
+        5075.0,
+        3000.0
+      ],
+      "wall_ids": [],
+      "adjacent_blocks": [
+        "block_001",
+        "block_003",
+        "block_005"
+      ]
+    },
+    {
+      "id": "block_005",
+      "polygon_coords": [
+        [
+          0.0,
+          6000.0
+        ],
+        [
+          5000.0,
+          6000.0
+        ],
+        [
+          5000.0,
+          5760.0
+        ],
+        [
+          0.0,
+          5760.0
+        ],
+        [
+          0.0,
+          6000.0
+        ]
+      ],
+      "area_m2": 1.2,
+      "centroid": [
+        2500.0,
+        5880.0
+      ],
+      "wall_ids": [],
+      "adjacent_blocks": [
+        "block_002",
+        "block_003",
+        "block_004"
+      ]
+    }
+  ],
+  "road_network": {
+    "nodes": [
+      {
+        "id": "door_001",
+        "position": [
+          2450,
+          120
+        ],
+        "node_type": "door",
+        "width_mm": 1.0,
+        "connected_blocks": [
+          "block_001"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_door_001_block_001",
+        "from_node": "door_001",
+        "to_node": "block_center_block_001",
+        "distance_mm": 1000,
+        "path_type": "direct"
+      }
+    ]
+  },
+  "functions": [
+    {
+      "block_id": "block_001",
+      "function_type": "unknown",
+      "confidence": 0.0,
+      "labels": []
+    },
+    {
+      "block_id": "block_002",
+      "function_type": "unknown",
+      "confidence": 0.0,
+      "labels": []
+    },
+    {
+      "block_id": "block_003",
+      "function_type": "living_room",
+      "confidence": 0.3,
+      "labels": [
+        "M1 900x2100",
+        "电气管线",
+        "水管"
+      ]
+    },
+    {
+      "block_id": "block_004",
+      "function_type": "unknown",
+      "confidence": 0.0,
+      "labels": []
+    },
+    {
+      "block_id": "block_005",
+      "function_type": "unknown",
+      "confidence": 0.0,
+      "labels": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj_001",
+      "object_type": "door",
+      "position": [
+        2450.0,
+        440.0
+      ],
+      "size": [
+        900.0,
+        2100.0
+      ],
+      "rotation_deg": 0.0,
+      "block_id": "block_003"
+    },
+    {
+      "id": "obj_002",
+      "object_type": "window",
+      "position": [
+        2100.0,
+        6200.0
+      ],
+      "size": [
+        1200.0,
+        1500.0
+      ],
+      "rotation_deg": 0.0,
+      "block_id": null
+    }
+  ],
+  "statistics": {
+    "total_blocks": 5,
+    "total_area_m2": 31.5,
+    "total_road_nodes": 1,
+    "total_objects": 2
+  }
+}

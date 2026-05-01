@@ -1,0 +1,325 @@
+{
+  "source": "[项目名]建筑施工图2024",
+  "data_type": "cad_vr_knowledge",
+  "vr_data": {
+    "data_source": "[项目名]27套VR",
+    "platforms": {
+      "justeasy": 23,
+      "kujiale": 2,
+      "other": 0
+    },
+    "links": [
+      {
+        "url": "https://vr.justeasy.cn/view/1597l51921h22936-1598173726.html",
+        "original": "https://vr.justeasy.cn/view/1597l51921h22936-1598173726.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "1597l51921h22936",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/f151c981oi6558s3-1598165617.html",
+        "original": "https://vr.justeasy.cn/view/f151c981oi6558s3-1598165617.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "f151c981oi6558s3",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/15997mx5r8dh1595-1758796760.html",
+        "original": "https://vr.justeasy.cn/view/15997mx5r8dh1595-1758796760.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "15997mx5r8dh1595",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/1597x3dn161880k9-1597318839.html",
+        "original": "https://vr.justeasy.cn/view/1597x3dn161880k9-1597318839.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "1597x3dn161880k9",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/16597g0f3k211964-1597321219.html",
+        "original": "https://vr.justeasy.cn/view/16597g0f3k211964-1597321219.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "16597g0f3k211964",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/159004me9613rr83-1648102614.html",
+        "original": "https://vr.justeasy.cn/view/159004me9613rr83-1648102614.html?from=timeline",
+        "platform": "justeasy",
+        "vr_id": "159004me9613rr83",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/195z9q273409bn33-1592735138.html",
+        "original": "https://vr.justeasy.cn/view/195z9q273409bn33-1592735138.html?from=timeline",
+        "platform": "justeasy",
+        "vr_id": "195z9q273409bn33",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/h159j1k6a07g8762-1591078832.html",
+        "original": "https://vr.justeasy.cn/view/h159j1k6a07g8762-1591078832.html?from=timeline",
+        "platform": "justeasy",
+        "vr_id": "h159j1k6a07g8762",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/1591776d00es5jo1-1591776065.html",
+        "original": "https://vr.justeasy.cn/view/1591776d00es5jo1-1591776065.html?from=timeline",
+        "platform": "justeasy",
+        "vr_id": "1591776d00es5jo1",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/715930v461u89le4-1590894957.html",
+        "original": "https://vr.justeasy.cn/view/715930v461u89le4-1590894957.html?from=timeline",
+        "platform": "justeasy",
+        "vr_id": "715930v461u89le4",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/15jw939j30h49213-1593930611.html",
+        "original": "https://vr.justeasy.cn/view/15jw939j30h49213-1593930611.html?from=timeline",
+        "platform": "justeasy",
+        "vr_id": "15jw939j30h49213",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/g159489of37lv7c7-1598424175.html",
+        "original": "https://vr.justeasy.cn/view/g159489of37lv7c7-1598424175.html?from=singlemessage&amp;isappinstalled=0",
+        "platform": "justeasy",
+        "vr_id": "g159489of37lv7c7",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/d1b592756s627589-1595662895.html",
+        "original": "https://vr.justeasy.cn/view/d1b592756s627589-1595662895.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "d1b592756s627589",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://pano.kujiale.com/cloud/design/3FO4A7HJGTW4/show?friendid=3FO4JU3VACS7&from=singlemessage&fromqrcode=true",
+        "original": "https://pano.kujiale.com/cloud/design/3FO4A7HJGTW4/show?friendid=3FO4JU3VACS7&from=singlemessage&fromqrcode=true",
+        "platform": "kujiale",
+        "vr_id": "3FO4A7HJGTW4",
+        "type": "kujiale",
+        "description": "酷家乐VR"
+      },
+      {
+        "url": "https://pano.kujiale.com/cloud/design/3FO4A6I351NQ/show?friendid=3FO4JU3VACS7&from=timeline&fromqrcode=true",
+        "original": "https://pano.kujiale.com/cloud/design/3FO4A6I351NQ/show?friendid=3FO4JU3VACS7&from=timeline&fromqrcode=true",
+        "platform": "kujiale",
+        "vr_id": "3FO4A6I351NQ",
+        "type": "kujiale",
+        "description": "酷家乐VR"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/i15938qd2m71j038-1593827209.html",
+        "original": "https://vr.justeasy.cn/view/i15938qd2m71j038-1593827209.html?from=groupmessage",
+        "platform": "justeasy",
+        "vr_id": "i15938qd2m71j038",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/142579r4432v3r33-1594432400.html",
+        "original": "https://vr.justeasy.cn/view/142579r4432v3r33-1594432400.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "142579r4432v3r33",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/1w5940h9913dph52-1594099266.html",
+        "original": "https://vr.justeasy.cn/view/1w5940h9913dph52-1594099266.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "1w5940h9913dph52",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/7fr15992pj465209-1592465250.html",
+        "original": "https://vr.justeasy.cn/view/7fr15992pj465209-1592465250.html?from=groupmessage",
+        "platform": "justeasy",
+        "vr_id": "7fr15992pj465209",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/31595z137y738t04-1591773928.html",
+        "original": "https://vr.justeasy.cn/view/31595z137y738t04-1591773928.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "31595z137y738t04",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/1h5914w325906659-1591432639.html",
+        "original": "https://vr.justeasy.cn/view/1h5914w325906659-1591432639.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "1h5914w325906659",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/1j5cm9l071pu4637-1590714833.html",
+        "original": "https://vr.justeasy.cn/view/1j5cm9l071pu4637-1590714833.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "1j5cm9l071pu4637",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/34f9eaf5c82dc02b-1582106132.html",
+        "original": "https://vr.justeasy.cn/view/34f9eaf5c82dc02b-1582106132.html?from=singlemessage",
+        "platform": "justeasy",
+        "vr_id": "34f9eaf5c82dc02b",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/ed46849adb730310-1576986778.html",
+        "original": "https://vr.justeasy.cn/view/ed46849adb730310-1576986778.html?from=groupmessage",
+        "platform": "justeasy",
+        "vr_id": "ed46849adb730310",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      },
+      {
+        "url": "https://vr.justeasy.cn/view/178926d6c74ea2bf-1572249123.html",
+        "original": "https://vr.justeasy.cn/view/178926d6c74ea2bf-1572249123.html?from=groupmessage",
+        "platform": "justeasy",
+        "vr_id": "178926d6c74ea2bf",
+        "type": "720yun_similar",
+        "description": "Justeasy VR全景"
+      }
+    ],
+    "scene_types": []
+  },
+  "cad_data": {
+    "total_files": 14,
+    "parsed": 0,
+    "skipped": 1,
+    "errors": 13,
+    "total_entities": 0,
+    "files": [
+      {
+        "file": "1#和11#楼建筑施工图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 6.79,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\1#和11#楼建筑施工图2024.06.26.dwg' is not a "
+      },
+      {
+        "file": "12#楼建筑施工图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 5.35,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\12#楼建筑施工图2024.06.26.dwg' is not a DXF"
+      },
+      {
+        "file": "2#楼建筑施工图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 10.75,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\2#楼建筑施工图2024.06.26.dwg' is not a DXF "
+      },
+      {
+        "file": "3#、5#楼建筑施工图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 7.82,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\3#、5#楼建筑施工图2024.06.26.dwg' is not a D"
+      },
+      {
+        "file": "4#楼建筑施工图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 9.7,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\4#楼建筑施工图2024.06.26.dwg' is not a DXF "
+      },
+      {
+        "file": "6#楼建筑施工图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 9.38,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\6#楼建筑施工图2024.06.26.dwg' is not a DXF "
+      },
+      {
+        "file": "7#楼建筑施工图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 8.35,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\7#楼建筑施工图2024.06.26.dwg' is not a DXF "
+      },
+      {
+        "file": "8#、10#楼建筑施工图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 6.62,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\8#、10#楼建筑施工图2024.06.26.dwg' is not a "
+      },
+      {
+        "file": "9#楼建筑施工图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 6.85,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\9#楼建筑施工图2024.06.26.dwg' is not a DXF "
+      },
+      {
+        "file": "地下车库设计说明2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 3.4,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\地下车库设计说明2024.06.26.dwg' is not a DXF "
+      },
+      {
+        "file": "总平面图及竖向布置图2024.06.26.dwg",
+        "version": "AC1018",
+        "size_mb": 3.19,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\总平面图及竖向布置图2024.06.26.dwg' is not a DX"
+      },
+      {
+        "file": "消防扑救示意图2024.06.26.dwg",
+        "version": "AC1027",
+        "size_mb": 20.96,
+        "status": "skip_version"
+      },
+      {
+        "file": "[项目名]地库RF.2024.06.26-1.dwg",
+        "version": "AC1018",
+        "size_mb": 16.85,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\锦钰城地库RF.2024.06.26-1.dwg' is not a DX"
+      },
+      {
+        "file": "[项目名]地库RF.2024.06.26-1_t7.dwg",
+        "version": "AC1018",
+        "size_mb": 9.41,
+        "status": "error",
+        "error": "File 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\锦钰城地库RF.2024.06.26-1_t7.dwg' is not a"
+      }
+    ]
+  },
+  "review_data": {
+    "error": "file 'C:\\Users\\Administrator\\Desktop\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\建筑专业审查意见回复2024.6.17.doc' is not a Word file, content type is 'application/vnd.openxmlformats-officedocument.themeManager+xml'"
+  },
+  "privacy_cleaned": true
+}

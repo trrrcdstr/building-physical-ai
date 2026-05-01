@@ -1,0 +1,408 @@
+﻿{
+  "brand": "IISFREE 爱瑟菲",
+  "company": "某照明公司",
+  "location": "Guangzhou, GD, P.R. CHINA 510663",
+  "website": "www.iisfree.com",
+  "certification": "ISO9001:2015",
+  "description": "致力于开发无线照明控制，结合最新技术与灯具设计，带来自行创建各种不同的照明场景，并自动调整照射位置、光束角和色温",
+  "categories": ["筒灯 DownLight", "吊灯 Pendant Light", "轨道灯 Track Light", "吸顶灯 Ceiling Light"],
+  "lighting_control": ["Non-dim 定电流", "可控硅 Triac", "0-10V", "DALI"],
+  "cct_options": ["3000K (暖白光)", "4000K (中性白光)", "5700K (日光白)"],
+  "cri_options": ["CRI 80 (标准)", "CRI 90 (高显指可选)"],
+  "material_options": ["铝 Aluminum", "PC+铝", "铝+亚克力 PMMA"],
+
+  "product_lines": [
+    {
+      "series": "磁吸灯系列",
+      "series_en": "Magnet System Series",
+      "voltage": "48V DC (低压磁吸轨道)",
+      "description": "利用线性排列方式将光隐形，空间中获得场景所需的光却不见灯。创新设计允许灯具在磁吸轨道上自由移动及调整照射角度。",
+      "products": [
+        {
+          "id": "AS48-ML",
+          "name": "磁吸线性灯系列",
+          "type": "Linear Magnet Light",
+          "models": [
+            {
+              "model": "AS48-1-ML",
+              "name": "单头线性灯",
+              "power": "11W",
+              "lumen": "500lm",
+              "beam_angle": "泛光 Flood",
+              "dimensions_note": "线性排列"
+            },
+            {
+              "model": "AS48-2-ML",
+              "name": "双头线性灯",
+              "power": "18W",
+              "lumen": "800lm",
+              "beam_angle": "泛光 Flood",
+              "dimensions_note": "线性排列"
+            },
+            {
+              "model": "AS48-3-ML",
+              "name": "三头线性灯",
+              "power": "20W",
+              "lumen": "1000lm",
+              "beam_angle": "24度",
+              "dimensions_note": "线性排列"
+            }
+          ]
+        },
+        {
+          "id": "AS48-MG",
+          "name": "磁吸导轨灯系列",
+          "type": "Guide Rail Magnet Light",
+          "models": [
+            {
+              "model": "AS48-1-MG",
+              "name": "单头导轨灯",
+              "power": "9W",
+              "lumen": "450lm",
+              "beam_angles": ["7度", "15度", "25度", "38度", "10x35度(洗墙)", "蜂巢网"],
+              "front_colors": ["黑色 Black", "铬色 Chrome", "金色 Gold", "黑铬 Black Chrome", "玫瑰金 Rose Golden"]
+            },
+            {
+              "model": "AS48-2-MG",
+              "name": "双头导轨灯",
+              "power": "10W",
+              "lumen": "600lm",
+              "beam_angles": ["15度", "24度", "36度"]
+            },
+            {
+              "model": "AS48-3-MG",
+              "name": "三头导轨灯（可调角）",
+              "power": "10W",
+              "lumen": "400lm",
+              "beam_angles": ["18-45度可调"]
+            },
+            {
+              "model": "AS48-4-MG",
+              "name": "四头导轨灯",
+              "power": "9W x4",
+              "lumen": "450lm x4",
+              "beam_angles": ["15度", "24度", "36度"]
+            }
+          ]
+        },
+        {
+          "id": "AS48-MC",
+          "name": "磁吸吊灯系列",
+          "type": "Pendant Magnet Light",
+          "models": [
+            {
+              "model": "AS48-1-MC",
+              "power": "3W",
+              "lumen": "150lm",
+              "beam_angle": "120度",
+              "material": "铝"
+            },
+            {
+              "model": "AS48-2-MC",
+              "power": "3W",
+              "lumen": "170lm",
+              "beam_angle": "泛光 Flood",
+              "material": "铝+亚克力 PMMA"
+            },
+            {
+              "model": "AS48-3-MC",
+              "power": "10W",
+              "lumen": "600lm",
+              "beam_angles": ["15度", "24度", "36度"]
+            },
+            {
+              "model": "AS48-4-MC",
+              "power": "8W",
+              "lumen": "500lm",
+              "beam_angles": ["15度", "24度", "36度"]
+            },
+            {
+              "model": "AS48-5-MC",
+              "power": "7W",
+              "lumen": "380lm",
+              "beam_angles": ["15度", "24度", "36度"]
+            },
+            {
+              "model": "AS48-6-MC",
+              "power": "7W",
+              "lumen": "400lm",
+              "beam_angle": "24度"
+            },
+            {
+              "model": "AS48-7-MC",
+              "power": "15W",
+              "lumen": "950lm",
+              "beam_angles": ["17-45度可调"]
+            }
+          ]
+        }
+      ],
+      "track_types": [
+        "悬吊式磁吸轨道条 (Pendant Track)",
+        "嵌入式磁吸轨道条 (Recessed Track)",
+        "表面式磁吸轨道条 (Surface Track)"
+      ],
+      "connectors": [
+        "I型连接器 (I-Connector)",
+        "L型连接器 (L-Connector)",
+        "多角度连接器 (Multi-angle Connector)"
+      ]
+    },
+
+    {
+      "series": "筒灯系列",
+      "series_en": "Downlight Series",
+      "voltage": "220-240V 50Hz (市电)",
+      "categories": [
+        {
+          "category": "防眩系列",
+          "category_en": "Anti-Glare Downlight",
+          "description": "深防眩反射杯设计，4种反射杯颜色可选，适配各种装修风格",
+          "colors": ["黑铬 Black Chrome", "铬 Chrome", "玫瑰金 Rose Golden", "白灰色 White & Grey"],
+          "products": [
+            {
+              "model": "AD55",
+              "power": "6W",
+              "lumen": "400lm",
+              "beam_angle": "40度",
+              "cutout": "55mm",
+              "depth": "35mm"
+            },
+            {
+              "model": "AD55-1",
+              "power": "10W",
+              "lumen": "530lm",
+              "beam_angle": "40度",
+              "cutout": "55mm"
+            },
+            {
+              "model": "AD55-2",
+              "power": "10W",
+              "lumen": "1000lm",
+              "beam_angle": "40度",
+              "cutout": "55mm"
+            },
+            {
+              "model": "AD56",
+              "power": "3W",
+              "lumen": "160lm",
+              "beam_angle": "4度",
+              "cutout": "50mm"
+            },
+            {
+              "model": "AD67",
+              "power": "9W",
+              "lumen": "670lm",
+              "beam_angles": ["15度", "24度", "36度"],
+              "cutout": "67mm"
+            },
+            {
+              "model": "AD67-1",
+              "power": "9W",
+              "lumen": "650lm",
+              "beam_angles": ["15度", "24度", "36度"],
+              "cutout": "67mm"
+            },
+            {
+              "model": "AD68",
+              "power": "11W",
+              "lumen": "950lm",
+              "beam_angles": ["24度", "36度"],
+              "cutout": "68mm"
+            },
+            {
+              "model": "AD68-1",
+              "power": "15W",
+              "lumen": "1400lm",
+              "beam_angles": ["15度", "36度"],
+              "cutout": "68mm"
+            },
+            {
+              "model": "AD70",
+              "power": "11W",
+              "lumen": "1000lm",
+              "beam_angles": ["15度", "24度", "36度"],
+              "cutout": "70mm"
+            },
+            {
+              "model": "AD70-1",
+              "power": "15W",
+              "lumen": "1300lm",
+              "beam_angles": ["15度", "24度", "36度"],
+              "cutout": "70mm"
+            }
+          ]
+        },
+        {
+          "category": "可调角度系列",
+          "category_en": "Adjust Angle Downlight",
+          "description": "可调角度设计，灵活调整照射方向",
+          "products": [
+            {
+              "model": "AD35-3",
+              "power": "10W",
+              "lumen": "750lm",
+              "beam_angles": ["24度", "36度"],
+              "module_options": ["B9-1模组", "B9-2模组", "B9模组"]
+            },
+            {
+              "model": "AD102-1",
+              "power": "7W",
+              "lumen": "300lm",
+              "beam_angles": ["15度", "24度", "38度"],
+              "voltage": "100-240V"
+            },
+            {
+              "model": "AD102-2",
+              "power": "12W",
+              "lumen": "850lm",
+              "beam_angles": ["15度", "24度", "38度"],
+              "voltage": "100-240V"
+            },
+            {
+              "model": "AD104-1",
+              "power": "7W",
+              "lumen": "400lm",
+              "beam_angles": ["15度", "24度", "38度"],
+              "voltage": "100-240V"
+            },
+            {
+              "model": "AD104-2",
+              "power": "12W",
+              "lumen": "850lm",
+              "beam_angles": ["15度", "24度", "38度"],
+              "voltage": "100-240V"
+            }
+          ]
+        },
+        {
+          "category": "盒装系列",
+          "category_en": "Box Downlight",
+          "description": "两款不同瓦数散热器，可自行选配不同角度光学配件",
+          "products": [
+            {
+              "model": "AD11-5-A",
+              "power": "13W",
+              "lumen": "950lm",
+              "beam_angles": ["24度", "36度"],
+              "material": "PC+铝"
+            },
+            {
+              "model": "AD11-6-A",
+              "power": "9W x2",
+              "lumen": "1400lm",
+              "beam_angles": ["24度", "36度"],
+              "material": "PC+铝",
+              "dimensions": "100x200mm"
+            },
+            {
+              "model": "AD11-7-A",
+              "power": "13W x3",
+              "lumen": "2700lm",
+              "beam_angles": ["24度", "36度"],
+              "material": "PC+铝",
+              "dimensions": "120x220mm"
+            }
+          ]
+        },
+        {
+          "category": "洗墙筒灯系列",
+          "category_en": "Wall Wash Downlight",
+          "description": "超均匀出光分布，实现低明暗对比的照明体验",
+          "products": [
+            {
+              "model": "AD75",
+              "power": "36W",
+              "lumen": "3100lm",
+              "beam_angle": "24度(洗墙)",
+              "material": "铝"
+            },
+            {
+              "model": "AD75-1",
+              "power": "36W",
+              "lumen": "2950lm",
+              "beam_angle": "40度(洗墙)",
+              "material": "铝"
+            }
+          ]
+        },
+        {
+          "category": "抽拉式系列",
+          "category_en": "Pull-Out Downlight",
+          "description": "灯体为抽拉式，可视场景需求摆设照射角度，灯具模组可透过延伸滤片角度变化不同光形角度，无需工具即可改变照明角度",
+          "products": [
+            {
+              "model": "AD41-1-B",
+              "power": "10W",
+              "lumen": "500lm",
+              "beam_angle": "7度基础",
+              "filter_angles": ["15度", "25度", "38度", "10x35度", "蜂网片"],
+              "front_colors": ["黑色 Black", "铬色 Chrome", "金色 Gold", "黑铬 Black Chrome", "玫瑰金 Rose Golden"],
+              "install_type": "嵌入式/吸顶嵌入式"
+            },
+            {
+              "model": "AD41-2-B",
+              "power": "10W x2",
+              "lumen": "500lm x2",
+              "beam_angle": "7度基础",
+              "filter_angles": ["15度", "25度", "38度", "10x35度", "蜂网片"]
+            },
+            {
+              "model": "AD41-3-B",
+              "power": "10W x3",
+              "lumen": "500lm x3",
+              "beam_angle": "7度基础",
+              "filter_angles": ["15度", "25度", "38度", "10x35度", "蜂网片"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "illuminance_table": {
+    "description": "照度参考表 (H=安装高度m, E=照度lux, S=覆盖面积sq.m)",
+    "samples": [
+      {
+        "model": "AS48-1-ML",
+        "power": "11W",
+        "beam": "泛光",
+        "data": [
+          {"H": 1, "E": 220, "S": 3.6},
+          {"H": 2, "E": 55, "S": 14.6},
+          {"H": 3, "E": 24, "S": 32},
+          {"H": 4, "E": 13, "S": 58},
+          {"H": 5, "E": 8, "S": 91}
+        ]
+      },
+      {
+        "model": "AS48-1-MG",
+        "power": "9W",
+        "beam": "7度",
+        "data": [
+          {"H": 1, "E": 9599, "S": 0.0},
+          {"H": 2, "E": 2399, "S": 0.1},
+          {"H": 3, "E": 1066, "S": 0.1},
+          {"H": 4, "E": 599, "S": 0.3},
+          {"H": 5, "E": 383, "S": 0.4}
+        ]
+      }
+    ]
+  },
+
+  "control_protocols": {
+    "Non-dim": "定电流，不支持调光",
+    "Triac": "可控硅调光 (TRIAC)",
+    "0-10V": "0-10V模拟信号调光",
+    "DALI": "数字可寻址照明接口 (数字调光协议)"
+  },
+
+  "scene_applications": {
+    "防眩系列": ["酒店大堂", "会议室", "客厅", "卧室"],
+    "可调角度系列": ["美术馆", "艺廊", "店铺", "博物馆"],
+    "洗墙筒灯": ["墙面照明", "艺术品照明", "展示柜"],
+    "抽拉式": ["餐饮空间", "零售展示", "可变照明场景"],
+    "线性磁吸灯": ["现代简约家居", "商业展示", "办公空间"]
+  }
+}
+

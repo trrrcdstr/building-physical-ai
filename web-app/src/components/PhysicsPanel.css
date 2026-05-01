@@ -1,0 +1,596 @@
+/* PhysicsPanel.css — 皮·骨·肉三栏布局样式 */
+
+/* ── 物理面板 ───────────────────────────── */
+.physics-panel {}
+
+/* ── 场景状态栏 ─────────────────────────── */
+.physics-scene-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 11px;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.physics-scene-sep {
+  opacity: 0.3;
+}
+.physics-obj-active {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+.physics-obj-empty {
+  color: var(--text-muted);
+}
+
+/* ── 三栏容器 + fade-in 动画 ────────────── */
+.physics-three-cols {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr;
+  gap: 0;
+  flex: 1;
+  min-height: 0;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.physics-three-cols.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── 单栏通用 ───────────────────────────── */
+.physics-col {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 8px;
+  gap: 8px;
+  overflow-y: auto;
+  min-height: 180px;
+}
+.physics-col:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* 三栏宽度：皮窄、骨中、肉宽 */
+.skin-col {
+  grid-column: 1;
+  min-width: 80px;
+  max-width: 90px;
+}
+.bone-col {
+  grid-column: 2;
+}
+.meat-col {
+  grid-column: 3;
+}
+
+.physics-col-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.physics-col-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* ── 🎨 皮栏 ─────────────────────────────── */
+.skin-thumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.skin-thumb-placeholder {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.skin-thumb-title {
+  font-size: 9px;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.3;
+  max-width: 70px;
+  word-break: break-all;
+}
+.skin-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.skin-meta-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.skin-meta-label {
+  font-size: 9px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.skin-meta-value {
+  font-size: 10px;
+  color: var(--text-primary);
+  word-break: break-all;
+}
+.skin-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 4px;
+}
+.physics-tag {
+  font-size: 9px;
+  padding: 1px 5px;
+  border-radius: 10px;
+  background: rgba(0, 212, 255, 0.12);
+  color: var(--accent-cyan);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+/* 场景统计 */
+.skin-scene-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.skin-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 4px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 6px;
+}
+.skin-stat-value {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accent-cyan);
+}
+.skin-stat-label {
+  font-size: 9px;
+  color: var(--text-muted);
+}
+.skin-hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  font-size: 9px;
+  color: var(--text-muted);
+  margin-top: auto;
+}
+
+/* ── 🦴 骨栏 ─────────────────────────────── */
+.bone-struct-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.bone-wall-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+.bone-wall-badge.bearing {
+  background: rgba(248, 113, 113, 0.15);
+  color: #f87171;
+  border: 1px solid rgba(248, 113, 113, 0.3);
+}
+.bone-wall-badge.non-bearing {
+  background: rgba(52, 211, 153, 0.1);
+  color: var(--accent-green);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+}
+.bone-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+.bone-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+.bone-value {
+  font-size: 10px;
+  color: var(--text-primary);
+  text-align: right;
+  word-break: break-all;
+}
+.bone-empty, .bone-no-cad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 10px;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 12px 4px;
+  opacity: 0.7;
+}
+.bone-no-cad {
+  margin-top: 4px;
+  color: var(--accent-yellow);
+  opacity: 1;
+}
+
+/* ── 🥩 肉栏 ─────────────────────────────── */
+.meat-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.meat-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.meat-section-title {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.meat-params {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.meat-param {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font-size: 10px;
+}
+.meat-param-label {
+  color: var(--text-muted);
+  flex-shrink: 0;
+  min-width: 60px;
+}
+.meat-param-value {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.meat-param-value.danger {
+  color: #f87171;
+}
+.meat-param-unit {
+  font-size: 9px;
+  color: var(--text-muted);
+}
+.meat-rule {
+  font-size: 10px;
+  color: #fbbf24;
+  padding: 2px 0;
+  line-height: 1.4;
+}
+.meat-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+.meat-tool {
+  font-size: 9px;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+.meat-tool.safe {
+  background: rgba(52, 211, 153, 0.12);
+  color: var(--accent-green);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+}
+.meat-tool.prohibited {
+  background: rgba(248, 113, 113, 0.12);
+  color: #f87171;
+  border: 1px solid rgba(248, 113, 113, 0.2);
+}
+.meat-warn {
+  font-size: 9px;
+  color: #f87171;
+  margin-top: 3px;
+  line-height: 1.4;
+}
+
+/* ── 钻孔安全性徽章 ─────────────────────────────── */
+.drill-safety-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.drill-safety-badge.low {
+  background: #1a5c2a;
+  color: #4ade80;
+}
+.drill-safety-badge.medium {
+  background: #5c3a1a;
+  color: #fbbf24;
+}
+.drill-safety-badge.high {
+  background: #5c1a1a;
+  color: #f87171;
+}
+
+.meat-drill-safety {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* ── 原有兼容样式（保留） ───────────────── */
+.physics-panel .panel-body {
+  padding: 0;
+}
+
+/* 折叠卡片（兼容旧代码） */
+.fold-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.fold-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+  user-select: none;
+}
+.fold-card-header:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+.fold-card-icon {
+  font-size: 14px;
+}
+.fold-card-title {
+  flex: 1;
+}
+.fold-card-badge {
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  background: rgba(0, 212, 255, 0.12);
+  color: var(--accent-cyan);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  font-weight: 500;
+}
+.fold-card-body {
+  padding: 8px 10px;
+}
+
+/* 空状态 */
+.physics-empty-hint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 24px 16px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+.physics-empty-icon {
+  font-size: 28px;
+  opacity: 0.3;
+  margin-bottom: 4px;
+}
+
+/* 墙体分析头部 */
+.wall-analysis-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.wall-analysis-header[data-bearing="true"] {
+  background: rgba(248, 113, 113, 0.12);
+  border: 1px solid rgba(248, 113, 113, 0.3);
+}
+.wall-analysis-header[data-bearing="false"] {
+  background: rgba(52, 211, 153, 0.08);
+  border: 1px solid rgba(52, 211, 153, 0.25);
+}
+.wall-analysis-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* 材质安全标签 */
+.material-safety-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+.safety-tag {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.safety-tag.safe {
+  background: rgba(52, 211, 153, 0.12);
+  color: var(--accent-green);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+}
+.safety-tag.caution {
+  background: rgba(251, 191, 36, 0.12);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.2);
+}
+.safety-tag.danger {
+  background: rgba(248, 113, 113, 0.12);
+  color: #f87171;
+  border: 1px solid rgba(248, 113, 113, 0.2);
+}
+
+/* 物理参数网格 */
+.phys-param-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.phys-param-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 6px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  gap: 2px;
+}
+.phys-param-value {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1;
+}
+.phys-param-unit {
+  font-size: 10px;
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+.phys-param-label {
+  font-size: 9px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* 管线透视按钮 */
+.pipe-toggle-btn {
+  width: 100%;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+  margin-top: 8px;
+}
+.pipe-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+.pipe-toggle-btn.active {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: rgba(239, 68, 68, 0.4);
+  color: #f87171;
+}
+
+/* ObjectPropertyPopup 悬浮弹窗 */
+.object-popup {
+  position: fixed;
+  z-index: 1000;
+  pointer-events: none;
+  background: rgba(15, 17, 28, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 212, 255, 0.25);
+  border-radius: 10px;
+  padding: 8px 12px;
+  min-width: 140px;
+  max-width: 220px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  transition: opacity 150ms ease, transform 150ms ease;
+  animation: popup-appear 150ms ease forwards;
+}
+@keyframes popup-appear {
+  from { opacity: 0; transform: translateY(4px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.object-popup.fade-out {
+  animation: popup-disappear 300ms ease forwards;
+}
+@keyframes popup-disappear {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to   { opacity: 0; transform: translateY(4px) scale(0.97); }
+}
+.object-popup-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.object-popup-icon {
+  font-size: 16px;
+}
+.object-popup-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.object-popup-type {
+  font-size: 9px;
+  color: var(--accent-cyan);
+  margin-left: auto;
+}
+.object-popup-attrs {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.object-popup-attr {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  color: var(--text-muted);
+}
+.object-popup-attr-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.dot-danger { background: #f87171; }
+.dot-warning { background: #fbbf24; }
+.dot-safe { background: var(--accent-green); }
+.dot-info { background: var(--accent-cyan); }
+.object-popup-attr-value {
+  color: var(--text-primary);
+  font-weight: 500;
+}

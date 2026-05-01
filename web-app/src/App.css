@@ -1,0 +1,660 @@
+/* ══════════════════════════════════════════════════════════
+   Building Physical AI - 世界模型界面 v2.0
+   三栏叙事流：感知 → 分析 → 执行
+══════════════════════════════════════════════════════════ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { overflow: hidden; background: #060612; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+
+/* ── 全局颜色系统 ─────────────────────────── */
+:root {
+  --bg-dark:      #060612;
+  --bg-panel:     rgba(8, 10, 24, 0.92);
+  --bg-card:      rgba(255, 255, 255, 0.04);
+  --bg-hover:     rgba(255, 255, 255, 0.07);
+  --border:       rgba(255, 255, 255, 0.08);
+  --border-cyan:  rgba(34, 211, 238, 0.35);
+  --accent-cyan:  #22d3ee;
+  --accent-blue:  #818cf8;
+  --accent-green: #34d399;
+  --accent-red:   #f87171;
+  --accent-yellow:#fbbf24;
+  --text-primary: #f1f5f9;
+  --text-muted:   #64748b;
+  --text-dim:     #334155;
+  --radius:       10px;
+  --panel-gap:    8px;
+}
+
+.app-container {
+  width: 100vw; height: 100vh;
+  position: relative; overflow: hidden;
+  display: flex; flex-direction: column;
+}
+
+canvas { display: block; flex: 1; }
+
+/* ══════════════════════════════════════════
+   TOP BAR
+══════════════════════════════════════════ */
+.top-bar {
+  height: 52px;
+  background: var(--bg-panel);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 12px;
+  z-index: 100;
+  backdrop-filter: blur(16px);
+  flex-shrink: 0;
+}
+
+.top-bar-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.3px;
+}
+
+.top-bar-brand-icon {
+  width: 26px; height: 26px;
+  background: linear-gradient(135deg, #22d3ee 0%, #818cf8 100%);
+  border-radius: 7px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px;
+}
+
+.top-bar-subtitle {
+  font-size: 11px;
+  color: var(--text-muted);
+  padding-left: 10px;
+  border-left: 1px solid var(--border);
+  margin-left: 2px;
+}
+
+.top-bar-spacer { flex: 1; }
+
+/* 状态指示灯 */
+.status-lights {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.status-light {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.status-light:hover { color: var(--text-primary); }
+.status-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.status-dot.online  { background: #34d399; box-shadow: 0 0 5px #34d399; }
+.status-dot.degraded { background: #fbbf24; box-shadow: 0 0 5px #fbbf24; }
+.status-dot.error    { background: #f87171; box-shadow: 0 0 5px #f87171; animation: pulse-dot 1.5s ease-in-out infinite; }
+.status-dot.unknown  { background: #475569; }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+/* 顶部快捷按钮 */
+.top-action-btn {
+  padding: 5px 12px;
+  background: rgba(34, 211, 238, 0.1);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  border-radius: 6px;
+  color: var(--accent-cyan);
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.top-action-btn:hover {
+  background: rgba(34, 211, 238, 0.2);
+  border-color: rgba(34, 211, 238, 0.5);
+}
+
+/* ══════════════════════════════════════════
+   MAIN BODY - 三栏叙事流
+══════════════════════════════════════════ */
+.main-body {
+  flex: 1;
+  display: flex;
+  gap: var(--panel-gap);
+  padding: var(--panel-gap);
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── 左栏：3D场景视图（感知层）────────────── */
+.scene-column {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--panel-gap);
+  min-width: 280px;
+  max-width: 560px;
+}
+
+/* ── 中栏：物理常识面板（分析层）─────────── */
+.analysis-column {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--panel-gap);
+  min-width: 240px;
+  max-width: 480px;
+}
+
+/* ── 右栏：Agent任务面板（执行层）────────── */
+.agent-column {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--panel-gap);
+  min-width: 280px;
+  max-width: 560px;
+}
+
+/* ══════════════════════════════════════════
+   PANEL BASE
+══════════════════════════════════════════ */
+.panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  backdrop-filter: blur(16px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-header {
+  padding: 10px 14px 8px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.panel-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.3px;
+}
+
+.panel-tag {
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.panel-tag.cyan   { background: rgba(34,211,238,0.15); color: var(--accent-cyan); }
+.panel-tag.green  { background: rgba(52,211,153,0.15); color: var(--accent-green); }
+.panel-tag.blue   { background: rgba(129,140,248,0.15); color: var(--accent-blue); }
+.panel-tag.yellow { background: rgba(251,191,36,0.15); color: var(--accent-yellow); }
+.panel-tag.red    { background: rgba(248,113,113,0.15); color: var(--accent-red); }
+
+.panel-body { flex: 1; overflow-y: auto; padding: 10px 14px; }
+.panel-body::-webkit-scrollbar { width: 4px; }
+.panel-body::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+/* ── 场景列表面板（小卡片）───────────────── */
+.scene-list-panel {
+  flex-shrink: 0;
+}
+
+.scene-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  padding: 10px 14px;
+}
+
+.scene-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.scene-card:hover { background: var(--bg-hover); border-color: var(--border-cyan); }
+.scene-card.active {
+  background: rgba(34,211,238,0.08);
+  border-color: var(--border-cyan);
+}
+
+.scene-card-icon { font-size: 16px; margin-bottom: 4px; }
+.scene-card-name { font-size: 11px; color: var(--text-primary); font-weight: 500; }
+.scene-card-meta { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+
+/* ── 3D悬浮信息（Canvas 上层）───────────── */
+.hover-tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: rgba(8,10,24,0.92);
+  border: 1px solid var(--border-cyan);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 11px;
+  color: var(--text-primary);
+  backdrop-filter: blur(12px);
+  z-index: 50;
+  white-space: nowrap;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+.hover-tooltip-name { font-weight: 600; margin-bottom: 3px; }
+.hover-tooltip-meta { color: var(--text-muted); font-size: 10px; }
+
+/* ── 物理常识面板内部─────────────────────── */
+
+/* 材质安全标签 */
+.material-safety-tags {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.safety-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 600;
+}
+.safety-tag.safe   { background: rgba(52,211,153,0.15); color: #34d399; border: 1px solid rgba(52,211,153,0.3); }
+.safety-tag.caution { background: rgba(251,191,36,0.15); color: #fbbf24; border: 1px solid rgba(251,191,36,0.3); }
+.safety-tag.danger { background: rgba(248,113,113,0.15); color: #f87171; border: 1px solid rgba(248,113,113,0.3); }
+
+/* 折叠卡片 */
+.fold-card {
+  background: var(--bg-card);
+  border-radius: 8px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  transition: border-color 0.2s;
+}
+.fold-card:hover { border-color: rgba(255,255,255,0.12); }
+.fold-card-header {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+.fold-card-icon { font-size: 14px; }
+.fold-card-title { font-size: 12px; font-weight: 600; color: var(--text-primary); flex: 1; }
+.fold-card-badge {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.06);
+  color: var(--text-muted);
+}
+.fold-card-body {
+  padding: 0 12px 10px;
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* 物理参数网格 */
+.phys-param-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-top: 8px;
+}
+.phys-param-card {
+  background: rgba(255,255,255,0.03);
+  border-radius: 7px;
+  padding: 8px;
+  text-align: center;
+}
+.phys-param-value { font-size: 16px; font-weight: 700; color: var(--accent-cyan); }
+.phys-param-unit  { font-size: 9px; color: var(--text-muted); }
+.phys-param-label { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+
+/* 关系图谱节点 */
+.rel-graph-container {
+  position: relative;
+  height: 140px;
+  background: rgba(255,255,255,0.02);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+
+/* ── 管线透视按钮─────────────────────────── */
+.pipe-toggle-btn {
+  width: 100%;
+  padding: 7px;
+  background: rgba(248,113,113,0.1);
+  border: 1px solid rgba(248,113,113,0.3);
+  border-radius: 7px;
+  color: #f87171;
+  font-size: 11px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  transition: all 0.2s;
+  margin-top: 8px;
+}
+.pipe-toggle-btn:hover { background: rgba(248,113,113,0.2); }
+.pipe-toggle-btn.active { background: rgba(248,113,113,0.25); border-color: rgba(248,113,113,0.6); }
+
+/* ══════════════════════════════════════════
+   AGENT 面板内部
+══════════════════════════════════════════ */
+
+/* 安全横幅 */
+.safety-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.safety-banner.warn {
+  background: rgba(251,191,36,0.12);
+  border: 1px solid rgba(251,191,36,0.3);
+  color: #fbbf24;
+}
+.safety-banner.error {
+  background: rgba(248,113,113,0.12);
+  border: 1px solid rgba(248,113,113,0.3);
+  color: #f87171;
+}
+.safety-banner.ok {
+  background: rgba(52,211,153,0.1);
+  border: 1px solid rgba(52,211,153,0.25);
+  color: #34d399;
+}
+.safety-icon { font-size: 16px; flex-shrink: 0; }
+
+/* 决策摘要卡片 */
+.decision-card {
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  padding: 10px;
+  border-left: 3px solid var(--accent-cyan);
+  margin-bottom: 10px;
+}
+.decision-card-title { font-size: 11px; font-weight: 600; color: var(--accent-cyan); margin-bottom: 6px; }
+.decision-row { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); margin-bottom: 4px; }
+.decision-row strong { color: var(--text-primary); }
+
+/* 步骤时间线 */
+.exec-timeline { display: flex; flex-direction: column; gap: 6px; }
+.exec-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 10px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  transition: all 0.3s;
+}
+.exec-step.active {
+  background: rgba(34,211,238,0.07);
+  border-color: rgba(34,211,238,0.4);
+}
+.exec-step.done {
+  background: rgba(52,211,153,0.06);
+  border-color: rgba(52,211,153,0.2);
+  opacity: 0.7;
+}
+.exec-step.rejected {
+  background: rgba(248,113,113,0.07);
+  border-color: rgba(248,113,113,0.3);
+}
+
+.step-status-icon { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+.step-body { flex: 1; }
+.step-title { font-size: 12px; font-weight: 600; color: var(--text-primary); margin-bottom: 2px; }
+.step-sub   { font-size: 10px; color: var(--text-muted); }
+
+/* 执行进度条 */
+.exec-progress-bar {
+  height: 3px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 2px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+.exec-progress-fill {
+  height: 100%;
+  background: linear-gradient(to right, var(--accent-cyan), var(--accent-blue));
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+/* 实时数据面板 */
+.exec-data-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin-top: 8px;
+}
+.exec-data-item {
+  background: rgba(255,255,255,0.03);
+  border-radius: 6px;
+  padding: 6px;
+  text-align: center;
+}
+.exec-data-label { font-size: 9px; color: var(--text-muted); margin-bottom: 2px; }
+.exec-data-bar-wrap { height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; margin-bottom: 2px; }
+.exec-data-bar-fill { height: 100%; border-radius: 2px; transition: width 0.3s; }
+.exec-data-val { font-size: 10px; font-weight: 600; color: var(--text-primary); }
+
+/* ══════════════════════════════════════════
+   AGENT COMMAND PANEL 独占样式
+══════════════════════════════════════════ */
+
+/* 输入区域 */
+.cmd-input-row {
+  display: flex;
+  gap: 6px;
+  padding: 10px 14px;
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.cmd-input {
+  flex: 1;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: var(--text-primary);
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: inherit;
+}
+.cmd-input::placeholder { color: var(--text-muted); }
+.cmd-input:focus { border-color: var(--border-cyan); }
+
+.cmd-send-btn {
+  padding: 8px 16px;
+  background: linear-gradient(135deg, rgba(34,211,238,0.3), rgba(129,140,248,0.3));
+  border: 1px solid rgba(34,211,238,0.4);
+  border-radius: 8px;
+  color: var(--accent-cyan);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.cmd-send-btn:hover { background: linear-gradient(135deg, rgba(34,211,238,0.5), rgba(129,140,248,0.5)); }
+.cmd-send-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* 任务类型标签 */
+.task-type-tags {
+  display: flex;
+  gap: 5px;
+  padding: 8px 14px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.task-type-tag {
+  padding: 3px 9px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid;
+}
+.task-type-tag.drill   { background: rgba(248,113,113,0.1); color: #f87171; border-color: rgba(248,113,113,0.3); }
+.task-type-tag.drill:hover { background: rgba(248,113,113,0.2); }
+.task-type-tag.clean   { background: rgba(52,211,153,0.1); color: #34d399; border-color: rgba(52,211,153,0.3); }
+.task-type-tag.clean:hover  { background: rgba(52,211,153,0.2); }
+.task-type-tag.move    { background: rgba(129,140,248,0.1); color: #818cf8; border-color: rgba(129,140,248,0.3); }
+.task-type-tag.move:hover   { background: rgba(129,140,248,0.2); }
+.task-type-tag.inspect { background: rgba(251,191,36,0.1); color: #fbbf24; border-color: rgba(251,191,36,0.3); }
+.task-type-tag.inspect:hover { background: rgba(251,191,36,0.2); }
+
+/* 执行按钮 */
+.exec-btn {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, rgba(34,211,238,0.2), rgba(129,140,248,0.2));
+  border: 1px solid rgba(34,211,238,0.4);
+  border-radius: 8px;
+  color: var(--accent-cyan);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.3px;
+}
+.exec-btn:hover { background: linear-gradient(135deg, rgba(34,211,238,0.35), rgba(129,140,248,0.35)); }
+.exec-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.exec-btn.running { animation: btn-pulse 1.5s ease-in-out infinite; }
+.exec-btn.reject  { background: rgba(248,113,113,0.15); border-color: rgba(248,113,113,0.4); color: #f87171; }
+
+@keyframes btn-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34,211,238,0.3); }
+  50% { box-shadow: 0 0 0 6px rgba(34,211,238,0); }
+}
+
+/* 等待动画 */
+.waiting-dots { display: inline-flex; gap: 3px; align-items: center; }
+.waiting-dots span {
+  width: 5px; height: 5px;
+  background: var(--accent-cyan);
+  border-radius: 50%;
+  animation: dot-bounce 1.2s ease-in-out infinite;
+}
+.waiting-dots span:nth-child(2) { animation-delay: 0.15s; }
+.waiting-dots span:nth-child(3) { animation-delay: 0.3s; }
+@keyframes dot-bounce {
+  0%, 80%, 100% { transform: translateY(0); opacity: 0.4; }
+  40% { transform: translateY(-5px); opacity: 1; }
+}
+
+/* 指令识别区域 */
+.cmd-analysis-area { padding: 10px 14px; }
+
+/* ══════════════════════════════════════════
+   CONTROL PANEL（顶部工具栏模式）
+══════════════════════════════════════════ */
+
+/* 场景切换按钮组 */
+.scene-switcher {
+  display: flex;
+  gap: 4px;
+  padding: 6px 14px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+.scene-tab {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+.scene-tab:hover { background: var(--bg-hover); color: var(--text-primary); }
+.scene-tab.active { background: rgba(34,211,238,0.12); border-color: var(--border-cyan); color: var(--accent-cyan); font-weight: 600; }
+
+/* 视角快捷按钮 */
+.view-actions {
+  display: flex;
+  gap: 4px;
+  padding: 8px 14px;
+  flex-shrink: 0;
+}
+.view-action-btn {
+  flex: 1;
+  padding: 6px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  color: var(--text-muted);
+  font-size: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  transition: all 0.2s;
+}
+.view-action-btn:hover { background: var(--bg-hover); color: var(--text-primary); border-color: rgba(255,255,255,0.12); }
+
+/* ══════════════════════════════════════════
+   旧版样式兼容（InfoPanel / ControlPanel）
+══════════════════════════════════════════ */
+.info-panel, .control-panel, .neural-panel-container { /* 隐藏旧版 */ }
+
+/* ── 暗埋管线高亮（3D 场景内）────────────── */
+.pipe-marker {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* ══════════════════════════════════════════
+   响应式
+══════════════════════════════════════════ */
+@media (max-width: 1100px) {
+  .scene-column { width: 40%; }
+  .agent-column { width: 40%; }
+  .analysis-column { width: 20%; min-width: 180px; }
+}
+
+@media (max-width: 900px) {
+  .main-body { flex-direction: column; }
+  .scene-column, .analysis-column, .agent-column { width: 100%; max-width: 100%; }
+}

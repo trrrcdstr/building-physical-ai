@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "source": "unmanned_equipment_system_pdf",
+  "purpose": "建筑Physical AI - 无人装备系统集成参考",
+  "desensitized": true,
+  "sections": {
+    "system_architecture": {
+      "platform_type": "云边端协同指控平台",
+      "deployment_modes": ["私有云", "公有云", "本地部署"],
+      "control_modes": ["云平台统一管理", "移动方舱分布式控制"],
+      "collaboration_scale": "6台以上机器人协同",
+      "communication": ["5G", "工业WiFi", "电台"]
+    },
+    "robot_platforms": {
+      "四足机器人": {
+        "use_cases": ["巡检", "搬运", "侦查"],
+        "payloads": ["云台相机", "激光雷达", "气体传感器", "机械臂"]
+      },
+      "人形机器人": {
+        "use_cases": ["精细操作", "遥操控", "复杂地形作业"],
+        "capabilities": ["语音控制", "手势控制", "VR遥操作", "示教学习"]
+      },
+      "无人车": {
+        "use_cases": ["室内运输", "室内外巡检"],
+        "payloads": ["双目相机", "激光雷达", "AI云盒"]
+      },
+      "无人机": {
+        "use_cases": ["外立面检测", "大范围测绘", "巡堤查险"],
+        "payloads": ["多光谱相机", "红外热成像", "激光雷达"]
+      }
+    },
+    "ai_algorithms": [
+      {"name": "多源融合目标检测", "input": ["可见光", "红外", "激光雷达"], "output": "目标类别+坐标"},
+      {"name": "云边端协同指控", "input": "多通道传感器", "output": "远程控制指令"},
+      {"name": "路径规划", "input": "环境地图+障碍物", "output": "最优路径"},
+      {"name": "编队协同", "input": "多机器人状态", "output": "任务分配+协调"},
+      {"name": "SLAM地图", "input": "深度+IMU", "output": "实时建图+定位"},
+      {"name": "险情识别", "input": "红外+视觉+雷达", "output": "告警信息"},
+      {"name": "人机交互", "input": ["语音", "手势", "VR"], "output": "操控指令"}
+    ],
+    "inspection_task_types": [
+      {"task": "施工进度状态监测", "sensor": "可见光相机", "output": "人员/材料/设备位置"},
+      {"task": "三维空间测绘", "sensor": "双目+激光雷达", "output": "空间尺寸 vs BIM"},
+      {"task": "危险源预警", "sensor": "红外+视觉AI", "output": "裂缝/渗漏/异常热区"},
+      {"task": "阀门/搬运目标定位", "sensor": "深度相机+视觉", "output": "位置+姿态"},
+      {"task": "有害气体检测", "sensor": "气体传感器", "output": "气体成分+浓度"},
+      {"task": "外立面检测", "sensor": "无人机+多光谱", "output": "裂缝/脱落/渗漏"}
+    ],
+    "payload_catalog": [
+      {"name": "三轴/球状云台", "type": "感知-视觉", "resolution": "高清", "application": "墙面质检"},
+      {"name": "双目模块", "type": "感知-深度", "application": "BIM对比/三维重建"},
+      {"name": "多光载荷", "type": "感知-融合", "spectrum": ["可见光", "红外"], "application": "日夜监控/热成像"},
+      {"name": "激光雷达", "type": "感知-测距", "application": "精确测距/导航"},
+      {"name": "激光拉曼", "type": "感知-化学", "application": "材料成分识别"},
+      {"name": "气体识别载荷", "type": "感知-化学", "application": "有害气体检测"},
+      {"name": "边缘计算终端", "type": "计算", "application": "本地AI推理"},
+      {"name": "AI云盒", "type": "计算", "application": "云端推理加速"}
+    ],
+    "control_terminals": [
+      {"name": "VR头显", "type": "沉浸式", "platform": "Meta Quest等", "use_case": "危险区域远程作业"},
+      {"name": "加固级操控终端", "type": "专业级", "use_case": "工地/野外恶劣环境"},
+      {"name": "手持单兵电台", "type": "移动便携", "use_case": "现场指挥"},
+      {"name": "娱乐级操控终端", "type": "轻量", "use_case": "室内巡检"}
+    ],
+    "construction_scenario_mapping": {
+      "墙面钻孔检测": {"robot": "人形机器人+四足机器人", "payload": "云台相机+深度传感器", "algorithm": "视觉识别+激光测距"},
+      "施工进度监测": {"robot": "四足机器人(6+)", "payload": "可见光相机", "algorithm": "多机器人协同巡检"},
+      "危险区域预警": {"robot": "四足机器人/无人机", "payload": "红外+雷达", "algorithm": "险情识别+多元数据样本学习"},
+      "材料搬运": {"robot": "无人车+机械臂", "payload": "深度相机", "algorithm": "编队协同+目标定位"},
+      "BIM对比验收": {"robot": "四足机器人", "payload": "双目+激光雷达", "algorithm": "SLAM建图+三维比对"},
+      "密闭空间检测": {"robot": "小型四足机器人", "payload": "气体传感器+遥操作", "algorithm": "AI遥操控"},
+      "墙面裂缝渗漏": {"robot": "人形机器人+无人机", "payload": "红外+可见光", "algorithm": "多光谱图像AI识别"}
+    },
+    "integration_recommendations": [
+      "REST API对接无人装备指控平台",
+      "建筑场景专用载荷选型（墙面检测云台）",
+      "BIM模型与SLAM地图对齐",
+      "多人远程协同操控（VR+语音）"
+    ]
+  },
+  "robot_interaction_params": {
+    "max_payload_weight_kg": 10,
+    "max_communication_distance_m": 1000,
+    "indoor_navigation_accuracy_cm": 5,
+    "inspection_speed_m_per_min": 10
+  }
+}

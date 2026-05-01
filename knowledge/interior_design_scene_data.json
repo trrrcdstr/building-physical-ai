@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "project_name": "现代极简住宅设计",
+  "source": "2026.3.13乐乐(1).zip",
+  "style": "现代极简 + 意式轻奢",
+  "total_size_mb": 866,
+  
+  "workflow_stages": {
+    "modeling": {
+      "software": "3ds Max",
+      "file": "kecan.max",
+      "size_mb": 700,
+      "renderer": "Corona Renderer"
+    },
+    "texturing": {
+      "total_maps": 298,
+      "total_size_mb": 594,
+      "categories": {
+        "justeasy_models": 92,
+        "zm_gwen_wood": 50,
+        "qingyu_wood": 16,
+        "ddq_furniture": 9,
+        "j110_materials": 16,
+        "suxbv_materials": 14,
+        "znzmo_models": 20,
+        "gp_panorama": 4,
+        "tang_decor": 5,
+        "others": 72
+      }
+    },
+    "rendering": {
+      "total_images": 9,
+      "total_size_mb": 43.2,
+      "panoramas": [
+        {"name": "客厅360", "resolution": "6000x3000", "size_mb": 9, "room": "living_room"},
+        {"name": "主卧360", "resolution": "6000x3000", "size_mb": 7.2, "room": "master_bedroom"},
+        {"name": "餐厅360", "resolution": "6000x3000", "size_mb": 6, "room": "dining_room"}
+      ],
+      "closeups": [
+        {"name": "沙发", "resolution": "3500x2553", "size_mb": 4.5, "focus": "sofa_area"},
+        {"name": "电视", "resolution": "3500x2553", "size_mb": 4.1, "focus": "tv_wall"},
+        {"name": "餐厅", "resolution": "3500x2553", "size_mb": 3.8, "focus": "dining_table"},
+        {"name": "餐厅1", "resolution": "3500x2553", "size_mb": 3.1, "focus": "dining_alt"},
+        {"name": "主卧", "resolution": "3500x2553", "size_mb": 3.5, "focus": "bed"},
+        {"name": "储物间", "resolution": "3500x2553", "size_mb": 2, "focus": "storage"}
+      ]
+    }
+  },
+
+  "rooms": [
+    {
+      "name": "客厅",
+      "type": "living_room",
+      "estimated_area_sqm": 25,
+      "style": "modern_minimalist",
+      "color_scheme": ["black", "white", "gray", "red_accent"],
+      "lighting": ["recessed", "strip_light", "floor_lamp"],
+      "furniture": [
+        {"name": "L型沙发", "type": "sofa", "material": "leather", "color": "black", "position": "center"},
+        {"name": "圆形茶几", "type": "coffee_table", "material": "glass_wood", "color": "white_black", "position": "center_front"},
+        {"name": "休闲椅", "type": "armchair", "material": "fabric", "color": "red", "count": 2, "position": "side"},
+        {"name": "落地灯", "type": "floor_lamp", "material": "metal", "position": "corner"},
+        {"name": "电视柜", "type": "tv_stand", "material": "wood", "color": "dark_gray", "position": "wall"},
+        {"name": "电视", "type": "tv", "size_inch": 75, "position": "wall_center"}
+      ],
+      "decor": [
+        {"name": "抽象画", "type": "painting", "style": "abstract_black_white"},
+        {"name": "绿植", "type": "plant", "variety": "fern"}
+      ],
+      "windows": [
+        {"type": "floor_to_ceiling", "curtain": "sheer_white"}
+      ]
+    },
+    {
+      "name": "餐厅",
+      "type": "dining_room", 
+      "estimated_area_sqm": 15,
+      "style": "modern_minimalist",
+      "color_scheme": ["black", "white", "gold_accent"],
+      "lighting": ["pendant", "strip_light", "cabinet_light"],
+      "furniture": [
+        {"name": "圆形餐桌", "type": "dining_table", "material": "marble", "color": "black_white", "diameter_m": 1.5},
+        {"name": "餐椅", "type": "dining_chair", "material": "leather_wood", "color": "beige_dark_gray", "count": 6},
+        {"name": "餐边柜", "type": "sideboard", "material": "wood_glass", "color": "dark_gray", "features": ["wine_rack", "glass_door", "led_light"]}
+      ],
+      "appliances": [
+        {"name": "咖啡机", "type": "coffee_machine", "brand": "意式"},
+        {"name": "饮水机", "type": "water_dispenser"}
+      ],
+      "decor": [
+        {"name": "装饰画", "type": "art_prints", "count": 4, "arrangement": "grid"}
+      ]
+    },
+    {
+      "name": "主卧",
+      "type": "master_bedroom",
+      "estimated_area_sqm": 18,
+      "style": "modern_minimalist",
+      "color_scheme": ["white", "gray", "beige"],
+      "lighting": ["ceiling", "bedside"],
+      "furniture": [
+        {"name": "双人床", "type": "bed", "size": "queen", "material": "fabric_wood", "color": "white_gray"},
+        {"name": "婴儿床", "type": "crib", "material": "wood", "color": "white", "position": "window_side"},
+        {"name": "床头柜", "type": "nightstand", "count": 2, "material": "wood"},
+        {"name": "衣柜", "type": "wardrobe", "material": "wood_veneer", "color": "beige_dark_gray", "type": "built_in_full_wall"},
+        {"name": "书架", "type": "bookshelf", "material": "wood", "color": "black", "features": ["open_shelf", "led_light"]}
+      ],
+      "windows": [
+        {"type": "bay_window", "curtain": "double_layer"}
+      ]
+    },
+    {
+      "name": "储物间",
+      "type": "storage_room",
+      "estimated_area_sqm": 5,
+      "features": ["built_in_cabinet", "arch_doorway"]
+    }
+  ],
+
+  "material_library": {
+    "wood_veneer": {
+      "types": ["南洋木纹", "科技木", "洋洋彡丶系列"],
+      "count": 72,
+      "physical_properties": {
+        "density_kg_m3": 700,
+        "friction_coefficient": 0.4,
+        "hardness": "medium"
+      }
+    },
+    "leather": {
+      "types": ["黑色皮革", "米白皮革"],
+      "count": 12,
+      "physical_properties": {
+        "density_kg_m3": 800,
+        "friction_coefficient": 0.45,
+        "cleanability": "easy"
+      }
+    },
+    "fabric": {
+      "types": ["红色面料", "窗帘纱"],
+      "count": 8,
+      "physical_properties": {
+        "density_kg_m3": 200,
+        "friction_coefficient": 0.6
+      }
+    },
+    "glass": {
+      "types": ["茶几玻璃", "展示柜玻璃"],
+      "physical_properties": {
+        "density_kg_m3": 2500,
+        "friction_coefficient": 0.2,
+        "fragility": "high"
+      }
+    },
+    "marble": {
+      "types": ["餐桌大理石"],
+      "physical_properties": {
+        "density_kg_m3": 2700,
+        "friction_coefficient": 0.35,
+        "hardness": "high"
+      }
+    },
+    "metal": {
+      "types": ["黑色金属", "金属光泽"],
+      "count": 3,
+      "physical_properties": {
+        "density_kg_m3": 7850,
+        "friction_coefficient": 0.3,
+        "conductivity": "high"
+      }
+    }
+  },
+
+  "robot_tasks": {
+    "living_room": [
+      {"task": "吸尘地毯", "difficulty": "easy", "tools": ["vacuum"]},
+      {"task": "擦拭茶几", "difficulty": "easy", "tools": ["cloth"]},
+      {"task": "整理沙发靠垫", "difficulty": "medium", "manipulation": "soft_object"},
+      {"task": "递送饮品", "difficulty": "medium", "navigation": "kitchen_to_living"},
+      {"task": "植物浇水", "difficulty": "easy", "precision": "ml_control"}
+    ],
+    "dining_room": [
+      {"task": "摆放餐具", "difficulty": "medium", "manipulation": "small_object"},
+      {"task": "擦拭餐桌", "difficulty": "easy", "surface": "marble"},
+      {"task": "调整餐椅位置", "difficulty": "medium", "weight_kg": 5},
+      {"task": "递送菜品", "difficulty": "medium", "temperature": "hot"}
+    ],
+    "master_bedroom": [
+      {"task": "整理床铺", "difficulty": "medium", "manipulation": "fabric_folding"},
+      {"task": "关闭窗帘", "difficulty": "easy", "mechanism": "pull_cord"},
+      {"task": "检查婴儿床", "difficulty": "easy", "safety_check": true},
+      {"task": "收纳衣物", "difficulty": "hard", "manipulation": "folding_sorting"}
+    ]
+  },
+
+  "training_value": {
+    "3d_geometry": {
+      "source": "kecan.max",
+      "export_formats": ["OBJ", "FBX", "GLTF"],
+      "use_cases": ["point_cloud", "mesh_reconstruction", "scene_graph"]
+    },
+    "material_recognition": {
+      "source": "maps/",
+      "categories": 8,
+      "use_cases": ["material_classification", "texture_synthesis", "style_transfer"]
+    },
+    "rendering": {
+      "source": "datu/",
+      "use_cases": ["neural_rendering", "inverse_rendering", "style_transfer"]
+    },
+    "vr_reconstruction": {
+      "source": "360_panoramas",
+      "use_cases": ["room_layout_estimation", "furniture_detection", "depth_estimation"]
+    }
+  }
+}

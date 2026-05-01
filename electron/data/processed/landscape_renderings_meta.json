@@ -1,0 +1,271 @@
+{
+  "source": "园林效果图",
+  "count": 33,
+  "imported_at": "2026-04-14 19:18",
+  "images": [
+    {
+      "original_name": "园林效果图.jpg",
+      "new_name": "landscape_001_b2281ce6.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_001_b2281ce6.jpg",
+      "width": 1438,
+      "height": 980,
+      "size_bytes": 1384514
+    },
+    {
+      "original_name": "园林效果图23.jpg",
+      "new_name": "landscape_002_4762a2f1.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_002_4762a2f1.jpg",
+      "width": 1438,
+      "height": 980,
+      "size_bytes": 1288815
+    },
+    {
+      "original_name": "园林2.jpg",
+      "new_name": "landscape_003_d20af3de.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_003_d20af3de.jpg",
+      "width": 1440,
+      "height": 826,
+      "size_bytes": 1183408
+    },
+    {
+      "original_name": "园林效果图2.jpg",
+      "new_name": "landscape_004_d1afc5e1.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_004_d1afc5e1.jpg",
+      "width": 1440,
+      "height": 826,
+      "size_bytes": 1117634
+    },
+    {
+      "original_name": "园林.jpg",
+      "new_name": "landscape_005_6426fd30.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_005_6426fd30.jpg",
+      "width": 1440,
+      "height": 814,
+      "size_bytes": 1060573
+    },
+    {
+      "original_name": "园林1.jpg",
+      "new_name": "landscape_006_c33a2a92.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_006_c33a2a92.jpg",
+      "width": 1440,
+      "height": 862,
+      "size_bytes": 1049319
+    },
+    {
+      "original_name": "园林效果图1.jpg",
+      "new_name": "landscape_007_5462583f.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_007_5462583f.jpg",
+      "width": 1440,
+      "height": 862,
+      "size_bytes": 989715
+    },
+    {
+      "original_name": "园林效果图3.jpg",
+      "new_name": "landscape_008_3925bc0a.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_008_3925bc0a.jpg",
+      "width": 1440,
+      "height": 814,
+      "size_bytes": 912051
+    },
+    {
+      "original_name": "微信图片_2026-04-14_191343_446.jpg",
+      "new_name": "landscape_009_7fff57e7.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_009_7fff57e7.jpg",
+      "width": 4524,
+      "height": 2262,
+      "size_bytes": 785586
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185131_582.jpg",
+      "new_name": "landscape_010_4e22a648.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_010_4e22a648.jpg",
+      "width": 3000,
+      "height": 1410,
+      "size_bytes": 709891
+    },
+    {
+      "original_name": "微信图片_2026-04-14_190343_878.jpg",
+      "new_name": "landscape_011_3e32bb3c.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_011_3e32bb3c.jpg",
+      "width": 4524,
+      "height": 1998,
+      "size_bytes": 653381
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185922_496.jpg",
+      "new_name": "landscape_012_b15eb5ab.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_012_b15eb5ab.jpg",
+      "width": 1600,
+      "height": 911,
+      "size_bytes": 366509
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185915_541.jpg",
+      "new_name": "landscape_013_0b702e1b.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_013_0b702e1b.jpg",
+      "width": 1600,
+      "height": 864,
+      "size_bytes": 352932
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185911_662.jpg",
+      "new_name": "landscape_014_561ada45.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_014_561ada45.jpg",
+      "width": 1600,
+      "height": 858,
+      "size_bytes": 327967
+    },
+    {
+      "original_name": "微信图片_2026-04-14_191334_894.jpg",
+      "new_name": "landscape_015_b2de4875.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_015_b2de4875.jpg",
+      "width": 1730,
+      "height": 1080,
+      "size_bytes": 309240
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185902_898.jpg",
+      "new_name": "landscape_016_af9659a8.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_016_af9659a8.jpg",
+      "width": 1600,
+      "height": 911,
+      "size_bytes": 304147
+    },
+    {
+      "original_name": "微信图片_2026-04-14_191319_550.jpg",
+      "new_name": "landscape_017_3b4e2d25.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_017_3b4e2d25.jpg",
+      "width": 1758,
+      "height": 1080,
+      "size_bytes": 292183
+    },
+    {
+      "original_name": "微信图片_2026-04-14_190250_471.jpg",
+      "new_name": "landscape_018_d6507b5d.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_018_d6507b5d.jpg",
+      "width": 1942,
+      "height": 1080,
+      "size_bytes": 290389
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185919_311.jpg",
+      "new_name": "landscape_019_f6ec0718.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_019_f6ec0718.jpg",
+      "width": 1600,
+      "height": 867,
+      "size_bytes": 284457
+    },
+    {
+      "original_name": "微信图片_2026-04-14_190726_735.jpg",
+      "new_name": "landscape_020_b5431b47.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_020_b5431b47.jpg",
+      "width": 1280,
+      "height": 853,
+      "size_bytes": 278216
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185926_398.jpg",
+      "new_name": "landscape_021_f0bc2d2c.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_021_f0bc2d2c.jpg",
+      "width": 1600,
+      "height": 800,
+      "size_bytes": 274191
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185952_680.jpg",
+      "new_name": "landscape_022_ec41124e.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_022_ec41124e.jpg",
+      "width": 1215,
+      "height": 1080,
+      "size_bytes": 253941
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185119_782.jpg",
+      "new_name": "landscape_023_2950dd86.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_023_2950dd86.jpg",
+      "width": 1745,
+      "height": 1080,
+      "size_bytes": 251481
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185943_438.jpg",
+      "new_name": "landscape_024_598c71b3.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_024_598c71b3.jpg",
+      "width": 1265,
+      "height": 1080,
+      "size_bytes": 247694
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185947_000.jpg",
+      "new_name": "landscape_025_c5ec7287.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_025_c5ec7287.jpg",
+      "width": 1356,
+      "height": 1080,
+      "size_bytes": 240638
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185937_141.jpg",
+      "new_name": "landscape_026_9c38c204.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_026_9c38c204.jpg",
+      "width": 1260,
+      "height": 1080,
+      "size_bytes": 234951
+    },
+    {
+      "original_name": "微信图片_2026-04-14_190736_974.jpg",
+      "new_name": "landscape_027_4872fac9.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_027_4872fac9.jpg",
+      "width": 1280,
+      "height": 855,
+      "size_bytes": 230035
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185940_095.jpg",
+      "new_name": "landscape_028_7d09ab0f.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_028_7d09ab0f.jpg",
+      "width": 1202,
+      "height": 1080,
+      "size_bytes": 226414
+    },
+    {
+      "original_name": "微信图片_2026-04-14_185934_255.jpg",
+      "new_name": "landscape_029_50312d54.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_029_50312d54.jpg",
+      "width": 1276,
+      "height": 1080,
+      "size_bytes": 213082
+    },
+    {
+      "original_name": "微信图片_2026-04-14_191145_296.jpg",
+      "new_name": "landscape_030_f35ddbd9.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_030_f35ddbd9.jpg",
+      "width": 1440,
+      "height": 1080,
+      "size_bytes": 211909
+    },
+    {
+      "original_name": "微信图片_2026-04-14_190916_638.jpg",
+      "new_name": "landscape_031_2d3efcaa.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_031_2d3efcaa.jpg",
+      "width": 1280,
+      "height": 853,
+      "size_bytes": 178734
+    },
+    {
+      "original_name": "微信图片_2026-04-14_191401_247.jpg",
+      "new_name": "landscape_032_7e6a804f.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_032_7e6a804f.jpg",
+      "width": 1080,
+      "height": 1261,
+      "size_bytes": 165515
+    },
+    {
+      "original_name": "微信图片_2026-04-14_190740_847.jpg",
+      "new_name": "landscape_033_508ee28d.jpg",
+      "relative_path": "data/raw/landscape_renderings/landscape_033_508ee28d.jpg",
+      "width": 729,
+      "height": 989,
+      "size_bytes": 100779
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "num_scenes": 13,
+  "total_images": 1027,
+  "scene_distribution": {
+    "室内_办公": 6,
+    "室内_地产": 14,
+    "室内_家庭": 613,
+    "室内_工装": 87,
+    "室内_酒店民俗": 20,
+    "室内_餐饮": 41,
+    "建筑_产业园写字楼街景外立面": 42,
+    "建筑_别墅建筑花园": 81,
+    "建筑_商场综合体": 28,
+    "建筑_地产小区": 30,
+    "建筑_学校建筑园林": 3,
+    "建筑_工厂建筑": 6,
+    "建筑_市政公园": 56
+  },
+  "training_params": {
+    "num_gaussians": 10000,
+    "learning_rate": 0.01,
+    "iterations": 30000,
+    "depth_supervision": true,
+    "cad_constraint": true
+  },
+  "data_sources": {
+    "renderings": 13,
+    "vr_panoramas": 0
+  }
+}

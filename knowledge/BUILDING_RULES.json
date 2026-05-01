@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "updated": "2026-04-21",
+  "rules": {
+    "DRILL_001": {
+      "category": "drill",
+      "name": "承重墙禁止钻孔",
+      "condition": "wall_type == 'load_bearing'",
+      "result": "forbidden",
+      "reason": "承重墙钻孔影响建筑结构安全",
+      "exception": "经结构工程师评估审批",
+      "message": "承重墙禁止钻孔，如确需操作请联系专业结构工程师"
+    },
+    "DRILL_002": {
+      "category": "drill",
+      "name": "非承重墙钻孔限制",
+      "condition": "wall_type in ['non_load_bearing', 'partition']",
+      "result": "allowed_with_warning",
+      "parameters": {
+        "non_load_bearing": {
+          "max_diameter_mm": 100,
+          "max_depth_mm": 80
+        },
+        "partition": {
+          "max_diameter_mm": 150,
+          "max_depth_mm": 80
+        }
+      },
+      "warnings": [
+        "建议使用探测仪确认墙内无隐蔽管线",
+        "钻孔位置应避开墙体接缝"
+      ]
+    },
+    "DRILL_003": {
+      "category": "drill",
+      "name": "钻孔管线安全距离",
+      "condition": "has_pipes == true",
+      "result": "warning",
+      "safety_distances_mm": {
+        "electrical": 150,
+        "water": 100,
+        "gas": 300
+      },
+      "message": "墙内有管线，建议使用探测仪定位后再钻孔"
+    },
+    "DRILL_004": {
+      "category": "drill",
+      "name": "钻孔位置限制",
+      "condition": "drill_position in forbidden_areas",
+      "result": "forbidden",
+      "forbidden_areas": {
+        "beam_column_joint": {"description": "梁柱节点区域", "range_mm": 500},
+        "wall_corner": {"description": "墙体转角区域", "range_mm": 500},
+        "door_window_edge": {"description": "门窗洞口边缘", "range_mm": 200},
+        "existing_hole": {"description": "已有孔洞边缘", "range_mm": 100}
+      }
+    },
+    "MOVE_001": {
+      "category": "move",
+      "name": "搬运重量限制",
+      "weight_limits_kg": {
+        "single_person": {"max": 25, "recommendation": "分步操作"},
+        "two_persons": {"max": 50, "recommendation": "协调配合"},
+        "mechanical": {"max": null, "requirement": "使用推车/叉车等工具"}
+      }
+    },
+    "MOVE_002": {
+      "category": "move",
+      "name": "搬运路径通道限制",
+      "channel_requirements_mm": {
+        "door_width": {"min": 800},
+        "corridor_width": {"min": 1000},
+        "stair_width": {"min": 1100},
+        "elevator": {"formula": "object_width + 100"}
+      }
+    },
+    "MOVE_003": {
+      "category": "move",
+      "name": "地面承重限制",
+      "floor_load_standards_kn_m2": {
+        "residential": 2.0,
+        "office": 2.0,
+        "mall": 3.5,
+        "warehouse": 5.0
+      }
+    },
+    "CLEAN_001": {
+      "category": "clean",
+      "name": "清洁区域限制",
+      "forbidden_areas": [
+        "电气设备内部",
+        "高压线附近2m内",
+        "正在运行的机械设备",
+        "化学品存储区"
+      ]
+    },
+    "CLEAN_002": {
+      "category": "clean",
+      "name": "清洁工具限制",
+      "floor_types": {
+        "wood": {
+          "forbidden": ["大量水洗"],
+          "recommended": ["干拖", "微湿拖"]
+        },
+        "tile": {
+          "allowed": ["水洗"],
+          "recommended": ["中性清洁剂"]
+        },
+        "stone": {
+          "forbidden": ["酸性清洁剂"],
+          "recommended": ["专用石材清洁剂"]
+        }
+      }
+    },
+    "OPENING_001": {
+      "category": "opening",
+      "name": "门窗洞口尺寸",
+      "door_min_dimensions_mm": {
+        "entrance": {"width": 900, "height": 2100},
+        "bedroom": {"width": 800, "height": 2100},
+        "bathroom": {"width": 700, "height": 2100}
+      },
+      "window_min_dimensions_mm": {
+        "bedroom": {"width": 600, "height": 900},
+        "living_room": {"formula": "房间进深 / 6"}
+      }
+    },
+    "ROOM_001": {
+      "category": "room",
+      "name": "房间最小面积",
+      "min_area_m2": {
+        "double_bedroom": 9,
+        "single_bedroom": 5,
+        "living_room": 12,
+        "kitchen": 4,
+        "bathroom": 3
+      }
+    },
+    "ROOM_002": {
+      "category": "room",
+      "name": "采光通风要求",
+      "window_floor_ratio": {
+        "bedroom": {"min": 0.143, "formula": "1/7"},
+        "living_room": {"min": 0.143, "formula": "1/7"},
+        "kitchen": {"min": 0.143, "formula": "1/7"},
+        "bathroom": {"min": 0.1, "formula": "1/10"}
+      }
+    },
+    "FIRE_001": {
+      "category": "fire",
+      "name": "防火分区面积",
+      "max_area_m2": {
+        "class_1": {"single_floor": null, "multi_floor": 2500, "high_rise": 1500},
+        "class_2": {"single_floor": 3000, "multi_floor": 2000, "high_rise": null}
+      }
+    },
+    "FIRE_002": {
+      "category": "fire",
+      "name": "疏散距离限制",
+      "max_evacuation_distance_m": {
+        "kindergarten": 25,
+        "hospital": 35,
+        "other": 40
+      },
+      "sprinkler_bonus": 0.25
+    },
+    "STRUCT_001": {
+      "category": "structure",
+      "name": "混凝土保护层厚度",
+      "min_thickness_mm": {
+        "indoor": 20,
+        "outdoor": 25,
+        "basement": 30,
+        "prefab": 15
+      },
+      "drill_safety_margin_mm": 5
+    },
+    "STRUCT_002": {
+      "category": "structure",
+      "name": "钢筋最小间距",
+      "min_spacing_mm": {
+        "beam_longitudinal": {"value": 25, "or": "钢筋直径"},
+        "column_longitudinal": 50,
+        "slab_reinforcement": 70
+      }
+    }
+  },
+  "query_interface": {
+    "check_drill": {
+      "input": ["wall_type", "diameter_mm", "depth_mm", "has_pipes", "drill_position"],
+      "output": ["allowed", "rules_checked", "warnings", "message"]
+    },
+    "check_move": {
+      "input": ["object_weight_kg", "object_dimensions", "path"],
+      "output": ["feasible", "rules_checked", "warnings", "recommendations"]
+    },
+    "check_clean": {
+      "input": ["area", "floor_type", "tools"],
+      "output": ["allowed", "rules_checked", "warnings"]
+    }
+  }
+}

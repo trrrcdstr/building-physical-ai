@@ -1,0 +1,1409 @@
+{
+  "samples": [
+    {
+      "id": 0,
+      "timestamp": "2026-04-17T17:38:25.153520",
+      "instruction": "清洁客厅地面",
+      "target_object": "地板",
+      "action_sequence": [
+        "清洁"
+      ],
+      "primary_action": "清洁",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 10,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "清洁地面",
+        "厨房清洁",
+        "清洁浴室",
+        "清洁地板"
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "2026-04-17T17:38:27.210831",
+      "instruction": "拖地",
+      "target_object": "地板",
+      "action_sequence": [
+        "清洁"
+      ],
+      "primary_action": "清洁",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 10,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "扫地拖地"
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-04-17T17:38:29.263143",
+      "instruction": "擦拭茶几表面",
+      "target_object": "茶几",
+      "action_sequence": [
+        "擦拭"
+      ],
+      "primary_action": "擦拭",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "擦拭家具表面",
+        "擦拭窗户玻璃"
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-04-17T17:38:31.306756",
+      "instruction": "打扫卧室地板",
+      "target_object": "地板",
+      "action_sequence": [
+        "清洁"
+      ],
+      "primary_action": "清洁",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 10,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "清洁地板",
+        "打扫卫生间"
+      ]
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-04-17T17:38:33.361082",
+      "instruction": "清理厨房油污",
+      "target_object": "厨房台面",
+      "action_sequence": [
+        "走到"
+      ],
+      "primary_action": "走到",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "清理厨房油污",
+        "清理落叶",
+        "厨房清洁",
+        "清理垃圾桶"
+      ]
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-04-17T17:38:35.407750",
+      "instruction": "擦拭窗户玻璃",
+      "target_object": "窗户",
+      "action_sequence": [
+        "擦拭"
+      ],
+      "primary_action": "擦拭",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "擦拭窗户玻璃"
+      ]
+    },
+    {
+      "id": 6,
+      "timestamp": "2026-04-17T17:38:37.445878",
+      "instruction": "整理床铺",
+      "target_object": "床",
+      "action_sequence": [
+        "走到"
+      ],
+      "primary_action": "走到",
+      "action_type": "整理",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "整理床铺",
+        "整理房间",
+        "整理衣柜",
+        "整理书架"
+      ]
+    },
+    {
+      "id": 7,
+      "timestamp": "2026-04-17T17:38:39.494045",
+      "instruction": "收拾桌面杂物",
+      "target_object": "桌子",
+      "action_sequence": [
+        "走到"
+      ],
+      "primary_action": "走到",
+      "action_type": "整理",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "收拾桌面杂物"
+      ]
+    },
+    {
+      "id": 8,
+      "timestamp": "2026-04-17T17:38:41.558234",
+      "instruction": "把沙发移到窗户旁边",
+      "target_object": "沙发",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "HIGH",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": false,
+      "similar_tasks": [
+        "送餐到房间",
+        "擦拭窗户玻璃"
+      ]
+    },
+    {
+      "id": 9,
+      "timestamp": "2026-04-17T17:38:43.628490",
+      "instruction": "把茶几移到餐桌旁边",
+      "target_object": "茶几",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "送餐到房间"
+      ]
+    },
+    {
+      "id": 10,
+      "timestamp": "2026-04-17T17:38:45.678542",
+      "instruction": "把椅子搬到阳台",
+      "target_object": "椅子",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "搬箱子",
+        "送餐到房间",
+        "组装柜子"
+      ]
+    },
+    {
+      "id": 11,
+      "timestamp": "2026-04-17T17:38:47.705212",
+      "instruction": "把书架移到墙角",
+      "target_object": "书架",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "整理书架",
+        "送餐到房间"
+      ]
+    },
+    {
+      "id": 12,
+      "timestamp": "2026-04-17T17:38:49.762754",
+      "instruction": "把电视柜移到对面墙",
+      "target_object": "电视柜",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "送餐到房间",
+        "组装柜子"
+      ]
+    },
+    {
+      "id": 13,
+      "timestamp": "2026-04-17T17:38:51.813313",
+      "instruction": "把花盆移到窗台",
+      "target_object": "花盆",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "送餐到房间"
+      ]
+    },
+    {
+      "id": 14,
+      "timestamp": "2026-04-17T17:38:53.858393",
+      "instruction": "安装吸顶灯",
+      "target_object": "天花板",
+      "action_sequence": [
+        "安装"
+      ],
+      "primary_action": "安装",
+      "action_type": "安装",
+      "risk_level": "MEDIUM",
+      "duration_s": 15,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "安装家具",
+        "安装灯具",
+        "打孔安装"
+      ]
+    },
+    {
+      "id": 15,
+      "timestamp": "2026-04-17T17:38:55.907885",
+      "instruction": "固定墙上挂钩",
+      "target_object": "墙壁",
+      "action_sequence": [
+        "固定"
+      ],
+      "primary_action": "固定",
+      "action_type": "固定",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "固定挂钩"
+      ]
+    },
+    {
+      "id": 16,
+      "timestamp": "2026-04-17T17:38:57.975333",
+      "instruction": "打孔安装置物架",
+      "target_object": "墙壁",
+      "action_sequence": [
+        "安装",
+        "打孔"
+      ],
+      "primary_action": "安装",
+      "action_type": "安装",
+      "risk_level": "MEDIUM",
+      "duration_s": 20,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "打孔安装",
+        "安装家具"
+      ]
+    },
+    {
+      "id": 17,
+      "timestamp": "2026-04-17T17:39:00.037755",
+      "instruction": "布线接电",
+      "target_object": "墙壁",
+      "action_sequence": [
+        "布线"
+      ],
+      "primary_action": "布线",
+      "action_type": "布线",
+      "risk_level": "MEDIUM",
+      "duration_s": 20,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "布线接电"
+      ]
+    },
+    {
+      "id": 18,
+      "timestamp": "2026-04-17T17:39:02.107308",
+      "instruction": "巡检消防通道",
+      "target_object": "通道",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "LOW",
+      "duration_s": 2,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "检查消防通道",
+        "设备巡检",
+        "巡检设备间"
+      ]
+    },
+    {
+      "id": 19,
+      "timestamp": "2026-04-17T17:39:04.176554",
+      "instruction": "检查配电箱",
+      "target_object": "配电箱",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "LOW",
+      "duration_s": 2,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "切配食材",
+        "检查消防通道"
+      ]
+    },
+    {
+      "id": 20,
+      "timestamp": "2026-04-17T17:39:06.227267",
+      "instruction": "记录仪表读数",
+      "target_object": "仪表",
+      "action_sequence": [
+        "记录"
+      ],
+      "primary_action": "记录",
+      "action_type": "记录",
+      "risk_level": "LOW",
+      "duration_s": 1,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "查看仪表读数"
+      ]
+    },
+    {
+      "id": 21,
+      "timestamp": "2026-04-17T17:39:08.261665",
+      "instruction": "环境安全检查",
+      "target_object": "全屋",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "LOW",
+      "duration_s": 2,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "环境安全检查"
+      ]
+    },
+    {
+      "id": 22,
+      "timestamp": "2026-04-17T17:39:10.338029",
+      "instruction": "送餐到客房",
+      "target_object": "托盘",
+      "action_sequence": [
+        "递送"
+      ],
+      "primary_action": "递送",
+      "action_type": "递送",
+      "risk_level": "LOW",
+      "duration_s": 8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "送餐到房间",
+        "客房服务"
+      ]
+    },
+    {
+      "id": 23,
+      "timestamp": "2026-04-17T17:39:12.374459",
+      "instruction": "递送快递包裹",
+      "target_object": "包裹",
+      "action_sequence": [
+        "递送"
+      ],
+      "primary_action": "递送",
+      "action_type": "递送",
+      "risk_level": "LOW",
+      "duration_s": 8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "递送物品"
+      ]
+    },
+    {
+      "id": 24,
+      "timestamp": "2026-04-17T17:39:14.442631",
+      "instruction": "引导访客到会议室",
+      "target_object": "走廊",
+      "action_sequence": [
+        "走到"
+      ],
+      "primary_action": "走到",
+      "action_type": "导航",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "引导访客",
+        "会议室布置"
+      ]
+    },
+    {
+      "id": 25,
+      "timestamp": "2026-04-17T17:39:16.493856",
+      "instruction": "浇花",
+      "target_object": "植物",
+      "action_sequence": [
+        "走到"
+      ],
+      "primary_action": "走到",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "浇花浇水"
+      ]
+    },
+    {
+      "id": 26,
+      "timestamp": "2026-04-17T17:39:18.527868",
+      "instruction": "修剪草坪",
+      "target_object": "草地",
+      "action_sequence": [
+        "修剪"
+      ],
+      "primary_action": "修剪",
+      "action_type": "修剪",
+      "risk_level": "LOW",
+      "duration_s": 8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "修剪草坪"
+      ]
+    },
+    {
+      "id": 27,
+      "timestamp": "2026-04-17T17:39:20.560224",
+      "instruction": "清理落叶",
+      "target_object": "地面",
+      "action_sequence": [
+        "走到"
+      ],
+      "primary_action": "走到",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "清理落叶",
+        "清理厨房油污",
+        "清理垃圾桶"
+      ]
+    },
+    {
+      "id": 28,
+      "timestamp": "2026-04-17T17:39:22.605177",
+      "instruction": "施肥养护",
+      "target_object": "植物",
+      "action_sequence": [
+        "走到"
+      ],
+      "primary_action": "走到",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [
+        "施肥养护"
+      ]
+    },
+    {
+      "id": 29,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "巡检电视机",
+      "target_object": "电视机",
+      "action_sequence": [
+        "巡检"
+      ],
+      "primary_action": "巡检",
+      "action_type": "巡检",
+      "risk_level": "LOW",
+      "duration_s": 3.0,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 30,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "安装椅子",
+      "target_object": "椅子",
+      "action_sequence": [
+        "安装"
+      ],
+      "primary_action": "安装",
+      "action_type": "安装",
+      "risk_level": "LOW",
+      "duration_s": 9.3,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 31,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "整理电视机",
+      "target_object": "电视机",
+      "action_sequence": [
+        "整理"
+      ],
+      "primary_action": "整理",
+      "action_type": "整理",
+      "risk_level": "LOW",
+      "duration_s": 17.2,
+      "physics_feasible": true,
+      "execution_ready": false,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 32,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "查看厨房台面",
+      "target_object": "厨房台面",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "MEDIUM",
+      "duration_s": 13.9,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 33,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "巡检床",
+      "target_object": "床",
+      "action_sequence": [
+        "巡检"
+      ],
+      "primary_action": "巡检",
+      "action_type": "巡检",
+      "risk_level": "LOW",
+      "duration_s": 18.5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 34,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动墙壁",
+      "target_object": "墙壁",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 16.8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 35,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动书架",
+      "target_object": "书架",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 15.4,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 36,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动花盆",
+      "target_object": "花盆",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 11.4,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 37,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动书架",
+      "target_object": "书架",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "MEDIUM",
+      "duration_s": 8.4,
+      "physics_feasible": false,
+      "execution_ready": false,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 38,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "查看茶几",
+      "target_object": "茶几",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "MEDIUM",
+      "duration_s": 15.4,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 39,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "巡检窗户",
+      "target_object": "窗户",
+      "action_sequence": [
+        "巡检"
+      ],
+      "primary_action": "巡检",
+      "action_type": "巡检",
+      "risk_level": "LOW",
+      "duration_s": 7.2,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 40,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "查看冰箱",
+      "target_object": "冰箱",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "MEDIUM",
+      "duration_s": 11.1,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 41,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动电视机",
+      "target_object": "电视机",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "MEDIUM",
+      "duration_s": 12.7,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 42,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "浇灌书架",
+      "target_object": "书架",
+      "action_sequence": [
+        "浇灌"
+      ],
+      "primary_action": "浇灌",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 6.4,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 43,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "浇灌窗户",
+      "target_object": "窗户",
+      "action_sequence": [
+        "浇灌"
+      ],
+      "primary_action": "浇灌",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 19.1,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 44,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "递送到书架",
+      "target_object": "书架",
+      "action_sequence": [
+        "递送"
+      ],
+      "primary_action": "递送",
+      "action_type": "递送",
+      "risk_level": "LOW",
+      "duration_s": 6.7,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 45,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "清洁床",
+      "target_object": "床",
+      "action_sequence": [
+        "清洁"
+      ],
+      "primary_action": "清洁",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 19.9,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 46,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "清洁餐桌",
+      "target_object": "餐桌",
+      "action_sequence": [
+        "清洁"
+      ],
+      "primary_action": "清洁",
+      "action_type": "清洁",
+      "risk_level": "MEDIUM",
+      "duration_s": 14.2,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 47,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动花盆",
+      "target_object": "花盆",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 12.6,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 48,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "清洁茶几",
+      "target_object": "茶几",
+      "action_sequence": [
+        "清洁"
+      ],
+      "primary_action": "清洁",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 7.3,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 49,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动窗户",
+      "target_object": "窗户",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 10.5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 50,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "浇灌空调",
+      "target_object": "空调",
+      "action_sequence": [
+        "浇灌"
+      ],
+      "primary_action": "浇灌",
+      "action_type": "浇灌",
+      "risk_level": "MEDIUM",
+      "duration_s": 2.4,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 51,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "巡检床",
+      "target_object": "床",
+      "action_sequence": [
+        "巡检"
+      ],
+      "primary_action": "巡检",
+      "action_type": "巡检",
+      "risk_level": "LOW",
+      "duration_s": 17.9,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 52,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动地板",
+      "target_object": "地板",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "MEDIUM",
+      "duration_s": 18.8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 53,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "巡检地板",
+      "target_object": "地板",
+      "action_sequence": [
+        "巡检"
+      ],
+      "primary_action": "巡检",
+      "action_type": "巡检",
+      "risk_level": "LOW",
+      "duration_s": 6.8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 54,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "浇灌洗衣机",
+      "target_object": "洗衣机",
+      "action_sequence": [
+        "浇灌"
+      ],
+      "primary_action": "浇灌",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 3.7,
+      "physics_feasible": false,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 55,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "浇灌椅子",
+      "target_object": "椅子",
+      "action_sequence": [
+        "浇灌"
+      ],
+      "primary_action": "浇灌",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 15.7,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 56,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "查看洗衣机",
+      "target_object": "洗衣机",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "LOW",
+      "duration_s": 14.0,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 57,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "查看地毯",
+      "target_object": "地毯",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "LOW",
+      "duration_s": 14.8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 58,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "安装茶几",
+      "target_object": "茶几",
+      "action_sequence": [
+        "安装"
+      ],
+      "primary_action": "安装",
+      "action_type": "安装",
+      "risk_level": "LOW",
+      "duration_s": 13.5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 59,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "整理椅子",
+      "target_object": "椅子",
+      "action_sequence": [
+        "整理"
+      ],
+      "primary_action": "整理",
+      "action_type": "整理",
+      "risk_level": "LOW",
+      "duration_s": 2.1,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 60,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "递送到沙发",
+      "target_object": "沙发",
+      "action_sequence": [
+        "递送"
+      ],
+      "primary_action": "递送",
+      "action_type": "递送",
+      "risk_level": "MEDIUM",
+      "duration_s": 5.5,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 61,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "整理衣柜",
+      "target_object": "衣柜",
+      "action_sequence": [
+        "整理"
+      ],
+      "primary_action": "整理",
+      "action_type": "整理",
+      "risk_level": "MEDIUM",
+      "duration_s": 10.5,
+      "physics_feasible": false,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 62,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "安装空调",
+      "target_object": "空调",
+      "action_sequence": [
+        "安装"
+      ],
+      "primary_action": "安装",
+      "action_type": "安装",
+      "risk_level": "LOW",
+      "duration_s": 5.9,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 63,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "清洁电视机",
+      "target_object": "电视机",
+      "action_sequence": [
+        "清洁"
+      ],
+      "primary_action": "清洁",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 11.7,
+      "physics_feasible": true,
+      "execution_ready": false,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 64,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "浇灌地板",
+      "target_object": "地板",
+      "action_sequence": [
+        "浇灌"
+      ],
+      "primary_action": "浇灌",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 12.4,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 65,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "查看衣柜",
+      "target_object": "衣柜",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "LOW",
+      "duration_s": 13.8,
+      "physics_feasible": true,
+      "execution_ready": false,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 66,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "浇灌椅子",
+      "target_object": "椅子",
+      "action_sequence": [
+        "浇灌"
+      ],
+      "primary_action": "浇灌",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 19.1,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 67,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动地板",
+      "target_object": "地板",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 19.2,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 68,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "递送到餐桌",
+      "target_object": "餐桌",
+      "action_sequence": [
+        "递送"
+      ],
+      "primary_action": "递送",
+      "action_type": "递送",
+      "risk_level": "LOW",
+      "duration_s": 2.3,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 69,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动洗衣机",
+      "target_object": "洗衣机",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 4.9,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 70,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "浇灌冰箱",
+      "target_object": "冰箱",
+      "action_sequence": [
+        "浇灌"
+      ],
+      "primary_action": "浇灌",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 17.7,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 71,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动沙发",
+      "target_object": "沙发",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 13.8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 72,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "清洁花盆",
+      "target_object": "花盆",
+      "action_sequence": [
+        "清洁"
+      ],
+      "primary_action": "清洁",
+      "action_type": "清洁",
+      "risk_level": "LOW",
+      "duration_s": 9.1,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 73,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "查看冰箱",
+      "target_object": "冰箱",
+      "action_sequence": [
+        "查看"
+      ],
+      "primary_action": "查看",
+      "action_type": "查看",
+      "risk_level": "LOW",
+      "duration_s": 4.9,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 74,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "移动地板",
+      "target_object": "地板",
+      "action_sequence": [
+        "移动"
+      ],
+      "primary_action": "移动",
+      "action_type": "移动",
+      "risk_level": "LOW",
+      "duration_s": 5.4,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 75,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "安装冰箱",
+      "target_object": "冰箱",
+      "action_sequence": [
+        "安装"
+      ],
+      "primary_action": "安装",
+      "action_type": "安装",
+      "risk_level": "MEDIUM",
+      "duration_s": 15.8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 76,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "整理衣柜",
+      "target_object": "衣柜",
+      "action_sequence": [
+        "整理"
+      ],
+      "primary_action": "整理",
+      "action_type": "整理",
+      "risk_level": "LOW",
+      "duration_s": 9.8,
+      "physics_feasible": true,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 77,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "递送到床",
+      "target_object": "床",
+      "action_sequence": [
+        "递送"
+      ],
+      "primary_action": "递送",
+      "action_type": "递送",
+      "risk_level": "LOW",
+      "duration_s": 16.0,
+      "physics_feasible": true,
+      "execution_ready": false,
+      "similar_tasks": [],
+      "synthetic": true
+    },
+    {
+      "id": 78,
+      "timestamp": "2026-04-17T17:39:22.606318",
+      "instruction": "浇灌冰箱",
+      "target_object": "冰箱",
+      "action_sequence": [
+        "浇灌"
+      ],
+      "primary_action": "浇灌",
+      "action_type": "浇灌",
+      "risk_level": "LOW",
+      "duration_s": 5.2,
+      "physics_feasible": false,
+      "execution_ready": true,
+      "similar_tasks": [],
+      "synthetic": true
+    }
+  ],
+  "stats": {
+    "generated": 79,
+    "safe": 28,
+    "unsafe": 1
+  },
+  "generated_at": "2026-04-17T17:39:22.606318"
+}

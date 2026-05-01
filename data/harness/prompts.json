@@ -1,0 +1,100 @@
+{
+  "prompts": [
+    {
+      "id": "seed_01",
+      "name": "场景物理分析",
+      "task_type": "scene_analysis",
+      "template": "## 任务\n分析以下建筑场景的物理属性，输出机器人交互建议。\n\n## 输入\n- 房间类型：{room_type}\n- 尺寸：{width}m × {depth}m × {height}m\n- 物理标签：{physics_tags}\n\n## 输出要求\n仅输出JSON，格式如下：\n```json\n{{\n  \"friction\": 0.0到1.0的数字,\n  \"fragility\": 0.0到1.0的数字,\n  \"moisture_risk\": true或false,\n  \"obstacle_risk\": true或false,\n  \"traversable\": true或false,\n  \"climbable\": true或false,\n  \"recommendations\": [\"行动建议1\", \"行动建议2\"],\n  \"safety_notes\": [\"安全注意1\"]\n}}\n```",
+      "variables": [
+        "room_type",
+        "width",
+        "depth",
+        "height",
+        "physics_tags"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "created_at": "2026-04-10T22:01:00.445215",
+      "performance": {
+        "runs": 6,
+        "success": 6,
+        "errors": 0,
+        "avg_latency_ms": 0,
+        "ratings": [
+          5,
+          4,
+          5,
+          4,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "seed_02",
+      "name": "路径规划",
+      "task_type": "path_planning",
+      "template": "## 任务\n为机器人生成从起点到终点的安全路径。\n\n## 输入\n- 起点：{start_position}\n- 终点：{goal_position}\n- 房间类型：{room_type}\n- 障碍物：{obstacles}\n- 机器人能力：{robot_capabilities}\n\n## 输出\n输出JSON格式：\n```json\n{{\n  \"path\": [[x,y,z], [x,y,z], ...],\n  \"estimated_time\": 秒数,\n  \"obstacles_avoided\": [\"障碍物列表\"],\n  \"risks\": [\"风险提示\"]\n}}\n```",
+      "variables": [
+        "start_position",
+        "goal_position",
+        "room_type",
+        "obstacles",
+        "robot_capabilities"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "created_at": "2026-04-10T22:01:00.445215",
+      "performance": {
+        "runs": 0,
+        "success": 0,
+        "errors": 0,
+        "avg_latency_ms": 0,
+        "ratings": []
+      }
+    },
+    {
+      "id": "seed_03",
+      "name": "抓取策略",
+      "task_type": "grasp_planning",
+      "template": "## 任务\n分析目标物体的最佳抓取策略。\n\n## 输入\n- 物体类型：{object_type}\n- 物体尺寸：{dimensions}\n- 物体材质：{material}\n- 机器人手类型：{gripper_type}\n\n## 输出\n```json\n{{\n  \"grasp_points\": [[x,y,z], ...],\n  \"grip_force\": \"light/medium/heavy\",\n  \"approach_angle\": 角度值,\n  \"success_probability\": 0.0到1.0,\n  \"alternatives\": [\"备选方案\"]\n}}\n```",
+      "variables": [
+        "object_type",
+        "dimensions",
+        "material",
+        "gripper_type"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "created_at": "2026-04-10T22:01:00.445215",
+      "performance": {
+        "runs": 0,
+        "success": 0,
+        "errors": 0,
+        "avg_latency_ms": 0,
+        "ratings": []
+      }
+    },
+    {
+      "id": "seed_04",
+      "name": "物理推理",
+      "task_type": "physics_reasoning",
+      "template": "## 任务\n基于物理规律推理以下场景中会发生什么。\n\n## 场景描述\n{scene_description}\n\n## 触发事件\n{trigger_event}\n\n## 输出\n```json\n{{\n  \"prediction\": \"预测结果\",\n  \"confidence\": 0.0到1.0,\n  \"reasoning\": \"推理过程\",\n  \"uncertainty_factors\": [\"不确定因素\"]\n}}\n```",
+      "variables": [
+        "scene_description",
+        "trigger_event"
+      ],
+      "version": 1,
+      "parent_id": null,
+      "created_at": "2026-04-10T22:01:00.445215",
+      "performance": {
+        "runs": 0,
+        "success": 0,
+        "errors": 0,
+        "avg_latency_ms": 0,
+        "ratings": []
+      }
+    }
+  ],
+  "updated_at": "2026-04-15T14:07:24.765154"
+}

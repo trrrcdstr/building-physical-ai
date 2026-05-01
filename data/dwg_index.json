@@ -1,0 +1,820 @@
+{
+  "scan_time": "2026-04-21T20:53:29.738668",
+  "total_files": 100,
+  "total_size_mb": 375.96,
+  "version_stats": {
+    "R2004": 57,
+    "R2013": 26,
+    "R2000": 1,
+    "R2007": 11,
+    "R2010": 1,
+    "R2018": 4
+  },
+  "project_stats": {
+    "Unknown": 1,
+    "建筑数据库": 79,
+    "设计数据库": 20
+  },
+  "files": [
+    {
+      "filename": "08-平面规划设计方案2024-1210(1).dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\08-平面规划设计方案2024-1210(1).dwg",
+      "size_mb": 9.87,
+      "version": "R2004",
+      "modified": "2026-04-10T18:27:27.273524",
+      "project": "Unknown"
+    },
+    {
+      "filename": "08-平面规划设计方案2024-1210.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\产业园\\08-平面规划设计方案2024-1210.dwg",
+      "size_mb": 9.87,
+      "version": "R2004",
+      "modified": "2026-04-10T18:27:27.273524",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "1#和11#楼建筑施工图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\1#和11#楼建筑施工图2024.06.26.dwg",
+      "size_mb": 6.47,
+      "version": "R2004",
+      "modified": "2024-06-26T20:10:26.541000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "12#楼建筑施工图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\12#楼建筑施工图2024.06.26.dwg",
+      "size_mb": 5.1,
+      "version": "R2004",
+      "modified": "2024-06-26T20:58:51.879000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "2#楼建筑施工图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\2#楼建筑施工图2024.06.26.dwg",
+      "size_mb": 10.25,
+      "version": "R2004",
+      "modified": "2025-09-21T21:37:35",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "3#、5#楼建筑施工图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\3#、5#楼建筑施工图2024.06.26.dwg",
+      "size_mb": 7.45,
+      "version": "R2004",
+      "modified": "2024-06-26T20:20:40.679000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "4#楼建筑施工图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\4#楼建筑施工图2024.06.26.dwg",
+      "size_mb": 9.25,
+      "version": "R2004",
+      "modified": "2024-06-26T20:26:20.312000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "6#楼建筑施工图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\6#楼建筑施工图2024.06.26.dwg",
+      "size_mb": 8.95,
+      "version": "R2004",
+      "modified": "2024-06-26T20:31:59.577000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "7#楼建筑施工图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\7#楼建筑施工图2024.06.26.dwg",
+      "size_mb": 7.97,
+      "version": "R2004",
+      "modified": "2024-06-26T20:39:03.203000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "8#、10#楼建筑施工图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\8#、10#楼建筑施工图2024.06.26.dwg",
+      "size_mb": 6.31,
+      "version": "R2004",
+      "modified": "2024-06-26T20:45:57.423000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "9#楼建筑施工图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\9#楼建筑施工图2024.06.26.dwg",
+      "size_mb": 6.53,
+      "version": "R2004",
+      "modified": "2024-06-26T20:51:41.315000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "地下车库设计说明2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\地下车库设计说明2024.06.26.dwg",
+      "size_mb": 3.25,
+      "version": "R2004",
+      "modified": "2024-06-18T11:19:04.286000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "总平面图及竖向布置图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\总平面图及竖向布置图2024.06.26.dwg",
+      "size_mb": 3.04,
+      "version": "R2004",
+      "modified": "2024-05-08T19:34:37.632000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "消防扑救示意图2024.06.26.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\消防扑救示意图2024.06.26.dwg",
+      "size_mb": 19.99,
+      "version": "R2013",
+      "modified": "2024-05-19T13:05:45.285000",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "锦钰城地库RF.2024.06.26-1.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\锦钰城地库RF.2024.06.26-1.dwg",
+      "size_mb": 16.07,
+      "version": "R2004",
+      "modified": "2026-01-13T15:03:58",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "锦钰城地库RF.2024.06.26-1_t7.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\和瑞·锦钰城-建筑施工图2024.06.26合格版\\锦钰城地库RF.2024.06.26-1_t7.dwg",
+      "size_mb": 8.97,
+      "version": "R2004",
+      "modified": "2026-01-23T11:14:54",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "云东海地块四总图（加围墙）20200910(1).dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\地产综合体佛山恒大云东海\\恒大云东海\\云东海地块四总图（加围墙）20200910(1).dwg",
+      "size_mb": 39.52,
+      "version": "R2000",
+      "modified": "2026-04-09T21:19:51.482919",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "佛山云海B2-2(I)建筑施工图122座、126座、130座、134座、138座、216座-228座)(最终版).dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\地产综合体佛山恒大云东海\\恒大云东海\\佛山云海B2-2(I)建筑施工图122座、126座、130座、134座、138座、216座-228座)(最终版).dwg",
+      "size_mb": 5.84,
+      "version": "R2004",
+      "modified": "2026-04-09T21:19:34.568372",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "P-28#配套用房_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\P-28#配套用房_t3.dwg",
+      "size_mb": 1.56,
+      "version": "R2004",
+      "modified": "2026-04-10T20:51:36.816832",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "东湾地块三地下室弱电+充电桩2022.12.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\东湾地块三地下室弱电+充电桩2022.12.dwg",
+      "size_mb": 2.53,
+      "version": "R2004",
+      "modified": "2026-04-10T20:51:39.171800",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "地块三地下室建筑底图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\地块三地下室建筑底图.dwg",
+      "size_mb": 5.22,
+      "version": "R2004",
+      "modified": "2026-04-10T20:51:40.796185",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "地块三给排水总平面图(小比例)_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\地块三给排水总平面图(小比例)_t3.dwg",
+      "size_mb": 2.24,
+      "version": "R2004",
+      "modified": "2026-04-10T20:51:37.503641",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "地块三地下室-通风图(T)20221215_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\暖通专业\\地块三地下室-通风图(T)20221215_t3.dwg",
+      "size_mb": 8.49,
+      "version": "R2004",
+      "modified": "2022-12-15T17:53:34",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "东湾地块三地下室弱电+充电桩2022.12.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库弱电+充电桩（按建筑分期修改）\\东湾地块三地下室弱电+充电桩2022.12.dwg",
+      "size_mb": 2.53,
+      "version": "R2004",
+      "modified": "2022-12-15T15:00:38",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "东湾地块三地下室弱电+充电桩2022.12_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库弱电+充电桩（按建筑分期修改）\\东湾地块三地下室弱电+充电桩2022.12_t3.dwg",
+      "size_mb": 2.35,
+      "version": "R2004",
+      "modified": "2022-12-15T15:00:34",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "地块三地下室建筑底图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库弱电+充电桩（按建筑分期修改）\\地块三地下室建筑底图.dwg",
+      "size_mb": 5.22,
+      "version": "R2004",
+      "modified": "2022-12-15T14:42:46",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "2022.12.15地下室平面图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库消电（按建筑分期修改）\\2022.12.15地下室平面图.dwg",
+      "size_mb": 4.95,
+      "version": "R2007",
+      "modified": "2022-12-15T11:14:26",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "地下室-消电(划分一二期出图)_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库消电（按建筑分期修改）\\地下室-消电(划分一二期出图)_t3.dwg",
+      "size_mb": 5.76,
+      "version": "R2004",
+      "modified": "2022-12-15T16:15:30",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "东湾村地块三地下车库照明（按建筑分期修改）2022.12.15_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库电施（按建筑分期修改）\\东湾村地块三地下车库照明（按建筑分期修改）2022.12.15_t3.dwg",
+      "size_mb": 4.45,
+      "version": "R2004",
+      "modified": "2022-12-15T15:38:16",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "东湾村地块三地下车库电施（按建筑分期修改）2022.12.15_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库电施（按建筑分期修改）\\东湾村地块三地下车库电施（按建筑分期修改）2022.12.15_t3.dwg",
+      "size_mb": 4.93,
+      "version": "R2004",
+      "modified": "2022-12-15T15:38:08",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "地块三地下室建筑底图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库电施（按建筑分期修改）\\地块三地下室建筑底图.dwg",
+      "size_mb": 7.58,
+      "version": "R2004",
+      "modified": "2022-12-15T15:37:54",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "2022.12.15地下室平面图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库防雷（按建筑分期修改）\\2022.12.15地下室平面图.dwg",
+      "size_mb": 4.95,
+      "version": "R2007",
+      "modified": "2022-12-15T11:14:26",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "地下室-防雷(划分一二期出图)_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\电气专业\\车库防雷（按建筑分期修改）\\地下室-防雷(划分一二期出图)_t3.dwg",
+      "size_mb": 1.28,
+      "version": "R2004",
+      "modified": "2022-12-15T16:15:38",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "12.15星河东湾村地块三水施图变更单十二_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\给排水专业\\12.15水专业分期修改\\12.15星河东湾村地块三水施图变更单十二_t3.dwg",
+      "size_mb": 2.62,
+      "version": "R2004",
+      "modified": "2022-12-15T17:46:40",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "202215地块三地下室水图(修改分期)_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\沙发软装\\南沙星河东悦湾\\给排水专业\\12.15水专业分期修改\\202215地块三地下室水图(修改分期)_t3.dwg",
+      "size_mb": 6.8,
+      "version": "R2013",
+      "modified": "2022-12-15T17:58:30",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "10#单体260312.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-建\\10#单体260312.dwg",
+      "size_mb": 1.18,
+      "version": "R2013",
+      "modified": "2026-03-21T16:38:52",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "单体 03.20_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-建\\单体 03.20_t8.dwg",
+      "size_mb": 1.11,
+      "version": "R2013",
+      "modified": "2026-03-21T16:38:44",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "建筑总说明-黄葛渡示范区260312.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-建\\建筑总说明-黄葛渡示范区260312.dwg",
+      "size_mb": 1.14,
+      "version": "R2013",
+      "modified": "2026-03-21T16:26:02",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "龙湖黄葛渡重庆南坪2.5级总图_20260318_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-建\\龙湖黄葛渡重庆南坪2.5级总图_20260318_t8.dwg",
+      "size_mb": 2.19,
+      "version": "R2010",
+      "modified": "2026-03-19T10:38:20",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "01设计总说明.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\01设计总说明.dwg",
+      "size_mb": 1.66,
+      "version": "R2013",
+      "modified": "2026-03-14T15:09:54",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "1.1景观竖向平面图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\1.1景观竖向平面图.dwg",
+      "size_mb": 0.58,
+      "version": "R2013",
+      "modified": "2026-03-20T16:52:54",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "1.2景观索引及室外设施平面图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\1.2景观索引及室外设施平面图.dwg",
+      "size_mb": 0.27,
+      "version": "R2013",
+      "modified": "2026-03-20T20:10:26",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "1.3景观铺装平面图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\1.3景观铺装平面图.dwg",
+      "size_mb": 0.24,
+      "version": "R2013",
+      "modified": "2026-03-20T16:52:22",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "1.4-5景观定位平面图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\1.4-5景观定位平面图.dwg",
+      "size_mb": 1.19,
+      "version": "R2013",
+      "modified": "2026-03-20T13:50:16",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "10.1景石详图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\10.1景石详图.dwg",
+      "size_mb": 1.23,
+      "version": "R2013",
+      "modified": "2026-03-20T18:59:18",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "11.1边坡处理详图一.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\11.1边坡处理详图一.dwg",
+      "size_mb": 0.46,
+      "version": "R2013",
+      "modified": "2026-03-20T19:49:16",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "11.2边坡处理详图二.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\11.2边坡处理详图二.dwg",
+      "size_mb": 15.66,
+      "version": "R2013",
+      "modified": "2026-03-20T19:51:50",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "2.1入口LOGO及景石详图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\2.1入口LOGO及景石详图.dwg",
+      "size_mb": 1.64,
+      "version": "R2013",
+      "modified": "2026-03-20T17:57:30",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "3.1-2休闲平台详图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\3.1-2休闲平台详图.dwg",
+      "size_mb": 1.29,
+      "version": "R2013",
+      "modified": "2026-03-20T16:02:46",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "4.1-6假山水景详图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\4.1-6假山水景详图.dwg",
+      "size_mb": 1.62,
+      "version": "R2013",
+      "modified": "2026-03-20T20:25:22",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "5.1-2休闲木平台详图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\5.1-2休闲木平台详图.dwg",
+      "size_mb": 1.25,
+      "version": "R2013",
+      "modified": "2026-03-20T18:12:12",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "6.1-2通用做法详图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\6.1-2通用做法详图.dwg",
+      "size_mb": 2.05,
+      "version": "R2013",
+      "modified": "2026-03-20T12:14:36",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "7.1钢架桥栏杆详图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\7.1钢架桥栏杆详图.dwg",
+      "size_mb": 1.18,
+      "version": "R2013",
+      "modified": "2026-03-20T17:40:14",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "8.1装饰井盖详图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\8.1装饰井盖详图.dwg",
+      "size_mb": 2.02,
+      "version": "R2013",
+      "modified": "2026-03-14T09:14:54",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "9.1泵坑详图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\9.1泵坑详图.dwg",
+      "size_mb": 0.12,
+      "version": "R2013",
+      "modified": "2026-03-14T19:29:58",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "A2图框.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\A2图框.dwg",
+      "size_mb": 0.52,
+      "version": "R2013",
+      "modified": "2026-03-19T21:22:12",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "base.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\base.dwg",
+      "size_mb": 2.07,
+      "version": "R2013",
+      "modified": "2026-03-20T20:13:36",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "封面目录.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\01园建\\封面目录.dwg",
+      "size_mb": 0.68,
+      "version": "R2013",
+      "modified": "2026-03-20T19:53:10",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "00 图框封面目录.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\02植施\\00 图框封面目录.dwg",
+      "size_mb": 0.48,
+      "version": "R2004",
+      "modified": "2026-03-14T23:27:00",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "01 植物施工设计说明.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\02植施\\01 植物施工设计说明.dwg",
+      "size_mb": 3.58,
+      "version": "R2004",
+      "modified": "2026-03-14T23:27:12",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "02 植物图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\02植施\\02 植物图.dwg",
+      "size_mb": 2.43,
+      "version": "R2004",
+      "modified": "2026-03-21T14:48:12",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "A2.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\02植施\\A2.dwg",
+      "size_mb": 0.41,
+      "version": "R2004",
+      "modified": "2026-03-21T14:46:20",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "龙湖黄葛渡重庆南坪景观BASE.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-景观\\02植施\\龙湖黄葛渡重庆南坪景观BASE.dwg",
+      "size_mb": 1.96,
+      "version": "R2004",
+      "modified": "2026-03-21T14:46:18",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "给排水总平面图20260313_t9.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-水\\给排水总平面图20260313_t9.dwg",
+      "size_mb": 1.98,
+      "version": "R2004",
+      "modified": "2026-03-13T19:42:26",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "单体水施_t9.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-水\\水施20260313\\单体水施_t9.dwg",
+      "size_mb": 0.88,
+      "version": "R2013",
+      "modified": "2026-03-15T20:25:28",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "给排水总平面图_t9.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-水\\水施20260313\\给排水总平面图_t9.dwg",
+      "size_mb": 1.98,
+      "version": "R2004",
+      "modified": "2026-03-13T18:59:20",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "目录、说明、材料表_t9.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-水\\水施20260313\\设计说明\\目录、说明、材料表_t9.dwg",
+      "size_mb": 0.96,
+      "version": "R2004",
+      "modified": "2026-03-13T21:21:02",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "封面、目录、说明.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-电\\封面、目录、说明.dwg",
+      "size_mb": 0.35,
+      "version": "R2007",
+      "modified": "2026-03-13T17:41:02",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "电气平面图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-电\\电气平面图.dwg",
+      "size_mb": 0.14,
+      "version": "R2007",
+      "modified": "2026-03-13T17:40:48",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "电气总平面图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-电\\电气总平面图.dwg",
+      "size_mb": 0.85,
+      "version": "R2007",
+      "modified": "2026-03-13T17:41:14",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "TK-A1.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-电\\参照\\TK-A1.dwg",
+      "size_mb": 0.04,
+      "version": "R2007",
+      "modified": "2026-03-13T17:41:34",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "TK-A2.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-电\\参照\\TK-A2.dwg",
+      "size_mb": 0.05,
+      "version": "R2007",
+      "modified": "2026-03-13T17:41:34",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "TK.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-电\\参照\\TK.dwg",
+      "size_mb": 0.41,
+      "version": "R2007",
+      "modified": "2026-03-13T17:41:34",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "参照-建筑.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-电\\参照\\参照-建筑.dwg",
+      "size_mb": 0.05,
+      "version": "R2007",
+      "modified": "2026-03-13T17:41:34",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "参照-建筑2.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-电\\参照\\参照-建筑2.dwg",
+      "size_mb": 0.05,
+      "version": "R2007",
+      "modified": "2026-03-13T17:41:34",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "参照-总图.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-电\\参照\\参照-总图.dwg",
+      "size_mb": 1.79,
+      "version": "R2007",
+      "modified": "2026-03-13T17:41:38",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "2.5级开发架空和钢结构20260318-桩底标高.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-结\\2.5级开发架空和钢结构20260318-桩底标高.dwg",
+      "size_mb": 3.02,
+      "version": "R2013",
+      "modified": "2026-03-18T16:02:00",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "支护剖面图20260318_t9.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-结\\支护剖面图20260318_t9.dwg",
+      "size_mb": 0.5,
+      "version": "R2004",
+      "modified": "2026-03-18T16:03:32",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "支护平面图20260318_t9.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-结\\支护平面图20260318_t9.dwg",
+      "size_mb": 2.01,
+      "version": "R2004",
+      "modified": "2026-03-18T16:02:50",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "支护说明20260317_t9.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\黄葛渡施工图\\黄葛渡2.5级示范区施工图-审查后-结\\支护说明20260317_t9.dwg",
+      "size_mb": 0.64,
+      "version": "R2004",
+      "modified": "2026-03-17T17:38:22",
+      "project": "建筑数据库"
+    },
+    {
+      "filename": "万昌康城.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\家庭别墅\\室内施工图\\万昌康城.dwg",
+      "size_mb": 1.15,
+      "version": "R2018",
+      "modified": "2026-04-10T14:35:53.084646",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "桔山湖.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\家庭别墅\\室内施工图\\桔山湖.dwg",
+      "size_mb": 3.2,
+      "version": "R2018",
+      "modified": "2026-04-10T14:38:34.217473",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "花月半岛.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\家庭别墅\\室内施工图\\花月半岛.dwg",
+      "size_mb": 2.58,
+      "version": "R2018",
+      "modified": "2026-04-10T14:34:14.926665",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "鹿城.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\家庭别墅\\室内施工图\\鹿城.dwg",
+      "size_mb": 4.11,
+      "version": "R2018",
+      "modified": "2026-04-10T14:30:41.450140",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "202403-强电二装设计说明-运动员中心B_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\6#\\CAD\\202403-强电二装设计说明-运动员中心B_t3.dwg",
+      "size_mb": 0.8,
+      "version": "R2004",
+      "modified": "2024-05-14T17:31:30",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "6#运动员中心B二装照明系统图_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\6#\\CAD\\6#运动员中心B二装照明系统图_t8.dwg",
+      "size_mb": 0.94,
+      "version": "R2004",
+      "modified": "2024-05-14T16:55:28",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "6#运动员中心B照明系统图(一装)_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\6#\\CAD\\6#运动员中心B照明系统图(一装)_t8.dwg",
+      "size_mb": 0.92,
+      "version": "R2004",
+      "modified": "2024-05-14T17:06:50",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "6号楼二装插座平面图_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\6#\\CAD\\6号楼二装插座平面图_t8.dwg",
+      "size_mb": 6.39,
+      "version": "R2004",
+      "modified": "2024-05-14T16:47:06",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "6号楼二装照明平面图_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\6#\\CAD\\6号楼二装照明平面图_t8.dwg",
+      "size_mb": 2.08,
+      "version": "R2004",
+      "modified": "2024-05-14T16:49:08",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "体育工艺照明平面系统图_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\6#\\CAD\\体育工艺照明平面系统图_t8.dwg",
+      "size_mb": 1.36,
+      "version": "R2004",
+      "modified": "2024-05-22T18:39:50",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "202403-强电二装设计说明-配套楼_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\7#\\CAD\\202403-强电二装设计说明-配套楼_t3.dwg",
+      "size_mb": 0.8,
+      "version": "R2004",
+      "modified": "2024-05-14T17:31:22",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "电装施-7#配套楼-装修图纸目录_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\7#\\CAD\\电装施-7#配套楼-装修图纸目录_t8.dwg",
+      "size_mb": 1.21,
+      "version": "R2004",
+      "modified": "2024-05-14T16:53:46",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "电装施-7#配套楼-装修插座平面图-1_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\7#\\CAD\\电装施-7#配套楼-装修插座平面图-1_t8.dwg",
+      "size_mb": 9.79,
+      "version": "R2004",
+      "modified": "2024-05-14T16:55:36",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "电装施-7#配套楼-装修照明平面图-1_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\7#\\CAD\\电装施-7#配套楼-装修照明平面图-1_t8.dwg",
+      "size_mb": 10.37,
+      "version": "R2004",
+      "modified": "2024-05-14T16:54:46",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "电装施-7#配套楼-装修配电系统图-1_t8.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\7#\\CAD\\电装施-7#配套楼-装修配电系统图-1_t8.dwg",
+      "size_mb": 1.35,
+      "version": "R2004",
+      "modified": "2024-05-14T16:53:54",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "202403-强电二装设计说明-停车楼_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\9#\\CAD\\202403-强电二装设计说明-停车楼_t3.dwg",
+      "size_mb": 0.8,
+      "version": "R2004",
+      "modified": "2024-05-14T17:31:02",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "9#停车楼-二装照明插座平面图_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\9#\\CAD\\9#停车楼-二装照明插座平面图_t3.dwg",
+      "size_mb": 2.46,
+      "version": "R2004",
+      "modified": "2024-04-30T12:26:46",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "9#停车楼-二装目录_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\9#\\CAD\\9#停车楼-二装目录_t3.dwg",
+      "size_mb": 0.26,
+      "version": "R2004",
+      "modified": "2024-04-30T11:37:38",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "9#停车楼-配电箱系统图_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\9#\\CAD\\9#停车楼-配电箱系统图_t3.dwg",
+      "size_mb": 0.3,
+      "version": "R2004",
+      "modified": "2024-04-30T11:38:26",
+      "project": "设计数据库"
+    },
+    {
+      "filename": "停车楼屋面层照明平面图_t3.dwg",
+      "path": "C:\\Users\\Administrator\\Desktop\\设计数据库\\电气CAD施工图\\9#\\CAD\\停车楼屋面层照明平面图_t3.dwg",
+      "size_mb": 1.02,
+      "version": "R2004",
+      "modified": "2024-04-30T12:08:10",
+      "project": "设计数据库"
+    }
+  ]
+}

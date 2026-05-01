@@ -1,0 +1,1384 @@
+/* AgentCommandPanel.css */
+
+.agent-panel {
+  position: fixed;
+  right: 16px;
+  top: 60px;
+  width: 380px;
+  max-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 100;
+  overflow: hidden;
+}
+
+/* ── Header ── */
+.agent-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border: 1px solid #0f3460;
+  border-radius: 12px;
+  padding: 14px 16px;
+  color: #fff;
+}
+
+.agent-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #e94560;
+}
+
+.agent-subtitle {
+  font-size: 11px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.agent-server {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  font-size: 11px;
+  color: #aaa;
+}
+
+.srv-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.srv-dot.ok   { background: #4CAF50; box-shadow: 0 0 4px #4CAF50; }
+.srv-dot.warn { background: #ff9800; box-shadow: 0 0 4px #ff9800; }
+.srv-dot.error { background: #f44336; box-shadow: 0 0 4px #f44336; }
+
+/* ── Section ── */
+.agent-section {
+  background: rgba(10, 10, 30, 0.95);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* ── Room Physics Card ── */
+.room-physics-card {
+  padding: 14px;
+}
+
+.rpc-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.rpc-icon { font-size: 20px; }
+.rpc-name { font-size: 15px; font-weight: 600; color: #e0e0e0; }
+.rpc-type {
+  font-size: 11px;
+  background: rgba(233,69,96,0.2);
+  color: #e94560;
+  border-radius: 20px;
+  padding: 1px 8px;
+}
+
+.rpc-stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.rpc-stat {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.rpc-stat-num {
+  font-size: 18px;
+  font-weight: 700;
+  color: #4FC3F7;
+}
+
+.rpc-section {
+  margin-bottom: 10px;
+}
+
+.rpc-section-title {
+  font-size: 11px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 6px;
+}
+
+.wall-risk-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.wall-label {
+  font-family: monospace;
+  font-weight: 700;
+  color: #888;
+  width: 40px;
+}
+
+.wall-risk { font-size: 12px; }
+
+.clearance-row {
+  font-size: 12px;
+  color: #aaa;
+  padding: 3px 0;
+}
+
+.rpc-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.rpc-tag {
+  font-size: 10px;
+  background: rgba(79,195,247,0.15);
+  color: #4FC3F7;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* ── Command Input ── */
+.agent-input-row {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+}
+
+.agent-input {
+  flex: 1;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #e0e0e0;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.agent-input:focus {
+  border-color: #e94560;
+}
+
+.agent-input::placeholder { color: #555; }
+
+.agent-send-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background: #e94560;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+
+.agent-send-btn:hover:not(:disabled) { background: #ff6b6b; }
+.agent-send-btn:disabled { background: #555; cursor: not-allowed; }
+
+/* ── Command Examples ── */
+.cmd-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0 12px 12px;
+}
+
+.cmd-example-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 6px;
+  cursor: pointer;
+  color: #b0b0b0;
+  font-size: 12px;
+  text-align: left;
+  transition: all 0.15s;
+}
+
+.cmd-example-btn:hover {
+  background: rgba(233,69,96,0.12);
+  border-color: rgba(233,69,96,0.3);
+  color: #e94560;
+}
+
+.cmd-example-btn span:first-child { font-size: 14px; }
+
+/* ── Chat ── */
+.agent-chat {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 300px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: #333 transparent;
+}
+
+.agent-empty {
+  text-align: center;
+  padding: 20px 16px;
+  color: #555;
+}
+
+.empty-title { font-size: 13px; font-weight: 600; color: #666; margin-bottom: 6px; }
+.empty-desc  { font-size: 11px; line-height: 1.5; color: #444; }
+
+.chat-msg {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-msg.user { align-items: flex-end; }
+.chat-msg.agent { align-items: flex-start; }
+
+.msg-bubble {
+  max-width: 85%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #e0e0e0;
+}
+
+.chat-msg.user .msg-bubble {
+  background: rgba(233,69,96,0.25);
+  border: 1px solid rgba(233,69,96,0.3);
+  border-radius: 12px 12px 4px 12px;
+  color: #f0f0f0;
+}
+
+.chat-msg.agent .msg-bubble {
+  background: rgba(15,52,96,0.8);
+  border: 1px solid rgba(15,52,96,1);
+  border-radius: 12px 12px 12px 4px;
+  font-size: 12px;
+}
+
+.msg-result { margin-top: 10px; }
+
+/* ── Drill Result ── */
+.drill-result-card {
+  border-left: 4px solid;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-top: 8px;
+}
+
+.drill-wall-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.drill-wall-icon { font-size: 18px; }
+.drill-wall-name { font-weight: 600; font-size: 14px; flex: 1; }
+
+.drill-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+.drill-badge.safe   { background: #4CAF50; color: white; }
+.drill-badge.danger { background: #f44336; color: white; }
+
+.drill-reason {
+  font-size: 12px;
+  color: #ccc;
+  margin-bottom: 6px;
+}
+
+.drill-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 11px;
+  color: #aaa;
+  margin-bottom: 6px;
+}
+
+.drill-warnings { display: flex; flex-direction: column; gap: 3px; margin-top: 6px; }
+.drill-warning-item { font-size: 11px; color: #ff9800; }
+
+.drill-steps { margin-top: 8px; }
+.drill-steps-title, .steps-title, .warnings-title {
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.step-item {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  color: #b0b0b0;
+  padding: 3px 0;
+}
+
+.step-n {
+  min-width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(233,69,96,0.2);
+  color: #e94560;
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* ── Steps Card ── */
+.steps-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-top: 8px;
+}
+
+.warnings-card {
+  background: rgba(255,152,0,0.08);
+  border: 1px solid rgba(255,152,0,0.2);
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-top: 8px;
+}
+
+.warning-item {
+  font-size: 11px;
+  color: #ffb74d;
+  padding: 2px 0;
+}
+
+.msg-confidence {
+  font-size: 10px;
+  color: #555;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.task-type-badge {
+  background: rgba(79,195,247,0.15);
+  color: #4FC3F7;
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 10px;
+}
+
+/* ── Footer ── */
+.agent-footer {
+  background: rgba(10,10,30,0.95);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.footer-title {
+  font-size: 10px;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+
+.footer-items {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: #666;
+}
+
+.fi-icon { font-size: 13px; }
+
+/* ═══════════════════════════════════════════════════
+   改进一：物理分析卡片（Harness层核心展示）
+   ═══════════════════════════════════════════════════ */
+.physics-analysis-card {
+  background: linear-gradient(135deg, rgba(15,52,96,0.6) 0%, rgba(26,26,46,0.8) 100%);
+  border: 1px solid rgba(79,195,247,0.3);
+  border-radius: 10px;
+  padding: 14px;
+  margin-top: 12px;
+}
+
+.physics-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(79,195,247,0.2);
+}
+
+.physics-icon { font-size: 20px; }
+.physics-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4FC3F7;
+}
+
+/* 机器人配置 */
+.physics-robot-config {
+  background: rgba(76,175,80,0.1);
+  border: 1px solid rgba(76,175,80,0.3);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+}
+
+.config-tag {
+  font-size: 10px;
+  font-weight: 700;
+  color: #4CAF50;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.config-items {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.config-items span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.config-items strong {
+  color: #4CAF50;
+}
+
+/* 材质分析 */
+.material-analysis {
+  background: rgba(0,0,0,0.2);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.material-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e0e0e0;
+  margin-bottom: 8px;
+}
+
+.friction-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.friction-label { color: #888; }
+.friction-dry { color: #4CAF50; }
+.friction-arrow { color: #555; }
+.friction-wet { color: #ff9800; }
+.friction-wet .warn { color: #ff5722; font-weight: 700; }
+
+.force-row {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 8px;
+}
+
+.force-row strong { color: #4FC3F7; }
+
+.physics-warning {
+  font-size: 11px;
+  color: #ffb74d;
+  padding: 4px 0;
+  border-top: 1px solid rgba(255,152,0,0.1);
+  margin-top: 4px;
+}
+
+/* 工具标签 */
+.tool-row {
+  margin-bottom: 8px;
+}
+
+.tool-label {
+  font-size: 11px;
+  color: #666;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.tool-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tool-tag {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.tool-tag.safe {
+  background: rgba(76,175,80,0.15);
+  color: #81C784;
+}
+
+.tool-tag.prohibited {
+  background: rgba(244,67,54,0.15);
+  color: #e57373;
+}
+
+/* 特殊护理 */
+.special-care {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: 8px;
+  margin-top: 4px;
+}
+
+.care-label {
+  font-size: 11px;
+  color: #888;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.care-item {
+  font-size: 11px;
+  color: #aaa;
+  padding: 2px 0;
+}
+
+/* 安全须知 */
+.safety-instructions {
+  background: rgba(255,152,0,0.08);
+  border: 1px solid rgba(255,152,0,0.2);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-top: 12px;
+}
+
+.safety-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffb74d;
+  margin-bottom: 6px;
+}
+
+.safety-item {
+  font-size: 11px;
+  color: #ffcc80;
+  padding: 3px 0;
+}
+
+/* ═══════════════════════════════════════════════════
+   改进二：空间关系推理卡片
+   ═══════════════════════════════════════════════════ */
+.spatial-relation-card {
+  background: linear-gradient(135deg, rgba(26,26,46,0.9) 0%, rgba(15,52,96,0.6) 100%);
+  border: 1px solid rgba(156,39,176,0.3);
+  border-radius: 10px;
+  padding: 14px;
+  margin-top: 12px;
+}
+
+.spatial-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(156,39,176,0.2);
+}
+
+.spatial-icon { font-size: 20px; }
+.spatial-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #CE93D8;
+}
+
+.spatial-room-info {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  background: rgba(156,39,176,0.1);
+  border-radius: 6px;
+}
+
+.spatial-relation-item {
+  background: rgba(0,0,0,0.2);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.rel-description {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e0e0e0;
+  margin-bottom: 4px;
+}
+
+.rel-distance {
+  font-size: 11px;
+  color: #9C27B0;
+  margin-bottom: 4px;
+}
+
+.rel-feature {
+  font-size: 11px;
+  color: #aaa;
+  padding: 2px 0;
+}
+
+.spatial-footer {
+  margin-top: 8px;
+  text-align: right;
+}
+
+.spatial-badge {
+  font-size: 10px;
+  color: #9C27B0;
+  background: rgba(156,39,176,0.1);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+/* ═══════════════════════════════════════════════════
+   综合推理结果展示
+   ═══════════════════════════════════════════════════ */
+.inference-result {
+  margin-top: 10px;
+}
+
+/* 操作步骤卡片 */
+.result-steps-card {
+  background: rgba(0,0,0,0.3);
+  border: 1px solid rgba(79,195,247,0.2);
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.result-steps-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #4FC3F7;
+}
+
+.confidence-badge {
+  font-size: 10px;
+  font-weight: 700;
+  background: rgba(76,175,80,0.2);
+  color: #4CAF50;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.result-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.result-step {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  color: #b0b0b0;
+  padding: 4px 0;
+}
+
+.step-num {
+  min-width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(79,195,247,0.2);
+  color: #4FC3F7;
+  font-size: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.step-text { flex: 1; line-height: 1.4; }
+
+/* 警告卡片 */
+.result-warnings {
+  background: rgba(255,152,0,0.08);
+  border: 1px solid rgba(255,152,0,0.2);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-top: 10px;
+}
+
+.warnings-header {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffb74d;
+  margin-bottom: 6px;
+}
+
+.warning-item {
+  font-size: 11px;
+  color: #ffcc80;
+  padding: 3px 0;
+}
+
+/* ── Demo改进：步骤时间线动画 ───────────────────── */
+.timeline-steps-card {
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(79,195,247,0.25);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-top: 10px;
+}
+
+.timeline-steps-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timeline-steps-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #4FC3F7;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.timeline-badge {
+  font-size: 10px;
+  background: rgba(79,195,247,0.2);
+  color: #4FC3F7;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.timeline-badge.executing {
+  background: rgba(245,158,11,0.2);
+  color: #f59e0b;
+  animation: pulse-badge 1.5s infinite;
+}
+
+.timeline-badge.done {
+  background: rgba(76,175,80,0.2);
+  color: #4CAF50;
+}
+
+@keyframes pulse-badge {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* 时间线步骤 */
+.timeline-step {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 9px 12px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  border-left: 3px solid transparent;
+  transition: all 0.3s ease;
+  background: rgba(255,255,255,0.02);
+}
+
+.timeline-step.active {
+  border-left: 3px solid #f59e0b;
+  background: rgba(245,158,11,0.1);
+  box-shadow: 0 0 12px rgba(245,158,11,0.15);
+}
+
+.timeline-step.done {
+  border-left: 3px solid #4CAF50;
+  opacity: 0.6;
+}
+
+.timeline-step.pending {
+  border-left: 3px solid #444;
+  opacity: 0.45;
+}
+
+.timeline-step-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.timeline-step-icon {
+  font-size: 16px;
+  flex-shrink: 0;
+  width: 24px;
+  text-align: center;
+}
+
+.timeline-step-text {
+  font-size: 12px;
+  color: #ccc;
+  flex: 1;
+  line-height: 1.4;
+}
+
+.timeline-step.active .timeline-step-text {
+  color: #f0f0f0;
+}
+
+.timeline-step-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 32px;
+}
+
+.timeline-step-time {
+  font-size: 11px;
+  color: #888;
+}
+
+.timeline-step.active .timeline-step-time {
+  color: #f59e0b;
+}
+
+/* 步骤内嵌进度条 */
+.step-progress-bar {
+  height: 4px;
+  background: #2a2a3e;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.step-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #10b981);
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+.timeline-step.active .step-progress-fill {
+  background: linear-gradient(90deg, #f59e0b, #f97316);
+}
+
+/* 等待动画（三个点） */
+.step-pending-dots {
+  display: inline-flex;
+  gap: 3px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.step-pending-dots span {
+  width: 4px;
+  height: 4px;
+  background: #666;
+  border-radius: 50%;
+  animation: dot-bounce 1.4s infinite;
+}
+
+.step-pending-dots span:nth-child(2) { animation-delay: 0.2s; }
+.step-pending-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes dot-bounce {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+  30% { transform: translateY(-4px); opacity: 1; }
+}
+
+/* 开始执行按钮 */
+.exec-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #e94560, #ff6b6b);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.exec-btn:hover:not(:disabled) {
+  background: linear-gradient(135deg, #ff6b6b, #ff8787);
+  box-shadow: 0 4px 15px rgba(233,69,96,0.4);
+  transform: translateY(-1px);
+}
+
+.exec-btn:disabled {
+  background: #444;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.exec-btn.running {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  animation: exec-pulse 1.5s infinite;
+}
+
+@keyframes exec-pulse {
+  0%, 100% { box-shadow: 0 0 8px rgba(245,158,11,0.4); }
+  50% { box-shadow: 0 0 20px rgba(245,158,11,0.7); }
+}
+
+.exec-success {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: rgba(76,175,80,0.15);
+  border: 1px solid rgba(76,175,80,0.4);
+  border-radius: 8px;
+  color: #4CAF50;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  animation: success-pop 0.4s ease;
+}
+
+@keyframes success-pop {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* ── Demo改进：执行数据实时面板 ────────────────────── */
+.exec-data-panel {
+  background: linear-gradient(135deg, rgba(26,26,46,0.95) 0%, rgba(15,52,96,0.7) 100%);
+  border: 1px solid rgba(79,195,247,0.25);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-top: 10px;
+}
+
+.exec-data-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(79,195,247,0.15);
+}
+
+.exec-data-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #4FC3F7;
+}
+
+.exec-data-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.exec-data-label {
+  color: #aaa;
+  width: 70px;
+  flex-shrink: 0;
+}
+
+.exec-data-bar-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.exec-data-bar {
+  flex: 1;
+  height: 8px;
+  background: #1a1a2e;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.exec-data-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.exec-data-bar-fill.green { background: linear-gradient(90deg, #4CAF50, #66BB6A); }
+.exec-data-bar-fill.blue  { background: linear-gradient(90deg, #3b82f6, #60a5fa); }
+.exec-data-bar-fill.yellow { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+
+.exec-data-value {
+  color: #e0e0e0;
+  font-weight: 600;
+  font-size: 12px;
+  width: 60px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.exec-data-limit {
+  color: #666;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+
+.exec-data-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.exec-data-status.safe {
+  background: rgba(76,175,80,0.15);
+  color: #4CAF50;
+  border: 1px solid rgba(76,175,80,0.3);
+}
+
+.exec-data-status.warn {
+  background: rgba(255,152,0,0.15);
+  color: #f59e0b;
+  border: 1px solid rgba(255,152,0,0.3);
+}
+
+/* ── Demo改进：Harness约束可视化 ─────────────────── */
+.harness-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  background: rgba(76,175,80,0.12);
+  border: 1px solid rgba(76,175,80,0.35);
+  border-radius: 20px;
+  color: #4CAF50;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: help;
+  position: relative;
+}
+
+.harness-badge:hover .harness-tooltip {
+  display: block;
+}
+
+.harness-tooltip {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a1a2e;
+  border: 1px solid rgba(76,175,80,0.4);
+  border-radius: 8px;
+  padding: 10px 12px;
+  min-width: 180px;
+  z-index: 200;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+.harness-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: rgba(76,175,80,0.4);
+}
+
+.harness-tooltip-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #4CAF50;
+  margin-bottom: 8px;
+}
+
+.harness-tooltip-item {
+  font-size: 11px;
+  color: #aaa;
+  padding: 2px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.harness-tooltip-item span:last-child {
+  color: #4FC3F7;
+  font-weight: 600;
+}
+
+/* ── Demo改进：钻孔安全拒绝展示 ───────────────────── */
+.drill-refuse-msg {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: rgba(198,40,40,0.12);
+  border: 1px solid rgba(198,40,40,0.35);
+  border-radius: 8px;
+  color: #ef5350;
+  font-size: 12px;
+  animation: refuse-flash 0.5s ease;
+}
+
+.drill-refuse-msg .refuse-title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.drill-switch-hint {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: rgba(76,175,80,0.1);
+  border: 1px solid rgba(76,175,80,0.25);
+  border-radius: 6px;
+  color: #81C784;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+@keyframes refuse-flash {
+  0% { background: rgba(198,40,40,0.3); }
+  100% { background: rgba(198,40,40,0.12); }
+}
+
+/* ── 钻孔结果 ── */
+.drill-result-card .step-num {
+  background: rgba(233,69,96,0.2);
+  color: #e94560;
+}
+
+/* ═══════════════════════════════════════════════════════
+   P0+P1 升级样式：决策摘要 + Harness决策流程
+   ═══════════════════════════════════════════════════════ */
+
+/* ── 决策摘要卡片（3秒震撼）── */
+.decision-summary-card {
+  margin: 10px 0 6px;
+  padding: 12px 14px;
+  background: linear-gradient(135deg, rgba(233,69,96,0.15) 0%, rgba(15,52,96,0.2) 100%);
+  border: 1px solid rgba(233,69,96,0.4);
+  border-left: 4px solid #e94560;
+  border-radius: 8px;
+  animation: decision-glow 1.5s ease-in-out;
+}
+
+.decision-summary-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #e94560;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.decision-summary-text {
+  font-size: 13px;
+  color: #e0e0e0;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+@keyframes decision-glow {
+  0% { box-shadow: 0 0 0 rgba(233,69,96,0); }
+  50% { box-shadow: 0 0 20px rgba(233,69,96,0.2); }
+  100% { box-shadow: 0 0 0 rgba(233,69,96,0); }
+}
+
+/* ── Harness层决策流程 ── */
+.harness-decision-flow {
+  margin: 10px 0;
+  padding: 12px 14px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+  border: 1px solid #0f3460;
+  border-radius: 10px;
+}
+
+.harness-flow-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #e94560;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.harness-flow-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.harness-flow-step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 6px;
+  animation: harness-step-in 0.3s ease-out;
+}
+
+.harness-flow-step .hfs-num {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(233,69,96,0.2);
+  color: #e94560;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.harness-flow-step .hfs-text {
+  flex: 1;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.harness-flow-step .hfs-result {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.harness-flow-step .hfs-result.pass {
+  background: rgba(76,175,80,0.15);
+  color: #66BB6A;
+  border: 1px solid rgba(76,175,80,0.3);
+}
+
+.harness-flow-step .hfs-result.fail {
+  background: rgba(244,67,54,0.15);
+  color: #EF5350;
+  border: 1px solid rgba(244,67,54,0.3);
+}
+
+@keyframes harness-step-in {
+  0% { opacity: 0; transform: translateX(-10px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+/* ── P0状态修复：header状态dot动画 ── */
+.srv-dot.warn {
+  background: #FFA726;
+  animation: pulse-warn 2s infinite;
+}
+
+.srv-dot.ok {
+  background: #66BB6A;
+  animation: pulse-ok 3s infinite;
+}
+
+@keyframes pulse-ok {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(102,187,106,0.4); }
+  50% { box-shadow: 0 0 8px 2px rgba(102,187,106,0.2); }
+}
+
+@keyframes pulse-warn {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,167,38,0.4); }
+  50% { box-shadow: 0 0 8px 2px rgba(255,167,38,0.2); }
+}
+
+/* ── 钻孔墙体材质信息 ── */
+.drill-wall-material {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+  font-size: 11px;
+}
+
+.drill-wall-material span {
+  background: rgba(255,255,255,0.06);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+/* ── 钻孔替代方案（拒绝时）── */
+.drill-alternatives {
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: rgba(76,175,80,0.08);
+  border: 1px solid rgba(76,175,80,0.2);
+  border-radius: 8px;
+}
+
+.drill-alt-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #66BB6A;
+  margin-bottom: 6px;
+}
+
+.drill-alt-item {
+  font-size: 11px;
+  color: #aaa;
+  padding: 3px 0;
+  line-height: 1.5;
+}

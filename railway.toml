@@ -1,0 +1,25 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python src/neural_inference_server.py --mode api --port $PORT"
+healthcheckPath = "/api/health"
+healthcheckTimeout = 100
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 10
+
+[[deploy.multiService]]
+name = "neural-inference"
+startCommand = "python src/neural_inference_server.py --mode api --port $PORT"
+
+[[deploy.multiService]]
+name = "scene-api"
+startCommand = "python src/four_layer_api.py"
+
+[[deploy.multiService]]
+name = "agent-api"
+startCommand = "python agent_api_simple.py"
+
+[[deploy.multiService]]
+name = "vla-service"
+startCommand = "python src/vla_server.py"

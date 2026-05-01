@@ -1,0 +1,358 @@
+/* SunCalcTimeController.css — 时空光影控制器 · 深色科技感样式 */
+
+.sctc {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 340px;
+  background: rgba(8, 10, 24, 0.94);
+  border: 1px solid rgba(34, 211, 238, 0.25);
+  border-radius: 14px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(34, 211, 238, 0.08) inset;
+  padding: 16px;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #f1f5f9;
+  animation: sctc-slide-in 0.3s ease;
+}
+
+@keyframes sctc-slide-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── 标题栏 ─────────────────────────── */
+.sctc-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sctc-header-icon { font-size: 18px; }
+
+.sctc-header-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f1f5f9;
+  letter-spacing: 0.5px;
+  flex: 1;
+}
+
+.sctc-header-badge {
+  font-size: 9px;
+  font-weight: 700;
+  color: #22d3ee;
+  background: rgba(34, 211, 238, 0.12);
+  border: 1px solid rgba(34, 211, 238, 0.3);
+  border-radius: 4px;
+  padding: 2px 6px;
+  letter-spacing: 0.5px;
+}
+
+/* ── 通用区块 ─────────────────────────── */
+.sctc-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sctc-section-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* ── 城市网格 ─────────────────────────── */
+.sctc-city-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.sctc-city-btn {
+  padding: 5px 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: center;
+}
+
+.sctc-city-btn:hover {
+  color: #22d3ee;
+  border-color: rgba(34, 211, 238, 0.4);
+  background: rgba(34, 211, 238, 0.08);
+}
+
+.sctc-city-btn--active {
+  color: #22d3ee;
+  border-color: rgba(34, 211, 238, 0.5);
+  background: rgba(34, 211, 238, 0.12);
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.3) inset;
+}
+
+/* ── GPS输入 ─────────────────────────── */
+.sctc-gps-row { display: flex; gap: 8px; }
+
+.sctc-gps-label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #64748b;
+  letter-spacing: 0.5px;
+}
+
+.sctc-gps-input {
+  width: 100%;
+  padding: 5px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #f1f5f9;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.18s;
+  font-family: 'Courier New', monospace;
+}
+
+.sctc-gps-input:focus {
+  border-color: rgba(34, 211, 238, 0.5);
+  background: rgba(34, 211, 238, 0.06);
+}
+
+/* ── 日期输入 ─────────────────────────── */
+.sctc-date-input {
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #f1f5f9;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.18s;
+}
+
+.sctc-date-input:focus {
+  border-color: rgba(34, 211, 238, 0.5);
+}
+
+.sctc-date-input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* ── 四季快捷 ─────────────────────────── */
+.sctc-season-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.sctc-season-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 5px 2px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #64748b;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.sctc-season-btn:hover {
+  color: #f59e0b;
+  border-color: rgba(245, 158, 11, 0.4);
+  background: rgba(245, 158, 11, 0.08);
+}
+
+/* ── 时间显示 ─────────────────────────── */
+.sctc-time-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+}
+
+.sctc-time-icon { font-size: 22px; }
+
+.sctc-time-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #f1f5f9;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+  flex: 1;
+}
+
+.sctc-time-badge {
+  font-size: 10px;
+  font-weight: 700;
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.12);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.sctc-time-badge--night {
+  color: #818cf8;
+  background: rgba(129, 140, 248, 0.12);
+  border-color: rgba(129, 140, 248, 0.3);
+}
+
+/* ── 滑块 ─────────────────────────── */
+.sctc-slider-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sctc-slider-label {
+  font-size: 9px;
+  font-weight: 600;
+  color: #475569;
+  white-space: nowrap;
+}
+
+.sctc-slider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+  cursor: pointer;
+}
+
+.sctc-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #22d3ee;
+  box-shadow: 0 0 8px rgba(34, 211, 238, 0.6);
+  cursor: grab;
+  transition: transform 0.1s;
+}
+
+.sctc-slider::-webkit-slider-thumb:active {
+  transform: scale(1.2);
+  cursor: grabbing;
+}
+
+.sctc-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #22d3ee;
+  box-shadow: 0 0 8px rgba(34, 211, 238, 0.6);
+  cursor: grab;
+  border: none;
+}
+
+/* ── 太阳信息网格 ─────────────────────────── */
+.sctc-info-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+.sctc-info-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 8px 4px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.sctc-info-icon { font-size: 16px; }
+
+.sctc-info-val {
+  font-size: 12px;
+  font-weight: 700;
+  color: #f1f5f9;
+  font-family: 'Courier New', monospace;
+}
+
+.sctc-info-key {
+  font-size: 9px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+/* ── 太阳强度条 ─────────────────────────── */
+.sctc-intensity {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sctc-intensity-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.sctc-intensity-val {
+  color: #fbbf24;
+  font-family: 'Courier New', monospace;
+}
+
+.sctc-intensity-bar-bg {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.sctc-intensity-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 6px rgba(251, 191, 36, 0.5);
+}
+
+/* ── 提示 ─────────────────────────── */
+.sctc-hint {
+  font-size: 10px;
+  color: #475569;
+  text-align: center;
+  padding-top: 2px;
+}

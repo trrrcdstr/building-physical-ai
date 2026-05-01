@@ -1,0 +1,83 @@
+{
+  "feedbacks": [
+    {
+      "id": "3e5cfa83070e",
+      "prompt_id": "seed_01",
+      "task_type": "scene_analysis",
+      "context_hash": "e199888929510af7",
+      "input_summary": "厨房场景",
+      "output_summary": "{'friction': 0.35, 'fragility': 0.1, 'moisture_risk': True, 'obstacle_risk': False, 'traversable': T",
+      "success": true,
+      "rating": 5,
+      "error": null,
+      "latency_ms": 3.961324691772461,
+      "timestamp": "2026-04-10T22:01:31.258521"
+    },
+    {
+      "id": "3e5cfa83070e",
+      "prompt_id": "seed_01",
+      "task_type": "scene_analysis",
+      "context_hash": "7bd8f299e1dc450e",
+      "input_summary": "卫生间场景",
+      "output_summary": "{'friction': 0.25, 'fragility': 0.1, 'moisture_risk': True, 'obstacle_risk': False, 'traversable': T",
+      "success": true,
+      "rating": 4,
+      "error": null,
+      "latency_ms": 1.0077953338623047,
+      "timestamp": "2026-04-10T22:01:31.260528"
+    },
+    {
+      "id": "3e5cfa83070e",
+      "prompt_id": "seed_01",
+      "task_type": "scene_analysis",
+      "context_hash": "81ab563759dbe405",
+      "input_summary": "厨房场景",
+      "output_summary": "{'friction': 0.35, 'fragility': 0.1, 'moisture_risk': True, 'obstacle_risk': False, 'traversable': T",
+      "success": true,
+      "rating": 5,
+      "error": null,
+      "latency_ms": 0.0,
+      "timestamp": "2026-04-15T14:06:43.018805"
+    },
+    {
+      "id": "3e5cfa83070e",
+      "prompt_id": "seed_01",
+      "task_type": "scene_analysis",
+      "context_hash": "1ea553727a40ba8b",
+      "input_summary": "卫生间场景",
+      "output_summary": "{'friction': 0.25, 'fragility': 0.1, 'moisture_risk': True, 'obstacle_risk': False, 'traversable': T",
+      "success": true,
+      "rating": 4,
+      "error": null,
+      "latency_ms": 1.5423297882080078,
+      "timestamp": "2026-04-15T14:06:43.023073"
+    },
+    {
+      "id": "3e5cfa83070e",
+      "prompt_id": "seed_01",
+      "task_type": "scene_analysis",
+      "context_hash": "a623f6efb004d15b",
+      "input_summary": "厨房场景",
+      "output_summary": "{'friction': 0.35, 'fragility': 0.1, 'moisture_risk': True, 'obstacle_risk': False, 'traversable': T",
+      "success": true,
+      "rating": 5,
+      "error": null,
+      "latency_ms": 1.0118484497070312,
+      "timestamp": "2026-04-15T14:07:24.759809"
+    },
+    {
+      "id": "3e5cfa83070e",
+      "prompt_id": "seed_01",
+      "task_type": "scene_analysis",
+      "context_hash": "dae9b07973858892",
+      "input_summary": "卫生间场景",
+      "output_summary": "{'friction': 0.25, 'fragility': 0.1, 'moisture_risk': True, 'obstacle_risk': False, 'traversable': T",
+      "success": true,
+      "rating": 4,
+      "error": null,
+      "latency_ms": 1.0104179382324219,
+      "timestamp": "2026-04-15T14:07:24.762844"
+    }
+  ],
+  "updated_at": "2026-04-15T14:07:24.762844"
+}

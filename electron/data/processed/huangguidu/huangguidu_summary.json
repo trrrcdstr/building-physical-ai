@@ -1,0 +1,153 @@
+{
+  "total": 45,
+  "parsed": 0,
+  "binary_skip": 0,
+  "failed": 43,
+  "categories": {
+    "建筑总图": {
+      "count": 1,
+      "entities": 0,
+      "files": [
+        ""
+      ]
+    },
+    "建筑说明": {
+      "count": 1,
+      "entities": 0,
+      "files": [
+        ""
+      ]
+    },
+    "建筑单体": {
+      "count": 2,
+      "entities": 0,
+      "files": [
+        "",
+        ""
+      ]
+    },
+    "景观园建": {
+      "count": 6,
+      "entities": 0,
+      "files": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "景观详图": {
+      "count": 11,
+      "entities": 0,
+      "files": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "图框": {
+      "count": 1,
+      "entities": 0,
+      "files": [
+        ""
+      ]
+    },
+    "景观植施": {
+      "count": 4,
+      "entities": 0,
+      "files": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "景观总图": {
+      "count": 1,
+      "entities": 0,
+      "files": [
+        ""
+      ]
+    },
+    "水施总图": {
+      "count": 2,
+      "entities": 0,
+      "files": [
+        "",
+        ""
+      ]
+    },
+    "水施单体": {
+      "count": 1,
+      "entities": 0,
+      "files": [
+        ""
+      ]
+    },
+    "电施说明": {
+      "count": 1,
+      "entities": 0,
+      "files": [
+        ""
+      ]
+    },
+    "电施平面": {
+      "count": 1,
+      "entities": 0,
+      "files": [
+        ""
+      ]
+    },
+    "电施总图": {
+      "count": 2,
+      "entities": 0,
+      "files": [
+        "",
+        ""
+      ]
+    },
+    "电施参照": {
+      "count": 5,
+      "entities": 0,
+      "files": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "结构基础": {
+      "count": 1,
+      "entities": 0,
+      "files": [
+        ""
+      ]
+    },
+    "结构支护": {
+      "count": 2,
+      "entities": 0,
+      "files": [
+        "",
+        ""
+      ]
+    },
+    "结构说明": {
+      "count": 1,
+      "entities": 0,
+      "files": [
+        ""
+      ]
+    }
+  }
+}

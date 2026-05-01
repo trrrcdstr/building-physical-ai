@@ -1,0 +1,367 @@
+/* 控制面板 */
+.control-panel {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  bottom: 44px;
+  width: 260px;
+  background: rgba(10, 10, 20, 0.88);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  font-size: 13px;
+  color: rgba(255,255,255,0.85);
+}
+
+.control-panel::-webkit-scrollbar { width: 4px; }
+.control-panel::-webkit-scrollbar-track { background: transparent; }
+.control-panel::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+
+.panel-header {
+  padding: 14px 14px 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  flex-shrink: 0;
+}
+
+.panel-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.panel-subtitle {
+  font-size: 10px;
+  color: rgba(255,255,255,0.35);
+  margin-top: 2px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* 区域 */
+.control-section {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.section-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.badge {
+  background: rgba(99, 102, 241, 0.3);
+  color: #a5b4fc;
+  font-size: 9px;
+  padding: 1px 5px;
+  border-radius: 4px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* 分类Tab */
+.category-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.cat-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  padding: 6px 4px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: rgba(255,255,255,0.7);
+  font-size: 10px;
+}
+
+.cat-tab:hover {
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+}
+
+.cat-tab.active {
+  background: rgba(var(--cat-color, 99, 102, 241), 0.2);
+  border-color: var(--cat-color, #6366f1);
+  color: #fff;
+}
+
+.cat-icon { font-size: 16px; }
+.cat-label { font-size: 10px; }
+
+/* 场景卡片 */
+.scene-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.scene-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 4px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: rgba(255,255,255,0.7);
+}
+
+.scene-card:hover {
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.scene-card.active {
+  background: rgba(245, 158, 11, 0.2);
+  border-color: var(--scene-color, #f59e0b);
+  color: #fff;
+}
+
+.scene-card.cad-card {
+  grid-column: 1 / -1;
+  background: rgba(99, 102, 241, 0.1);
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+.scene-card.cad-card.active {
+  background: rgba(99, 102, 241, 0.25);
+  border-color: #6366f1;
+}
+
+.scene-icon { font-size: 18px; }
+.scene-name { font-size: 11px; font-weight: 500; }
+
+/* 统计卡片 */
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.stat-num {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 9px;
+  color: rgba(255,255,255,0.4);
+  margin-top: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* 进度条 */
+.mini-bar {
+  margin-top: 4px;
+}
+
+.bar-label {
+  font-size: 10px;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 3px;
+  display: block;
+}
+
+.bar-track {
+  display: flex;
+  height: 6px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 3px;
+  overflow: hidden;
+  gap: 1px;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+
+.bar-legend {
+  font-size: 9px;
+  color: rgba(255,255,255,0.35);
+  margin-top: 3px;
+}
+
+/* CAD信息 */
+.cad-section {
+  background: rgba(99, 102, 241, 0.05);
+}
+
+.cad-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cad-project {
+  font-size: 12px;
+  font-weight: 600;
+  color: #a5b4fc;
+}
+
+.cad-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 10px;
+  color: rgba(255,255,255,0.5);
+}
+
+.cad-disciplines {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 2px;
+}
+
+.discipline-tag {
+  background: rgba(255,255,255,0.06);
+  color: rgba(255,255,255,0.6);
+  font-size: 9px;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.cad-status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  color: #f59e0b;
+  margin-top: 2px;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.status-dot.pending { background: #f59e0b; }
+.status-dot.ok { background: #10b981; }
+.status-dot.done { background: #4CAF50; }
+
+.cad-note {
+  font-size: 9px;
+  color: rgba(255,255,255,0.3);
+  margin-top: 2px;
+}
+
+/* 按钮组 */
+.button-group {
+  display: flex;
+  gap: 4px;
+}
+
+.button-group button {
+  flex: 1;
+  padding: 5px 0;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 6px;
+  color: rgba(255,255,255,0.6);
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.button-group button:hover {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+}
+
+.button-group button.active {
+  background: rgba(99, 102, 241, 0.3);
+  border-color: #6366f1;
+  color: #fff;
+}
+
+.mt-8 { margin-top: 6px; }
+
+/* 复选框 */
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.6);
+  cursor: pointer;
+}
+
+.checkbox-item input {
+  accent-color: #6366f1;
+}
+
+/* 标签云 */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.physics-tag {
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  color: #fbbf24;
+  font-size: 9px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* 愿景 */
+.vision-note {
+  margin: auto 0 0;
+  padding: 12px;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(16, 185, 129, 0.1));
+  border-top: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.vision-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: #a5b4fc;
+  margin-bottom: 4px;
+}
+
+.vision-text {
+  font-size: 9px;
+  color: rgba(255,255,255,0.4);
+  line-height: 1.5;
+}

@@ -1,0 +1,38 @@
+﻿{
+  "project": "鍗楁矙鏄熸渤涓滄偊婀?,
+  "location": "骞垮窞鍗楁矙",
+  "total_files": 17,
+  "total_size_mb": 73,
+  "disciplines": {
+    "寤虹瓚": {
+      "count": 5,
+      "files": [
+        "鍦板潡涓夊湴涓嬪寤虹瓚搴曞浘.dwg"
+      ]
+    },
+    "鐢垫皵": {
+      "count": 5,
+      "files": [
+        "鐢垫柦_杞﹀簱.dwg",
+        "寮辩數.dwg",
+        "鐓ф槑.dwg"
+      ]
+    },
+    "缁欐帓姘?: {
+      "count": 4,
+      "files": [
+        "鍦板潡涓夊湴涓嬪姘村浘.dwg"
+      ]
+    },
+    "鏆栭€?: {
+      "count": 3,
+      "files": [
+        "鍦板潡涓夊湴涓嬪閫氶鍥?dwg"
+      ]
+    }
+  },
+  "floor": "鍦板潡涓夊湴涓嬪",
+  "note": "DWG鏂囦欢涓篟2004浜岃繘鍒舵牸寮忥紝闇€瑕丄utoCAD鎴朙ibreCAD瀵煎嚭涓篋XF鍚庤В鏋?,
+  "parsed_entities": 0,
+  "room_count": 50
+}

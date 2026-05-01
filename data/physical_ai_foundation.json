@@ -1,0 +1,330 @@
+﻿{
+  "metadata": {
+    "version": "2.0",
+    "name": "Physical AI World Model Data Foundation",
+    "description": "寤虹瓚闀滃儚涓栫晫鏁版嵁鍩哄簳 - 涓哄叿韬櫤鑳芥彁渚涘畬鏁村缓绛戠墿鐞嗕俊鎭?,
+    "last_updated": "2026-04-10",
+    "data_sources": {
+      "寤虹瓚鏁版嵁搴?: {
+        "path": "C:\\Users\\Administrator\\Desktop\\寤虹瓚鏁版嵁搴?,
+        "description": "CAD鏂藉伐鍥俱€佸鎴烽」鐩€佹晥鏋滃浘"
+      },
+      "瀹ゅ唴鏂藉伐鍥?: {
+        "path": "C:\\Users\\Administrator\\Desktop\\寤虹瓚鏁版嵁搴揬\瀹ゅ唴鏂藉伐鍥?,
+        "description": "CAD DWG鏂藉伐鍥撅紙涓囨槍搴峰煄銆佹灞辨箹銆佽姳鏈堝崐宀涖€侀箍鍩庯級",
+        "files": ["涓囨槍搴峰煄.dwg", "妗斿北婀?dwg", "鑺辨湀鍗婂矝.dwg", "楣垮煄.dwg"],
+        "physical_info": "鍑犱綍鎷撴墤銆佺┖闂村竷灞€銆佸浣撳帤搴︺€侀棬绐楀昂瀵?
+      },
+      "鐡风爾浜у搧鍥惧唽": {
+        "path": "C:\\Users\\Administrator\\Desktop\\寤虹瓚鏉愭枡搴?,
+        "description": "鐡风爾浜у搧鍥惧唽锛堝凡绉婚櫎鍏徃鍚嶏級",
+        "physical_info": "灏哄銆佹潗璐ㄣ€佸瘑搴︺€佺‖搴︺€佹懇鎿︾郴鏁般€佽剢鎬?
+      },
+      "鏈哄櫒浜烘暟鎹?: {
+        "path": "C:\\Users\\Administrator\\Desktop\\鏈哄櫒浜烘暟鎹?,
+        "description": "鏈哄櫒浜烘妧鏈€佷己鏈嶉┍鍔ㄣ€佺伒宸ф墜璧勬枡锛堝凡绉婚櫎鍏徃鍚嶏級",
+        "files": ["鏈哄櫒浜轰粙缁?pdf", "寰瀷浼烘湇鐢电几閫夊瀷鎵嬪唽.pdf", "鏂潶寰锋満鍣ㄤ汉浠嬬粛.pdf", "鐏靛阀鎵嬩骇鍝侀€夊瀷鎵嬪唽.pdf"],
+        "physical_info": "鐏靛阀鎵嬪弬鏁般€佷己鏈嶇數缂稿弬鏁般€佹姄鍙栧姏銆佹帶鍒剁簿搴?
+      },
+      "浜屾敞寤虹瓚甯?: {
+        "path": "C:\\Users\\Administrator\\Desktop\\浜屾敞寤虹瓚甯?,
+        "description": "寤虹瓚甯堣€冭瘯鐪熼鍜屾暀鏉?
+      },
+      "瀹ゅ唴瀹跺眳鍦烘櫙jpg": {
+        "path": "C:\\Users\\Administrator\\Desktop\\瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+        "description": "瀹ゅ唴鍦烘櫙鏁堟灉鍥惧簱"
+      },
+      "璁捐鏁版嵁搴?: {
+        "path": "C:\\Users\\Administrator\\Desktop\\璁捐鏁版嵁搴?,
+        "description": "浜у搧鍥惧唽銆佽璁′綔鍝侀泦"
+      },
+      "娌欏彂杞": {
+        "path": "C:\\Users\\Administrator\\Desktop\\娌欏彂杞",
+        "description": "娌欏彂銆佽蒋搴婁骇鍝佸浘鍐?
+      },
+      "寤虹瓚鏉愭枡搴?: {
+        "path": "C:\\Users\\Administrator\\Desktop\\寤虹瓚鏉愭枡搴?,
+        "description": "鐡风爾銆佹湪鍦版澘銆侀棬鏉愭枡浜у搧鍥惧唽"
+      },
+      "鍩庡競缁煎悎浣?: {
+        "path": "C:\\Users\\Administrator\\Desktop\\寤虹瓚鏁版嵁搴揬\鍩庡競缁煎悎浣?,
+        "description": "澶у瀷鍟嗗満銆佸晢涓氱患鍚堜綋璁捐璧勬枡",
+        "projects": [
+          {
+            "name": "鏄熸渤WORLD-CCP鏄熺┖骞垮満",
+            "location": "娣卞湷榫欏矖",
+            "type": "鍩庡競缁煎悎浣?,
+            "file": "璁捐鏂规2025.05.26.pdf",
+            "size_mb": 100,
+            "functions": ["璐墿涓績", "鍐欏瓧妤?, "鍏瘬", "閰掑簵", "鍋滆溅鍦?]
+          }
+        ],
+        "physical_meaning": "澶ц法搴︾┖闂淬€佹牳蹇冪瓛銆佺幓鐠冨箷澧欍€佷腑搴寫绌恒€佸灞備氦閫?,
+        "robot_relevance": "娓呮磥銆侀厤閫併€佸贰妫€銆佸畨闃层€佺淮鎶や换鍔?
+      },
+      "瀹跺叿鏉愭枡": {
+        "path": "C:\\Users\\Administrator\\Desktop\\瀹跺叿鏉愭枡.pdf",
+        "type": "PDF",
+        "size_mb": 15.1,
+        "category": "鏉愭枡搴?,
+        "physical_meaning": "瀹跺叿鏉愯川銆佺墿鐞嗗睘鎬с€佹懇鎿︾郴鏁?,
+        "robot_relevance": "鎶撳彇鍔涜绠椼€佹潗璐ㄨ瘑鍒€佹惉杩愮瓥鐣?
+      },
+      "閰掑簵鍦烘櫙": {
+        "path": "C:\\Users\\Administrator\\Desktop\\閰掑簵鍦烘櫙",
+        "type": "鐩綍",
+        "projects": [
+          {"name": "娣变腑鍒濇鏂规", "type": "閰掑簵", "size_mb": 55.4},
+          {"name": "瓒婄澶ф柊閾惰閰掑簵瀹㈡埧灞?, "type": "閰掑簵", "location": "6-8灞?, "size_mb": 53.8}
+        ],
+        "total_size_mb": 110.0,
+        "physical_meaning": "瀹㈡埧甯冨眬銆佸崼鐢熼棿銆佽蛋寤娿€佺數姊巺",
+        "robot_relevance": "閫佺墿鏈嶅姟銆佹竻娲佷綔涓氥€佸鎴挎湇鍔?
+      },
+      "鐢垫皵CAD鏂藉伐鍥?: {
+        "path": "C:\\Users\\Administrator\\Desktop\\鐢垫皵CAD鏂藉伐鍥?,
+        "type": "鐩綍",
+        "buildings": {
+          "6#妤?: {"name": "杩愬姩鍛樺叕瀵揃", "dwg": 6, "pdf": 20, "size_mb": 38},
+          "7#妤?: {"name": "閰嶅妤?, "dwg": 5, "pdf": 22, "size_mb": 37},
+          "9#妤?: {"name": "鍋滆溅妤?, "dwg": 5, "pdf": 6, "size_mb": 11.5}
+        },
+        "total_files": 64,
+        "total_size_mb": 86.5,
+        "physical_meaning": "鐢垫皵绠＄嚎銆侀厤鐢电銆佺収鏄庣伅鍏枫€佹彃搴т綅缃?,
+        "robot_relevance": "鐢垫皵瀹夎銆佺绾挎娴嬨€佺淮鎶ゅ贰妫€"
+      },
+      "鎶樺彔闂ㄦ潗璐?: {
+        "path": "C:\\Users\\Administrator\\Desktop\\鎶樺彔闂ㄦ潗璐?,
+        "type": "鐩綍",
+        "total_files": 115,
+        "total_size_mb": 236.7,
+        "subfolders": ["鍐呴儴缁撴瀯", "灞曟澘绫诲瀷", "鐜荤拑闅旀柇", "閰掑簵闅旀柇", "棣欐腐椤圭洰", "瑙嗛"],
+        "physical_meaning": "鎶樺彔闂ㄧ粨鏋勩€佺幓鐠冮殧鏂€佽建閬撶郴缁?,
+        "robot_relevance": "闂ㄥ畨瑁呫€佽建閬撹皟璇曘€佺幓鐠冩惉杩愩€侀殧鏂淮鎶?
+      },
+      "鐢电紗宸ュ巶": {
+        "path": "C:\\Users\\Administrator\\Desktop\\鐢电紗宸ュ巶",
+        "type": "鐩綍",
+        "total_files": 2,
+        "total_size_mb": 40.2,
+        "physical_meaning": "鐢靛姏鐢电紗瑙勬牸銆佽浇娴侀噺銆佺墿鐞嗗弬鏁?,
+        "robot_relevance": "鐢电紗鏁疯銆佺鎺ャ€佹娴嬨€佺淮鎶?
+      }
+    }
+  },
+
+  "physical_ai_architecture": {
+    "world_model": {
+      "description": "涓栫晫妯″瀷 - 鐞嗚В寤虹瓚绌洪棿璇箟鍜岀墿鐞嗚寰?,
+      "core_function": "灏咰AD鏂藉伐鍥捐浆鍖栦负4D鏁板瓧瀛敓锛屾敞鍏ョ墿鐞嗗睘鎬?,
+      "data_layers": [
+        {"layer": "L1_鍑犱綍鎷撴墤灞?, "purpose": "澧欍€佹煴銆佹銆佹澘鐨勫嚑浣曞畾浣?, "input": "CAD鏂藉伐鍥?DWG/PDF)", "output": "3D鍑犱綍妯″瀷"},
+        {"layer": "L2_璇箟鏍囨敞灞?, "purpose": "鎴块棿鍔熻兘銆佺┖闂村叧绯?, "input": "璁捐璇存槑銆佸钩闈㈠竷缃?, "output": "璇箟鍦板浘"},
+        {"layer": "L3_鐗╃悊灞炴€у眰", "purpose": "鏉愯川銆佸姏瀛︺€佺儹宸ュ弬鏁?, "input": "鏉愭枡琛ㄣ€佽鑼冩爣鍑?, "output": "鐗╃悊灞炴€ф暟鎹簱"},
+        {"layer": "L4_鏃跺簭婕斿寲灞?, "purpose": "鏂藉伐杩涘害銆佸彉鏇磋褰?, "input": "杩涘害琛ㄣ€佺璇佸崟", "output": "4D鏂藉伐妯℃嫙"}
+      ]
+    },
+    "simulation": {
+      "description": "浠跨湡骞冲彴 - 鐗╃悊寮曟搸鍜屽鐗╃悊鍦烘ā鎷?,
+      "core_function": "鍦ㄨ櫄鎷熺幆澧冧腑楠岃瘉鏈哄櫒浜虹墿鐞嗕氦浜?,
+      "physics_domains": [
+        {"domain": "鍒氫綋鍔ㄥ姏瀛?, "applications": ["纰版挒妫€娴?, "杩愬姩瑙勫垝", "鎶撳彇浠跨湡"]},
+        {"domain": "鏌斾綋浠跨湡", "applications": ["甯冩枡澶勭悊", "鏌旀€ф潗鏂欏畨瑁?]},
+        {"domain": "娴佷綋浠跨湡", "applications": ["姘寸甯冨眬", "绌鸿皟閫侀", "鎺掓按绯荤粺"]},
+        {"domain": "鐑姏瀛︿豢鐪?, "applications": ["鍦版殩绯荤粺", "绌鸿皟鑳借€?, "鐑垝閫傚害"]},
+        {"domain": "鍏夊浠跨湡", "applications": ["鑷劧閲囧厜", "浜哄伐鐓ф槑甯冨眬"]}
+      ]
+    },
+    "embodied_ai": {
+      "description": "鍏疯韩鏅鸿兘 - 鏈哄櫒浜烘劅鐭ャ€佸喅绛栥€佹墽琛岄棴鐜?,
+      "core_function": "鍦ㄧ墿鐞嗕笘鐣屼腑瀹屾垚寤虹瓚浠诲姟",
+      "robot_types": [
+        {"type": "瑁呬慨鏂藉伐鏈哄櫒浜?, "tasks": ["鍒吇瀛?, "璐寸爾", "娑傛紗", "鎵撹兌"]},
+        {"type": "瀹夎鏈哄櫒浜?, "tasks": ["姗辨煖瀹夎", "琛ｆ煖瀹夎", "闂ㄧ獥瀹夎", "鍚婇《瀹夎"]},
+        {"type": "妫€娴嬫満鍣ㄤ汉", "tasks": ["骞虫暣搴︽娴?, "鍨傜洿搴︽娴?, "缂濋殭娴嬮噺", "娓楁紡妫€娴?]}
+      ],
+      "perception": ["RGB-D鐩告満", "婵€鍏夐浄杈?, "瑙﹁浼犳劅鍣?, "鍔涚煩浼犳劅鍣?],
+      "actuators": ["6杞存満姊拌噦", "绉诲姩搴曠洏", "涓撶敤鏈宸ュ叿"],
+      "dexterous_hand": {
+        "description": "鐏靛阀鎵?- 浠夸汉鎵嬬簿缁嗘搷浣?,
+        "fingers": 5,
+        "dof": "15-20",
+        "grasp_modes": ["绮惧瘑鎶撳彇", "寮哄姏鎶撳彇", "渚у悜鎶撳彇", "閽╂寕鎶撳彇"],
+        "sensors": ["鍘嬪姏鍒嗗竷", "婊戠Щ妫€娴?, "鏉愯川璇嗗埆", "褰㈢姸閲嶅缓"],
+        "applications": ["鎷ц灪涓?, "瀹夎浜旈噾", "鎷垮彇宸ュ叿", "鎿嶄綔寮€鍏?]
+      },
+      "servo_system": {
+        "description": "浼烘湇椹卞姩绯荤粺 - 楂樼簿搴﹁繍鍔ㄦ帶鍒?,
+        "types": ["寰瀷浼烘湇", "灏忓瀷浼烘湇", "涓瀷浼烘湇"],
+        "precision": "卤0.01mm",
+        "applications": ["鍗忎綔鏈哄櫒浜?, "鍗婂浣撹澶?, "3C鐢靛瓙", "鍖荤枟璁惧"]
+      }
+    }
+  },
+
+  "data_inventory": {
+    "summary": {
+      "total_files": 236,
+      "total_size_mb": 1143.3,
+      "categories": 9
+    },
+    "categories": {
+      "cad_drawings": {
+        "name": "CAD鏂藉伐鍥?,
+        "path": "C:\\Users\\Administrator\\Desktop\\寤虹瓚鏁版嵁搴?,
+        "files_count": "~12",
+        "physical_meaning": "寤虹瓚鐨勫嚑浣曟嫇鎵?,
+        "robot_relevance": "璺緞瑙勫垝銆佺鎾炴娴?,
+        "projects": ["鐝犳捣缈犲井鏃ф潙鏀归€?, "浠庡寲鍒", "浣涘北鎭掑ぇ浜戜笢娴?, "灞辨按搴櫌", "鏉庡コ澹?, "鐜嬫€?, "瑕冩€?, "榛勬€?]
+      },
+      "renderings": {
+        "name": "鏁堟灉鍥?瀹炴櫙鐓х墖",
+        "path": "C:\\Users\\Administrator\\Desktop\\寤虹瓚鏁版嵁搴揬\[瀹㈡埛鏂囦欢澶筣",
+        "files_count": "~40",
+        "physical_meaning": "鏉愯川绾圭悊銆佸厜鐓х幆澧?,
+        "robot_relevance": "鏉愯川璇嗗埆銆佸満鏅悊瑙?
+      },
+      "interior_scenes": {
+        "name": "瀹ゅ唴瀹跺眳鍦烘櫙搴?,
+        "path": "C:\\Users\\Administrator\\Desktop\\瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+        "files_count": 70,
+        "size_mb": 68.0,
+        "physical_meaning": "瀹跺叿甯冨眬銆佷汉浣撳伐绋嬪",
+        "robot_relevance": "鐩爣妫€娴嬪熀鍑嗐€丼im2Real杩佺Щ",
+        "subcategories": {
+          "瀹跺涵鍦烘櫙": {"count": 56, "scene_type": "residential"},
+          "鍔炲叕绌洪棿": {"count": 14, "scene_type": "commercial"}
+        }
+      },
+      "door_materials": {
+        "name": "闂ㄦ潗鏂欏簱",
+        "path": "C:\\Users\\Administrator\\Desktop\\闂ㄦ潗鏂欏簱",
+        "files_count": 1,
+        "size_mb": 16.4,
+        "physical_meaning": "闂ㄧ殑绫诲瀷銆佸昂瀵搞€佹潗鏂?,
+        "robot_relevance": "闂ㄥ畨瑁呬换鍔?,
+        "products": ["濂㈢編鏃朵唬瑁呯敳闂ㄧ簿闆曟寮?024鐗?]
+      },
+      "exam_materials": {
+        "name": "寤虹瓚甯堣€冭瘯璧勬枡",
+        "path": "C:\\Users\\Administrator\\Desktop\\浜屾敞寤虹瓚甯?,
+        "files_count": 6,
+        "size_mb": 399.2,
+        "physical_meaning": "寤虹瓚鐗╃悊銆佽澶囥€佺粨鏋勭煡璇?,
+        "robot_relevance": "寤虹瓚鐭ヨ瘑鍥捐氨",
+        "subjects": ["寤虹瓚璁捐", "寤虹瓚缁撴瀯", "寤虹瓚鐗╃悊涓庤澶?, "寤虹瓚鏉愭枡涓庢瀯閫?, "寤虹瓚缁忔祹涓庢柦宸?]
+      },
+      "robot_knowledge": {
+        "name": "鏈哄櫒浜烘妧鏈祫鏂?,
+        "path": "C:\\Users\\Administrator\\Desktop\\鏈哄櫒浜烘暟鎹?,
+        "files_count": 3,
+        "size_mb": 56.5,
+        "physical_meaning": "杩愬姩鎺у埗銆佺伒宸ф墜銆佷己鏈嶇郴缁?,
+        "robot_relevance": "鐩存帴鐢ㄤ簬鏈哄櫒浜虹郴缁熻璁?,
+        "topics": ["浼烘湇椹卞姩閫夊瀷", "杩愬姩鎺у埗", "鐏靛阀鎵嬭璁?, "鎶撳彇绛栫暐"]
+      },
+      "design_database": {
+        "name": "璁捐鏁版嵁搴?,
+        "path": "C:\\Users\\Administrator\\Desktop\\璁捐鏁版嵁搴?,
+        "files_count": 2,
+        "size_mb": 151.0,
+        "physical_meaning": "浜у搧鍥惧唽銆佽璁′綔鍝?,
+        "robot_relevance": "鏉愯川绾圭悊銆侀鏍煎弬鑰?,
+        "contents": ["浜у搧鍥惧唽", "璁捐浣滃搧闆?]
+      },
+      "furniture_soft": {
+        "name": "娌欏彂杞",
+        "path": "C:\\Users\\Administrator\\Desktop\\娌欏彂杞",
+        "files_count": 4,
+        "size_mb": 322.0,
+        "physical_meaning": "娌欏彂銆佽蒋搴婁骇鍝佹暟鎹?,
+        "robot_relevance": "瀹跺叿璇嗗埆銆佹姄鍙栫洰鏍?,
+        "products": ["鏋佺畝鍥惧唽", "濞变箰瀹跺叿", "娌欏彂鍥惧唽", "杞簥鍥惧唽"]
+      },
+      "interior_scenes_extended": {
+        "name": "瀹ゅ唴瀹跺眳鍦烘櫙搴?鎵╁睍)",
+        "path": "C:\\Users\\Administrator\\Desktop\\瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+        "files_count": 79,
+        "size_mb": 130.2,
+        "physical_meaning": "瀹跺叿甯冨眬銆佷汉浣撳伐绋嬪銆佸姙鍏満鏅?,
+        "robot_relevance": "鐩爣妫€娴嬪熀鍑嗐€丼im2Real杩佺Щ",
+        "subcategories": {
+          "瀹跺涵鍦烘櫙": {"count": 55, "size_mb": 59.2, "scene_type": "residential"},
+          "鍔炲叕绌洪棿": {"count": 24, "size_mb": 71.0, "scene_type": "commercial"}
+        },
+        "file_types": {
+          "jpg": {"count": 69, "purpose": "鍦烘櫙鍥惧儚"},
+          "xls_xlsx": {"count": 7, "purpose": "棰勭畻鎶ヤ环"},
+          "pdf": {"count": 1, "purpose": "鏍囧噯鏂囨。"},
+          "docx": {"count": 1, "purpose": "浠诲姟涔?},
+          "pptx": {"count": 1, "purpose": "婕旂ず鏂囩"}
+        }
+      }
+    }
+  },
+
+  "object_library": {
+    "building_elements": [
+      {"category": "缁撴瀯绫?, "objects": ["娣峰嚌鍦熷", "鐮栧", "杞婚挗榫欓闅斿", "鎵块噸鏌?, "姊?, "妤兼澘"]},
+      {"category": "闂ㄧ獥绫?, "objects": ["鍏ユ埛闂?, "鍗у闂?, "鍗敓闂撮棬", "鎺ㄦ媺闂?, "绐楁埛", "钀藉湴绐?]},
+      {"category": "瑁呴グ绫?, "objects": ["鍚婇《", "澧欓潰瑁呴グ", "鍦伴潰閾鸿", "韪㈣剼绾?, "绐楀彴鐭?]},
+      {"category": "闃叉按绫?, "objects": ["鍗敓闂撮槻姘村眰", "鍘ㄦ埧闃叉按灞?, "闃冲彴闃叉按灞?, "灞嬮潰闃叉按"]}
+    ],
+    "furniture": [
+      {"category": "瀹㈠巺", "items": ["娌欏彂", "鑼跺嚑", "鐢佃鏌?, "鍦版", "绐楀笜", "鍗曚汉妞?, "瑙掑嚑"]},
+      {"category": "椁愬巺", "items": ["椁愭", "椁愭", "椁愯竟鏌?, "鍚婄伅", "閰掓煖"]},
+      {"category": "鍗у", "items": ["搴?, "搴婂ご鏌?, "琛ｆ煖", "姊冲鍙?, "绐楀笜", "杞簥", "搴婂灚"]},
+      {"category": "鍘ㄦ埧", "items": ["姗辨煖", "娌圭儫鏈?, "鐏跺彴", "鍐扮", "姘存Ы", "娲楃鏈?, "鐑ょ"]},
+      {"category": "鍗敓闂?, "items": ["椹《", "娲楁墜鐩?, "娣嬫荡鎴?, "娴村鏌?, "姣涘肪鏋?, "娴寸几"]},
+      {"category": "涔︽埧", "items": ["涔︽", "涔︽", "涔︽灦", "鍙扮伅", "鐢佃剳妞?]},
+      {"category": "杞", "items": ["鎶辨灂", "闈犲灚", "瑁呴グ鐢?, "鑺辩摱", "鎽嗕欢", "鍦版", "绐楀笜"]}
+    ],
+    "materials": [
+      {"category": "鍦伴潰鏉愭枡", "items": ["鐡风爾", "澶х悊鐭?, "鏈ㄥ湴鏉?, "鍦版", "PVC鍦版澘", "SPC鍦版澘", "寮哄寲澶嶅悎鍦版澘"]},
+      {"category": "澧欓潰鏉愭枡", "items": ["涔宠兌婕?, "澧欑焊", "澧欏竷", "鏈ㄩグ闈?, "鐡风爾"]},
+      {"category": "鍚婇《鏉愭枡", "items": ["鐭宠啅鏉?, "閾濇墸鏉?, "铚傜獫鏉?, "鏈ㄨ川鍚婇《"]}
+    ],
+    "flooring_physics": {
+      "source": "C:\\Users\\Administrator\\Desktop\\鏈ㄥ湴鏉?,
+      "files_count": 4,
+      "size_mb": 54.5,
+      "brands": ["BOEN", "Hakwood", "LAK", "Monpar"],
+      "physical_properties": {
+        "geometry": ["length", "width", "thickness", "tongue_groove"],
+        "material": ["density", "hardness", "moisture_content"],
+        "friction": ["static_coefficient", "dynamic_coefficient"],
+        "mechanics": ["elastic_modulus", "bending_strength"],
+        "thermal": ["conductivity", "expansion_coefficient"],
+        "surface": ["finish_type", "gloss_level", "wear_rating"]
+      },
+      "robot_tasks": ["鎼繍", "瀹夎", "璐ㄩ噺妫€娴?],
+      "knowledge_file": "knowledge/WOOD_FLOOR_PHYSICS.md"
+    },
+    "robot_components": [
+      {"category": "鎵ц鍣?, "items": ["鏈烘鑷?, "鐏靛阀鎵?, "绉诲姩搴曠洏", "鏈宸ュ叿"]},
+      {"category": "浼犳劅鍣?, "items": ["RGB-D鐩告満", "婵€鍏夐浄杈?, "鍔涚煩浼犳劅鍣?, "瑙﹁闃靛垪"]},
+      {"category": "鎺у埗绯荤粺", "items": ["浼烘湇椹卞姩鍣?, "杩愬姩鎺у埗鍣?, "涓绘帶璁＄畻鏈?]},
+      {"category": "鏈宸ュ叿", "items": ["鍒垁", "娑傚埛澶?, "閽诲ご", "澶圭埅", "鍚哥洏"]}
+    ],
+    "urban_complex_spaces": [
+      {"category": "璐墿涓績", "area": "5-30涓囥帯", "features": ["澶ц法搴?, "楂樻寫绌?, "浜烘祦瀵嗛泦"], "robot_tasks": ["娓呮磥", "宸℃", "瀹夐槻"]},
+      {"category": "鍐欏瓧妤?, "area": "3-10涓囥帯", "features": ["鏍囧噯灞?, "鏍稿績绛?, "鐢垫鍘?], "robot_tasks": ["閫侀", "蹇€?, "娓呮磥"]},
+      {"category": "閰掑簵", "area": "2-5涓囥帯", "features": ["瀹㈡埧灞?, "澶у爞", "瀹翠細鍘?], "robot_tasks": ["閫佺墿", "娓呮磥", "鏈嶅姟"]},
+      {"category": "鍏瘬", "area": "1-3涓囥帯", "features": ["鏍囧噯鎴峰瀷", "鍏叡璧板粖"], "robot_tasks": ["蹇€?, "娓呮磥", "缁翠慨"]},
+      {"category": "鍋滆溅鍦?, "area": "1-5涓囥帯", "features": ["澶ц法搴?, "鏌辩綉", "鍧￠亾"], "robot_tasks": ["鍋滆溅寮曞", "宸℃", "娓呮磥"]},
+      {"category": "涓涵", "area": "500-5000銕?, "features": ["楂樻寫绌?, "鐜荤拑椤?, "鏅"], "robot_tasks": ["楂樼┖娓呮磥", "缁存姢"]}
+    ],
+    "commercial_elements": [
+      {"category": "鍟嗛摵", "area": "50-500銕?, "robot_relevance": "璐ф灦瀹夎銆佹竻娲?},
+      {"category": "椁愰ギ", "area": "100-500銕?, "robot_relevance": "鎺掓补鐑熺淮鎶ゃ€佹竻娲?},
+      {"category": "鍗敓闂?, "area": "50-200銕?, "robot_relevance": "娓呮磥銆佽€楁潗琛ュ厖"},
+      {"category": "璧板粖", "width": "4-8m", "robot_relevance": "娓呮磥銆佸贰妫€"},
+      {"category": "鐢垫鍘?, "area": "20-50銕?, "robot_relevance": "娓呮磥銆佸紩瀵?},
+      {"category": "鑷姩鎵舵", "width": "0.6-1m", "robot_relevance": "鈿狅笍 涓嶅彲閫氳"}
+    ]
+  },
+
+  "projects": []
+}
+

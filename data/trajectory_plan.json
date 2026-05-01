@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-04-13T14:02:37.702739",
+  "frame_id": "frame_002",
+  "status": "success",
+  "robot_pose": {
+    "x": 5.0,
+    "y": 3.0,
+    "theta": 1.57
+  },
+  "goal": {
+    "x": 10.0,
+    "y": 0.0
+  },
+  "trajectory": {
+    "waypoints": [
+      {
+        "x": 5.0,
+        "y": 3.0,
+        "action": "start"
+      },
+      {
+        "x": 7.5,
+        "y": 1.5,
+        "action": "move"
+      },
+      {
+        "x": 10.0,
+        "y": 0.0,
+        "action": "goal"
+      }
+    ],
+    "total_distance": 5.83,
+    "estimated_time_seconds": 11.7,
+    "algorithm": "simple_linear"
+  },
+  "obstacles_considered": 1
+}

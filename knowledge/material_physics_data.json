@@ -1,0 +1,525 @@
+{
+  "metadata": {
+    "name": "Material Physics Knowledge Base",
+    "source": "ARROW Sanitary Ware Catalog 2025",
+    "purpose": "VR场景物理属性 + 机器人具身控制",
+    "version": "1.0",
+    "created": "2026-04-25"
+  },
+  "materials": {
+    "ceramic_tile_glossy": {
+      "display_name": "抛光瓷砖",
+      "surface_finish": "CP",
+      "density_kg_m3": 2400,
+      "friction_dry": 0.35,
+      "friction_wet": 0.22,
+      "youngs_modulus_GPa": 50,
+      "poisson_ratio": 0.18,
+      "surface_roughness_um": 0.2,
+      "thermal_conductivity": 1.2,
+      "color_hint": "#F5F5F0",
+      "robot_grasp_easy": false,
+      "robot_clean_easy": true,
+      "recommended_brush_pressure_N": 18,
+      "recommended_clean_speed_mps": 0.2
+    },
+    "ceramic_tile_matte": {
+      "display_name": "哑光瓷砖",
+      "surface_finish": "MB/SM/PN",
+      "density_kg_m3": 2400,
+      "friction_dry": 0.45,
+      "friction_wet": 0.3,
+      "youngs_modulus_GPa": 50,
+      "poisson_ratio": 0.18,
+      "surface_roughness_um": 1.0,
+      "thermal_conductivity": 1.2,
+      "color_hint": "#888888",
+      "robot_grasp_easy": false,
+      "robot_clean_easy": true,
+      "recommended_brush_pressure_N": 22,
+      "recommended_clean_speed_mps": 0.15
+    },
+    "ceramic_tile_anti_slip": {
+      "display_name": "防滑瓷砖",
+      "surface_finish": "R/R10",
+      "density_kg_m3": 2450,
+      "friction_dry": 0.6,
+      "friction_wet": 0.45,
+      "youngs_modulus_GPa": 50,
+      "poisson_ratio": 0.18,
+      "surface_roughness_um": 2.5,
+      "thermal_conductivity": 1.2,
+      "color_hint": "#AAAAAA",
+      "robot_grasp_easy": false,
+      "robot_clean_easy": false,
+      "recommended_brush_pressure_N": 30,
+      "recommended_clean_speed_mps": 0.1
+    },
+    "chrome_polished": {
+      "display_name": "镀铬抛光",
+      "surface_finish": "CP/UCP",
+      "density_kg_m3": 8500,
+      "friction_dry": 0.2,
+      "friction_wet": 0.12,
+      "youngs_modulus_GPa": 100,
+      "poisson_ratio": 0.34,
+      "surface_roughness_um": 0.1,
+      "thermal_conductivity": 120,
+      "color_hint": "#C0C0C0",
+      "robot_grasp_easy": false,
+      "robot_clean_easy": true,
+      "grip_force_N": 30,
+      "grip_slip_warning": "LOW_FRICTION_USE_SOFT_PAD"
+    },
+    "stainless_steel_brushed": {
+      "display_name": "拉丝不锈钢",
+      "surface_finish": "SS",
+      "density_kg_m3": 8000,
+      "friction_dry": 0.3,
+      "friction_wet": 0.2,
+      "youngs_modulus_GPa": 193,
+      "poisson_ratio": 0.29,
+      "surface_roughness_um": 0.6,
+      "thermal_conductivity": 16.2,
+      "color_hint": "#D8D8D8",
+      "robot_grasp_easy": true,
+      "robot_clean_easy": true,
+      "grip_force_N": 20
+    },
+    "matte_black_metal": {
+      "display_name": "哑光黑金属",
+      "surface_finish": "MB/HMB",
+      "density_kg_m3": 8000,
+      "friction_dry": 0.38,
+      "friction_wet": 0.28,
+      "youngs_modulus_GPa": 193,
+      "poisson_ratio": 0.29,
+      "surface_roughness_um": 1.0,
+      "thermal_conductivity": 16.2,
+      "color_hint": "#1A1A1A",
+      "robot_grasp_easy": true,
+      "robot_clean_easy": true,
+      "grip_force_N": 18
+    },
+    "pearl_nickel": {
+      "display_name": "珍珠镍",
+      "surface_finish": "PN",
+      "density_kg_m3": 8500,
+      "friction_dry": 0.25,
+      "friction_wet": 0.18,
+      "youngs_modulus_GPa": 100,
+      "poisson_ratio": 0.34,
+      "surface_roughness_um": 0.3,
+      "thermal_conductivity": 120,
+      "color_hint": "#B8B8C8",
+      "robot_grasp_easy": true,
+      "robot_clean_easy": true,
+      "grip_force_N": 22
+    },
+    "ceramic_sanitary": {
+      "display_name": "卫生陶瓷（马桶/洗手盆）",
+      "surface_finish": "GLOSSY_GLAZE",
+      "density_kg_m3": 2300,
+      "friction_dry": 0.38,
+      "friction_wet": 0.25,
+      "youngs_modulus_GPa": 50,
+      "poisson_ratio": 0.18,
+      "surface_roughness_um": 0.15,
+      "thermal_conductivity": 1.0,
+      "water_absorption_pct": 0.5,
+      "color_hint": "#FFFFFF",
+      "robot_grasp_easy": false,
+      "robot_clean_easy": true,
+      "recommended_brush_pressure_N": 15,
+      "fragile_warning": true,
+      "grip_slip_warning": "GLAZE_IS_SLIPPERY"
+    },
+    "tempered_glass_8mm": {
+      "display_name": "钢化玻璃 8mm",
+      "thickness_mm": 8,
+      "density_kg_m3": 2500,
+      "friction_dry": 0.4,
+      "friction_wet": 0.25,
+      "youngs_modulus_GPa": 74,
+      "poisson_ratio": 0.2,
+      "surface_roughness_um": 0.1,
+      "thermal_conductivity": 1.0,
+      "impact_resistance_J": 80,
+      "fragile_warning": true,
+      "robot_grasp_easy": false,
+      "robot_clean_easy": true,
+      "recommended_grip": "VACUUM_SUCTION_CUP",
+      "collision_threshold_J": 50
+    },
+    "tempered_glass_10mm": {
+      "display_name": "钢化玻璃 10mm",
+      "thickness_mm": 10,
+      "density_kg_m3": 2500,
+      "friction_dry": 0.4,
+      "friction_wet": 0.25,
+      "youngs_modulus_GPa": 74,
+      "poisson_ratio": 0.2,
+      "surface_roughness_um": 0.1,
+      "thermal_conductivity": 1.0,
+      "impact_resistance_J": 120,
+      "fragile_warning": true,
+      "robot_grasp_easy": false,
+      "robot_clean_easy": true,
+      "recommended_grip": "VACUUM_SUCTION_CUP",
+      "collision_threshold_J": 70
+    },
+    "solid_wood_door": {
+      "display_name": "实木复合门",
+      "density_kg_m3": 680,
+      "friction_dry": 0.4,
+      "friction_wet": 0.3,
+      "youngs_modulus_GPa": 11,
+      "poisson_ratio": 0.3,
+      "surface_roughness_um": 2.0,
+      "thermal_conductivity": 0.17,
+      "color_hint": "#A0522D",
+      "robot_grasp_easy": true,
+      "robot_clean_easy": true,
+      "openable": true,
+      "graspable": true,
+      "typical_mass_kg": 25
+    },
+    "aluminum_window": {
+      "display_name": "铝合金中空玻璃窗",
+      "density_kg_m2": 35,
+      "friction_dry": 0.35,
+      "friction_wet": 0.25,
+      "youngs_modulus_GPa": 70,
+      "poisson_ratio": 0.33,
+      "surface_roughness_um": 0.5,
+      "thermal_conductivity": 1.2,
+      "glass_thickness_mm": 5,
+      "color_hint": "#87CEEB",
+      "robot_grasp_easy": false,
+      "robot_clean_easy": true,
+      "openable": true,
+      "typical_mass_kg": 15
+    },
+    "acrylic": {
+      "display_name": "亚克力",
+      "density_kg_m3": 1180,
+      "friction_dry": 0.35,
+      "friction_wet": 0.22,
+      "youngs_modulus_GPa": 3,
+      "poisson_ratio": 0.35,
+      "surface_roughness_um": 0.3,
+      "thermal_conductivity": 0.19,
+      "impact_resistance_J": 10,
+      "color_hint": "#E0E0E0",
+      "robot_grasp_easy": true,
+      "robot_clean_easy": true,
+      "fragile_warning": false,
+      "graspable": true
+    },
+    "brass": {
+      "display_name": "黄铜",
+      "density_kg_m3": 8500,
+      "friction_dry": 0.28,
+      "friction_wet": 0.18,
+      "youngs_modulus_GPa": 100,
+      "poisson_ratio": 0.34,
+      "surface_roughness_um": 0.3,
+      "thermal_conductivity": 120,
+      "color_hint": "#B5A642",
+      "robot_grasp_easy": true,
+      "robot_clean_easy": true,
+      "graspable": true,
+      "grip_force_N": 20
+    },
+    "shower_glass_8mm": {
+      "display_name": "钢化玻璃淋浴隔断 8mm",
+      "surface_finish": "TEMPERED_CLEAR",
+      "density_kg_m3": 2500,
+      "friction_dry": 0.4,
+      "friction_wet": 0.25,
+      "youngs_modulus_GPa": 74,
+      "poisson_ratio": 0.2,
+      "thickness_mm": 8,
+      "impact_resistance_J": 80,
+      "collision_threshold_J": 50,
+      "fragile_warning": true,
+      "robot_interaction": {
+        "clean": {
+          "method": "WIPE_SQUEEGEE",
+          "pressure_N": 5,
+          "speed_mps": 0.15,
+          "angle_deg": 30,
+          "danger_note": "禁止高压水枪直冲边缘！边缘受冲击易碎裂"
+        },
+        "grip": {
+          "recommended": "VACUUM_SUCTION_CUP_6inch",
+          "force_N": 20,
+          "contact_area_cm2": 30,
+          "danger_note": "严禁金属夹爪直接夹持！应力集中导致爆裂"
+        },
+        "collision_risk": "HIGH",
+        "edge_zone_mm": 30,
+        "break_pattern": "spontaneous_tempered_glass_fragments"
+      }
+    },
+    "shower_glass_10mm": {
+      "display_name": "钢化玻璃淋浴隔断 10mm",
+      "surface_finish": "TEMPERED_CLEAR",
+      "density_kg_m3": 2500,
+      "friction_dry": 0.4,
+      "friction_wet": 0.25,
+      "youngs_modulus_GPa": 74,
+      "poisson_ratio": 0.2,
+      "thickness_mm": 10,
+      "impact_resistance_J": 120,
+      "collision_threshold_J": 70,
+      "fragile_warning": true,
+      "robot_interaction": {
+        "clean": {
+          "method": "WIPE_SQUEEGEE",
+          "pressure_N": 8,
+          "speed_mps": 0.12,
+          "angle_deg": 45,
+          "danger_note": "硬物刮擦后钢化玻璃强度下降50%"
+        },
+        "grip": {
+          "recommended": "VACUUM_SUCTION_CUP_8inch",
+          "force_N": 30,
+          "contact_area_cm2": 50,
+          "danger_note": "吸盘严禁吸附边缘30mm范围"
+        },
+        "collision_risk": "MEDIUM",
+        "edge_zone_mm": 30,
+        "break_pattern": "rounded_safety_fragments"
+      }
+    },
+    "sliding_door_aluminum": {
+      "display_name": "铝合金推拉门",
+      "surface_finish": "POWDER_COATED",
+      "density_kg_m2": 18,
+      "friction_dry": 0.3,
+      "friction_wet": 0.22,
+      "youngs_modulus_GPa": 70,
+      "typical_size_mm": [
+        1500,
+        2100
+      ],
+      "fragile_warning": false,
+      "robot_interaction": {
+        "open": {
+          "method": "HORIZONTAL_PUSH_PULL",
+          "force_N": 15,
+          "speed_mps": 0.3,
+          "track_clearance_mm": 3,
+          "door_height_mm": 2100,
+          "torque_Nm": 15.75,
+          "danger_note": "推拉门下沿与轨道间隙仅3-5mm，严禁手指探入！"
+        },
+        "clean": {
+          "method": "WIPE_TRACK",
+          "pressure_N": 3,
+          "tool": "NARROW_BRUSH",
+          "danger_note": "轨道内积垢需细毛刷清理"
+        },
+        "collision_risk": "LOW"
+      }
+    },
+    "toilet_ceramic": {
+      "display_name": "陶瓷马桶",
+      "surface_finish": "GLOSSY_GLAZE",
+      "density_kg_m3": 2300,
+      "friction_dry": 0.38,
+      "friction_wet": 0.25,
+      "youngs_modulus_GPa": 50,
+      "poisson_ratio": 0.18,
+      "surface_roughness_um": 0.15,
+      "water_absorption_pct": 0.5,
+      "glaze_thickness_mm": 0.5,
+      "fragile_warning": true,
+      "robot_interaction": {
+        "clean": {
+          "method": "BRUSH_CLEAN",
+          "pressure_N": 15,
+          "speed_mps": 0.2,
+          "tool": "SOFT_NYLON_BRUSH",
+          "danger_zones": [
+            "水箱盖边缘(冲击力>30N会裂)",
+            "马桶圈铰链(塑料件易断)",
+            "排污口(刷毛卡住)"
+          ],
+          "danger_note": "釉面光滑，清洁刷压力>20N时刷毛打滑"
+        },
+        "grip": {
+          "recommended": "VACUUM_SUCTION_CUP",
+          "force_N": 25,
+          "contact_area_cm2": 40,
+          "surface_type": "GLAZED_CERAMIC",
+          "danger_note": "釉面光滑，吸盘需湿润后才能密封"
+        },
+        "inspect": {
+          "crack_check": "釉面裂纹需侧光照射",
+          "loose_check": "底座密封胶是否老化"
+        },
+        "collision_risk": "MEDIUM",
+        "fragile_parts": [
+          "水箱盖(冲击力>30N会裂)",
+          "马桶圈(塑料铰链)"
+        ]
+      }
+    },
+    "bathroom_vanity": {
+      "display_name": "浴室柜（人造石/陶瓷/实木）",
+      "surface_finish": "PAINTED_MDF_or_CERAMIC",
+      "density_kg_m3": 750,
+      "friction_dry": 0.45,
+      "friction_wet": 0.35,
+      "youngs_modulus_GPa": 8,
+      "water_resistance": "MEDIUM",
+      "fragile_warning": false,
+      "robot_interaction": {
+        "clean": {
+          "method": "WIPE_DRY",
+          "pressure_N": 5,
+          "speed_mps": 0.25,
+          "tool": "MICROFIBER_CLOTH",
+          "danger_note": "人造石台面严禁84消毒液/强酸，会腐蚀表面",
+          "clean_sequence": "台面->洗手盆->柜门->柜内->地面"
+        },
+        "open": {
+          "method": "DOOR_OPEN",
+          "force_N": 5,
+          "hinge_type": "SOFT_CLOSE",
+          "danger_note": "阻尼铰链有缓冲，关门时严禁阻止，会损坏缓冲器"
+        },
+        "grip": {
+          "recommended": "SIDE_GRIP",
+          "force_N": 10,
+          "grip_width_mm": 50,
+          "danger_note": "柜体宽度600-1200mm，夹爪需适配"
+        },
+        "collision_risk": "LOW"
+      }
+    },
+    "bathroom_mirror": {
+      "display_name": "浴室镜",
+      "surface_finish": "SILVER_MIRROR",
+      "density_kg_m3": 2500,
+      "friction_dry": 0.25,
+      "friction_wet": 0.18,
+      "youngs_modulus_GPa": 74,
+      "glass_thickness_mm": 5,
+      "fragile_warning": true,
+      "robot_interaction": {
+        "clean": {
+          "method": "WIPE_SPRAY",
+          "pressure_N": 2,
+          "speed_mps": 0.3,
+          "tool": "SPRAY+MICROFIBER",
+          "danger_note": "禁止用干布直接擦！先喷清洁剂",
+          "edge_zone_mm": 10,
+          "danger_zone": "镜子与墙体密封胶处"
+        },
+        "grip": {
+          "recommended": "VACUUM_SUCTION_CUP",
+          "force_N": 15,
+          "contact_area_cm2": 20,
+          "danger_note": "浴室镜通常用胶粘贴，严禁直接拉扯！需先切断胶"
+        },
+        "collision_risk": "MEDIUM",
+        "break_pattern": "sharp_fragments_NOT_tempered"
+      }
+    },
+    "faucet_chrome": {
+      "display_name": "龙头/花洒（镀铬铜）",
+      "surface_finish": "CP",
+      "density_kg_m3": 8500,
+      "friction_dry": 0.2,
+      "friction_wet": 0.12,
+      "youngs_modulus_GPa": 100,
+      "thermal_conductivity": 120,
+      "material_base": "brass_H59",
+      "coating": "copper_nickel_chrome_3_layers",
+      "fragile_warning": false,
+      "robot_interaction": {
+        "clean": {
+          "method": "WIPE_POLISH",
+          "pressure_N": 3,
+          "speed_mps": 0.2,
+          "tool": "SOFT_CLOTH",
+          "danger_note": "镀铬表面低摩擦需软布轻擦；禁止洁厕灵/84消毒液，会腐蚀镀层",
+          "water_spot": "先用清水冲洗再用干布擦干"
+        },
+        "operate": {
+          "method": "ROTATION_GRIP",
+          "force_N": 8,
+          "torque_Nm": 2,
+          "valve_type": "CERAMIC_CARTRIDGE",
+          "open_angle_deg": 90,
+          "danger_note": "陶瓷阀芯转动90度，过度拧开会损坏！"
+        },
+        "grip": {
+          "recommended": "SOFT_PAD_GRIPPER",
+          "force_N": 5,
+          "danger_note": "金属夹爪会划伤镀铬层！必须用硅胶软垫夹爪"
+        },
+        "collision_risk": "LOW"
+      }
+    },
+    "tile_wall_glossy": {
+      "display_name": "抛光瓷砖（卫生间墙砖）",
+      "surface_finish": "CP_CERAMIC_POLISHED",
+      "density_kg_m3": 2400,
+      "friction_dry": 0.35,
+      "friction_wet": 0.22,
+      "youngs_modulus_GPa": 50,
+      "thickness_mm": 9,
+      "typical_size_mm": [
+        300,
+        400,
+        600
+      ],
+      "grout_width_mm": 2,
+      "fragile_warning": false,
+      "robot_interaction": {
+        "clean": {
+          "method": "WIPE_SPRAY",
+          "pressure_N": 10,
+          "speed_mps": 0.2,
+          "tool": "SPRAY_MOP_or_WIPE_CLOTH",
+          "grout_note": "瓷砖缝隙2mm勾缝，刷毛容易卡住需细毛刷",
+          "wall_clean": "喷水+刮板从上往下，禁止刷子横向用力"
+        },
+        "collision_risk": "LOW"
+      }
+    }
+  },
+  "surface_finish_map": {
+    "CP": "chrome_polished",
+    "UCP": "chrome_polished",
+    "SS": "stainless_steel_brushed",
+    "MB": "matte_black_metal",
+    "HMB": "matte_black_metal",
+    "HCP": "stainless_steel_brushed",
+    "PN": "pearl_nickel",
+    "GGP": "brass",
+    "MW": "ceramic_tile_glossy",
+    "SM": "ceramic_tile_matte",
+    "F": "ceramic_tile_anti_slip",
+    "TEMPERED_CLEAR": "shower_glass_8mm",
+    "GLOSSY_GLAZE": "toilet_ceramic",
+    "POWDER_COATED": "sliding_door_aluminum",
+    "PAINTED_MDF": "bathroom_vanity",
+    "SILVER_MIRROR": "bathroom_mirror"
+  },
+  "gravity": {
+    "standard_m_s2": 9.80665,
+    "china_average_m_s2": 9.794,
+    "recommended_m_s2": 9.81
+  },
+  "physics_constants": {
+    "air_density_kg_m3": 1.225,
+    "water_density_kg_m3": 1000,
+    "standard_atm_Pa": 101325,
+    "earth_radius_m": 6371000
+  }
+}

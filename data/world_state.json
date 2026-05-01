@@ -1,0 +1,14 @@
+{
+  "physics_status": "running",
+  "physics_frame": 929900385,
+  "physics_sim_time_s": 1.428,
+  "physics_wall_clock_s": 398.551,
+  "physics_command": "",
+  "physics_updated_at": "2026-04-14T21:41:21.852999",
+  "falling_body": {
+    "height_m": 0.0,
+    "velocity_ms": 0.0,
+    "time_s": 1.428,
+    "grounded": true
+  }
+}

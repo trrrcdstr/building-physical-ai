@@ -1,0 +1,21 @@
+{
+  "total_files": 1043,
+  "total_objects": 1043,
+  "category_stats": {
+    "室内 / 办公空间": 93,
+    "室内 / 商业空间": 55,
+    "室内 / 家庭空间": 613,
+    "室内 / 酒店空间": 20,
+    "建筑 / 商业建筑": 70,
+    "室外 / 园林庭院": 100,
+    "室外 / 社区空间": 30,
+    "建筑 / 工业建筑": 6,
+    "室外 / 市政景观": 56
+  },
+  "source_dirs": {
+    "室内效果图": "C:\\Users\\Administrator\\Desktop\\室内效果图",
+    "建筑效果图": "C:\\Users\\Administrator\\Desktop\\建筑效果图",
+    "园林效果图": "C:\\Users\\Administrator\\Desktop\\园林效果图"
+  },
+  "imported_at": "2026-04-15T18:59:53.201005"
+}

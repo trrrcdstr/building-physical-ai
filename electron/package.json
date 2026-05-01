@@ -1,0 +1,36 @@
+{
+  "name": "building-physical-ai",
+  "version": "1.0.0",
+  "description": "Physical AI World Model Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build:electron": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.physicalai.spatial-world-model",
+    "productName": "Physical AI Spatial World Model",
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "**/*",
+      "node_modules/**/*"
+    ],
+    "electronDist": "node_modules/electron/dist",
+    "win": {
+      "target": [
+        {
+          "target": "dir",
+          "arch": ["x64"]
+        }
+      ]
+    },
+    "asar": false
+  }
+}

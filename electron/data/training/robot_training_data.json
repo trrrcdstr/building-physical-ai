@@ -1,0 +1,5455 @@
+{
+  "meta": {
+    "version": "1.0",
+    "created_at": "2026-04-20T22:26:46.294005",
+    "total_samples": 166,
+    "source": "local_building_database",
+    "data_root": "C:\\Users\\Administrator\\Desktop\\建筑数据库\\家庭别墅",
+    "stats": {
+      "家庭场景": 36,
+      "办公空间": 20,
+      "山水庭院": 11,
+      "从化别墅": 11,
+      "黄总": 11,
+      "李女士": 11,
+      "覃总": 11,
+      "王总": 11,
+      "室内施工图": 44
+    }
+  },
+  "samples": [
+    {
+      "id": "d9d30c693f81",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "客厅",
+      "task": "清洁地板",
+      "action_sequence": [
+        "navigate_to_room",
+        "deploy_mop",
+        "sweep_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "沙发",
+        "茶几",
+        "电视柜",
+        "落地灯",
+        "地毯",
+        "窗帘"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "0e78c611fd96",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卧室",
+      "task": "清洁地板",
+      "action_sequence": [
+        "navigate_to_room",
+        "deploy_mop",
+        "sweep_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "床",
+        "衣柜",
+        "床头柜",
+        "梳妆台",
+        "台灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "8ec32a5c3655",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "餐厅",
+      "task": "清洁地板",
+      "action_sequence": [
+        "navigate_to_room",
+        "deploy_mop",
+        "sweep_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "餐桌",
+        "餐椅",
+        "餐边柜",
+        "吊灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "c6cb6f490615",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "厨房",
+      "task": "清洁地板",
+      "action_sequence": [
+        "navigate_to_room",
+        "deploy_mop",
+        "sweep_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "橱柜",
+        "冰箱",
+        "洗碗机",
+        "灶台",
+        "抽油烟机"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "85a25d808ba2",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卫生间",
+      "task": "清洁地板",
+      "action_sequence": [
+        "navigate_to_room",
+        "deploy_mop",
+        "sweep_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "马桶",
+        "洗手盆",
+        "淋浴房",
+        "浴缸",
+        "镜柜"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "27d69bc836a2",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "阳台",
+      "task": "清洁地板",
+      "action_sequence": [
+        "navigate_to_room",
+        "deploy_mop",
+        "sweep_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "洗衣机",
+        "晾衣架",
+        "绿植",
+        "休闲椅"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "8f3f9c44ebcf",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "客厅",
+      "task": "整理沙发",
+      "action_sequence": [
+        "navigate_to_sofa",
+        "pick_cushion",
+        "place_cushion",
+        "fold_blanket"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "沙发",
+        "茶几",
+        "电视柜",
+        "落地灯",
+        "地毯",
+        "窗帘"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "3a5b85c07076",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卧室",
+      "task": "整理沙发",
+      "action_sequence": [
+        "navigate_to_sofa",
+        "pick_cushion",
+        "place_cushion",
+        "fold_blanket"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "床",
+        "衣柜",
+        "床头柜",
+        "梳妆台",
+        "台灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "8756cc3af1dd",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "餐厅",
+      "task": "整理沙发",
+      "action_sequence": [
+        "navigate_to_sofa",
+        "pick_cushion",
+        "place_cushion",
+        "fold_blanket"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "餐桌",
+        "餐椅",
+        "餐边柜",
+        "吊灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "e45b030abb8b",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "厨房",
+      "task": "整理沙发",
+      "action_sequence": [
+        "navigate_to_sofa",
+        "pick_cushion",
+        "place_cushion",
+        "fold_blanket"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "橱柜",
+        "冰箱",
+        "洗碗机",
+        "灶台",
+        "抽油烟机"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "c3bebf8972d1",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卫生间",
+      "task": "整理沙发",
+      "action_sequence": [
+        "navigate_to_sofa",
+        "pick_cushion",
+        "place_cushion",
+        "fold_blanket"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "马桶",
+        "洗手盆",
+        "淋浴房",
+        "浴缸",
+        "镜柜"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "aeaab40b5425",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "阳台",
+      "task": "整理沙发",
+      "action_sequence": [
+        "navigate_to_sofa",
+        "pick_cushion",
+        "place_cushion",
+        "fold_blanket"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "洗衣机",
+        "晾衣架",
+        "绿植",
+        "休闲椅"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "1bb17f600f80",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "客厅",
+      "task": "浇花",
+      "action_sequence": [
+        "pick_watering_can",
+        "fill_water",
+        "navigate_to_plant",
+        "pour_water"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "沙发",
+        "茶几",
+        "电视柜",
+        "落地灯",
+        "地毯",
+        "窗帘"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "2fb9c2249f61",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卧室",
+      "task": "浇花",
+      "action_sequence": [
+        "pick_watering_can",
+        "fill_water",
+        "navigate_to_plant",
+        "pour_water"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "床",
+        "衣柜",
+        "床头柜",
+        "梳妆台",
+        "台灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "0307f8612642",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "餐厅",
+      "task": "浇花",
+      "action_sequence": [
+        "pick_watering_can",
+        "fill_water",
+        "navigate_to_plant",
+        "pour_water"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "餐桌",
+        "餐椅",
+        "餐边柜",
+        "吊灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "777bf7bc674f",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "厨房",
+      "task": "浇花",
+      "action_sequence": [
+        "pick_watering_can",
+        "fill_water",
+        "navigate_to_plant",
+        "pour_water"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "橱柜",
+        "冰箱",
+        "洗碗机",
+        "灶台",
+        "抽油烟机"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "69470da5510b",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卫生间",
+      "task": "浇花",
+      "action_sequence": [
+        "pick_watering_can",
+        "fill_water",
+        "navigate_to_plant",
+        "pour_water"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "马桶",
+        "洗手盆",
+        "淋浴房",
+        "浴缸",
+        "镜柜"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "1e1df39aeedd",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "阳台",
+      "task": "浇花",
+      "action_sequence": [
+        "pick_watering_can",
+        "fill_water",
+        "navigate_to_plant",
+        "pour_water"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "洗衣机",
+        "晾衣架",
+        "绿植",
+        "休闲椅"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "c0ccab4b1fdf",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "客厅",
+      "task": "取快递",
+      "action_sequence": [
+        "navigate_to_door",
+        "open_door",
+        "pick_package",
+        "place_package"
+      ],
+      "risk_level": "MEDIUM",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "沙发",
+        "茶几",
+        "电视柜",
+        "落地灯",
+        "地毯",
+        "窗帘"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "3a793bd48844",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卧室",
+      "task": "取快递",
+      "action_sequence": [
+        "navigate_to_door",
+        "open_door",
+        "pick_package",
+        "place_package"
+      ],
+      "risk_level": "MEDIUM",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "床",
+        "衣柜",
+        "床头柜",
+        "梳妆台",
+        "台灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "cdeffbf0b0f2",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "餐厅",
+      "task": "取快递",
+      "action_sequence": [
+        "navigate_to_door",
+        "open_door",
+        "pick_package",
+        "place_package"
+      ],
+      "risk_level": "MEDIUM",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "餐桌",
+        "餐椅",
+        "餐边柜",
+        "吊灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "b4e6715ce7a8",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "厨房",
+      "task": "取快递",
+      "action_sequence": [
+        "navigate_to_door",
+        "open_door",
+        "pick_package",
+        "place_package"
+      ],
+      "risk_level": "MEDIUM",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "橱柜",
+        "冰箱",
+        "洗碗机",
+        "灶台",
+        "抽油烟机"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "41cbae5c0119",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卫生间",
+      "task": "取快递",
+      "action_sequence": [
+        "navigate_to_door",
+        "open_door",
+        "pick_package",
+        "place_package"
+      ],
+      "risk_level": "MEDIUM",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "马桶",
+        "洗手盆",
+        "淋浴房",
+        "浴缸",
+        "镜柜"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "6bfc697ada6b",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "阳台",
+      "task": "取快递",
+      "action_sequence": [
+        "navigate_to_door",
+        "open_door",
+        "pick_package",
+        "place_package"
+      ],
+      "risk_level": "MEDIUM",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "洗衣机",
+        "晾衣架",
+        "绿植",
+        "休闲椅"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "3ffb22ac4f2c",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "客厅",
+      "task": "洗碗",
+      "action_sequence": [
+        "collect_dishes",
+        "navigate_to_sink",
+        "wash_dishes",
+        "place_rack"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "沙发",
+        "茶几",
+        "电视柜",
+        "落地灯",
+        "地毯",
+        "窗帘"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "1148b88e64c2",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卧室",
+      "task": "洗碗",
+      "action_sequence": [
+        "collect_dishes",
+        "navigate_to_sink",
+        "wash_dishes",
+        "place_rack"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "床",
+        "衣柜",
+        "床头柜",
+        "梳妆台",
+        "台灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "70b1ac60bb45",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "餐厅",
+      "task": "洗碗",
+      "action_sequence": [
+        "collect_dishes",
+        "navigate_to_sink",
+        "wash_dishes",
+        "place_rack"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "餐桌",
+        "餐椅",
+        "餐边柜",
+        "吊灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "d2a5ef6a4761",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "厨房",
+      "task": "洗碗",
+      "action_sequence": [
+        "collect_dishes",
+        "navigate_to_sink",
+        "wash_dishes",
+        "place_rack"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "橱柜",
+        "冰箱",
+        "洗碗机",
+        "灶台",
+        "抽油烟机"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "a38177d6f10f",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卫生间",
+      "task": "洗碗",
+      "action_sequence": [
+        "collect_dishes",
+        "navigate_to_sink",
+        "wash_dishes",
+        "place_rack"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "马桶",
+        "洗手盆",
+        "淋浴房",
+        "浴缸",
+        "镜柜"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "7eb89f99bd6b",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "阳台",
+      "task": "洗碗",
+      "action_sequence": [
+        "collect_dishes",
+        "navigate_to_sink",
+        "wash_dishes",
+        "place_rack"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "洗衣机",
+        "晾衣架",
+        "绿植",
+        "休闲椅"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "a6b52e0254d5",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "客厅",
+      "task": "整理床铺",
+      "action_sequence": [
+        "navigate_to_bedroom",
+        "pull_sheet",
+        "fold_quilt",
+        "arrange_pillow"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "沙发",
+        "茶几",
+        "电视柜",
+        "落地灯",
+        "地毯",
+        "窗帘"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "2acdb9060c61",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卧室",
+      "task": "整理床铺",
+      "action_sequence": [
+        "navigate_to_bedroom",
+        "pull_sheet",
+        "fold_quilt",
+        "arrange_pillow"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "床",
+        "衣柜",
+        "床头柜",
+        "梳妆台",
+        "台灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "a22ce693c6b2",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "餐厅",
+      "task": "整理床铺",
+      "action_sequence": [
+        "navigate_to_bedroom",
+        "pull_sheet",
+        "fold_quilt",
+        "arrange_pillow"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "餐桌",
+        "餐椅",
+        "餐边柜",
+        "吊灯"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "6d67130a5fae",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "厨房",
+      "task": "整理床铺",
+      "action_sequence": [
+        "navigate_to_bedroom",
+        "pull_sheet",
+        "fold_quilt",
+        "arrange_pillow"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "橱柜",
+        "冰箱",
+        "洗碗机",
+        "灶台",
+        "抽油烟机"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "53a172c0070c",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "卫生间",
+      "task": "整理床铺",
+      "action_sequence": [
+        "navigate_to_bedroom",
+        "pull_sheet",
+        "fold_quilt",
+        "arrange_pillow"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "马桶",
+        "洗手盆",
+        "淋浴房",
+        "浴缸",
+        "镜柜"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "c46ea38fd4e9",
+      "source": "local_data",
+      "scene_type": "residential_interior",
+      "scene_label": "家庭室内",
+      "room": "阳台",
+      "task": "整理床铺",
+      "action_sequence": [
+        "navigate_to_bedroom",
+        "pull_sheet",
+        "fold_quilt",
+        "arrange_pillow"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.4,
+        "ceiling_height_m": 2.8,
+        "door_width_m": 0.9,
+        "corridor_width_m": 1.2
+      },
+      "objects": [
+        "洗衣机",
+        "晾衣架",
+        "绿植",
+        "休闲椅"
+      ],
+      "image_count": 55,
+      "image_samples": [
+        "室内家居场景jpg\\家庭场景\\075519qilifdliaiiedang.jpg",
+        "室内家居场景jpg\\家庭场景\\082716tmp4iplok4pppaoz.jpg",
+        "室内家居场景jpg\\家庭场景\\083618gzawijwz2amo9stm.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.292496"
+    },
+    {
+      "id": "580621d1fbe3",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "开放办公区",
+      "task": "清洁办公区",
+      "action_sequence": [
+        "navigate_to_office",
+        "deploy_vacuum",
+        "clean_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "工位",
+        "电脑",
+        "椅子",
+        "文件柜",
+        "打印机"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "af40cc9b0e24",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "会议室",
+      "task": "清洁办公区",
+      "action_sequence": [
+        "navigate_to_office",
+        "deploy_vacuum",
+        "clean_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "会议桌",
+        "会议椅",
+        "投影仪",
+        "白板",
+        "显示屏"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "d388bc1a2baa",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "接待区",
+      "task": "清洁办公区",
+      "action_sequence": [
+        "navigate_to_office",
+        "deploy_vacuum",
+        "clean_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "前台",
+        "沙发",
+        "茶几",
+        "绿植",
+        "展示架"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "a57553bcc5e4",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "茶水间",
+      "task": "清洁办公区",
+      "action_sequence": [
+        "navigate_to_office",
+        "deploy_vacuum",
+        "clean_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "咖啡机",
+        "微波炉",
+        "冰箱",
+        "水槽",
+        "储物柜"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "5a15c924911e",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "卫生间",
+      "task": "清洁办公区",
+      "action_sequence": [
+        "navigate_to_office",
+        "deploy_vacuum",
+        "clean_path",
+        "return_base"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "5bbde42ab375",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "开放办公区",
+      "task": "送文件",
+      "action_sequence": [
+        "pick_document",
+        "navigate_to_target",
+        "hand_document",
+        "return"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "工位",
+        "电脑",
+        "椅子",
+        "文件柜",
+        "打印机"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "ef3ecc9c70ea",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "会议室",
+      "task": "送文件",
+      "action_sequence": [
+        "pick_document",
+        "navigate_to_target",
+        "hand_document",
+        "return"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "会议桌",
+        "会议椅",
+        "投影仪",
+        "白板",
+        "显示屏"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "dcfedaf18ff0",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "接待区",
+      "task": "送文件",
+      "action_sequence": [
+        "pick_document",
+        "navigate_to_target",
+        "hand_document",
+        "return"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "前台",
+        "沙发",
+        "茶几",
+        "绿植",
+        "展示架"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "1a4647330c23",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "茶水间",
+      "task": "送文件",
+      "action_sequence": [
+        "pick_document",
+        "navigate_to_target",
+        "hand_document",
+        "return"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "咖啡机",
+        "微波炉",
+        "冰箱",
+        "水槽",
+        "储物柜"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "19e25355f7d5",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "卫生间",
+      "task": "送文件",
+      "action_sequence": [
+        "pick_document",
+        "navigate_to_target",
+        "hand_document",
+        "return"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "e1b84e783670",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "开放办公区",
+      "task": "倒垃圾",
+      "action_sequence": [
+        "navigate_to_bin",
+        "pick_bin",
+        "navigate_to_trash",
+        "empty_bin",
+        "return_bin"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "工位",
+        "电脑",
+        "椅子",
+        "文件柜",
+        "打印机"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "8daa543d5e73",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "会议室",
+      "task": "倒垃圾",
+      "action_sequence": [
+        "navigate_to_bin",
+        "pick_bin",
+        "navigate_to_trash",
+        "empty_bin",
+        "return_bin"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "会议桌",
+        "会议椅",
+        "投影仪",
+        "白板",
+        "显示屏"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "81b9c30cf661",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "接待区",
+      "task": "倒垃圾",
+      "action_sequence": [
+        "navigate_to_bin",
+        "pick_bin",
+        "navigate_to_trash",
+        "empty_bin",
+        "return_bin"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "前台",
+        "沙发",
+        "茶几",
+        "绿植",
+        "展示架"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "b2b7484fc5d9",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "茶水间",
+      "task": "倒垃圾",
+      "action_sequence": [
+        "navigate_to_bin",
+        "pick_bin",
+        "navigate_to_trash",
+        "empty_bin",
+        "return_bin"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "咖啡机",
+        "微波炉",
+        "冰箱",
+        "水槽",
+        "储物柜"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "d4d647735bff",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "卫生间",
+      "task": "倒垃圾",
+      "action_sequence": [
+        "navigate_to_bin",
+        "pick_bin",
+        "navigate_to_trash",
+        "empty_bin",
+        "return_bin"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "f858b6f979ee",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "开放办公区",
+      "task": "引导访客",
+      "action_sequence": [
+        "greet_visitor",
+        "navigate_lead",
+        "arrive_destination",
+        "notify_host"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "工位",
+        "电脑",
+        "椅子",
+        "文件柜",
+        "打印机"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "98f95d52b151",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "会议室",
+      "task": "引导访客",
+      "action_sequence": [
+        "greet_visitor",
+        "navigate_lead",
+        "arrive_destination",
+        "notify_host"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "会议桌",
+        "会议椅",
+        "投影仪",
+        "白板",
+        "显示屏"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "19bbe4617948",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "接待区",
+      "task": "引导访客",
+      "action_sequence": [
+        "greet_visitor",
+        "navigate_lead",
+        "arrive_destination",
+        "notify_host"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "前台",
+        "沙发",
+        "茶几",
+        "绿植",
+        "展示架"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "134a8d16f4b5",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "茶水间",
+      "task": "引导访客",
+      "action_sequence": [
+        "greet_visitor",
+        "navigate_lead",
+        "arrive_destination",
+        "notify_host"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [
+        "咖啡机",
+        "微波炉",
+        "冰箱",
+        "水槽",
+        "储物柜"
+      ],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "b05bdd29162a",
+      "source": "local_data",
+      "scene_type": "office_interior",
+      "scene_label": "办公室内",
+      "room": "卫生间",
+      "task": "引导访客",
+      "action_sequence": [
+        "greet_visitor",
+        "navigate_lead",
+        "arrive_destination",
+        "notify_host"
+      ],
+      "risk_level": "LOW",
+      "physics": {
+        "floor_friction": 0.5,
+        "ceiling_height_m": 3.0,
+        "door_width_m": 1.0,
+        "corridor_width_m": 1.5
+      },
+      "objects": [],
+      "image_count": 14,
+      "image_samples": [
+        "室内家居场景jpg\\办公空间\\101622wjnvihccz99x9vs9.jpg",
+        "室内家居场景jpg\\办公空间\\115104a0552mi5mr80177m.jpg",
+        "室内家居场景jpg\\办公空间\\115105k2x22qb90jozo69s.jpg"
+      ],
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "e57502c23a56",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "73f6eeb36883",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "d421b6fa316b",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "64d91020eeeb",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "e1c5edad4a90",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "091398f2ecb5",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "35d006b030b6",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "a87a35b02525",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "20ec54961053",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "5fb1d5340e97",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "3abbc0dd61c3",
+      "source": "local_project",
+      "project": "山水庭院",
+      "project_type": "villa_courtyard",
+      "style": "新中式",
+      "area_sqm": 350,
+      "floors": 3,
+      "features": [
+        "庭院",
+        "水景",
+        "假山",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "c0a90b293f67",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "04692e64bbcd",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "f2c2ff2fa271",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "7b790001a4c6",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "e107f1c97622",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "c5d07d80f6aa",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "8075b158ce80",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "e2038eb95211",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "6e591a730235",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "202901367ad4",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "90f7fd3b9161",
+      "source": "local_project",
+      "project": "从化别墅",
+      "project_type": "villa",
+      "style": "现代简约",
+      "area_sqm": 480,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "游泳池",
+        "车库",
+        "露台"
+      ],
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": false,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "496f7f8d2fff",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "fa21944715e1",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "725b3749ab98",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "da2411f9efd4",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "eb61403e121d",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "56a8b9247452",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "bc98f89ca6e9",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "1a0505c879b5",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "593ccfaadd43",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "955b321ba2a5",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "576e7e3e4bd3",
+      "source": "local_project",
+      "project": "黄总",
+      "project_type": "villa",
+      "style": "现代轻奢",
+      "area_sqm": 320,
+      "floors": 3,
+      "features": [
+        "地下室",
+        "露台",
+        "庭院"
+      ],
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "7ae855e09a95",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "a734d14f3edf",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "0d9269f12f05",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "aa7122a4bb6a",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "e2d491c726b3",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "d6aab0c538c0",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "db060997e7ed",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "22e73361d3ba",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "a7015d62c81e",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "7f279d1b86eb",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "30b4586fd63f",
+      "source": "local_project",
+      "project": "李女士",
+      "project_type": "apartment",
+      "style": "现代简约",
+      "area_sqm": 130,
+      "floors": 1,
+      "features": [
+        "开放式厨房",
+        "主卧套间",
+        "阳台"
+      ],
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "b773eeea6c1f",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "e27fe7e77640",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "2eb0e91c751f",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "972ccd62946e",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "411c8bcdb342",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "8d3d34b65e5c",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "70d53dc87534",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "6fd0925ffc5e",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "3d64a0cc209c",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "e77eb1956222",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "f7affcf18794",
+      "source": "local_project",
+      "project": "覃总",
+      "project_type": "villa",
+      "style": "现代奢华",
+      "area_sqm": 420,
+      "floors": 4,
+      "features": [
+        "地下室",
+        "电梯",
+        "游泳池",
+        "影音室"
+      ],
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "a496adb7fbb2",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "fc192c3ba63a",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "00a7036bdbb8",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "159cb021f202",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "9ef3d246b75b",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "2e30c1b06233",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "0aeeedf877cb",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "3f54ed3b6c53",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "67d2c8f1d3cb",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "78a59089b695",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "460346f7b4e9",
+      "source": "local_project",
+      "project": "王总",
+      "project_type": "villa_garden",
+      "style": "新中式园林",
+      "area_sqm": 600,
+      "floors": 3,
+      "features": [
+        "园林",
+        "水景",
+        "亭台",
+        "廊道",
+        "茶室"
+      ],
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "has_cad": false,
+      "has_renderings": true,
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "6bb72dd56e5c",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "876a91247291",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "941f8d554924",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "9f5eb7d0051e",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "87e4582bf4f6",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "c77e5d6914f6",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "db0d23698f61",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "3430cd8cfdac",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "0a7dc8a4656f",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "009138a64439",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "3282b5c6779f",
+      "source": "cad_drawing",
+      "project": "万昌康城",
+      "file": "室内施工图\\万昌康城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 110,
+      "style": "简约",
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "1a723962f048",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "4f523138b829",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "d85e0057647a",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "0440c9e3a2bd",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "eff1c16792ce",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "76d877ff6be2",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "40fc3f92100e",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "956ad1a527f9",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "d2faf322d5fc",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "b899d72d974b",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "9ce4a40de6b5",
+      "source": "cad_drawing",
+      "project": "桔山湖",
+      "file": "室内施工图\\桔山湖.dwg",
+      "project_type": "apartment",
+      "area_sqm": 140,
+      "style": "轻奢",
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "a8aaa4a96f96",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "6239991a6dd8",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "dec08e1dcab9",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "9c19c6f2412f",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "fecea4b2f825",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "bc8174bd588f",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "af6cb4f27914",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "012442952168",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "e1573c155fef",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "9b1752b2727a",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "127550309e8b",
+      "source": "cad_drawing",
+      "project": "花月半岛",
+      "file": "室内施工图\\花月半岛.dwg",
+      "project_type": "apartment",
+      "area_sqm": 120,
+      "style": "现代简约",
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "adedbe225252",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "清洁地板",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(mop)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear",
+        "no_obstacles"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "fcd58c18bd49",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "吸尘",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate({room})",
+        "deploy_tool(vacuum)",
+        "execute_path(spiral)",
+        "return_base()"
+      ],
+      "constraints": [
+        "floor_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 3,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "86ca5f48b0f1",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "擦窗户",
+      "category": "cleaning",
+      "action_sequence": [
+        "navigate(window)",
+        "extend_arm(1.5m)",
+        "apply_cleaner()",
+        "wipe_motion(horizontal)"
+      ],
+      "constraints": [
+        "height_reachable",
+        "stable_surface"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "a3aeadbdced1",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "搬椅子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "grasp(chair_back)",
+        "lift(0.1m)",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_10kg",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 80,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "ae7dd20e0689",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "移动沙发",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate(sofa)",
+        "grasp(sofa_arm)",
+        "push(direction)",
+        "verify_position()"
+      ],
+      "constraints": [
+        "weight_limit_50kg",
+        "floor_protection"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 220,
+      "robot_capable": false,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "d5d7e5910cb1",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "搬运箱子",
+      "category": "manipulation",
+      "action_sequence": [
+        "navigate({object})",
+        "assess_weight()",
+        "grasp(box)",
+        "lift()",
+        "navigate({target})",
+        "place()"
+      ],
+      "constraints": [
+        "weight_limit_20kg"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 120,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "51f520ad7f4c",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "送水",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(water_bottle)",
+        "navigate({target_person})",
+        "hand_over()"
+      ],
+      "constraints": [
+        "liquid_stable",
+        "path_clear"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 10,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "768ed9027125",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "送餐",
+      "category": "service",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick(food_tray)",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "constraints": [
+        "tray_balanced",
+        "temperature_safe"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "b8a8f22788a5",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "开门",
+      "category": "interaction",
+      "action_sequence": [
+        "navigate(door)",
+        "grasp(handle)",
+        "rotate(90deg)",
+        "push/pull(door)",
+        "hold_open()"
+      ],
+      "constraints": [
+        "door_unlocked"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "790538f76d23",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "巡逻检查",
+      "category": "monitoring",
+      "action_sequence": [
+        "execute_path(patrol_route)",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "constraints": [
+        "path_accessible"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    },
+    {
+      "id": "ab83c2c502c5",
+      "source": "cad_drawing",
+      "project": "鹿城",
+      "file": "室内施工图\\鹿城.dwg",
+      "project_type": "apartment",
+      "area_sqm": 160,
+      "style": "现代",
+      "intent": "检查漏水",
+      "category": "monitoring",
+      "action_sequence": [
+        "navigate(bathroom)",
+        "scan_floor(moisture_sensor)",
+        "check_pipes()",
+        "report_status()"
+      ],
+      "constraints": [
+        "sensor_active"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "spatial_reasoning": {
+        "needs_floor_plan": true,
+        "needs_room_detection": true,
+        "needs_obstacle_map": true
+      },
+      "created_at": "2026-04-20T22:26:46.294005"
+    }
+  ]
+}

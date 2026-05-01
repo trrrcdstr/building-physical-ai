@@ -1,0 +1,4439 @@
+﻿{
+  "meta": {
+    "version": "2.0",
+    "created_at": "2026-04-20T22:28:17.656766",
+    "total_samples": 182,
+    "source": "C:\\Users\\Administrator\\Desktop\\寤虹瓚鏁版嵁搴?,
+    "file_stats": {
+      "寤虹瓚鏁版嵁搴?: {
+        "count": 8,
+        "size_mb": 301.01
+      },
+      "浜屾敞寤虹瓚甯?: {
+        "count": 6,
+        "size_mb": 399.63
+      },
+      "浜т笟鍥?: {
+        "count": 3,
+        "size_mb": 21.63
+      },
+      "鍗楁矙鏄熸渤涓滄偊婀?: {
+        "count": 4,
+        "size_mb": 11.55
+      },
+      "娌欏彂杞": {
+        "count": 4,
+        "size_mb": 322.01
+      },
+      "閰掑簵鍦烘櫙": {
+        "count": 1,
+        "size_mb": 55.44
+      },
+      "鏆栭€氫笓涓?: {
+        "count": 1,
+        "size_mb": 8.49
+      },
+      "杞﹀簱寮辩數+鍏呯數妗╋紙鎸夊缓绛戝垎鏈熶慨鏀癸級": {
+        "count": 8,
+        "size_mb": 12.64
+      },
+      "杞﹀簱娑堢數锛堟寜寤虹瓚鍒嗘湡淇敼锛?: {
+        "count": 2,
+        "size_mb": 10.72
+      },
+      "杞﹀簱鐢垫柦锛堟寜寤虹瓚鍒嗘湡淇敼锛?: {
+        "count": 3,
+        "size_mb": 16.97
+      },
+      "杞﹀簱闃查浄锛堟寜寤虹瓚鍒嗘湡淇敼锛?: {
+        "count": 2,
+        "size_mb": 6.23
+      },
+      "12.15姘翠笓涓氬垎鏈熶慨鏀?: {
+        "count": 2,
+        "size_mb": 9.42
+      },
+      "-鐝犳捣缈犲井鏃ф潙鏀归€犻」鐩?: {
+        "count": 3,
+        "size_mb": 90.72
+      },
+      "鎭掑ぇ浜戜笢娴?: {
+        "count": 4,
+        "size_mb": 100.06
+      },
+      "浠庡寲鍒": {
+        "count": 2,
+        "size_mb": 52.79
+      },
+      "鍩庡競缁煎悎浣?: {
+        "count": 1,
+        "size_mb": 99.97
+      },
+      "瀹ゅ唴鏂藉伐鍥?: {
+        "count": 4,
+        "size_mb": 11.04
+      },
+      "灞辨按搴櫌": {
+        "count": 2,
+        "size_mb": 0.45
+      },
+      "寤虹瓚缁撴瀯椤圭洰": {
+        "count": 2,
+        "size_mb": 19.47
+      },
+      "鏉庡コ澹?: {
+        "count": 14,
+        "size_mb": 16.21
+      },
+      "鐜嬫€?: {
+        "count": 11,
+        "size_mb": 12.72
+      },
+      "瑕冩€?: {
+        "count": 12,
+        "size_mb": 16.51
+      },
+      "榛勬€?: {
+        "count": 6,
+        "size_mb": 17.4
+      },
+      "鍔炲叕绌洪棿": {
+        "count": 14,
+        "size_mb": 4.95
+      },
+      "瀹跺涵鍦烘櫙": {
+        "count": 55,
+        "size_mb": 59.17
+      },
+      "CAD": {
+        "count": 18,
+        "size_mb": 40.88
+      },
+      "PDF": {
+        "count": 50,
+        "size_mb": 45.47
+      },
+      "瓒婄鍖洪厭搴?: {
+        "count": 4,
+        "size_mb": 54.67
+      }
+    }
+  },
+  "scene_types": {
+    "瀹跺涵鍒": {
+      "type": "residential_villa",
+      "label": "瀹跺涵鍒",
+      "subtypes": [
+        "鐙爧",
+        "鑱旀帓",
+        "鍙屾嫾",
+        "鍙犳嫾"
+      ],
+      "rooms": [
+        "瀹㈠巺",
+        "椁愬巺",
+        "涓诲崸",
+        "娆″崸",
+        "鍘ㄦ埧",
+        "鍗敓闂?,
+        "涔︽埧",
+        "闃冲彴",
+        "搴櫌"
+      ],
+      "robot_tasks": [
+        "娓呮磥",
+        "鏁寸悊",
+        "瀹夐槻宸￠€?,
+        "娴囪姳",
+        "鍙栧揩閫?,
+        "鍨冨溇鍒嗙被"
+      ]
+    },
+    "瀹ゅ唴瀹跺眳鍦烘櫙jpg": {
+      "type": "residential_interior",
+      "label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtypes": [
+        "瀹㈠巺",
+        "鍗у",
+        "椁愬巺",
+        "鍘ㄦ埧"
+      ],
+      "rooms": [
+        "瀹㈠巺",
+        "鍗у",
+        "椁愬巺",
+        "鍘ㄦ埧",
+        "鍗敓闂?
+      ],
+      "robot_tasks": [
+        "娓呮磥鍦版澘",
+        "鏁寸悊娌欏彂",
+        "鎿︾獥鎴?,
+        "娲楃",
+        "娴囪姳"
+      ]
+    },
+    "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣": {
+      "type": "commercial_complex",
+      "label": "鍟嗕笟缁煎悎浣?,
+      "subtypes": [
+        "璐墿涓績",
+        "鍐欏瓧妤?,
+        "閰掑簵",
+        "鍏瘬"
+      ],
+      "rooms": [
+        "鍟嗕笟鍖?,
+        "鍔炲叕鍖?,
+        "椁愰ギ鍖?,
+        "鍏叡璧板粖",
+        "鍋滆溅鍦?
+      ],
+      "robot_tasks": [
+        "娓呮磥璧板粖",
+        "寮曞璁垮",
+        "閫侀",
+        "瀹夐槻宸￠€?,
+        "璁惧宸℃"
+      ]
+    },
+    "浜т笟鍥?: {
+      "type": "industrial_park",
+      "label": "浜т笟鍥?,
+      "subtypes": [
+        "鍔炲叕妤?,
+        "鐮斿彂涓績",
+        "鍘傛埧",
+        "浠撳簱"
+      ],
+      "rooms": [
+        "鍔炲叕瀹?,
+        "浼氳瀹?,
+        "瀹為獙瀹?,
+        "浠撳簱",
+        "璧板粖"
+      ],
+      "robot_tasks": [
+        "娓呮磥",
+        "鎼繍鐗╂枡",
+        "宸￠€绘鏌?,
+        "鐜鐩戞祴",
+        "璁惧宸℃"
+      ]
+    },
+    "閰掑簵鍦烘櫙": {
+      "type": "hotel",
+      "label": "閰掑簵鍦烘櫙",
+      "subtypes": [
+        "瀹㈡埧",
+        "澶у爞",
+        "椁愬巺",
+        "浼氳瀹?,
+        "鍋ヨ韩鎴?
+      ],
+      "rooms": [
+        "瀹㈡埧",
+        "澶у爞",
+        "椁愬巺",
+        "浼氳瀹?,
+        "璧板粖"
+      ],
+      "robot_tasks": [
+        "閫佺墿鏈嶅姟",
+        "娓呮磥鎴块棿",
+        "寮曞瀹汉",
+        "甯冭崏鎼繍",
+        "琛屾潕杩愯緭"
+      ]
+    },
+    "鐢垫皵CAD鏂藉伐鍥?: {
+      "type": "electrical_engineering",
+      "label": "鐢垫皵鏂藉伐鍥?,
+      "subtypes": [
+        "鐓ф槑",
+        "鍔ㄥ姏",
+        "寮辩數",
+        "娑堥槻"
+      ],
+      "rooms": [
+        "閰嶇數瀹?,
+        "鎺у埗瀹?,
+        "璁惧闂?
+      ],
+      "robot_tasks": [
+        "绾胯矾宸℃",
+        "璁惧妫€鏌?,
+        "鏁呴殰璇婃柇",
+        "缁存姢鎻愰啋"
+      ]
+    },
+    "鍗楁矙鏄熸渤涓滄偊婀?: {
+      "type": "residential_complex",
+      "label": "浣忓畢灏忓尯",
+      "subtypes": [
+        "楂樺眰浣忓畢",
+        "鍦颁笅杞﹀簱",
+        "鍟嗕笟閰嶅"
+      ],
+      "rooms": [
+        "鍏叡璧板粖",
+        "鐢垫鍘?,
+        "鍦颁笅杞﹀簱",
+        "鑺卞洯"
+      ],
+      "robot_tasks": [
+        "娓呮磥鍏叡鍖哄煙",
+        "宸￠€诲畨淇?,
+        "鍨冨溇娓呰繍",
+        "缁垮寲缁存姢"
+      ]
+    }
+  },
+  "action_templates": {
+    "娓呮磥": {
+      "actions": [
+        "navigate({room})",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk": "LOW",
+      "force_n": 5,
+      "duration_min": 15
+    },
+    "鏁寸悊": {
+      "actions": [
+        "navigate({room})",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk": "LOW",
+      "force_n": 30,
+      "duration_min": 10
+    },
+    "瀹夐槻宸￠€?: {
+      "actions": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk": "LOW",
+      "force_n": 0,
+      "duration_min": 30
+    },
+    "娴囪姳": {
+      "actions": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk": "LOW",
+      "force_n": 15,
+      "duration_min": 20
+    },
+    "鍙栧揩閫?: {
+      "actions": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk": "MEDIUM",
+      "force_n": 50,
+      "duration_min": 5
+    },
+    "鍨冨溇鍒嗙被": {
+      "actions": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk": "LOW",
+      "force_n": 20,
+      "duration_min": 10
+    },
+    "寮曞璁垮": {
+      "actions": [
+        "greet(visitor)",
+        "identify_destination()",
+        "lead_path()",
+        "notify_host()"
+      ],
+      "risk": "LOW",
+      "force_n": 0,
+      "duration_min": 5
+    },
+    "閫侀": {
+      "actions": [
+        "navigate(kitchen)",
+        "pick_food_tray()",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "risk": "MEDIUM",
+      "force_n": 15,
+      "duration_min": 3
+    },
+    "閫佺墿鏈嶅姟": {
+      "actions": [
+        "pick_item({item})",
+        "navigate({room})",
+        "knock_door()",
+        "hand_item()",
+        "confirm_receipt()"
+      ],
+      "risk": "LOW",
+      "force_n": 20,
+      "duration_min": 3
+    },
+    "鎼繍鐗╂枡": {
+      "actions": [
+        "navigate(warehouse)",
+        "pick_material()",
+        "lift_safely()",
+        "navigate({target})",
+        "place_material()"
+      ],
+      "risk": "HIGH",
+      "force_n": 150,
+      "duration_min": 10
+    },
+    "绾胯矾宸℃": {
+      "actions": [
+        "navigate(electrical_room)",
+        "scan_panels()",
+        "read_meters()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "risk": "MEDIUM",
+      "force_n": 0,
+      "duration_min": 20
+    },
+    "璁惧妫€鏌?: {
+      "actions": [
+        "navigate({device})",
+        "scan_device()",
+        "check_parameters()",
+        "log_status()"
+      ],
+      "risk": "LOW",
+      "force_n": 0,
+      "duration_min": 5
+    }
+  },
+  "samples": [
+    {
+      "id": "c22bcb173a74",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "瀹㈠巺",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(瀹㈠巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "ce48c10ced23",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "椁愬巺",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "2f1fd5c729d7",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涓诲崸",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(涓诲崸)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "7e01a5cafb0d",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "娆″崸",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(娆″崸)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "eb0ce8221cf1",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍘ㄦ埧",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(鍘ㄦ埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "297be82c5f87",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍗敓闂?,
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(鍗敓闂?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "faebc052d1ae",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涔︽埧",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(涔︽埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "c4b9cbe804b7",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "闃冲彴",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(闃冲彴)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "138939ceae0f",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "搴櫌",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(搴櫌)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "99aa6801492e",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "瀹㈠巺",
+      "task": "鏁寸悊",
+      "action_sequence": [
+        "navigate(瀹㈠巺)",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "0a440ff27927",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "椁愬巺",
+      "task": "鏁寸悊",
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "9e9792b76868",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涓诲崸",
+      "task": "鏁寸悊",
+      "action_sequence": [
+        "navigate(涓诲崸)",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "55b034d80f77",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "娆″崸",
+      "task": "鏁寸悊",
+      "action_sequence": [
+        "navigate(娆″崸)",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "cb31b44eac97",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍘ㄦ埧",
+      "task": "鏁寸悊",
+      "action_sequence": [
+        "navigate(鍘ㄦ埧)",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "854efc50a6c0",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍗敓闂?,
+      "task": "鏁寸悊",
+      "action_sequence": [
+        "navigate(鍗敓闂?",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "e2f35485f3f5",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涔︽埧",
+      "task": "鏁寸悊",
+      "action_sequence": [
+        "navigate(涔︽埧)",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "4b91c4ab3ed5",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "闃冲彴",
+      "task": "鏁寸悊",
+      "action_sequence": [
+        "navigate(闃冲彴)",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "3ac2ced15d2b",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "搴櫌",
+      "task": "鏁寸悊",
+      "action_sequence": [
+        "navigate(搴櫌)",
+        "identify_objects()",
+        "pick_place_sequence()",
+        "verify_order()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 30,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "0630049cb511",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "瀹㈠巺",
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "ba4bdd490728",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "椁愬巺",
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "d9b8d12f5c7b",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涓诲崸",
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "325567000243",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "娆″崸",
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "0b6085d5b06d",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍘ㄦ埧",
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "985087b02332",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍗敓闂?,
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "99f3ce68e48e",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涔︽埧",
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "be53b246e4da",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "闃冲彴",
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "8c736f2c83f8",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "搴櫌",
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "55943e60b5ff",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "瀹㈠巺",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "b27f1daa761a",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "椁愬巺",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "bb93f65dedad",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涓诲崸",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "e01dcbb7333a",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "娆″崸",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "16020422ce26",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍘ㄦ埧",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "bd3b5d321b43",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍗敓闂?,
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "841996526277",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涔︽埧",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "19f1c0959cc7",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "闃冲彴",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "5cfe319221d7",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "搴櫌",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "ce076e3dd5ce",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "瀹㈠巺",
+      "task": "鍙栧揩閫?,
+      "action_sequence": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 50,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "88a3fa62df24",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "椁愬巺",
+      "task": "鍙栧揩閫?,
+      "action_sequence": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 50,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "c368c13bc91b",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涓诲崸",
+      "task": "鍙栧揩閫?,
+      "action_sequence": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 50,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "18c9f52bba2b",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "娆″崸",
+      "task": "鍙栧揩閫?,
+      "action_sequence": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 50,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "0c18f0d47096",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍘ㄦ埧",
+      "task": "鍙栧揩閫?,
+      "action_sequence": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 50,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "93758bd96602",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍗敓闂?,
+      "task": "鍙栧揩閫?,
+      "action_sequence": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 50,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "e4d78b56f461",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涔︽埧",
+      "task": "鍙栧揩閫?,
+      "action_sequence": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 50,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "0b3779f20b92",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "闃冲彴",
+      "task": "鍙栧揩閫?,
+      "action_sequence": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 50,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "f23877ede8e8",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "搴櫌",
+      "task": "鍙栧揩閫?,
+      "action_sequence": [
+        "navigate(door)",
+        "open_door",
+        "pick_package()",
+        "navigate({target_room})",
+        "place_package()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 50,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "7f7422e4fe28",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "瀹㈠巺",
+      "task": "鍨冨溇鍒嗙被",
+      "action_sequence": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "8c8a5c16604b",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "椁愬巺",
+      "task": "鍨冨溇鍒嗙被",
+      "action_sequence": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "2b91f4a200d6",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涓诲崸",
+      "task": "鍨冨溇鍒嗙被",
+      "action_sequence": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "2dfc6cf94b87",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "娆″崸",
+      "task": "鍨冨溇鍒嗙被",
+      "action_sequence": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "69776454bc9a",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍘ㄦ埧",
+      "task": "鍨冨溇鍒嗙被",
+      "action_sequence": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "a99da12d254e",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "鍗敓闂?,
+      "task": "鍨冨溇鍒嗙被",
+      "action_sequence": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "65ee7b5e31fa",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "涔︽埧",
+      "task": "鍨冨溇鍒嗙被",
+      "action_sequence": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "4c8acc3b9be8",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "闃冲彴",
+      "task": "鍨冨溇鍒嗙被",
+      "action_sequence": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "3f5fa10a83b4",
+      "source": "local_database",
+      "scene_name": "瀹跺涵鍒",
+      "scene_type": "residential_villa",
+      "scene_label": "瀹跺涵鍒",
+      "subtype": "鐙爧",
+      "room": "搴櫌",
+      "task": "鍨冨溇鍒嗙被",
+      "action_sequence": [
+        "navigate(trash_area)",
+        "scan_trash()",
+        "classify_waste()",
+        "sort_bins()",
+        "report_fill()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "c9cf8eeaaa09",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "瀹㈠巺",
+      "task": "娓呮磥鍦版澘",
+      "action_sequence": [
+        "navigate(瀹㈠巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "100c3b7c9252",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗у",
+      "task": "娓呮磥鍦版澘",
+      "action_sequence": [
+        "navigate(鍗у)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "5de39d5ddb27",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "椁愬巺",
+      "task": "娓呮磥鍦版澘",
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "c14f95d659d0",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍘ㄦ埧",
+      "task": "娓呮磥鍦版澘",
+      "action_sequence": [
+        "navigate(鍘ㄦ埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "9292a341ab79",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗敓闂?,
+      "task": "娓呮磥鍦版澘",
+      "action_sequence": [
+        "navigate(鍗敓闂?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "a19e2ddec225",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "瀹㈠巺",
+      "task": "鏁寸悊娌欏彂",
+      "action_sequence": [
+        "navigate(瀹㈠巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "893c4c27a2ae",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗у",
+      "task": "鏁寸悊娌欏彂",
+      "action_sequence": [
+        "navigate(鍗у)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "bf2acddbf358",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "椁愬巺",
+      "task": "鏁寸悊娌欏彂",
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "0fd7f8ebb049",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍘ㄦ埧",
+      "task": "鏁寸悊娌欏彂",
+      "action_sequence": [
+        "navigate(鍘ㄦ埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "74c23024b0c3",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗敓闂?,
+      "task": "鏁寸悊娌欏彂",
+      "action_sequence": [
+        "navigate(鍗敓闂?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "3e2e2c2af7ad",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "瀹㈠巺",
+      "task": "鎿︾獥鎴?,
+      "action_sequence": [
+        "navigate(瀹㈠巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "70e87645e770",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗у",
+      "task": "鎿︾獥鎴?,
+      "action_sequence": [
+        "navigate(鍗у)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "b6344f8db04a",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "椁愬巺",
+      "task": "鎿︾獥鎴?,
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "27aaef7dddf2",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍘ㄦ埧",
+      "task": "鎿︾獥鎴?,
+      "action_sequence": [
+        "navigate(鍘ㄦ埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "bda7ba8c0cdc",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗敓闂?,
+      "task": "鎿︾獥鎴?,
+      "action_sequence": [
+        "navigate(鍗敓闂?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "d8a94b1ce551",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "瀹㈠巺",
+      "task": "娲楃",
+      "action_sequence": [
+        "navigate(瀹㈠巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "beb8cfdebf69",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗у",
+      "task": "娲楃",
+      "action_sequence": [
+        "navigate(鍗у)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "325b7eb8cda7",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "椁愬巺",
+      "task": "娲楃",
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "2579fc800835",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍘ㄦ埧",
+      "task": "娲楃",
+      "action_sequence": [
+        "navigate(鍘ㄦ埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "cd0a5b4b0bd3",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗敓闂?,
+      "task": "娲楃",
+      "action_sequence": [
+        "navigate(鍗敓闂?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "56090c3e4bc8",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "瀹㈠巺",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "a768ba984fed",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗у",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "6fd2ca3ab78f",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "椁愬巺",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "a90368fab7b7",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍘ㄦ埧",
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "06118402f707",
+      "source": "local_database",
+      "scene_name": "瀹ゅ唴瀹跺眳鍦烘櫙jpg",
+      "scene_type": "residential_interior",
+      "scene_label": "瀹跺涵瀹ゅ唴鍦烘櫙",
+      "subtype": "瀹㈠巺",
+      "room": "鍗敓闂?,
+      "task": "娴囪姳",
+      "action_sequence": [
+        "navigate(garden)",
+        "pick_watering_can",
+        "fill_water",
+        "water_plants()",
+        "return_tools()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "7daedd8e2b16",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍟嗕笟鍖?,
+      "task": "娓呮磥璧板粖",
+      "action_sequence": [
+        "navigate(鍟嗕笟鍖?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "0973d5367810",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍔炲叕鍖?,
+      "task": "娓呮磥璧板粖",
+      "action_sequence": [
+        "navigate(鍔炲叕鍖?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "ce6b7a4bc6bf",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "椁愰ギ鍖?,
+      "task": "娓呮磥璧板粖",
+      "action_sequence": [
+        "navigate(椁愰ギ鍖?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "02030443e64a",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍏叡璧板粖",
+      "task": "娓呮磥璧板粖",
+      "action_sequence": [
+        "navigate(鍏叡璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "96ddefcac4e8",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍋滆溅鍦?,
+      "task": "娓呮磥璧板粖",
+      "action_sequence": [
+        "navigate(鍋滆溅鍦?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "28933e884957",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍟嗕笟鍖?,
+      "task": "寮曞璁垮",
+      "action_sequence": [
+        "greet(visitor)",
+        "identify_destination()",
+        "lead_path()",
+        "notify_host()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "9ac1548b09fc",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍔炲叕鍖?,
+      "task": "寮曞璁垮",
+      "action_sequence": [
+        "greet(visitor)",
+        "identify_destination()",
+        "lead_path()",
+        "notify_host()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "26e2e91c1ef0",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "椁愰ギ鍖?,
+      "task": "寮曞璁垮",
+      "action_sequence": [
+        "greet(visitor)",
+        "identify_destination()",
+        "lead_path()",
+        "notify_host()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "66e28d24b3df",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍏叡璧板粖",
+      "task": "寮曞璁垮",
+      "action_sequence": [
+        "greet(visitor)",
+        "identify_destination()",
+        "lead_path()",
+        "notify_host()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "681d205301ff",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍋滆溅鍦?,
+      "task": "寮曞璁垮",
+      "action_sequence": [
+        "greet(visitor)",
+        "identify_destination()",
+        "lead_path()",
+        "notify_host()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "70abe848e19d",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍟嗕笟鍖?,
+      "task": "閫侀",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick_food_tray()",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "987272571458",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍔炲叕鍖?,
+      "task": "閫侀",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick_food_tray()",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "e6d79408825d",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "椁愰ギ鍖?,
+      "task": "閫侀",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick_food_tray()",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "b7cc793deaa7",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍏叡璧板粖",
+      "task": "閫侀",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick_food_tray()",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "75696a5a4094",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍋滆溅鍦?,
+      "task": "閫侀",
+      "action_sequence": [
+        "navigate(kitchen)",
+        "pick_food_tray()",
+        "navigate({target})",
+        "place_tray()",
+        "notify()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 15,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "79d0d5ef58dd",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍟嗕笟鍖?,
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "620bb2a94c32",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍔炲叕鍖?,
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "921f23d4940c",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "椁愰ギ鍖?,
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "459193e3c9d0",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍏叡璧板粖",
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "8b43b9358b2c",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍋滆溅鍦?,
+      "task": "瀹夐槻宸￠€?,
+      "action_sequence": [
+        "start_patrol_route()",
+        "scan_environment()",
+        "detect_anomaly()",
+        "report_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 30,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "434862bfa966",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍟嗕笟鍖?,
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(鍟嗕笟鍖?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "3d322ce972c1",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍔炲叕鍖?,
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(鍔炲叕鍖?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "53affeae27d0",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "椁愰ギ鍖?,
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(椁愰ギ鍖?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "9999037e6e63",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍏叡璧板粖",
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(鍏叡璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "13b0888ce605",
+      "source": "local_database",
+      "scene_name": "鍦颁骇缁煎悎浣撲經灞辨亽澶т簯涓滄捣",
+      "scene_type": "commercial_complex",
+      "scene_label": "鍟嗕笟缁煎悎浣?,
+      "subtype": "璐墿涓績",
+      "room": "鍋滆溅鍦?,
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(鍋滆溅鍦?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "6096e520ba21",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "鍔炲叕瀹?,
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(鍔炲叕瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "4ce0b3152128",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浼氳瀹?,
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(浼氳瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "399dade1ad27",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "瀹為獙瀹?,
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(瀹為獙瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "d2e111d7424d",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浠撳簱",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(浠撳簱)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "65f7e730c35e",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "璧板粖",
+      "task": "娓呮磥",
+      "action_sequence": [
+        "navigate(璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "251a11086f09",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "鍔炲叕瀹?,
+      "task": "鎼繍鐗╂枡",
+      "action_sequence": [
+        "navigate(warehouse)",
+        "pick_material()",
+        "lift_safely()",
+        "navigate({target})",
+        "place_material()"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 150,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "f3669aea4f04",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浼氳瀹?,
+      "task": "鎼繍鐗╂枡",
+      "action_sequence": [
+        "navigate(warehouse)",
+        "pick_material()",
+        "lift_safely()",
+        "navigate({target})",
+        "place_material()"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 150,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "41aa1687a9c3",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "瀹為獙瀹?,
+      "task": "鎼繍鐗╂枡",
+      "action_sequence": [
+        "navigate(warehouse)",
+        "pick_material()",
+        "lift_safely()",
+        "navigate({target})",
+        "place_material()"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 150,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "43c222c8ee60",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浠撳簱",
+      "task": "鎼繍鐗╂枡",
+      "action_sequence": [
+        "navigate(warehouse)",
+        "pick_material()",
+        "lift_safely()",
+        "navigate({target})",
+        "place_material()"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 150,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "a131c185b8a5",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "璧板粖",
+      "task": "鎼繍鐗╂枡",
+      "action_sequence": [
+        "navigate(warehouse)",
+        "pick_material()",
+        "lift_safely()",
+        "navigate({target})",
+        "place_material()"
+      ],
+      "risk_level": "HIGH",
+      "required_force_n": 150,
+      "robot_capable": true,
+      "duration_min": 10,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "4632043ebf48",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "鍔炲叕瀹?,
+      "task": "宸￠€绘鏌?,
+      "action_sequence": [
+        "navigate(鍔炲叕瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "2630fc7a5198",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浼氳瀹?,
+      "task": "宸￠€绘鏌?,
+      "action_sequence": [
+        "navigate(浼氳瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "156973ed97fd",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "瀹為獙瀹?,
+      "task": "宸￠€绘鏌?,
+      "action_sequence": [
+        "navigate(瀹為獙瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "76f88bf9fa4b",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浠撳簱",
+      "task": "宸￠€绘鏌?,
+      "action_sequence": [
+        "navigate(浠撳簱)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "a8280ca49de7",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "璧板粖",
+      "task": "宸￠€绘鏌?,
+      "action_sequence": [
+        "navigate(璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "a9b891eb5af2",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "鍔炲叕瀹?,
+      "task": "鐜鐩戞祴",
+      "action_sequence": [
+        "navigate(鍔炲叕瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "eb9c2de15a3f",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浼氳瀹?,
+      "task": "鐜鐩戞祴",
+      "action_sequence": [
+        "navigate(浼氳瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "cdd951cc2395",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "瀹為獙瀹?,
+      "task": "鐜鐩戞祴",
+      "action_sequence": [
+        "navigate(瀹為獙瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "cb88bb651f2f",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浠撳簱",
+      "task": "鐜鐩戞祴",
+      "action_sequence": [
+        "navigate(浠撳簱)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "c073c9adfec6",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "璧板粖",
+      "task": "鐜鐩戞祴",
+      "action_sequence": [
+        "navigate(璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "e409668c0d4a",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "鍔炲叕瀹?,
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(鍔炲叕瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "6c91c2a71651",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浼氳瀹?,
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(浼氳瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "b3b7e123b61a",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "瀹為獙瀹?,
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(瀹為獙瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "9e89fe14a635",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "浠撳簱",
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(浠撳簱)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "74fe76e03995",
+      "source": "local_database",
+      "scene_name": "浜т笟鍥?,
+      "scene_type": "industrial_park",
+      "scene_label": "浜т笟鍥?,
+      "subtype": "鍔炲叕妤?,
+      "room": "璧板粖",
+      "task": "璁惧宸℃",
+      "action_sequence": [
+        "navigate(璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 3,
+      "file_size_mb": 21.63
+    },
+    {
+      "id": "111f0b872d0e",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "瀹㈡埧",
+      "task": "閫佺墿鏈嶅姟",
+      "action_sequence": [
+        "pick_item({item})",
+        "navigate(瀹㈡埧)",
+        "knock_door()",
+        "hand_item()",
+        "confirm_receipt()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "5f51141d08df",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "澶у爞",
+      "task": "閫佺墿鏈嶅姟",
+      "action_sequence": [
+        "pick_item({item})",
+        "navigate(澶у爞)",
+        "knock_door()",
+        "hand_item()",
+        "confirm_receipt()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "374deb4359ac",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "椁愬巺",
+      "task": "閫佺墿鏈嶅姟",
+      "action_sequence": [
+        "pick_item({item})",
+        "navigate(椁愬巺)",
+        "knock_door()",
+        "hand_item()",
+        "confirm_receipt()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "671881fe596f",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "浼氳瀹?,
+      "task": "閫佺墿鏈嶅姟",
+      "action_sequence": [
+        "pick_item({item})",
+        "navigate(浼氳瀹?",
+        "knock_door()",
+        "hand_item()",
+        "confirm_receipt()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "18f633b2009e",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "璧板粖",
+      "task": "閫佺墿鏈嶅姟",
+      "action_sequence": [
+        "pick_item({item})",
+        "navigate(璧板粖)",
+        "knock_door()",
+        "hand_item()",
+        "confirm_receipt()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 20,
+      "robot_capable": true,
+      "duration_min": 3,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "3428e3828fec",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "瀹㈡埧",
+      "task": "娓呮磥鎴块棿",
+      "action_sequence": [
+        "navigate(瀹㈡埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "911ac418ff54",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "澶у爞",
+      "task": "娓呮磥鎴块棿",
+      "action_sequence": [
+        "navigate(澶у爞)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "f4b1f040dd11",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "椁愬巺",
+      "task": "娓呮磥鎴块棿",
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "5165d10aa262",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "浼氳瀹?,
+      "task": "娓呮磥鎴块棿",
+      "action_sequence": [
+        "navigate(浼氳瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "31bf3b0daee3",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "璧板粖",
+      "task": "娓呮磥鎴块棿",
+      "action_sequence": [
+        "navigate(璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "ef95732cf5cf",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "瀹㈡埧",
+      "task": "寮曞瀹汉",
+      "action_sequence": [
+        "navigate(瀹㈡埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "0ed039e4c2e9",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "澶у爞",
+      "task": "寮曞瀹汉",
+      "action_sequence": [
+        "navigate(澶у爞)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "83fc7ea3f463",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "椁愬巺",
+      "task": "寮曞瀹汉",
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "958fe1a4a2b4",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "浼氳瀹?,
+      "task": "寮曞瀹汉",
+      "action_sequence": [
+        "navigate(浼氳瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "b7aeffd3f50e",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "璧板粖",
+      "task": "寮曞瀹汉",
+      "action_sequence": [
+        "navigate(璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "7ccf265c2148",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "瀹㈡埧",
+      "task": "甯冭崏鎼繍",
+      "action_sequence": [
+        "navigate(瀹㈡埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "beb6585f03f1",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "澶у爞",
+      "task": "甯冭崏鎼繍",
+      "action_sequence": [
+        "navigate(澶у爞)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "2bcb140fc6c2",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "椁愬巺",
+      "task": "甯冭崏鎼繍",
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "f50e84e2e608",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "浼氳瀹?,
+      "task": "甯冭崏鎼繍",
+      "action_sequence": [
+        "navigate(浼氳瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "8907960c2044",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "璧板粖",
+      "task": "甯冭崏鎼繍",
+      "action_sequence": [
+        "navigate(璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "aa6e040530c3",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "瀹㈡埧",
+      "task": "琛屾潕杩愯緭",
+      "action_sequence": [
+        "navigate(瀹㈡埧)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "8a688c068967",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "澶у爞",
+      "task": "琛屾潕杩愯緭",
+      "action_sequence": [
+        "navigate(澶у爞)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "a2baf90fa5bd",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "椁愬巺",
+      "task": "琛屾潕杩愯緭",
+      "action_sequence": [
+        "navigate(椁愬巺)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "409417ecaf9d",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "浼氳瀹?,
+      "task": "琛屾潕杩愯緭",
+      "action_sequence": [
+        "navigate(浼氳瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "bf37ece4410d",
+      "source": "local_database",
+      "scene_name": "閰掑簵鍦烘櫙",
+      "scene_type": "hotel",
+      "scene_label": "閰掑簵鍦烘櫙",
+      "subtype": "瀹㈡埧",
+      "room": "璧板粖",
+      "task": "琛屾潕杩愯緭",
+      "action_sequence": [
+        "navigate(璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 1,
+      "file_size_mb": 55.44
+    },
+    {
+      "id": "0f0c01cf9b0f",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "閰嶇數瀹?,
+      "task": "绾胯矾宸℃",
+      "action_sequence": [
+        "navigate(electrical_room)",
+        "scan_panels()",
+        "read_meters()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "eb99f5506e14",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "鎺у埗瀹?,
+      "task": "绾胯矾宸℃",
+      "action_sequence": [
+        "navigate(electrical_room)",
+        "scan_panels()",
+        "read_meters()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "8343a4afd83a",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "璁惧闂?,
+      "task": "绾胯矾宸℃",
+      "action_sequence": [
+        "navigate(electrical_room)",
+        "scan_panels()",
+        "read_meters()",
+        "detect_anomaly()",
+        "report()"
+      ],
+      "risk_level": "MEDIUM",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 20,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "23f2b84255cf",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "閰嶇數瀹?,
+      "task": "璁惧妫€鏌?,
+      "action_sequence": [
+        "navigate({device})",
+        "scan_device()",
+        "check_parameters()",
+        "log_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "7c326550f2a6",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "鎺у埗瀹?,
+      "task": "璁惧妫€鏌?,
+      "action_sequence": [
+        "navigate({device})",
+        "scan_device()",
+        "check_parameters()",
+        "log_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "efe1c965ee81",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "璁惧闂?,
+      "task": "璁惧妫€鏌?,
+      "action_sequence": [
+        "navigate({device})",
+        "scan_device()",
+        "check_parameters()",
+        "log_status()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 0,
+      "robot_capable": true,
+      "duration_min": 5,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "f8a940b736e4",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "閰嶇數瀹?,
+      "task": "鏁呴殰璇婃柇",
+      "action_sequence": [
+        "navigate(閰嶇數瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "d800482561c3",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "鎺у埗瀹?,
+      "task": "鏁呴殰璇婃柇",
+      "action_sequence": [
+        "navigate(鎺у埗瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "6f951519db8f",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "璁惧闂?,
+      "task": "鏁呴殰璇婃柇",
+      "action_sequence": [
+        "navigate(璁惧闂?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "81fff74a26bb",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "閰嶇數瀹?,
+      "task": "缁存姢鎻愰啋",
+      "action_sequence": [
+        "navigate(閰嶇數瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "54c5d75c2345",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "鎺у埗瀹?,
+      "task": "缁存姢鎻愰啋",
+      "action_sequence": [
+        "navigate(鎺у埗瀹?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "de22e6e7761c",
+      "source": "local_database",
+      "scene_name": "鐢垫皵CAD鏂藉伐鍥?,
+      "scene_type": "electrical_engineering",
+      "scene_label": "鐢垫皵鏂藉伐鍥?,
+      "subtype": "鐓ф槑",
+      "room": "璁惧闂?,
+      "task": "缁存姢鎻愰啋",
+      "action_sequence": [
+        "navigate(璁惧闂?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766"
+    },
+    {
+      "id": "2eef21045b9d",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鍏叡璧板粖",
+      "task": "娓呮磥鍏叡鍖哄煙",
+      "action_sequence": [
+        "navigate(鍏叡璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "51e969c9dd17",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鐢垫鍘?,
+      "task": "娓呮磥鍏叡鍖哄煙",
+      "action_sequence": [
+        "navigate(鐢垫鍘?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "1156195d1cd1",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鍦颁笅杞﹀簱",
+      "task": "娓呮磥鍏叡鍖哄煙",
+      "action_sequence": [
+        "navigate(鍦颁笅杞﹀簱)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "2353fe07416d",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鑺卞洯",
+      "task": "娓呮磥鍏叡鍖哄煙",
+      "action_sequence": [
+        "navigate(鑺卞洯)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "6b2bf52ac1c2",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鍏叡璧板粖",
+      "task": "宸￠€诲畨淇?,
+      "action_sequence": [
+        "navigate(鍏叡璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "0af3b5131fae",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鐢垫鍘?,
+      "task": "宸￠€诲畨淇?,
+      "action_sequence": [
+        "navigate(鐢垫鍘?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "02be35446cc0",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鍦颁笅杞﹀簱",
+      "task": "宸￠€诲畨淇?,
+      "action_sequence": [
+        "navigate(鍦颁笅杞﹀簱)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "33b39301b0de",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鑺卞洯",
+      "task": "宸￠€诲畨淇?,
+      "action_sequence": [
+        "navigate(鑺卞洯)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "7444c311ed58",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鍏叡璧板粖",
+      "task": "鍨冨溇娓呰繍",
+      "action_sequence": [
+        "navigate(鍏叡璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "b19c64c36a94",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鐢垫鍘?,
+      "task": "鍨冨溇娓呰繍",
+      "action_sequence": [
+        "navigate(鐢垫鍘?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "0466da5bc100",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鍦颁笅杞﹀簱",
+      "task": "鍨冨溇娓呰繍",
+      "action_sequence": [
+        "navigate(鍦颁笅杞﹀簱)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "db3097c6b1b8",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鑺卞洯",
+      "task": "鍨冨溇娓呰繍",
+      "action_sequence": [
+        "navigate(鑺卞洯)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "127bce3ded32",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鍏叡璧板粖",
+      "task": "缁垮寲缁存姢",
+      "action_sequence": [
+        "navigate(鍏叡璧板粖)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "99612069b5f7",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鐢垫鍘?,
+      "task": "缁垮寲缁存姢",
+      "action_sequence": [
+        "navigate(鐢垫鍘?",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "6290094f7067",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鍦颁笅杞﹀簱",
+      "task": "缁垮寲缁存姢",
+      "action_sequence": [
+        "navigate(鍦颁笅杞﹀簱)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    },
+    {
+      "id": "907db2c2a59b",
+      "source": "local_database",
+      "scene_name": "鍗楁矙鏄熸渤涓滄偊婀?,
+      "scene_type": "residential_complex",
+      "scene_label": "浣忓畢灏忓尯",
+      "subtype": "楂樺眰浣忓畢",
+      "room": "鑺卞洯",
+      "task": "缁垮寲缁存姢",
+      "action_sequence": [
+        "navigate(鑺卞洯)",
+        "deploy_tool(mop/vacuum)",
+        "execute_path(zigzag)",
+        "return_base()"
+      ],
+      "risk_level": "LOW",
+      "required_force_n": 5,
+      "robot_capable": true,
+      "duration_min": 15,
+      "created_at": "2026-04-20T22:28:17.656766",
+      "file_count": 4,
+      "file_size_mb": 11.55
+    }
+  ]
+}

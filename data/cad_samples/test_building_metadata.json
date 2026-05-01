@@ -1,0 +1,40 @@
+{
+  "walls": {
+    "north": "load_bearing",
+    "south": "non_load_bearing",
+    "east": "partition",
+    "west": "non_load_bearing"
+  },
+  "doors": [
+    {
+      "id": "M1",
+      "width": 900,
+      "height": 2100,
+      "wall": "north"
+    }
+  ],
+  "windows": [
+    {
+      "id": "C1",
+      "width": 1200,
+      "height": 1500,
+      "wall": "south"
+    }
+  ],
+  "pipes": [
+    {
+      "type": "electrical",
+      "depth_cm": 15,
+      "wall": "north"
+    },
+    {
+      "type": "water",
+      "depth_cm": 20,
+      "wall": "north"
+    }
+  ],
+  "room_size": {
+    "width_mm": 5000,
+    "length_mm": 6000
+  }
+}
