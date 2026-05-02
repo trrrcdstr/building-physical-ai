@@ -6,6 +6,6 @@
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "env": {
-    "VITE_API_URL": "https://building-physical-ai-production.up.railway.app"
+    "VITE_API_URL": "https://scene-production.up.railway.app"
   }
 }
