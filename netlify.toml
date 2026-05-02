@@ -1,0 +1,15 @@
+[build]
+  # 前端代码在 web-app 子目录
+  base = "web-app"
+  command = "npm install && npm run build"
+  publish = "dist"
+
+[build.environment]
+  # 云端 API 地址
+  VITE_API_URL = "https://scene-production.up.railway.app"
+
+# SPA 路由回退
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
