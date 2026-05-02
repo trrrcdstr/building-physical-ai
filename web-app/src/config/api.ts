@@ -1,13 +1,22 @@
 /**
  * API 配置模块
  * 支持本地开发和云端部署
+ * 
+ * 云端模式：所有服务合并为一个统一API（Railway）
+ * 本地模式：4个独立服务（5000/5001/5002/5004）
  */
 
-// 从环境变量读取后端地址，默认为本地
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000'
-export const AGENT_API_URL = import.meta.env.VITE_AGENT_API_URL || 'http://localhost:5002'
-export const SCENE_API_URL = import.meta.env.VITE_SCENE_API_URL || 'http://localhost:5001'
-export const VLA_API_URL = import.meta.env.VITE_VLA_API_URL || 'http://localhost:5004'
+// 统一 API 地址（云端部署时只需这个）
+const UNIFIED_API_URL = import.meta.env.VITE_API_URL || ''
+
+// 如果设置了统一地址，所有服务通过路由前缀访问
+// 否则走本地4个独立服务
+const IS_UNIFIED = !!UNIFIED_API_URL
+
+export const API_BASE_URL = IS_UNIFIED ? `${UNIFIED_API_URL}/neural` : (import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000')
+export const AGENT_API_URL = IS_UNIFIED ? `${UNIFIED_API_URL}/agent` : (import.meta.env.VITE_AGENT_API_URL || 'http://localhost:5002')
+export const SCENE_API_URL = IS_UNIFIED ? `${UNIFIED_API_URL}/scene` : (import.meta.env.VITE_SCENE_API_URL || 'http://localhost:5001')
+export const VLA_API_URL = IS_UNIFIED ? `${UNIFIED_API_URL}/vla` : (import.meta.env.VITE_VLA_API_URL || 'http://localhost:5004')
 
 // API 端点配置
 export const API_ENDPOINTS = {
