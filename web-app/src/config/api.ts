@@ -7,7 +7,8 @@
  */
 
 // 统一 API 地址（云端部署时只需这个）
-const UNIFIED_API_URL = import.meta.env.VITE_API_URL || ''
+// 生产环境默认 Railway 云端
+const UNIFIED_API_URL = import.meta.env.VITE_API_URL || 'https://scene-production.up.railway.app'
 
 // 如果设置了统一地址，所有服务通过路由前缀访问
 // 否则走本地4个独立服务
@@ -17,6 +18,9 @@ export const API_BASE_URL = IS_UNIFIED ? `${UNIFIED_API_URL}/neural` : (import.m
 export const AGENT_API_URL = IS_UNIFIED ? `${UNIFIED_API_URL}/agent` : (import.meta.env.VITE_AGENT_API_URL || 'http://localhost:5002')
 export const SCENE_API_URL = IS_UNIFIED ? `${UNIFIED_API_URL}/scene` : (import.meta.env.VITE_SCENE_API_URL || 'http://localhost:5001')
 export const VLA_API_URL = IS_UNIFIED ? `${UNIFIED_API_URL}/vla` : (import.meta.env.VITE_VLA_API_URL || 'http://localhost:5004')
+
+// 统一健康检查端点（覆盖 HEALTH_CHECK_CONFIG 中的个性化路径）
+export const UNIFIED_HEALTH_URL = `${UNIFIED_API_URL}/`
 
 // API 端点配置
 export const API_ENDPOINTS = {

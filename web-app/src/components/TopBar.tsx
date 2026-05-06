@@ -9,9 +9,9 @@ interface ServiceStatus {
 }
 
 const SERVICE_CHECKS = [
-  { id: 'nn', label: 'NN推理', port: 5000, path: '/api/health' },
-  { id: 'scene', label: '场景服务', port: 5001, path: '/' },
-  { id: 'vla', label: 'VLA指令', port: 5004, path: '/api/health' },
+  { id: 'nn', label: 'NN推理', base: 'https://scene-production.up.railway.app', path: '/neural/api/health' },
+  { id: 'scene', label: '场景服务', base: 'https://scene-production.up.railway.app', path: '/scene/' },
+  { id: 'vla', label: 'VLA指令', base: 'https://scene-production.up.railway.app', path: '/vla/api/health' },
 ]
 
 export default function TopBar() {
@@ -27,14 +27,14 @@ export default function TopBar() {
         SERVICE_CHECKS.map(async (svc) => {
           const t0 = Date.now()
           try {
-            const r = await fetch(`http://localhost:${svc.port}${svc.path}`, { signal: AbortSignal.timeout(2000) })
+            const r = await fetch(`${svc.base}${svc.path}`, { signal: AbortSignal.timeout(3000) })
             const ms = Date.now() - t0
             if (!r.ok) throw new Error('not ok')
             return { ...svc, status: 'online' as const, latency: ms }
           } catch {
             // 降级：能连上端口但无响应
             try {
-              await fetch(`http://localhost:${svc.port}/`, { signal: AbortSignal.timeout(1000) })
+              await fetch(`${svc.base}/`, { signal: AbortSignal.timeout(2000) })
               return { ...svc, status: 'degraded' as const }
             } catch {
               return { ...svc, status: 'error' as const }

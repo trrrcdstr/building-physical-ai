@@ -684,11 +684,11 @@ export default function AgentCommandPanel() {
   useEffect(() => {
     Promise.all([
       // 检查NN推理服务 (5000) — 有/api/health
-      fetch(`${NN_API}/health`)
+      fetch(Gp.neural.health)
         .then(r => r.ok ? r.json() : null)
         .catch(() => null),
-      // 检查场景API (5001) — 无/api/health，用根路径
-      fetch('http://localhost:5001/')
+      // 检查场景API (5001) — 改用 Railway 云端
+      fetch('https://scene-production.up.railway.app/scene/')
         .then(r => r.ok ? r.json() : null)
         .catch(() => null),
     ]).then(([nn, v1]) => {
