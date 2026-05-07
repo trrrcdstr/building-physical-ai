@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect } from 'react'
 import { useBuildingStore } from '../store/buildingStore'
 import './RenderingGallery.css'
 
-// 效果图根目录（用于 file:// 转 HTTP 代理路径）
+// 效果图根目录（本地 Desktop）
 const RENDER_ROOT = 'C:/Users/Administrator/Desktop/设计数据库/效果图'
 // 图片 HTTP 代理地址（本地图片服务器）
 const IMG_PROXY = 'http://localhost:8888'
