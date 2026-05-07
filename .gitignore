@@ -1,92 +1,21 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
+# 临时文件
+_tmp_*.py
+_tmp_*.bat
+_tmp_*.ps1
+deploy_to_netlify.bat
+demo.html
+
+# 构建产物
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+build/
 *.egg-info/
-.installed.cfg
-*.egg
+__pycache__/
+*.pyc
 
-# Virtual environments
-venv/
-ENV/
-env/
-.venv/
-
-# Node
+# 依赖
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# Build outputs
-dist/
-dist-electron/
-build/
-*.exe
-*.dmg
-*.AppImage
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Temp files
-_tmp*/
-*.tmp
-*.temp
-*.log
-
-# Large files (>10MB)
-*.pt
-*.pth
-*.bin
-*.onnx
-*.pdf
-*.dwg
-*.dxf
-
-# Environment variables
+# 桌面/私人数据
+*.local
 .env
-.env.local
-.env.*.local
-
-# Cache
-.cache/
-.pytest_cache/
-.mypy_cache/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Models
-models/
-checkpoints/
-*.ckpt
-
-# Data (keep structure, ignore large files)
-data/raw/
-data/external/
-*.zip
-*.rar
-*.7z
+*.log

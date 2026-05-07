@@ -2,6 +2,11 @@ import { useState, useMemo, useEffect } from 'react'
 import { useBuildingStore } from '../store/buildingStore'
 import './RenderingGallery.css'
 
+// 效果图根目录（用于 file:// 转 HTTP 代理路径）
+const RENDER_ROOT = 'C:/Users/Administrator/Desktop/设计数据库/效果图'
+// 图片 HTTP 代理地址（本地图片服务器）
+const IMG_PROXY = 'http://localhost:8888'
+
 interface RenderingObject {
   id: string
   name: string
@@ -14,6 +19,30 @@ interface RenderingObject {
   size_kb: number
   position: { x: number; y: number; z: number }
   tags: string[]
+}
+
+/** 把 file:///C:/Users/... 转成 http://localhost:8888/相对路径 */
+function toHttpUrl(filePath: string): string {
+  try {
+    // 处理 file:///C:/Users/... 格式
+    let rel = filePath
+    if (filePath.startsWith('file://')) {
+      rel = filePath.slice(7) // 去掉 file://
+      // Windows: file:///C:/Users/... → C:/Users/...
+      if (rel.startsWith('/')) rel = rel.slice(1)
+    }
+    // 去掉 RENDER_ROOT 前缀
+    if (rel.startsWith(RENDER_ROOT)) {
+      rel = rel.slice(RENDER_ROOT.length)
+    }
+    // 去掉开头的 / 或 \
+    rel = rel.replace(/^[\\/]+/, '')
+    // 编码中文路径
+    const encoded = encodeURI(rel)
+    return `${IMG_PROXY}/${encoded}`
+  } catch {
+    return filePath
+  }
 }
 
 let _cache: RenderingObject[] | null = null
@@ -39,6 +68,9 @@ export default function RenderingGallery() {
   const [selected, setSelected] = useState<RenderingObject | null>(null)
   const [previewOpen, setPreviewOpen] = useState(false)
   const [refreshKey, setRefreshKey] = useState(0)
+  // 记录加载失败的图片 ID（避免重复请求）
+  const [failedImages, setFailedImages] = useState<Set<string>>(new Set())
+
   useEffect(() => {
     const id = setInterval(() => { _cache = null; setRefreshKey(p => p + 1) }, 30000)
     return () => clearInterval(id)
@@ -51,6 +83,10 @@ export default function RenderingGallery() {
       setLoaded(true)
     })
   }, [refreshKey])
+
+  function handleImgError(id: string) {
+    setFailedImages(prev => new Set([...prev, id]))
+  }
 
   const stats = useMemo(() => {
     const s: Record<string, number> = {}
@@ -128,9 +164,22 @@ export default function RenderingGallery() {
           {filtered.length === 0 ? (
             <div className="rgallery-empty">加载中...</div>
           ) : (
-            filtered.slice(0, 48).map(r => (
+            filtered.slice(0, 48).map(r => {
+              const imgUrl = failedImages.has(r.id) ? null : toHttpUrl(r.path)
+              const bgStyle = imgUrl
+                ? { backgroundImage: `url(${imgUrl})` }
+                : { background: 'linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%)' }
+              return (
               <div key={r.id} className={`rgallery-item ${selected?.id === r.id ? 'selected' : ''}`} onClick={() => setSelected(r)} title={r.name}>
-                <div className="rgallery-thumb" style={{ backgroundImage: `url(file://${r.path})` }} onClick={e => { e.stopPropagation(); setSelected(r); setPreviewOpen(true) }}>
+                <div className="rgallery-thumb" style={bgStyle}
+                  onClick={e => { e.stopPropagation(); setSelected(r); setPreviewOpen(true) }}
+                  onError={() => handleImgError(r.id)}>
+                  {imgUrl && <img src={imgUrl} alt="" style={{ display: 'none' }} onError={() => handleImgError(r.id)} />}
+                  {(!imgUrl || failedImages.has(r.id)) && (
+                    <div className="rgallery-thumb-placeholder">
+                      <span>{r.category[0]}</span>
+                    </div>
+                  )}
                   <span className="rgallery-badge">{r.category}</span>
                 </div>
                 <div className="rgallery-item-info">
@@ -138,7 +187,7 @@ export default function RenderingGallery() {
                   <span className="rgallery-item-name">{r.name.slice(0, 14)}</span>
                 </div>
               </div>
-            ))
+            )})
           )}
         </div>
 
@@ -164,7 +213,7 @@ export default function RenderingGallery() {
         <div className="rgallery-preview" onClick={() => setPreviewOpen(false)}>
           <div className="rgallery-preview-inner" onClick={e => e.stopPropagation()}>
             <button className="rgallery-preview-close" onClick={() => setPreviewOpen(false)}>X</button>
-            <img src={`file://${selected.path}`} alt={selected.name} className="rgallery-preview-img"
+            <img src={toHttpUrl(selected.path)} alt={selected.name} className="rgallery-preview-img"
               onError={e => { (e.target as HTMLImageElement).style.display = 'none' }} />
             <div className="rgallery-preview-info">
               <h4>{selected.name}</h4>
