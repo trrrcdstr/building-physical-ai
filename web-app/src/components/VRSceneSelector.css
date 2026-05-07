@@ -1,0 +1,291 @@
+.vr-scene-selector {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #0a0a0f;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 场景卡片 */
+.vr-scene-cards {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #0f0f1a 100%);
+  border-bottom: 1px solid #2a2a4a;
+  overflow-x: auto;
+}
+
+.vr-scene-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 14px;
+  background: #1e1e2e;
+  border: 2px solid #2a2a4a;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 70px;
+}
+
+.vr-scene-card:hover {
+  background: #282840;
+  border-color: #4a4a6a;
+}
+
+.vr-scene-card.active {
+  background: linear-gradient(135deg, #1e3a5f 0%, #0f2840 100%);
+  border-color: #00d4ff;
+  box-shadow: 0 0 12px rgba(0, 212, 255, 0.3);
+}
+
+.vr-scene-icon {
+  font-size: 24px;
+}
+
+.vr-scene-name {
+  font-size: 11px;
+  color: #a0a0c0;
+  white-space: nowrap;
+}
+
+.vr-scene-card.active .vr-scene-name {
+  color: #00d4ff;
+}
+
+/* VR iframe */
+.vr-iframe-wrap {
+  position: relative;
+  flex: 1;
+  min-height: 300px;
+  background: #000;
+}
+
+.vr-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.vr-alt-nav {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.vr-alt-btn {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.vr-alt-btn:hover {
+  background: rgba(0, 212, 255, 0.3);
+  border-color: #00d4ff;
+}
+
+.vr-alt-counter {
+  font-size: 12px;
+  color: #a0a0c0;
+  min-width: 40px;
+  text-align: center;
+}
+
+/* 物理面板 */
+.vr-physics-panel {
+  background: linear-gradient(180deg, #12121a 0%, #0a0a0f 100%);
+  border-top: 1px solid #2a2a4a;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.vr-physics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  background: #1a1a2e;
+  border-bottom: 1px solid #2a2a4a;
+}
+
+.vr-physics-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #00d4ff;
+}
+
+.vr-physics-toggle {
+  background: none;
+  border: none;
+  color: #808090;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.vr-physics-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vr-phys-section {
+  background: #1a1a2e;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.vr-phys-section-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #c0c0d0;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #2a2a4a;
+}
+
+.vr-phys-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+.vr-phys-label {
+  color: #808090;
+}
+
+.vr-phys-value {
+  color: #e0e0f0;
+}
+
+.vr-load-bearing {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.vr-load-bearing.bearing {
+  background: rgba(248, 113, 113, 0.2);
+  color: #f87171;
+}
+
+.vr-load-bearing.safe {
+  background: rgba(52, 211, 153, 0.2);
+  color: #34d399;
+}
+
+.vr-furniture-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.vr-furniture-tag {
+  font-size: 10px;
+  padding: 3px 8px;
+  background: #2a2a4a;
+  border-radius: 12px;
+  color: #b0b0c0;
+}
+
+.vr-physics-expand {
+  width: 100%;
+  padding: 10px;
+  background: #1a1a2e;
+  border: none;
+  border-top: 1px solid #2a2a4a;
+  color: #00d4ff;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.vr-physics-expand:hover {
+  background: #282840;
+}
+
+/* 加载提示 */
+.vr-loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.vr-loading-content {
+  text-align: center;
+  color: #a0a0c0;
+}
+
+.vr-loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #2a2a4a;
+  border-top-color: #00d4ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 16px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.vr-loading-content p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.vr-loading-hint {
+  margin-top: 8px !important;
+  font-size: 12px !important;
+  color: #606070;
+}
+
+/* 外部链接按钮 */
+.vr-external-link {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 8px 16px;
+  background: rgba(0, 212, 255, 0.2);
+  border: 1px solid #00d4ff;
+  border-radius: 6px;
+  color: #00d4ff;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  z-index: 10;
+}
+
+.vr-external-link:hover {
+  background: rgba(0, 212, 255, 0.4);
+}
