@@ -39,43 +39,41 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-PROJECT_DATA = Path(r"C:\Users\Administrator\.qclaw\workspace\projects\building-physical-ai\data\processed")
+# 尝试多个数据路径（本地开发 + 云端部署）
+_DATA_CANDIDATES = [
+    Path(__file__).parent.parent / "data" / "processed",      # src/../data/processed
+    Path(r"C:\Users\Administrator\.qclaw\workspace\projects\building-physical-ai\data\processed"),  # 绝对路径
+]
+
+PROJECT_DATA = next((p for p in _DATA_CANDIDATES if p.exists()), _DATA_CANDIDATES[0])
+
+# 内嵌场景数据（云端部署 fallback — 无需本地文件）
+try:
+    from scene_data_embedded import EMBEDDED_SCENE_NODES
+    _HAS_EMBEDDED = True
+except ImportError:
+    _HAS_EMBEDDED = False
+    EMBEDDED_SCENE_NODES = []
 
 # ==================== 场景数据加载 ====================
 
-def load_scene_data() -> dict:
-    """加载VR场景数据 — 供给NeuralInferencePanel"""
-    nodes = []
-    edges = []
-    
-    objs_file = PROJECT_DATA / "building_objects_enhanced.json"
-    if objs_file.exists():
-        objs = json.loads(objs_file.read_text(encoding="utf-8"))
-        for obj in objs:
-            pos_raw = obj.get("position", [0, 1, 0])
-            if isinstance(pos_raw, str):
-                parts = pos_raw.split()
-                pos = [float(parts[0]), float(parts[1]), float(parts[2])] if len(parts) >= 3 else [0, 1, 0]
-            elif isinstance(pos_raw, list):
-                pos = pos_raw
-            else:
-                pos = [0, 1, 0]
-            nodes.append({
-                "id": obj.get("id", f"obj-{len(nodes)}"),
-                "type": obj.get("type", "door"),
-                "name": obj.get("name", obj.get("id", "Unknown")),
-                "position": pos,
-                "physics": obj.get("physics", {}),
-                "category": obj.get("category", "structure"),
-            })
-            
-    # 按x坐标区间分组建边
+def _parse_position(pos_raw) -> list:
+    """统一解析 position 字段"""
+    if isinstance(pos_raw, list):
+        return pos_raw
+    if isinstance(pos_raw, str):
+        parts = pos_raw.split()
+        return [float(parts[0]), float(parts[1]), float(parts[2])] if len(parts) >= 3 else [0, 1, 0]
+    return [0, 1, 0]
+
+def _build_edges(nodes: list) -> list:
+    """按x坐标区间分组，生成同区域边"""
     from collections import defaultdict
+    edges = []
     x_groups = defaultdict(list)
     for n in nodes:
         x = n.get("position", [0])[0] if n.get("position") else 0
         x_groups[int(x // 20)].append(n["id"])
-    
     for _, obj_ids in x_groups.items():
         for i in range(len(obj_ids)):
             for j in range(i + 1, len(obj_ids)):
@@ -85,6 +83,35 @@ def load_scene_data() -> dict:
                     "relation": "same_zone",
                     "weight": 0.8,
                 })
+    return edges
+
+def load_scene_data() -> dict:
+    """加载VR场景数据 — 优先本地文件，fallback内嵌数据"""
+    nodes = []
+    
+    # 方案1: 从本地JSON文件加载
+    objs_file = PROJECT_DATA / "building_objects_enhanced.json"
+    if objs_file.exists():
+        try:
+            objs = json.loads(objs_file.read_text(encoding="utf-8"))
+            for obj in objs:
+                nodes.append({
+                    "id": obj.get("id", f"obj-{len(nodes)}"),
+                    "type": obj.get("type", "door"),
+                    "name": obj.get("name", obj.get("id", "Unknown")),
+                    "position": _parse_position(obj.get("position", [0, 1, 0])),
+                    "physics": obj.get("physics", {}),
+                    "category": obj.get("category", "structure"),
+                })
+        except Exception as e:
+            print(f"[WARN] 本地数据加载失败: {e}, 尝试内嵌数据")
+            nodes = []
+    
+    # 方案2: 使用内嵌数据（云端部署）
+    if not nodes and _HAS_EMBEDDED:
+        nodes = list(EMBEDDED_SCENE_NODES)  # 已预处理，直接使用
+    
+    edges = _build_edges(nodes)
     
     return {
         "nodes": nodes,
