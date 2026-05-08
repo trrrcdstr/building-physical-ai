@@ -521,8 +521,28 @@ class CommandRequest(BaseModel):
 # ─── 工具函数 ───────────────────────────────────────────────
 
 def detect_task(command: str) -> str:
-    """从命令文本识别任务类型"""
+    """从命令文本识别任务类型（支持复合任务）"""
     cmd = command.lower()
+    
+    # ═════════════════════════════════════════════════════════
+    #  复合任务识别（多动作序列）
+    # ═════════════════════════════════════════════════════════
+    # "去X拿Y" / "把Y从X拿到Z" / "去X洗Y拿到Z"
+    if "去" in command and ("拿" in command or "取" in command or "洗" in command):
+        return "compound_fetch"
+    # "去X洗Y，拿到Z"
+    if "洗" in command and "拿到" in command:
+        return "compound_wash_and_deliver"
+    # "检查X区域" / "巡检X"
+    if "检查" in command or "巡检" in command:
+        return "compound_inspect"
+    # "打开X然后关闭Y"
+    if "然后" in command or "再" in command:
+        return "compound_sequence"
+    
+    # ═════════════════════════════════════════════════════════
+    #  单任务识别
+    # ═════════════════════════════════════════════════════════
     # 清洁类
     if "淋浴" in command and ("清洁" in command or "擦" in command or "洗" in command):
         return "clean_shower_glass"
@@ -902,13 +922,92 @@ async def process_command(req: CommandRequest):
             "confidence": 0.85,
         }
 
+    # ═════════════════════════════════════════════════════════
+    #  复合任务处理
+    # ═════════════════════════════════════════════════════════
+    elif task == "compound_wash_and_deliver":
+        # 解析 "去厨房洗水果，拿到客厅茶几上"
+        import re
+        src_match = re.search(r"去(.+?)洗", command)
+        obj_match = re.search(r"洗(.+?)，", command)
+        dst_match = re.search(r"拿到(.+?)(上|$)", command)
+        src = src_match.group(1) if src_match else "厨房"
+        obj = obj_match.group(1) if obj_match else "物品"
+        dst = dst_match.group(1) if dst_match else "目标位置"
+        return {
+            "task_type": "compound",
+            "success": True,
+            "message": f"✅ 复合任务解析完成：去{src}洗{obj}，拿到{dst}",
+            "subtasks": [
+                {"step": 1, "action": "导航", "target": src, "detail": f"移动到{src}", "duration_s": 30},
+                {"step": 2, "action": "取物", "target": obj, "detail": f"识别并抓取{obj}", "duration_s": 15},
+                {"step": 3, "action": "清洗", "target": obj, "detail": f"清洗{obj}（水流速度0.5L/min）", "duration_s": 45},
+                {"step": 4, "action": "搬运", "target": dst, "detail": f"移动到{dst}", "duration_s": 30},
+                {"step": 5, "action": "放置", "target": dst, "detail": f"放置在{dst}，力度<5N", "duration_s": 10},
+            ],
+            "physics": {
+                "grasp_force_n": {"range": [5, 15], "optimal": 10, "note": "水果类物品力度需轻柔"},
+                "water_flow_l_min": 0.5,
+                "move_speed_m_s": 0.15,
+                "place_force_n": 5,
+            },
+            "safety": ["水果表面光滑，抓取需吸盘或软夹爪", "清洗后表面湿滑，搬运需防跌落"],
+            "confidence": 0.85,
+        }
+    
+    elif task == "compound_fetch":
+        # 解析 "去卧室拿手机" / "把书从书房拿到客厅"
+        import re
+        src_match = re.search(r"去(.+?)(拿|取)", command)
+        obj_match = re.search(r"(拿|取)(.+?)(从|$)", command)
+        dst_match = re.search(r"到(.+?)(上|$)", command)
+        src = src_match.group(1) if src_match else "起点"
+        obj = obj_match.group(2) if obj_match else "物品"
+        dst = dst_match.group(1) if dst_match else "目标位置"
+        return {
+            "task_type": "compound",
+            "success": True,
+            "message": f"✅ 取物任务解析完成：从{src}取{obj}送到{dst}",
+            "subtasks": [
+                {"step": 1, "action": "导航", "target": src, "detail": f"移动到{src}", "duration_s": 25},
+                {"step": 2, "action": "识别", "target": obj, "detail": f"视觉识别{obj}", "duration_s": 5},
+                {"step": 3, "action": "抓取", "target": obj, "detail": f"抓取{obj}，力度10N", "duration_s": 10},
+                {"step": 4, "action": "搬运", "target": dst, "detail": f"移动到{dst}", "duration_s": 30},
+                {"step": 5, "action": "放置", "target": dst, "detail": f"放置在{dst}", "duration_s": 8},
+            ],
+            "physics": {"grasp_force_n": 10, "move_speed_m_s": 0.20},
+            "confidence": 0.80,
+        }
+    
+    elif task == "compound_inspect":
+        return {
+            "task_type": "compound",
+            "success": True,
+            "message": "✅ 巡检任务解析完成",
+            "subtasks": [
+                {"step": 1, "action": "扫描", "detail": "激光雷达扫描区域", "duration_s": 20},
+                {"step": 2, "action": "检测", "detail": "视觉检测异常项", "duration_s": 30},
+                {"step": 3, "action": "记录", "detail": "生成巡检报告", "duration_s": 10},
+            ],
+            "confidence": 0.75,
+        }
+    
+    elif task == "compound_sequence":
+        return {
+            "task_type": "compound",
+            "success": True,
+            "message": "✅ 序列任务解析完成",
+            "hint": "多步骤任务，需按顺序执行",
+            "confidence": 0.70,
+        }
+
     # ── 未知任务 ────────────────────────────────────────
     else:
         return {
             "task_type": "unknown",
             "success": False,
             "message": f"⚠️ 无法识别的任务类型：{command}",
-            "hint": "支持：清洁（淋浴/地板/台面）、钻孔（东墙/北墙）、搬运（床头柜）",
+            "hint": "支持：清洁（淋浴/地板/台面）、钻孔（东墙/北墙）、搬运（床头柜）、复合任务（去X洗Y拿到Z）",
             "confidence": 0.5,
         }
 

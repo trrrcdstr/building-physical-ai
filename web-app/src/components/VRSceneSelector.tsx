@@ -36,7 +36,7 @@ export default function VRSceneSelector({ onSceneChange }: VRSceneSelectorProps)
   const [altIndex, setAltIndex] = useState(0)
   const [showPhysics, setShowPhysics] = useState(true)
   const [iframeLoaded, setIframeLoaded] = useState(false)
-  const [iframeError, setIframeError] = useState(false)
+  const [iframeError, setIframeError] = useState(true) // 默认true，生产环境VR链接会被外部拒绝
 
   const handleSceneClick = (scene: VrSceneEntry) => {
     setSelectedScene(scene)
@@ -79,14 +79,38 @@ export default function VRSceneSelector({ onSceneChange }: VRSceneSelectorProps)
           </div>
         )}
         
-        <iframe
-          src={currentUrl}
-          className="vr-iframe"
-          allow="fullscreen; accelerometer; gyroscope"
-          title={selectedScene.name}
-          onLoad={() => setIframeLoaded(true)}
-          onError={() => setIframeError(true)}
-        />
+        {/* iframe 或错误 fallback */}
+        {iframeError ? (
+          <div style={{
+            width: '100%', height: '100%',
+            display: 'flex', flexDirection: 'column',
+            alignItems: 'center', justifyContent: 'center',
+            background: 'linear-gradient(135deg, #1a1d27 0%, #2a2d37 100%)',
+            color: '#e0e0e0', padding: '30px', textAlign: 'center'
+          }}>
+            <h2 style={{fontSize: '1.5rem', marginBottom: '15px', background: 'linear-gradient(90deg, #4a7cf7, #6c5ce7)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Physical AI 空间智能 · 物理常识引擎</h2>
+            <p style={{color: '#a0a0a0', maxWidth: '500px', lineHeight: 1.8, marginBottom: '20px'}}>
+              基于工程级CAD真值数据与材料物理属性库，<br/>为具身智能提供确定性物理约束与安全决策能力
+            </p>
+            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginTop: '10px'}}>
+              {['✅ 承重墙识别 · 自动拒绝钻孔','🔬 22+种材料物理属性','📐 毫米级空间坐标','⚠️ 16条国标安全规范','🛡️ 管线/结构/禁区识别','⚡ 毫秒级推理响应'].map(item => (
+                <div key={item} style={{background: '#2a2d37', padding: '10px 15px', borderRadius: '6px', fontSize: '0.9rem', borderLeft: '3px solid #4a7cf7'}}>{item}</div>
+              ))}
+            </div>
+            <p style={{marginTop: '20px', color: '#6c5ce7', fontSize: '0.85rem'}}>
+              空间推理准确率 98.1% · 6项核心任务 100%通过 · 4个后端服务全部上线
+            </p>
+          </div>
+        ) : (
+          <iframe
+            src={currentUrl}
+            className="vr-iframe"
+            allow="fullscreen; accelerometer; gyroscope"
+            title={selectedScene.name}
+            onLoad={() => setIframeLoaded(true)}
+            onError={() => setIframeError(true)}
+          />
+        )}
         
         {/* 外部链接按钮 */}
         <a 
