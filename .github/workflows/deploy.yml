@@ -17,10 +17,11 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-          working-directory: 'web-app'
+          cache-dependency-path: 'web-app/package-lock.json'
 
       - name: Install and Build
         run: |
+          cd web-app
           npm install
           npm run build
         env:
